@@ -22,20 +22,25 @@ General knowledge: a synthesis of the books below, from model memory.
 ## Books
 
 - [[shoe-dog]]: Shoe Dog
+- [[the-entrepreneurs-guide-to-customer-development]]: The Entrepreneur's Guide to Customer Development
 - [[the-hard-thing-about-hard-things]]: The Hard Thing About Hard Things
+- [[the-lean-entrepreneur]]: The Lean Entrepreneur
 - [[the-lean-startup]]: The Lean Startup
+- [[the-startup-owners-manual]]: The Startup Owner's Manual
 - [[venture-deals]]: Venture Deals
 - [[zero-to-one]]: Zero to One
 
 ## Essays
 
 - [[a-dozen-lessons-on-growth]]: Investor and operator lessons on how products and companies grow.
+- [[do-things-that-dont-scale]]: Early on, do unscalable things by hand to get and delight your first users.
 
 ## Concepts
 
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
+- [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 
 ## Questions to ask about your product
 

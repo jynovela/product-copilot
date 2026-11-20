@@ -21,14 +21,29 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[are-your-lights-on]]: Are Your Lights On? How to Figure Out What the Problem Really Is
 - [[click]]: Click
 - [[competing-against-luck]]: Competing Against Luck
 - [[continuous-discovery-habits]]: Continuous Discovery Habits (top pick)
+- [[deploy-empathy]]: Deploy Empathy
+- [[design-sprint-banfield-lombardo]]: Design Sprint
+- [[designing-products-people-love]]: Designing Products People Love
+- [[game-thinking]]: Game Thinking
 - [[inspired]]: Inspired (top pick)
+- [[interviewing-users]]: Interviewing Users
+- [[just-enough-research]]: Just Enough Research
+- [[lean-customer-development]]: Lean Customer Development
+- [[lean-ux]]: Lean UX
 - [[listen-like-you-mean-it]]: Listen Like You Mean It
 - [[sprint]]: Sprint
+- [[the-entrepreneurs-guide-to-customer-development]]: The Entrepreneur's Guide to Customer Development
 - [[the-lean-product-playbook]]: The Lean Product Playbook
 - [[the-lean-startup]]: The Lean Startup
+- [[the-mom-test]]: The Mom Test
+- [[the-startup-owners-manual]]: The Startup Owner's Manual
+- [[ux-research]]: UX Research
+- [[value-proposition-design]]: Value Proposition Design
+- [[working-backwards]]: Working Backwards
 
 ## Concepts
 
@@ -40,6 +55,10 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
+- [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
+- [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
+- [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
+- [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 
 ## Questions to ask about your product
 

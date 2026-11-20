@@ -24,6 +24,8 @@ General knowledge: Habits form from cue, craving, response and reward. Clear's f
 
 - [[switch]]
 - [[atomic-habits]]
+- [[game-thinking]]
+- [[hooked]]
 
 ## Topics
 

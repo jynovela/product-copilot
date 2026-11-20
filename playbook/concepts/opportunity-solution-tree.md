@@ -28,6 +28,7 @@ General knowledge: A tree with one desired outcome at the root, customer opportu
 - [[inspired]]
 - [[listen-like-you-mean-it]]
 - [[the-lean-product-playbook]]
+- [[are-your-lights-on]]
 
 ## Topics
 

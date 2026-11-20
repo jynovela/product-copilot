@@ -25,6 +25,8 @@ General knowledge: Affordances are the actions an object allows; signifiers show
 - [[dont-make-me-think]]
 - [[the-design-of-everyday-things]]
 - [[nudge]]
+- [[badass-making-users-awesome]]
+- [[100-things-every-designer-needs-to-know-about-people]]
 - [[we-dont-sell-saddles-here]]
 
 ## Topics

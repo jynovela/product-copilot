@@ -22,14 +22,22 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[100-things-every-designer-needs-to-know-about-people]]: 100 Things Every Designer Needs to Know About People
 - [[alchemy]]: Alchemy
 - [[atomic-habits]]: Atomic Habits
+- [[badass-making-users-awesome]]: Badass
+- [[drive]]: Drive
+- [[freakonomics]]: Freakonomics
+- [[game-thinking]]: Game Thinking
+- [[hooked]]: Hooked
 - [[influence]]: Influence
 - [[nudge]]: Nudge
 - [[predictably-irrational]]: Predictably Irrational
 - [[switch]]: Switch
 - [[the-paradox-of-choice]]: The Paradox of Choice
+- [[the-psychology-of-money]]: The Psychology of Money
 - [[wanting]]: Wanting
+- [[what-your-customer-wants-and-cant-tell-you]]: What Your Customer Wants and Can't Tell You
 
 ## Concepts
 
@@ -39,6 +47,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[rider-elephant-path]]: To change behavior, direct the rational rider, motivate the emotional elephant and shape the path.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
+- [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
 
 ## Questions to ask about your product
 

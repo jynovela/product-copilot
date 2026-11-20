@@ -28,6 +28,8 @@ General knowledge: Before building, check: Will customers buy or use it (value)?
 - [[inspired]]
 - [[sprint]]
 - [[the-lean-product-playbook]]
+- [[just-enough-research]]
+- [[product-management-start-here]]
 
 ## Topics
 

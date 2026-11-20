@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Tony Fadell
 - **Topics:** [[strategy-and-innovation]], [[communication-and-storytelling]], [[leadership-and-management]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - Lessons from the creator of the iPod and founder of Nest, including the failures along the way. Ken calls it one of the best books by a product-minded entrepreneur. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

@@ -9,11 +9,13 @@ knowledge_source: model-memory
 
 - **Author:** Dan Ariely
 - **Topics:** [[user-psychology-and-behavior]], [[decisions-and-data]]
-- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]], [[2026-11-20-visual-guide-pm-books]], [[pm-and-ux-books-list]]
 
 ## Why it's on the list
 
 - Ry Sullivan lists it under "User psychology and behavior". His list gives no note for each book. (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The visual PM book guide lists it under "Then: learn more about behavioral psychology". (see [[2026-11-20-visual-guide-pm-books]])
+- The PM and UX books list lists it under "Business strategy". (see [[pm-and-ux-books-list]])
 
 ## Key ideas
 

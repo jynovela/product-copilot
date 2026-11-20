@@ -25,8 +25,10 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[crossing-the-chasm]]: Crossing the Chasm
 - [[hook-point]]: Hook Point
 - [[influence]]: Influence
+- [[loved]]: Loved
 - [[made-to-stick]]: Made to Stick
 - [[obvious-adams]]: Obvious Adams
+- [[obviously-awesome]]: Obviously Awesome
 - [[positioning]]: Positioning
 
 ## Essays

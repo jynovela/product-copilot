@@ -23,6 +23,7 @@ General knowledge: Feedback is appreciation, coaching or evaluation. We reject i
 ## From
 
 - [[thanks-for-the-feedback]]
+- [[radical-candor]]
 
 ## Topics
 

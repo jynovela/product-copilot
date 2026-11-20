@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Robert B. Cialdini
 - **Topics:** [[user-psychology-and-behavior]], [[positioning-and-go-to-market]], [[negotiation-feedback-and-relationships]]
-- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]], [[2026-11-20-visual-guide-pm-books]]
 
 ## Why it's on the list
 
 - Ry Sullivan lists it under "User psychology and behavior". His list gives no note for each book. (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The visual PM book guide lists it under "Want to improve your soft skills?". (see [[2026-11-20-visual-guide-pm-books]])
 
 ## Key ideas
 

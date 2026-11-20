@@ -31,7 +31,9 @@ Stack: Markdown, plus one Python 3.9+ check script (standard library only).
 | `wiki/log.md` | Append-only record of every ingest, query and lint | You |
 | `wiki/<type>/` | One page per thing, by type (below) | You |
 | `playbook/playbook-index.md` | A catalog of every playbook page | You |
-| `playbook/<type>/` | Books, topics and concepts (below) | You |
+| `playbook/reading-paths.md` | Which books to read for a given question | You |
+| `playbook/newsletters-and-podcasts.md` | A plain list of newsletters and podcasts | You |
+| `playbook/<type>/` | Books, topics, concepts and essays (below) | You |
 | `templates/` | The starting shape of each page type | Nobody, unless the user asks |
 | `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
 

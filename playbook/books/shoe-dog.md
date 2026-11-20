@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Phil Knight
 - **Topics:** [[startups-and-business-building]]
-- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]], [[pm-and-ux-books-list]]
 
 ## Why it's on the list
 
 - Ry Sullivan lists it under "Stories about building specific products and businesses". His list gives no note for each book. (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The PM and UX books list lists it under "Business strategy". (see [[pm-and-ux-books-list]])
 
 ## Key ideas
 

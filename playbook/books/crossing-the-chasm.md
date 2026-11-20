@@ -9,11 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Geoffrey A. Moore
 - **Topics:** [[positioning-and-go-to-market]], [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2026-11-20-visual-guide-pm-books]], [[2024-amplitude-22-pm-books]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - The classic technology marketing book, and the first to look closely at the role of early adopters. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The visual PM book guide lists it under "Want to learn how to build great products? Get better at strategy". (see [[2026-11-20-visual-guide-pm-books]])
+- Amplitude's list lists it under "Strategy and innovation". (see [[2024-amplitude-22-pm-books]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

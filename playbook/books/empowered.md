@@ -9,11 +9,13 @@ knowledge_source: model-memory
 
 - **Author:** Marty Cagan with Chris Jones
 - **Topics:** [[product-teams-and-operating-model]], [[leadership-and-management]], [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2026-11-20-visual-guide-pm-books]], [[2024-amplitude-22-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
 - The sequel to Inspired. It argues the best product companies win less by hiring better and more by how they enable people to work together on hard problems. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The visual PM book guide lists it under "Want to improve your company's culture?". (see [[2026-11-20-visual-guide-pm-books]])
+- Amplitude's list lists it under "Foundations". (see [[2024-amplitude-22-pm-books]])
 
 ## Key ideas
 

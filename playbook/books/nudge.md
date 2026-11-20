@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Richard H. Thaler and Cass R. Sunstein
 - **Topics:** [[user-psychology-and-behavior]], [[design-and-usability]]
-- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - Ry Sullivan lists it under "User psychology and behavior". His list gives no note for each book. (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

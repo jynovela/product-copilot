@@ -9,12 +9,15 @@ knowledge_source: model-memory
 
 - **Author:** Don Norman
 - **Topics:** [[design-and-usability]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]], [[2026-11-20-visual-guide-pm-books]], [[pm-and-ux-books-list]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - A design classic. After it you notice good and bad design everywhere. (see [[2026-01-07-ken-norton-best-pm-books]])
 - Ry Sullivan also lists it, under "Designing products". (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The visual PM book guide lists it under "Start here: fundamentals". (see [[2026-11-20-visual-guide-pm-books]])
+- The PM and UX books list lists it under "Product design". (see [[pm-and-ux-books-list]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

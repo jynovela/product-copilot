@@ -45,7 +45,8 @@ LAYERS = {
 }
 # layer -> its index page; pages in a layer must be listed in its index
 INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
-SPECIAL_PAGES = {"index", "log", "overview", "playbook-index"}
+SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "reading-paths",
+                 "newsletters-and-podcasts"}
 # page types whose claims must cite at least one source page
 MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book",
              "essay"}

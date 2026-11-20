@@ -23,6 +23,7 @@ General knowledge: Eugene Wei's idea: every product has a growth ceiling set by 
 ## From
 
 - [[invisible-asymptotes]]
+- [[do-things-that-dont-scale]]
 
 ## Topics
 

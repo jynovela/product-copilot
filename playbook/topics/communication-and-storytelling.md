@@ -22,11 +22,14 @@ General knowledge: a synthesis of the books below, from model memory.
 ## Books
 
 - [[build]]: Build
+- [[envisioning-information]]: Envisioning Information
 - [[hook-point]]: Hook Point
 - [[listen-like-you-mean-it]]: Listen Like You Mean It
 - [[made-to-stick]]: Made to Stick
 - [[on-writing]]: On Writing
+- [[pencil-me-in]]: Pencil Me In
 - [[product-management-in-practice]]: Product Management in Practice (top pick)
+- [[start-with-why]]: Start With Why
 - [[the-art-of-gathering]]: The Art of Gathering
 - [[the-science-of-storytelling]]: The Science of Storytelling
 

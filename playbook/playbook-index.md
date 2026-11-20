@@ -2,6 +2,11 @@
 
 Product management craft: books, essays, the topics they cover, and their core concepts. This is general knowledge, not evidence about your product. Evidence lives in `wiki/`. Format: `- [[file-name]]: one-line summary`.
 
+## Guides
+
+- [[reading-paths]]: which books to read for the question you have, from beginner to executive
+- [[newsletters-and-podcasts]]: a light listing of newsletters and podcasts
+
 ## Topics
 
 - [[discovery-and-customer-insight]]: Finding out what customers need and which ideas are worth building, before building them.
@@ -16,35 +21,48 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[self-leadership-and-productivity]]: Managing yourself: inner critic, growth as a leader, and personal organization.
 - [[user-psychology-and-behavior]]: Why people choose, buy, adopt and keep using things, and how design and framing steer them.
 - [[startups-and-business-building]]: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
+- [[pm-career-and-skills]]: Getting into product management, learning the job, and growing a PM career.
+- [[technology-and-ai]]: Technical fluency for PMs, from how software works to AI's impact on products and strategy.
 
 ## Concepts
 
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
+- [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
 - [[braintrust]]: Peers give candid notes on work in progress, without power to mandate changes.
 - [[brooks-law]]: Adding people to a late software project makes it later.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 - [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
 - [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
+- [[circles-method]]: A structure for product design interview answers.
+- [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
 - [[disruptive-innovation]]: Simpler, cheaper products start in overlooked markets and move up to displace incumbents.
 - [[distanced-self-talk]]: Talk to yourself by name or as "you" to calm the inner critic and think clearly.
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
+- [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
+- [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
+- [[golden-circle]]: Communicate why, then how, then what.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
+- [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
 - [[keystone-conversation]]: A deliberate conversation at the start of a working relationship about how you'll work together.
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
 - [[managerial-leverage]]: A manager's output is the team's output; spend time where it multiplies.
 - [[mimetic-desire]]: People learn what to want by imitating others (models).
+- [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
 - [[one-on-ones]]: Regular, report-driven meetings between a manager and each team member.
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
+- [[ownership-mindset]]: Leaders own every outcome in their world, including failures.
 - [[persuasion-principles]]: Reciprocity, commitment, social proof, liking, authority, scarcity and unity: why people say yes.
 - [[positioning-in-the-mind]]: Owning a clear, distinct place in the customer's mind relative to alternatives.
 - [[positive-no]]: Yes! No. Yes?: protect your interests, say no clearly, offer an alternative.
@@ -58,30 +76,66 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[rider-elephant-path]]: To change behavior, direct the rational rider, motivate the emotional elephant and shape the path.
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
+- [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
+- [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
+- [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
+- [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
+- [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
+- [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
+- [[wrap-decision-process]]: Widen options, Reality-test assumptions, Attain distance, Prepare to be wrong.
 
 ## Books
 
+- [[100-things-every-designer-needs-to-know-about-people]]: 100 Things Every Designer Needs to Know About People by Susan Weinschenk. Psychology facts with design implications.
 - [[alchemy]]: Alchemy by Rory Sutherland. Value is often psychological: small changes in perception can beat costly logical fixes.
+- [[amp-it-up]]: Amp It Up by Frank Slootman. Raise standards, increase urgency and sharpen focus to lift company performance.
+- [[an-elegant-puzzle]]: An Elegant Puzzle by Will Larson. Engineering management as systems; helps PMs work with EMs.
+- [[are-your-lights-on]]: Are Your Lights On? How to Figure Out What the Problem Really Is by Donald C. Gause and Gerald M. Weinberg. A short, playful book on defining the problem before solving it.
+- [[artificial-intelligence-a-modern-approach]]: Artificial Intelligence by Stuart Russell and Peter Norvig. The standard AI textbook.
 - [[atomic-habits]]: Atomic Habits by James Clear. Small habits compound; design systems that make good habits easy.
+- [[badass-making-users-awesome]]: Badass by Kathy Sierra. Build products that make users better at what they care about.
+- [[be-the-unicorn]]: Be the Unicorn by William Vanderbloemen. Not summarized here; listed as habits of exceptional leaders, each tied to data and practical steps.
 - [[build]]: Build by Tony Fadell. Lessons from the creator of the iPod and founder of Nest, including the failures along the way.
+- [[building-products-for-the-enterprise]]: Building Products for the Enterprise by Blair Reeves and Benjamin Gaines. How product management differs for enterprise software.
 - [[chatter]]: Chatter by Ethan Kross. Many product leaders fight a harsh inner critic that feeds imposter feelings.
 - [[click]]: Click by Jake Knapp and John Zeratsky. From the authors of Sprint.
 - [[competing-against-luck]]: Competing Against Luck by Clayton Christensen, Taddy Hall, Karen Dillon and David Duncan. Christensen's answer to the Innovator's Dilemma: Jobs-To-Be-Done.
+- [[competing-in-the-age-of-ai]]: Competing in the Age of AI by Marco Iansiti and Karim R. Lakhani. How AI-driven operating models change strategy and competition.
+- [[competing-on-analytics]]: Competing on Analytics by Thomas H. Davenport and Jeanne G. Harris. Making analytics a source of competitive advantage.
 - [[continuous-discovery-habits]]: Continuous Discovery Habits by Teresa Torres (top pick). Torres is among the best at helping teams build what customers want.
+- [[cracking-the-pm-career]]: Cracking the PM Career by Jackie Bavaro and Gayle Laakmann McDowell. The skills and career moves to grow as a PM, from first role to leadership.
+- [[cracking-the-pm-interview]]: Cracking the PM Interview by Gayle Laakmann McDowell and Jackie Bavaro. How to land a PM job: the role at different companies, resumes and the main interview question types.
 - [[creativity-inc]]: Creativity, Inc. by Ed Catmull with Amy Wallace. Pixar's successes and failures as lessons for leading creative teams, and a practical companion to Ken's 10x Not 10% essay.
 - [[crossing-the-chasm]]: Crossing the Chasm by Geoffrey A. Moore. The classic technology marketing book, and the first to look closely at the role of early adopters.
+- [[dare-to-lead]]: Dare to Lead by Brené Brown. Leadership through vulnerability, values, trust and clear communication.
+- [[decisive]]: Decisive by Chip Heath and Dan Heath. The WRAP process for better decisions.
+- [[decode-and-conquer]]: Decode and Conquer by Lewis C. Lin. Frameworks for PM interview questions, including the CIRCLES method for product design.
+- [[deep-learning]]: Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville. The technical deep learning textbook.
+- [[deploy-empathy]]: Deploy Empathy by Michele Hansen. A practical guide to customer interviews, with scripts and examples.
 - [[design-as-art]]: Design as Art by Bruno Munari. An Italian designer's short essays on designing everyday objects with clarity and purpose.
+- [[design-sprint-banfield-lombardo]]: Design Sprint by Richard Banfield, C. Todd Lombardo and Trace Wax. Not summarized here; listed as a practical guide to running design sprints to prototype and test a digital product idea within a week.
+- [[designing-products-people-love]]: Designing Products People Love by Scott Hurff. Not summarized here; listed as lessons from product designers on finding and interpreting customer pain and using it to guide product creation.
+- [[designing-with-data]]: Designing with Data by Rochelle King, Elizabeth F. Churchill and Caitlin Tan. Using A/B tests and data to inform design decisions.
 - [[difficult-conversations]]: Difficult Conversations by Douglas Stone, Bruce Patton and Sheila Heen. The best-selling Harvard Negotiation Project guide to hard conversations.
 - [[dont-make-me-think]]: Don't Make Me Think by Steve Krug. A light, fun book on user interface design, full of lessons for PMs.
+- [[drive]]: Drive by Daniel H. Pink. Motivation for creative work comes from autonomy, mastery and purpose.
 - [[empowered]]: Empowered by Marty Cagan with Chris Jones (top pick). The sequel to Inspired.
+- [[envisioning-information]]: Envisioning Information by Edward R. Tufte. Displaying complex information clearly.
 - [[escaping-the-build-trap]]: Escaping the Build Trap by Melissa Perri. How solid product management helps companies solve real customer problems and hit business goals, and how to build a product culture that serves both.
+- [[extreme-ownership]]: Extreme Ownership by Jocko Willink and Leif Babin. Leaders own everything in their world: lessons from Navy SEAL combat.
+- [[freakonomics]]: Freakonomics by Steven D. Levitt and Stephen J. Dubner. Hidden incentives and data that overturn conventional wisdom.
+- [[game-thinking]]: Game Thinking by Amy Jo Kim. Using game design techniques to build engaging products and superfans.
 - [[getting-things-done]]: Getting Things Done by David Allen. PMs juggle hundreds of priorities.
 - [[getting-to-yes]]: Getting to Yes by Roger Fisher and William Ury. PMs must be strong negotiators, and this classic is the best guide to negotiation.
+- [[good-strategy-bad-strategy]]: Good Strategy Bad Strategy by Richard Rumelt. Good strategy is a diagnosis, a guiding policy and coherent actions; most "strategy" is goals and fluff.
+- [[hbrs-10-must-reads-on-managing-for-performance]]: HBR's 10 Must Reads on Managing for Performance by Harvard Business Review. Not summarized here; listed as a collection of Harvard Business Review articles on performance management and high-performing teams.
 - [[high-output-management]]: High Output Management by Andrew S. Grove (top pick). It only gets better with age.
 - [[hook-point]]: Hook Point by Brendan Kane. How to grab attention in the first few seconds of content and messaging.
+- [[hooked]]: Hooked by Nir Eyal. The Hook Model for building habit-forming products.
+- [[how-designers-think]]: How Designers Think by Bryan Lawson. Not summarized here; listed as research-based observations of how designers work, arguing that everyone designs and can learn to design better.
 - [[how-to-lie-with-statistics]]: How to Lie with Statistics by Darrell Huff. Being metrics-driven needs a base in statistics.
 - [[how-to-work-with-almost-anyone]]: How to Work with (Almost) Anyone by Michael Bungay Stanier. Ken's favorite guide to starting a working relationship well, through an initial keystone conversation that keeps it healthy.
 - [[immunity-to-change]]: Immunity to Change by Robert Kegan and Lisa Laskow Lahey. Kegan's adult development theory underpins Ken's coaching.
@@ -89,54 +143,107 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[influence]]: Influence by Robert B. Cialdini. Why people say yes: the core principles of persuasion.
 - [[insight-out]]: Insight Out by Tina Seelig. A Stanford view of how imagination becomes creativity, innovation and entrepreneurship.
 - [[inspired]]: Inspired by Marty Cagan (top pick). If you could read only one product management book, Ken says this is it.
+- [[interviewing-users]]: Interviewing Users by Steve Portigal. Techniques for user interviews that uncover real insight.
 - [[intuition-pumps-and-other-tools-for-thinking]]: Intuition Pumps and Other Tools for Thinking by Daniel C. Dennett. A philosopher's toolkit of thought experiments and thinking tools.
+- [[just-enough-research]]: Just Enough Research by Erika Hall. Practical, right-sized research for product teams.
+- [[leaders-eat-last]]: Leaders Eat Last by Simon Sinek. Leaders build trust by making teams feel safe.
+- [[lean-customer-development]]: Lean Customer Development by Cindy Alvarez. Customer development interviews to validate ideas before building.
+- [[lean-ux]]: Lean UX by Jeff Gothelf and Josh Seiden. Hypothesis-driven, collaborative UX inside agile teams.
+- [[lean-vs-agile-vs-design-thinking]]: Lean vs Agile vs Design Thinking by Jeff Gothelf. Combining lean, agile and design thinking around outcomes.
 - [[listen-like-you-mean-it]]: Listen Like You Mean It by Ximena Vengoechea. Listening is a core PM skill.
 - [[loonshots]]: Loonshots by Safi Bahcall. Organizations need separate homes for wild ideas (loonshots) and proven businesses (franchises).
+- [[loved]]: Loved by Martina Lauchengco. Product marketing for tech: positioning, storytelling, go-to-market and sales enablement.
 - [[made-to-stick]]: Made to Stick by Chip Heath and Dan Heath. The modern classic on why some ideas thrive and others die, and how to improve yours.
 - [[mastering-leadership]]: Mastering Leadership by Robert J. Anderson and William A. Adams. A developmental path for leaders with a stage model of leadership.
+- [[measure-what-matters]]: Measure What Matters by John Doerr. How to set and run OKRs.
+- [[my-product-management-toolkit]]: My Product Management Toolkit by Marc Abraham. A practitioner's collection of tools and techniques for everyday PM work.
+- [[never-split-the-difference]]: Never Split the Difference by Chris Voss with Tahl Raz. A former FBI hostage negotiator's techniques built on tactical empathy.
 - [[nudge]]: Nudge by Richard H. Thaler and Cass R. Sunstein. How the design of choices (choice architecture) steers decisions without removing options.
 - [[obvious-adams]]: Obvious Adams by Robert R. Updegraff. A 1916 parable: success often comes from seeing and doing the obvious thing others overlook.
+- [[obviously-awesome]]: Obviously Awesome by April Dunford. A step-by-step process to position a product so customers get why it matters.
 - [[on-grand-strategy]]: On Grand Strategy by John Lewis Gaddis. Strategy as aligning unlimited aspirations with limited capabilities, from history's leaders.
 - [[on-writing]]: On Writing by Stephen King. PMs need to write well, and this is how to learn from a master of the craft.
+- [[org-design-for-design-orgs]]: Org Design for Design Orgs by Peter Merholz and Kristin Skinner. How to structure and lead design teams.
+- [[pencil-me-in]]: Pencil Me In by Christina Wodtke. Sketching as a business thinking tool.
 - [[positioning]]: Positioning by Al Ries and Jack Trout. The classic marketing book and one of the first about positioning a product in the customer's mind.
 - [[predictably-irrational]]: Predictably Irrational by Dan Ariely. Experiments showing people make systematic, predictable errors in decisions.
+- [[principles-of-product-management]]: Principles of Product Management by Peter Yang. A concise primer on the PM role.
+- [[product-analytics-for-dummies]]: Product Analytics for Dummies by Amplitude with Wiley. Not summarized here; listed as an introduction to product analytics: experimentation, behavioral targeting, product-led growth and personalization.
 - [[product-leadership]]: Product Leadership by Richard Banfield, Martin Eriksson and Nate Walkingshaw (top pick). Ken wrote the foreword.
 - [[product-management-in-practice]]: Product Management in Practice by Matt LeMay (top pick). Practical, real-world PM advice, focused on communication, organization, research and execution.
+- [[product-roadmaps-relaunched]]: Product Roadmaps Relaunched by C. Todd Lombardo, Bruce McCarthy, Evan Ryan and Michael Connors. Theme- and outcome-based roadmaps that set direction under uncertainty.
+- [[radical-candor]]: Radical Candor by Kim Scott. Care personally and challenge directly: a framework for feedback and management.
+- [[radical-focus]]: Radical Focus by Christina Wodtke. OKRs with a weekly cadence, told as a startup fable.
 - [[range]]: Range by David Epstein. Breadth and late specialization often beat early specialization in complex fields.
 - [[scaling-people]]: Scaling People by Claire Hughes Johnson. From a former senior leader at Google and Stripe: a practical, inspiring leadership guide for any level.
 - [[shoe-dog]]: Shoe Dog by Phil Knight. Phil Knight's story of building Nike from a car-trunk importer, through near-constant cash crises.
 - [[sprint]]: Sprint by Jake Knapp, John Zeratsky and Braden Kowitz. From Ken's former GV partners: how to cut through noise, pick a problem and test a solution in one week.
+- [[start-with-why]]: Start With Why by Simon Sinek. Inspire by starting with purpose (why) before how and what.
+- [[strategize]]: Strategize by Roman Pichler. Practical product vision, strategy and roadmap practices.
 - [[strong-product-people]]: Strong Product People by Petra Wille. For product leaders coaching PMs and for early-career PMs: the essentials of the job and a plan for growth.
+- [[superintelligence]]: Superintelligence by Nick Bostrom. Risks and strategy around superintelligent AI.
+- [[swipe-to-unlock]]: Swipe to Unlock by Neel Mehta, Aditya Agashe and Parth Detroja. Technology and business strategy explained for PMs and other non-engineers.
 - [[switch]]: Switch by Chip Heath and Dan Heath. Change happens when you direct the rational rider, motivate the emotional elephant and shape the path.
 - [[team-of-rivals]]: Team of Rivals by Doris Kearns Goodwin. Lincoln brought his rivals into his cabinet and turned them into advisors.
+- [[team-of-teams]]: Team of Teams by General Stanley McChrystal with Tantum Collins, David Silverman and Chris Fussell. Complex environments need networks of teams with shared consciousness and empowered execution.
+- [[team-topologies]]: Team Topologies by Matthew Skelton and Manuel Pais. Team types and interaction modes for fast flow; essential for platform PMs.
+- [[tech-simplified-for-pms-and-entrepreneurs]]: Tech Simplified for PMs and Entrepreneurs by Deepak Singh. Not summarized here; listed as an introduction to technology concepts for non-technical PMs and entrepreneurs.
 - [[thanks-for-the-feedback]]: Thanks for the Feedback by Douglas Stone and Sheila Heen. PMs must give and take feedback candidly and kindly.
 - [[the-15-commitments-of-conscious-leadership]]: The 15 Commitments of Conscious Leadership by Jim Dethmer, Diana Chapman and Kaley Warner Klemp (top pick). The book that changed Ken most as a leader and person.
+- [[the-art-of-doing-science-and-engineering]]: The Art of Doing Science and Engineering by Richard W. Hamming. Hamming on learning to learn and doing important technical work.
 - [[the-art-of-gathering]]: The Art of Gathering by Priya Parker. Design meetings and gatherings around a specific, disputable purpose.
 - [[the-captain-class]]: The Captain Class by Sam Walker. The founding editor of the Wall Street Journal's sports section studies the captains of history's best sports teams.
 - [[the-design-of-everyday-things]]: The Design of Everyday Things by Don Norman. A design classic.
+- [[the-effective-executive]]: The Effective Executive by Peter F. Drucker. Drucker on getting the right things done.
+- [[the-entrepreneurs-guide-to-customer-development]]: The Entrepreneur's Guide to Customer Development by Brant Cooper and Patrick Vlaskovits. An accessible introduction to customer development.
+- [[the-five-dysfunctions-of-a-team]]: The Five Dysfunctions of a Team by Patrick Lencioni. A leadership fable about the five things that break teams.
+- [[the-goal]]: The Goal by Eliyahu M. Goldratt and Jeff Cox. Theory of Constraints: find and fix the bottleneck.
 - [[the-hard-thing-about-hard-things]]: The Hard Thing About Hard Things by Ben Horowitz. Candid lessons on running a company through crises, with no easy answers.
 - [[the-infinite-game]]: The Infinite Game by Simon Sinek. Business is an infinite game: aim to keep playing, not to "win".
 - [[the-innovators-dilemma]]: The Innovator's Dilemma by Clayton M. Christensen (top pick). To Ken, the most important business and product book of the past fifty years.
+- [[the-insights-driven-product-manager]]: The Insights Driven Product Manager by Corinna Stukan. Not summarized here; listed as a guide to choosing which data, metrics and qualitative or quantitative inputs to use for product decisions.
+- [[the-lean-entrepreneur]]: The Lean Entrepreneur by Brant Cooper and Patrick Vlaskovits. Lean startup methods for building products and disrupting markets.
 - [[the-lean-product-playbook]]: The Lean Product Playbook by Dan Olsen. A tactical companion to The Lean Startup, with techniques for putting lean methods into practice.
 - [[the-lean-startup]]: The Lean Startup by Eric Ries. Build, measure, learn: test assumptions with minimum viable products and validated learning.
+- [[the-making-of-a-manager]]: The Making of a Manager by Julie Zhuo. A practical guide for new managers from a former Facebook design leader.
+- [[the-mom-test]]: The Mom Test by Rob Fitzpatrick. How to talk to customers so that even your mom can't lie to you.
 - [[the-mythical-man-month]]: The Mythical Man-Month by Frederick P. Brooks Jr. (top pick). Ken's one computer science pick.
 - [[the-paradox-of-choice]]: The Paradox of Choice by Barry Schwartz. Too many options can paralyze people and leave them less satisfied.
 - [[the-power-of-a-positive-no]]: The Power of a Positive No by William Ury. Saying no gracefully and firmly is one of a PM's most important skills, and this is the classic guide.
+- [[the-practitioners-guide-to-product-management]]: The Practitioner's Guide to Product Management by Jock Busuttil. Not summarized here; listed as a guide to the field of product management through candid stories and real-world experience.
+- [[the-product-book]]: The Product Book by Carlos Gonzalez de Villaumbrosia and Josh Anon. An introductory guide to the whole PM role.
+- [[the-product-manager-interview]]: The Product Manager Interview by Lewis C. Lin. Not summarized here; listed as a collection of real PM interview questions with suggested answers.
+- [[the-psychology-of-money]]: The Psychology of Money by Morgan Housel. How behavior, not intelligence, drives financial outcomes.
 - [[the-science-of-storytelling]]: The Science of Storytelling by Will Storr. Ken is often asked how to become a better storyteller.
+- [[the-secret-product-manager-handbook]]: The Secret Product Manager Handbook by Nils Davis. Not summarized here; listed as answers to common questions about what product management is, focused on solving customer problems and bringing solutions to market.
+- [[the-secrets-of-consulting]]: The Secrets of Consulting by Gerald M. Weinberg. Witty laws and advice on giving and getting advice and influencing others.
+- [[the-startup-owners-manual]]: The Startup Owner's Manual by Steve Blank and Bob Dorf. Steve Blank's step-by-step customer development guide.
+- [[the-team-that-managed-itself]]: The Team That Managed Itself by Christina Wodtke. A fable about building a self-managing team.
 - [[thinking-fast-and-slow]]: Thinking, Fast and Slow by Daniel Kahneman. When does the fast, instinctive brain decide before the analytical one weighs in? One of the most important psychology books ever written.
 - [[thinking-in-bets]]: Thinking in Bets by Annie Duke. PMs make many decisions daily with incomplete information.
 - [[transformed]]: Transformed by Marty Cagan with Lea Hickman, Chris Jones, Christian Idiodi and John Moore. The third book in Cagan's trilogy: moving a company from project to product culture.
+- [[understanding-michael-porter]]: Understanding Michael Porter by Joan Magretta. A clear guide to Porter's ideas: five forces, competitive advantage, trade-offs and fit.
+- [[user-story-mapping]]: User Story Mapping by Jeff Patton. Map the user's journey to build shared understanding and slice releases.
+- [[ux-research]]: UX Research by Brad Nunnally and David Farkas. Not summarized here; listed as a quick reference guide to common UX research methods and language.
+- [[value-proposition-design]]: Value Proposition Design by Alexander Osterwalder, Yves Pigneur, Greg Bernarda and Alan Smith. The Value Proposition Canvas for designing and testing what customers want.
 - [[venture-deals]]: Venture Deals by Brad Feld and Jason Mendelson. How venture financing works: term sheets, economics and control.
 - [[wanting]]: Wanting by Luke Burgis. We want what others want: René Girard's mimetic theory applied to life and business.
+- [[what-you-do-is-who-you-are]]: What You Do Is Who You Are by Ben Horowitz. Culture is what people do, not what the values poster says.
+- [[what-your-customer-wants-and-cant-tell-you]]: What Your Customer Wants and Can't Tell You by Melina Palmer. Not summarized here; listed as a book on hidden customer motivations.
 - [[work-rules]]: Work Rules! by Laszlo Bock. How Google's people team reinvented HR, and a good overview of Google's culture, hiring and decision-making.
+- [[working-backwards]]: Working Backwards by Colin Bryar and Bill Carr. Amazon's mechanisms: PR/FAQs, six-page narratives, single-threaded leaders, bar raisers and input metrics.
 - [[yes-to-the-mess]]: Yes to the Mess by Frank J. Barrett. Jazz is messy and risky every night.
 - [[zero-to-one]]: Zero to One by Peter Thiel with Blake Masters. Create something new (0 to 1) rather than copy (1 to n), and aim for a defensible monopoly.
 
 ## Essays
 
 - [[a-dozen-lessons-on-growth]]: A Dozen Lessons on Growth by Tren Griffin. Investor and operator lessons on how products and companies grow.
+- [[do-things-that-dont-scale]]: Do Things That Don't Scale by Paul Graham. Early on, do unscalable things by hand to get and delight your first users.
+- [[how-to-get-into-product-management]]: How to Get Into Product Management (And Thrive) by Lenny Rachitsky. Why to become a PM (or not), the paths in, and the skills to build.
 - [[invisible-asymptotes]]: Invisible Asymptotes by Eugene Wei. Every product has a hidden ceiling on growth; find it early.
 - [[keep-the-consumer-dissatisfied]]: Keep the Consumer Dissatisfied by Charles F. Kettering. A 1929 essay arguing that constant product improvement drives progress and demand.
 - [[leading-cross-functional-teams]]: Leading Cross-Functional Teams by Ken Norton. How PMs lead teams they have no authority over.
+- [[product-management-start-here]]: Product Management by Marty Cagan. Cagan's index of his core articles for new product managers.
 - [[we-dont-sell-saddles-here]]: We Don't Sell Saddles Here by Stewart Butterfield. Sell the outcome customers want, not the product: Slack sells better teamwork, not chat.
 - [[whats-the-atomic-unit-of-your-product]]: Feature Friday by Fred Wilson. Identify the smallest unit of your product, like a tweet or photo, and make it great.
+- [[why-the-heck-cant-we-change-our-product]]: Why the Heck Can't We Change Our Product? by Steven Sinofsky. The tension between changing a product and not disrupting existing users.
