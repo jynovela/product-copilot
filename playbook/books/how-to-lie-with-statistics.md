@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Being metrics-driven needs a base in statistics. This lively classic leaves you smarter and more skeptical. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Being metrics-driven needs a base in statistics. This lively classic leaves you smarter and more skeptical. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

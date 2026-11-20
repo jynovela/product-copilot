@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The classic technology marketing book, and the first to look closely at the role of early adopters. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The classic technology marketing book, and the first to look closely at the role of early adopters. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

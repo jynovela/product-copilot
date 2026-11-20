@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-A developmental path for leaders with a stage model of leadership. The shift from Reactive to Creative leadership matters most for product leaders. (see [[2026-01-07-ken-norton-best-pm-books]])
+- A developmental path for leaders with a stage model of leadership. The shift from Reactive to Creative leadership matters most for product leaders. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

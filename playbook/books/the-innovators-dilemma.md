@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Clayton M. Christensen
 - **Topics:** [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-To Ken, the most important business and product book of the past fifty years. Technology PMs should read it now. (see [[2026-01-07-ken-norton-best-pm-books]])
+- To Ken, the most important business and product book of the past fifty years. Technology PMs should read it now. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-When does the fast, instinctive brain decide before the analytical one weighs in? One of the most important psychology books ever written. (see [[2026-01-07-ken-norton-best-pm-books]])
+- When does the fast, instinctive brain decide before the analytical one weighs in? One of the most important psychology books ever written. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

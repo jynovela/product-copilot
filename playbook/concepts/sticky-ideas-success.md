@@ -25,6 +25,7 @@ General knowledge: Six traits make ideas memorable: Simple, Unexpected, Concrete
 
 - [[made-to-stick]]
 - [[the-science-of-storytelling]]
+- [[hook-point]]
 
 ## Topics
 

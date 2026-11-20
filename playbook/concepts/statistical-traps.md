@@ -25,6 +25,7 @@ General knowledge: Metrics can mislead through biased samples, picking mean vers
 
 - [[high-output-management]]
 - [[how-to-lie-with-statistics]]
+- [[the-lean-startup]]
 
 ## Topics
 

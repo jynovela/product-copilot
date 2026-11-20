@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The classic marketing book and one of the first about positioning a product in the customer's mind. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The classic marketing book and one of the first about positioning a product in the customer's mind. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

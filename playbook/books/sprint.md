@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-From Ken's former GV partners: how to cut through noise, pick a problem and test a solution in one week. (see [[2026-01-07-ken-norton-best-pm-books]])
+- From Ken's former GV partners: how to cut through noise, pick a problem and test a solution in one week. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

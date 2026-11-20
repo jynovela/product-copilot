@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The modern classic on why some ideas thrive and others die, and how to improve yours. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The modern classic on why some ideas thrive and others die, and how to improve yours. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

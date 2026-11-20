@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-PMs must give and take feedback candidly and kindly. Another Harvard Negotiation Project book that teaches how. (see [[2026-01-07-ken-norton-best-pm-books]])
+- PMs must give and take feedback candidly and kindly. Another Harvard Negotiation Project book that teaches how. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

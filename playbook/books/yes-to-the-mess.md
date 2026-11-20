@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Jazz is messy and risky every night. Barrett's lessons for leaders inspired Ken's essay on jazz and product management. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Jazz is messy and risky every night. Barrett's lessons for leaders inspired Ken's essay on jazz and product management. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

@@ -40,17 +40,19 @@ LAYERS = {
         "books": "book",
         "topics": "topic",
         "concepts": "concept",
+        "essays": "essay",
     },
 }
 # layer -> its index page; pages in a layer must be listed in its index
 INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
 SPECIAL_PAGES = {"index", "log", "overview", "playbook-index"}
 # page types whose claims must cite at least one source page
-MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book"}
-# page types that must link to at least one book page
+MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book",
+             "essay"}
+# page types that must link to at least one book or essay page
 MUST_LINK_BOOK = {"topic", "concept"}
 # page types that must say where their knowledge came from
-KNOWLEDGE_TYPES = {"book", "topic", "concept"}
+KNOWLEDGE_TYPES = {"book", "essay", "topic", "concept"}
 KNOWLEDGE_SOURCES = {"model-memory", "ingested"}
 MEMORY_MARKER = "General knowledge:"
 REQUIRED_FIELDS = ["type", "summary", "updated"]
@@ -224,9 +226,9 @@ def main():
         ptype = (page["fields"] or {}).get("type")
         if ptype in MUST_LINK_BOOK:
             books = [t for t in page["links"]
-                     if t in pages and pages[t]["path"].parent.name == "books"]
+                     if t in pages and pages[t]["path"].parent.name in ("books", "essays")]
             if not books:
-                error("no-book", page["path"], "link at least one book page")
+                error("no-book", page["path"], "link at least one book or essay page")
         if ptype in MUST_CITE:
             cited = [t for t in page["links"]
                      if t in pages and pages[t]["path"].parent.name == "sources"]

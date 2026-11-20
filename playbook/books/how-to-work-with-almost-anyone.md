@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Ken's favorite guide to starting a working relationship well, through an initial keystone conversation that keeps it healthy. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ken's favorite guide to starting a working relationship well, through an initial keystone conversation that keeps it healthy. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

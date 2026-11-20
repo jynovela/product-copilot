@@ -28,6 +28,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[listen-like-you-mean-it]]: Listen Like You Mean It
 - [[sprint]]: Sprint
 - [[the-lean-product-playbook]]: The Lean Product Playbook
+- [[the-lean-startup]]: The Lean Startup
 
 ## Concepts
 
@@ -38,6 +39,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
+- [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 
 ## Questions to ask about your product
 

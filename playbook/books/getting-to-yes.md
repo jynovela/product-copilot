@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-PMs must be strong negotiators, and this classic is the best guide to negotiation. (see [[2026-01-07-ken-norton-best-pm-books]])
+- PMs must be strong negotiators, and this classic is the best guide to negotiation. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

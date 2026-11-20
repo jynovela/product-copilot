@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Marty Cagan
 - **Topics:** [[product-teams-and-operating-model]], [[discovery-and-customer-insight]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-If you could read only one product management book, Ken says this is it. (see [[2026-01-07-ken-norton-best-pm-books]])
+- If you could read only one product management book, Ken says this is it. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ry Sullivan also lists it, under "Introduction to the product management discipline". (see [[2025-03-06-ry-sullivan-pm-reading-list]])
 
 ## Key ideas
 

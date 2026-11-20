@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-PMs make many decisions daily with incomplete information. A poker champion turned decision researcher teaches comfort with uncertainty. (see [[2026-01-07-ken-norton-best-pm-books]])
+- PMs make many decisions daily with incomplete information. A poker champion turned decision researcher teaches comfort with uncertainty. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

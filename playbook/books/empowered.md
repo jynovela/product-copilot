@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Marty Cagan with Chris Jones
 - **Topics:** [[product-teams-and-operating-model]], [[leadership-and-management]], [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-The sequel to Inspired. It argues the best product companies win less by hiring better and more by how they enable people to work together on hard problems. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The sequel to Inspired. It argues the best product companies win less by hiring better and more by how they enable people to work together on hard problems. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

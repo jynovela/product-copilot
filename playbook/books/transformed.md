@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The third book in Cagan's trilogy: moving a company from project to product culture. More for executives than ICs, but hopeful for anyone stuck on a feature team. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The third book in Cagan's trilogy: moving a company from project to product culture. More for executives than ICs, but hopeful for anyone stuck on a feature team. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

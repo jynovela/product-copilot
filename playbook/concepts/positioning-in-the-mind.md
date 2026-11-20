@@ -27,6 +27,7 @@ General knowledge: Positioning is how customers place your product in their mind
 - [[click]]
 - [[crossing-the-chasm]]
 - [[positioning]]
+- [[zero-to-one]]
 
 ## Topics
 

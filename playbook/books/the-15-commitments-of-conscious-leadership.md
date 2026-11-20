@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Jim Dethmer, Diana Chapman and Kaley Warner Klemp
 - **Topics:** [[self-leadership-and-productivity]], [[leadership-and-management]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-The book that changed Ken most as a leader and person. His one pick for the human skills behind product management. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The book that changed Ken most as a leader and person. His one pick for the human skills behind product management. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

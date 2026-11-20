@@ -27,6 +27,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[escaping-the-build-trap]]: Escaping the Build Trap
 - [[in-the-plex]]: In the Plex
 - [[inspired]]: Inspired (top pick)
+- [[loonshots]]: Loonshots
 - [[product-leadership]]: Product Leadership (top pick)
 - [[product-management-in-practice]]: Product Management in Practice (top pick)
 - [[strong-product-people]]: Strong Product People

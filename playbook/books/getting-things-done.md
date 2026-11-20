@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-PMs juggle hundreds of priorities. The core ideas of this cult classic still help you manage your time. (see [[2026-01-07-ken-norton-best-pm-books]])
+- PMs juggle hundreds of priorities. The core ideas of this cult classic still help you manage your time. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

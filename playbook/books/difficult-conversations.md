@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The best-selling Harvard Negotiation Project guide to hard conversations. Ken keeps it on hand. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The best-selling Harvard Negotiation Project guide to hard conversations. Ken keeps it on hand. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

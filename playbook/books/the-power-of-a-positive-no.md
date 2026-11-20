@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Saying no gracefully and firmly is one of a PM's most important skills, and this is the classic guide. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Saying no gracefully and firmly is one of a PM's most important skills, and this is the classic guide. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

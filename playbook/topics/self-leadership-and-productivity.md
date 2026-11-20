@@ -21,10 +21,13 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[atomic-habits]]: Atomic Habits
 - [[chatter]]: Chatter
 - [[getting-things-done]]: Getting Things Done
 - [[immunity-to-change]]: Immunity to Change
 - [[mastering-leadership]]: Mastering Leadership
+- [[range]]: Range
+- [[switch]]: Switch
 - [[the-15-commitments-of-conscious-leadership]]: The 15 Commitments of Conscious Leadership (top pick)
 
 ## Concepts
@@ -33,6 +36,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
 - [[distanced-self-talk]]: Talk to yourself by name or as "you" to calm the inner critic and think clearly.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
+- [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 
 ## Questions to ask about your product
 

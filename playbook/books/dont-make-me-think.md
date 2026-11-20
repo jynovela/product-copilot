@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Steve Krug
 - **Topics:** [[design-and-usability]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]]
 
 ## Why it's on the list
 
-A light, fun book on user interface design, full of lessons for PMs. (see [[2026-01-07-ken-norton-best-pm-books]])
+- A light, fun book on user interface design, full of lessons for PMs. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ry Sullivan also lists it, under "Designing products". (see [[2025-03-06-ry-sullivan-pm-reading-list]])
 
 ## Key ideas
 

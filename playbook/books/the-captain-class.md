@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-The founding editor of the Wall Street Journal's sports section studies the captains of history's best sports teams. Their qualities are not what you'd expect. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The founding editor of the Wall Street Journal's sports section studies the captains of history's best sports teams. Their qualities are not what you'd expect. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

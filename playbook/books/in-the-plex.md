@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Written with unusual access to Google, it is in Ken's view an accurate picture of how the company and its PMs work. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Written with unusual access to Google, it is in Ken's view an accurate picture of how the company and its PMs work. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 
