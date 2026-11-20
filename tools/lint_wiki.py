@@ -22,21 +22,37 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
+PLAYBOOK = ROOT / "playbook"
 RAW = ROOT / "raw"
 
-# folder name -> required value of the "type" field
-FOLDER_TYPES = {
-    "sources": "source",
-    "customers": "customer",
-    "problems": "problem",
-    "features": "feature",
-    "competitors": "competitor",
-    "decisions": "decision",
-    "analyses": "analysis",
+# layer -> {folder name -> required value of the "type" field}
+LAYERS = {
+    WIKI: {
+        "sources": "source",
+        "customers": "customer",
+        "problems": "problem",
+        "features": "feature",
+        "competitors": "competitor",
+        "decisions": "decision",
+        "analyses": "analysis",
+    },
+    PLAYBOOK: {
+        "books": "book",
+        "topics": "topic",
+        "concepts": "concept",
+    },
 }
-SPECIAL_PAGES = {"index", "log", "overview"}
+# layer -> its index page; pages in a layer must be listed in its index
+INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
+SPECIAL_PAGES = {"index", "log", "overview", "playbook-index"}
 # page types whose claims must cite at least one source page
-MUST_CITE = {"customer", "problem", "feature", "competitor", "decision"}
+MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book"}
+# page types that must link to at least one book page
+MUST_LINK_BOOK = {"topic", "concept"}
+# page types that must say where their knowledge came from
+KNOWLEDGE_TYPES = {"book", "topic", "concept"}
+KNOWLEDGE_SOURCES = {"model-memory", "ingested"}
+MEMORY_MARKER = "General knowledge:"
 REQUIRED_FIELDS = ["type", "summary", "updated"]
 SOURCE_FIELDS = ["raw", "raw_sha256"]
 RAW_IGNORED = {"README.md", ".gitkeep", ".DS_Store"}
@@ -104,7 +120,11 @@ def main():
         return 2
 
     pages = {}  # slug -> dict(path, fields, body, links)
-    for path in sorted(WIKI.rglob("*.md")):
+    paths = []
+    for layer in LAYERS:
+        if layer.is_dir():
+            paths.extend(sorted(layer.rglob("*.md")))
+    for path in paths:
         slug = path.stem
         if slug in pages:
             error("duplicate-slug", path,
@@ -122,9 +142,11 @@ def main():
             "links": set(LINK_RE.findall(strip_code(body))),
         }
 
-    for name in SPECIAL_PAGES:
+    for name in ("index", "log", "overview"):
         if name not in pages:
             error("missing-page", WIKI / (name + ".md"), "required page is missing")
+    if PLAYBOOK.is_dir() and "playbook-index" not in pages:
+        error("missing-page", PLAYBOOK / "playbook-index.md", "required page is missing")
 
     # frontmatter and folder checks
     for slug, page in pages.items():
@@ -132,10 +154,13 @@ def main():
         if slug in SPECIAL_PAGES:
             continue
         folder = path.parent.name
-        if path.parent.parent != WIKI or folder not in FOLDER_TYPES:
-            error("bad-folder", path,
-                  "pages must live in one of: wiki/" + ", wiki/".join(FOLDER_TYPES))
+        layer = path.parent.parent
+        page["layer"] = layer
+        if layer not in LAYERS or folder not in LAYERS[layer]:
+            allowed = ["{}/{}/".format(l.name, f) for l in LAYERS for f in LAYERS[l]]
+            error("bad-folder", path, "pages must live in one of: " + ", ".join(allowed))
             continue
+        FOLDER_TYPES = LAYERS[layer]
         if fields is None:
             error("frontmatter", path, "missing --- frontmatter block at top of file")
             continue
@@ -148,6 +173,14 @@ def main():
                 fields["type"], folder, FOLDER_TYPES[folder]))
         if fields.get("updated") and not DATE_RE.match(fields["updated"]):
             error("frontmatter", path, "updated must be YYYY-MM-DD")
+        if fields.get("type") in KNOWLEDGE_TYPES:
+            ks = fields.get("knowledge_source")
+            if ks not in KNOWLEDGE_SOURCES:
+                error("frontmatter", path,
+                      "knowledge_source must be one of: " + ", ".join(sorted(KNOWLEDGE_SOURCES)))
+            elif ks == "model-memory" and MEMORY_MARKER not in page["body"]:
+                error("provenance", path, "knowledge_source is model-memory, so mark "
+                      "those claims with '{}'".format(MEMORY_MARKER))
 
     # source pages point at real, unchanged raw files
     ingested = set()
@@ -173,7 +206,7 @@ def main():
             target = target.strip()
             if target not in pages:
                 error("broken-link", page["path"], "[[{}]] has no page".format(target))
-            elif slug not in ("index", "log") and target != slug:
+            elif slug not in ("index", "log", "playbook-index") and target != slug:
                 inbound[target].add(slug)
 
     for slug, page in pages.items():
@@ -181,10 +214,19 @@ def main():
             continue
         if not inbound[slug]:
             error("orphan", page["path"],
-                  "no other page links here (index.md and log.md do not count)")
-        if slug not in pages.get("index", {}).get("links", set()):
-            error("not-in-index", page["path"], "add [[{}]] to wiki/index.md".format(slug))
+                  "no other page links here (index pages and log.md do not count)")
+        layer = page.get("layer")
+        if layer in INDEXES:
+            index = INDEXES[layer]
+            if slug not in pages.get(index, {}).get("links", set()):
+                error("not-in-index", page["path"], "add [[{}]] to {}/{}.md".format(
+                    slug, layer.name, index))
         ptype = (page["fields"] or {}).get("type")
+        if ptype in MUST_LINK_BOOK:
+            books = [t for t in page["links"]
+                     if t in pages and pages[t]["path"].parent.name == "books"]
+            if not books:
+                error("no-book", page["path"], "link at least one book page")
         if ptype in MUST_CITE:
             cited = [t for t in page["links"]
                      if t in pages and pages[t]["path"].parent.name == "sources"]
