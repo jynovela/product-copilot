@@ -48,6 +48,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
+- [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
 
 ## Questions to ask about your product
 

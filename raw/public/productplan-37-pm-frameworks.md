@@ -1,0 +1,38 @@
+# Prioritization guide and 37 product management frameworks: framework extract
+
+- Source: ProductPlan
+- Date: not shown
+- Pasted into the project by the user on 2026-11-20
+- This file keeps only short paraphrases of what the article says about each framework. The article's own text is not copied here.
+
+- **Design thinking**: A framework for innovation from the user's point of view; IDEO is often credited with creating it.
+- **Minimum viable product (MVP)**: MVPs must solve a real problem; focus on doing one thing well, then use the roadmap to show what comes next.
+- **Opportunity scoring**: Features high in importance but low in satisfaction offer the best return on development work.
+- **RICE scoring**: Gives each initiative one score from reach, impact, confidence and effort.
+- **ICE scoring**: Impact, confidence and ease; quick, but not as rigorous as weighted scoring.
+- **Value vs effort matrix**: Lists it as value vs complexity on a prioritization matrix.
+- **Weighted scoring**: Also called benefit vs cost: score initiatives on benefit and cost criteria and weight the ones that matter more.
+- **Kano model**: Rank each initiative by how likely it is to delight customers and its implementation cost; do high delight, low cost first.
+- **MoSCoW method**: Helps stakeholders understand importance within a specific release.
+- **Buy a feature**: Participants get a hypothetical sum and buy the features they most want built.
+- **Impact mapping**: Start from high-level goals, then actors, how each can contribute, and the outputs.
+- **Eisenhower matrix**: Two axes, urgent and important; work the important and urgent quadrant first. Also lists the 4 Ds: do, defer, delegate, dump.
+- **DACI and RACI**: Driver, approver (who makes the decision), contributors, and the informed (whose work could be affected).
+- **SWOT analysis**: A planning framework for deciding whether to start an initiative, using a 2x2 grid.
+- **GIST planning**: Goals, ideas, step-projects and tasks; aims to cut management overhead and speed development.
+- **AARRR (pirate metrics)**: Designed for startups by Dave McClure: acquisition, activation, retention, referral, revenue.
+- **HEART framework**: Google created it to bring quantitative metrics to UX; five metrics; can be applied beyond UX.
+- **Agile and Scrum**: Summarizes nine agile methods and says Lean Software Development was "originally called the Toyota Production System".
+- **Dual-track agile**: A cross-functional team splits work into discovery, which generates validated ideas, and delivery, which turns them into market-ready products.
+- **jobs-to-be-done**: Shifts the team's focus from the product to what customers want to get done.
+- **working-backwards-pr-faq**: Amazon's method: write a press release for the end user describing the problem, why other options fall short and how the product succeeds.
+- **circles-method**: A product design framework whose steps form the acronym.
+- **story-map**: A visual walkthrough of the user's interaction, with stories under each step, used to set priority.
+- **Affinity grouping**: Listed as a framework.
+- **Eisenhower's 4 Ds (do, defer, delegate, dump)**: Listed as a framework.
+- **Quality Function Deployment (QFD)**: Listed as a framework.
+- **The User Is Drunk**: Listed as a framework.
+- **KEY design process**: Listed as a framework.
+- **Kennedy principle**: Listed as a framework.
+- **Classical vs behavioral economics**: Listed as a framework.
+- **Agile methods list: Crystal, Disciplined Agile, DSDM, eXtreme Programming, Feature-Driven Development, Rapid Application Development, SAFe, Lean Software Development**: Listed as a framework.

@@ -20,6 +20,17 @@ General knowledge: Osterwalder's canvas has two halves: the customer profile (jo
 
 - Filling the canvas in a workshop without customer evidence.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- Typically used together with the Business Model Canvas. (see [[neal-cabage-21-pm-frameworks]])
+
+## Pairs well with
+
+- [[business-model-canvas]]: the wider model it plugs into
+- [[opportunity-scoring]]: ranks the pains and gains
+
 ## From
 
 - [[value-proposition-design]]
@@ -27,3 +38,4 @@ General knowledge: Osterwalder's canvas has two halves: the customer profile (jo
 ## Topics
 
 - [[discovery-and-customer-insight]]
+- [[product-frameworks]]

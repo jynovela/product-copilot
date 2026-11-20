@@ -21,6 +21,17 @@ General knowledge: Over five days a small team maps the problem and picks a targ
 
 - Running sprints for small or already-decided questions.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- Created by Jake Knapp at Google Ventures; a five-day process inspired by design thinking that reduces launch risk. (see [[neal-cabage-21-pm-frameworks]])
+
+## Pairs well with
+
+- [[design-thinking]]: the approach it compresses
+- [[double-diamond]]: the shape of the week
+
 ## From
 
 - [[click]]
@@ -32,3 +43,4 @@ General knowledge: Over five days a small team maps the problem and picks a targ
 
 - [[discovery-and-customer-insight]]
 - [[design-and-usability]]
+- [[product-frameworks]]

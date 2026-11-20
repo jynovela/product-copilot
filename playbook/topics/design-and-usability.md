@@ -51,6 +51,10 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
 - [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
 - [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
+- [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.
+- [[double-diamond]]: Discover, define, develop, deliver: diverge then converge on the problem, then on the solution.
+- [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
+- [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
 
 ## Questions to ask about your product
 

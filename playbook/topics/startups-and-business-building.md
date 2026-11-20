@@ -41,6 +41,9 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
+- [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
+- [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
+- [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
 
 ## Questions to ask about your product
 

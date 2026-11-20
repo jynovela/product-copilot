@@ -76,6 +76,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
 - [[golden-circle]]: Communicate why, then how, then what.
 - [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
+- [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
 
 ## Questions to ask about your product
 

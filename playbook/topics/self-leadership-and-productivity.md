@@ -40,6 +40,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[distanced-self-talk]]: Talk to yourself by name or as "you" to calm the inner critic and think clearly.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
+- [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
 
 ## Questions to ask about your product
 

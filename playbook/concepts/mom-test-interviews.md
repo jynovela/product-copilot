@@ -21,6 +21,17 @@ General knowledge: Customer conversations go wrong when you pitch and ask for op
 - "Would you use this?" questions.
 - Counting compliments as validation.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- Listed as a way to ask better questions and get better insights. (see [[linkedin-10-pm-frameworks-post]])
+
+## Pairs well with
+
+- [[jobs-to-be-done]]: what to ask about
+- [[five-whys]]: a way to dig into past events
+
 ## From
 
 - [[deploy-empathy]]
@@ -33,3 +44,4 @@ General knowledge: Customer conversations go wrong when you pitch and ask for op
 ## Topics
 
 - [[discovery-and-customer-insight]]
+- [[product-frameworks]]
