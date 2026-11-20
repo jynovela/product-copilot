@@ -20,6 +20,19 @@ General knowledge: Jeff Patton's technique: arrange user activities left to righ
 
 - Treating the map as a backlog instead of a conversation tool.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- A visual walkthrough of the user's interaction, with stories under each step, used to set priority. (see [[productplan-37-pm-frameworks]])
+- One of the fastest ways to find the MVP; doesn't account for business value or technical complexity. (see [[tempo-9-prioritization-frameworks]])
+
+## Pairs well with
+
+- [[minimum-viable-product]]: the first slice of the map
+- [[moscow-method]]: another way to cut scope
+- [[customer-journey-map]]: the research view of the same journey
+
 ## From
 
 - [[user-story-mapping]]
@@ -28,3 +41,4 @@ General knowledge: Jeff Patton's technique: arrange user activities left to righ
 
 - [[product-teams-and-operating-model]]
 - [[design-and-usability]]
+- [[product-frameworks]]

@@ -21,6 +21,16 @@ General knowledge: Customers adopt new technology in groups: innovators, early a
 
 - Mistaking early adopter enthusiasm for mainstream demand.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- Everett Rogers's innovation adoption curve: innovators, early adopters, early majority, late majority, laggards; approach each group differently. (see [[neal-cabage-21-pm-frameworks]])
+
+## Pairs well with
+
+- [[product-life-cycle]]: the sales curve the adoption groups produce
+
 ## From
 
 - [[crossing-the-chasm]]
@@ -29,3 +39,4 @@ General knowledge: Customers adopt new technology in groups: innovators, early a
 
 - [[strategy-and-innovation]]
 - [[positioning-and-go-to-market]]
+- [[product-frameworks]]

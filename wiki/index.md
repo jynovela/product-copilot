@@ -20,6 +20,24 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Sources
 
+- [[2026-11-20-juan-pm-frameworks-list]]: The user's list of 16 PM frameworks in four groups, with links to the articles it drew on.
+- [[product-development-process-guide]]: A work-management vendor's guide to a six-stage product development process, plus Agile, Stage-Gate and Lean.
+- [[2024-09-09-product-school-8-pm-frameworks]]: Product School's tour of 8 frameworks with company examples: Lean Startup, Agile, CIRCLES, JTBD, Design Thinking, Double Diamond, Product Life Cycle, Stage-Gate.
+- [[productplan-37-pm-frameworks]]: ProductPlan's prioritization guide and list of 37 frameworks across prioritization, agile, UX and other areas.
+- [[neal-cabage-21-pm-frameworks]]: Neal Cabage's list of 21 frameworks, including two of his own (3 Pillars of Product, Product Team Competencies).
+- [[atlassian-6-prioritization-frameworks]]: Atlassian's guide to RICE, Kano, MoSCoW, value vs effort, opportunity scoring and cost of delay, with pros and cons.
+- [[linkedin-10-pm-frameworks-post]]: A LinkedIn post listing 10 frameworks with one line each: 5 Whys, JTBD, AARRR, OKRs, the Mom Test, Fogg's model, HEART, Eisenhower, Kano/RICE/MoSCoW, first principles.
+- [[tempo-9-prioritization-frameworks]]: Tempo's guide to 9 prioritization frameworks with a comparison table of inputs, time and limits.
+- [[techreviewer-popular-pm-frameworks]]: A software-agency directory's blog post on PM frameworks; many descriptions are wrong, so treat it as low quality.
+- [[2023-05-16-hellopm-5-whys]]: HelloPM's guide to using 5 whys for product problems, sales requests and competitor research.
+- [[2023-05-17-hellopm-jobs-to-be-done]]: HelloPM's practical JTBD guide: job and circumstance, job steps and variables, job statements, and five uses for PMs.
+- [[2020-05-07-built-in-aarrr-metrics]]: Built In's history and critique of Dave McClure's AARRR metrics, with a growth lead's view on how they're used now.
+- [[2023-01-20-tim-herbig-okrs-in-product-management]]: Tim Herbig's guide to outcome-focused OKRs for product teams, linking them to strategy, roadmaps, discovery and Scrum.
+- [[2025-06-13-growth-engineering-fogg-behavior-model]]: A learning-tech vendor's explainer of the Fogg Behavior Model (B=MAP) with its motivators, ability factors and prompt types.
+- [[google-heart-framework-explainer]]: An explainer of Google's HEART metrics, with notes on when each metric misleads.
+- [[asana-eisenhower-matrix-guide]]: Asana's guide to the Eisenhower Matrix, with steps to set it up in Asana and tips to rebalance quadrants.
+- [[2025-07-04-contentsquare-prioritization-frameworks]]: Contentsquare's guide to four inputs for prioritization and four frameworks: RICE, MoSCoW, Kano and cost of delay.
+- [[2026-04-22-hellopm-first-principles]]: HelloPM's guide to first principles thinking for PMs, with recent AI case studies and when not to use it.
 - [[2021-04-26-jens-fabian-goetzmann-aspiring-pm-reading-list]]: Books and articles for people breaking into product management, with reasons for each.
 - [[2023-07-07-alex-craciun-platform-pm-books]]: Four books recommended for platform product managers, led by Team Topologies.
 - [[recommended-reading-for-product-owners]]: A short list of six books and one essay for product owners, each with the author's reason.

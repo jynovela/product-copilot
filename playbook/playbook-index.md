@@ -9,58 +9,83 @@ Product management craft: books, essays, the topics they cover, and their core c
 
 ## Topics
 
-- [[discovery-and-customer-insight]]: Finding out what customers need and which ideas are worth building, before building them.
-- [[strategy-and-innovation]]: Deciding where to play and how to win, and how markets and incumbents get disrupted.
-- [[positioning-and-go-to-market]]: How customers perceive the product, which segment to win first, and how to message it.
-- [[product-teams-and-operating-model]]: How product teams are set up, what PMs do, and how companies move from feature factories to product teams.
-- [[design-and-usability]]: Making products easy to understand and use, and testing that cheaply.
-- [[decisions-and-data]]: Making good decisions under uncertainty and reading metrics without fooling yourself.
 - [[communication-and-storytelling]]: Writing, presenting and telling stories so that ideas land and people act.
-- [[negotiation-feedback-and-relationships]]: Influencing without authority: negotiating, saying no, hard conversations, and feedback.
+- [[decisions-and-data]]: Making good decisions under uncertainty and reading metrics without fooling yourself.
+- [[design-and-usability]]: Making products easy to understand and use, and testing that cheaply.
+- [[discovery-and-customer-insight]]: Finding out what customers need and which ideas are worth building, before building them.
 - [[leadership-and-management]]: Managing people and teams, building culture, and leading as a product leader.
-- [[self-leadership-and-productivity]]: Managing yourself: inner critic, growth as a leader, and personal organization.
-- [[user-psychology-and-behavior]]: Why people choose, buy, adopt and keep using things, and how design and framing steer them.
-- [[startups-and-business-building]]: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
+- [[negotiation-feedback-and-relationships]]: Influencing without authority: negotiating, saying no, hard conversations, and feedback.
 - [[pm-career-and-skills]]: Getting into product management, learning the job, and growing a PM career.
+- [[positioning-and-go-to-market]]: How customers perceive the product, which segment to win first, and how to message it.
+- [[product-frameworks]]: Which PM framework to use for which job, how they combine, and where the sources about them disagree.
+- [[product-teams-and-operating-model]]: How product teams are set up, what PMs do, and how companies move from feature factories to product teams.
+- [[self-leadership-and-productivity]]: Managing yourself: inner critic, growth as a leader, and personal organization.
+- [[startups-and-business-building]]: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
+- [[strategy-and-innovation]]: Deciding where to play and how to win, and how markets and incumbents get disrupted.
 - [[technology-and-ai]]: Technical fluency for PMs, from how software works to AI's impact on products and strategy.
+- [[user-psychology-and-behavior]]: Why people choose, buy, adopt and keep using things, and how design and framing steer them.
 
 ## Concepts
 
+- [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
+- [[agile-and-scrum]]: Deliver in short iterations with feedback; Scrum is the most common way to run it.
+- [[ansoff-matrix]]: Four growth options: sell more to current markets, new products, new markets, or both new.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
 - [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
 - [[braintrust]]: Peers give candid notes on work in progress, without power to mandate changes.
 - [[brooks-law]]: Adding people to a late software project makes it later.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 - [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
+- [[buy-a-feature]]: A game where customers spend play money on priced features, showing what they value most.
 - [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
 - [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
 - [[circles-method]]: A structure for product design interview answers.
+- [[cost-of-delay]]: Put a value on what each week of waiting costs, and use it to order work.
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
+- [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
+- [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
+- [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.
 - [[disruptive-innovation]]: Simpler, cheaper products start in overlooked markets and move up to displace incumbents.
 - [[distanced-self-talk]]: Talk to yourself by name or as "you" to calm the inner critic and think clearly.
+- [[double-diamond]]: Discover, define, develop, deliver: diverge then converge on the problem, then on the solution.
+- [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
+- [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
+- [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
 - [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
+- [[five-whys]]: Ask why a problem happened, then why that happened, about five times, to reach a root cause.
+- [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
+- [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
 - [[golden-circle]]: Communicate why, then how, then what.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
+- [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
 - [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
+- [[ice-scoring]]: A quick score of impact, confidence and ease for ranking growth experiments.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
+- [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[kano-model]]: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
 - [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
 - [[keystone-conversation]]: A deliberate conversation at the start of a working relationship about how you'll work together.
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
 - [[managerial-leverage]]: A manager's output is the team's output; spend time where it multiplies.
 - [[mimetic-desire]]: People learn what to want by imitating others (models).
+- [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 - [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
+- [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
+- [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
 - [[one-on-ones]]: Regular, report-driven meetings between a manager and each team member.
+- [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
 - [[ownership-mindset]]: Leaders own every outcome in their world, including failures.
 - [[persuasion-principles]]: Reciprocity, commitment, social proof, liking, authority, scarcity and unity: why people say yes.
@@ -68,15 +93,21 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[positive-no]]: Yes! No. Yes?: protect your interests, say no clearly, offer an alternative.
 - [[premortem]]: Imagine the project failed, then explain why, before you start.
 - [[principled-negotiation]]: Negotiate on interests, invent options, use objective criteria, and know your best alternative.
+- [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
+- [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
 - [[reactive-vs-creative-leadership]]: Leading from fear and defensiveness versus from purpose, curiosity and responsibility.
 - [[resulting]]: Judging a decision by its outcome instead of by the decision process.
+- [[rice-scoring]]: Score ideas by reach x impact x confidence / effort to rank them against one goal.
 - [[rider-elephant-path]]: To change behavior, direct the rational rider, motivate the emotional elephant and shape the path.
+- [[spotify-model]]: Spotify's 2012 picture of autonomous squads grouped into tribes, with chapters and guilds across them.
+- [[stage-gate]]: Split development into stages with go/kill decision gates between them, to control risk on costly products.
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
+- [[swot-analysis]]: List strengths, weaknesses, opportunities and threats to assess a move.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
@@ -84,6 +115,8 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
+- [[value-vs-effort-matrix]]: A 2x2 of value against effort to spot quick wins and drop low-value, high-effort work.
+- [[weighted-scoring]]: Score each idea against several weighted criteria, such as revenue, strategic fit and effort, and rank by total.
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
 - [[wrap-decision-process]]: Widen options, Reality-test assumptions, Attain distance, Prepare to be wrong.
 

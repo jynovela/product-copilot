@@ -8,14 +8,15 @@ agent doesn't start from scratch each time.
 
 It also ships a PM playbook: 145 product management books and 10 essays
 from nine reading lists (including Ken Norton's and Ry Sullivan's),
-classified into 14 topics and 60 core concepts such as jobs to be done,
+classified into 15 topics and 92 core concepts such as jobs to be done,
 the opportunity solution tree, the kernel of good strategy and OKRs. The
 agent uses it to suggest how to approach a problem, kept separate from the
 evidence about your product. The book pages are written from the model's
 general knowledge, not from the books themselves, and say so on every page.
 Books the model can't summarize reliably are short stubs marked as
 unverified. `playbook/reading-paths.md` suggests what to read for a given
-question, and `playbook/newsletters-and-podcasts.md` lists ongoing reading.
+question, `playbook/newsletters-and-podcasts.md` lists ongoing reading, and
+`playbook/topics/product-frameworks.md` says which framework fits which job.
 
 Works with any agent that reads `AGENTS.md` (Claude Code, Codex, OpenCode,
 Hermes and others) and any model you choose.
