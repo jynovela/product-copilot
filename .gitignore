@@ -2,6 +2,8 @@
 # They stay on your machine by default. To commit them, delete these lines.
 raw/*
 !raw/README.md
+# Public, non-confidential sources can be committed in raw/public/.
+!raw/public/
 
 .DS_Store
 .obsidian/workspace*.json
