@@ -1,0 +1,7 @@
+# Raw sources are often confidential (customer calls, internal docs).
+# They stay on your machine by default. To commit them, delete these lines.
+raw/*
+!raw/README.md
+
+.DS_Store
+.obsidian/workspace*.json
