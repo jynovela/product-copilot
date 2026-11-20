@@ -6,7 +6,8 @@ sources into `raw/`. You read them and keep two linked layers:
 - `wiki/`: evidence about the user's product: its customers, problems,
   features, competitors and decisions.
 - `playbook/`: product management craft: books, the topics they cover, and
-  their core concepts. General knowledge, not evidence about the product.
+  their core concepts, plus a few essays. General knowledge, not evidence
+  about the product.
 
 The user reads both and asks questions. You do the writing and the
 bookkeeping.
@@ -48,6 +49,7 @@ Stack: Markdown, plus one Python 3.9+ check script (standard library only).
 | `playbook/books/` | `book` | book | `high-output-management.md` |
 | `playbook/topics/` | `topic` | area of PM craft that groups books | `decisions-and-data.md` |
 | `playbook/concepts/` | `concept` | framework or idea from the books | `jobs-to-be-done.md` |
+| `playbook/essays/` | `essay` | blog post or essay | `invisible-asymptotes.md` |
 
 Every page starts from its template in `templates/<type>.md`.
 
@@ -66,7 +68,7 @@ Every page starts from its template in `templates/<type>.md`.
    ```
 
    Source pages also have `raw: raw/<file>` and `raw_sha256: <hash>`.
-   Book, topic and concept pages also have `knowledge_source:`, either
+   Book, essay, topic and concept pages also have `knowledge_source:`, either
    `model-memory` (you wrote it from what you already know) or `ingested`
    (it comes from a source in `raw/`).
 3. **Links** are `[[file-name]]` without `.md` and without folders. Only
@@ -74,8 +76,9 @@ Every page starts from its template in `templates/<type>.md`.
    cross layers, e.g. a problem page can link to `[[jobs-to-be-done]]`.
 4. **Citations.** Every claim on a customer, problem, feature, competitor or
    decision page ends with the source page it came from, like
-   `(see [[2026-11-03-call-acme]])`. Book pages cite the source that put the
-   book on the list. Topic and concept pages link the books they draw on.
+   `(see [[2026-11-03-call-acme]])`. Book and essay pages cite the source
+   that put them on a list. Topic and concept pages link the books or
+   essays they draw on.
 5. **Your own reasoning** is marked `Inference:`. Knowledge that comes from
    no source is marked `General knowledge:`. Never present either as
    something a source said. A page with `knowledge_source: model-memory`
@@ -152,8 +155,11 @@ Use when the user says `ingest raw/<file>`. Ingest one file at a time.
 
 ## Workflow: add a book
 
-Use when the user names a book to add, or drops a book summary or notes in
-`raw/`.
+Use when the user names a book or essay to add, or drops a book summary or
+notes in `raw/`. For an essay, use `playbook/essays/` and
+`templates/essay.md` instead of the book folder and template. If the book
+already has a page, add the new source to its `On the list` line and `Why
+it's on the list` section instead of creating a second page.
 
 1. If there is a raw file, do the ingest workflow first so a source page
    exists. Otherwise ask the user to save a short note in `raw/public/`

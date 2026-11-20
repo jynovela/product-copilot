@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-From the authors of Sprint. It introduces the Foundation Sprint: how to pick your target customer and understand their problem before you build. (see [[2026-01-07-ken-norton-best-pm-books]])
+- From the authors of Sprint. It introduces the Foundation Sprint: how to pick your target customer and understand their problem before you build. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Lincoln brought his rivals into his cabinet and turned them into advisors. A lesson in using others' wisdom, with or without formal authority. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Lincoln brought his rivals into his cabinet and turned them into advisors. A lesson in using others' wisdom, with or without formal authority. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Many product leaders fight a harsh inner critic that feeds imposter feelings. A psychologist explains the science of the inner voice and how to manage it. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Many product leaders fight a harsh inner critic that feeds imposter feelings. A psychologist explains the science of the inner voice and how to manage it. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

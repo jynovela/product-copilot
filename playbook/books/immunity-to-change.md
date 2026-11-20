@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Kegan's adult development theory underpins Ken's coaching. This accessible book helps you understand the hidden beliefs that hold people and organizations back. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Kegan's adult development theory underpins Ken's coaching. This accessible book helps you understand the hidden beliefs that hold people and organizations back. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

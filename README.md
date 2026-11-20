@@ -6,9 +6,10 @@ product: customers, problems, features, competitors and decisions. The wiki
 gets richer with every source you add and every question you ask, so the
 agent doesn't start from scratch each time.
 
-It also ships a PM playbook: 44 essential product management books (from
-Ken Norton's 2026 list), classified into 10 topics and 33 core concepts
-such as jobs to be done, the opportunity solution tree and OKRs. The agent
+It also ships a PM playbook: 67 product management books and 6 essays from
+two reading lists (Ken Norton's 2026 list and Ry Sullivan's 2025 list),
+classified into 12 topics and 42 core concepts such as jobs to be done,
+the opportunity solution tree, choice architecture and OKRs. The agent
 uses it to suggest how to approach a problem, kept separate from the
 evidence about your product. The book pages are written from the model's
 general knowledge, not from the books themselves, and say so on every page.
@@ -35,7 +36,7 @@ Hermes and others) and any model you choose.
    agent to file good answers back into the wiki.
 5. Ask how-to questions too: `how should I say no to this sales request?`
    The answer separates your evidence from what the playbook suggests.
-6. Add a book: `add the book <title>`.
+6. Add a book or essay: `add the book <title>`.
 7. Now and then, tell the agent: `lint the wiki`.
 
 Check the wiki yourself at any time:

@@ -24,7 +24,9 @@ General knowledge: System 1 is fast and automatic; System 2 is slow and effortfu
 ## From
 
 - [[thinking-fast-and-slow]]
+- [[predictably-irrational]]
 
 ## Topics
 
 - [[decisions-and-data]]
+- [[user-psychology-and-behavior]]

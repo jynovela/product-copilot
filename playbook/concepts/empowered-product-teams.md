@@ -29,6 +29,7 @@ General knowledge: Feature teams build what stakeholders ask for and are measure
 - [[transformed]]
 - [[work-rules]]
 - [[yes-to-the-mess]]
+- [[leading-cross-functional-teams]]
 
 ## Topics
 

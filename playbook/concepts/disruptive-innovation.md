@@ -25,6 +25,7 @@ General knowledge: Incumbents improve products for their best customers (sustain
 
 - [[competing-against-luck]]
 - [[the-innovators-dilemma]]
+- [[loonshots]]
 
 ## Topics
 

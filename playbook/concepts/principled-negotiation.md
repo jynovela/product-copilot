@@ -24,6 +24,7 @@ General knowledge: From Getting to Yes: separate people from the problem, focus 
 
 - [[getting-to-yes]]
 - [[the-power-of-a-positive-no]]
+- [[intuition-pumps-and-other-tools-for-thinking]]
 
 ## Topics
 

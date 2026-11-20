@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-PMs need to write well, and this is how to learn from a master of the craft. (see [[2026-01-07-ken-norton-best-pm-books]])
+- PMs need to write well, and this is how to learn from a master of the craft. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

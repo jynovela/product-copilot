@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Matt LeMay
 - **Topics:** [[product-teams-and-operating-model]], [[communication-and-storytelling]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-Practical, real-world PM advice, focused on communication, organization, research and execution. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Practical, real-world PM advice, focused on communication, organization, research and execution. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

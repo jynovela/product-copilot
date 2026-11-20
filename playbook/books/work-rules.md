@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-How Google's people team reinvented HR, and a good overview of Google's culture, hiring and decision-making. (see [[2026-01-07-ken-norton-best-pm-books]])
+- How Google's people team reinvented HR, and a good overview of Google's culture, hiring and decision-making. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

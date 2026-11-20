@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Ken is often asked how to become a better storyteller. A novelist explains how the brain responds to stories and how to connect with an audience. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ken is often asked how to become a better storyteller. A novelist explains how the brain responds to stories and how to connect with an audience. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

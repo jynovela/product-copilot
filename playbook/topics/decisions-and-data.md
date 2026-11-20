@@ -23,6 +23,8 @@ General knowledge: a synthesis of the books below, from model memory.
 
 - [[high-output-management]]: High Output Management (top pick)
 - [[how-to-lie-with-statistics]]: How to Lie with Statistics
+- [[intuition-pumps-and-other-tools-for-thinking]]: Intuition Pumps and Other Tools for Thinking
+- [[predictably-irrational]]: Predictably Irrational
 - [[thinking-fast-and-slow]]: Thinking, Fast and Slow
 - [[thinking-in-bets]]: Thinking in Bets
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-How solid product management helps companies solve real customer problems and hit business goals, and how to build a product culture that serves both. (see [[2026-01-07-ken-norton-best-pm-books]])
+- How solid product management helps companies solve real customer problems and hit business goals, and how to build a product culture that serves both. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

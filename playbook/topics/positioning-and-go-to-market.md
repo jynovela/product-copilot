@@ -21,9 +21,17 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[alchemy]]: Alchemy
 - [[crossing-the-chasm]]: Crossing the Chasm
+- [[hook-point]]: Hook Point
+- [[influence]]: Influence
 - [[made-to-stick]]: Made to Stick
+- [[obvious-adams]]: Obvious Adams
 - [[positioning]]: Positioning
+
+## Essays
+
+- [[we-dont-sell-saddles-here]]: Sell the outcome customers want, not the product: Slack sells better teamwork, not chat.
 
 ## Concepts
 

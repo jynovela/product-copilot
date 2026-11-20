@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Richard Banfield, Martin Eriksson and Nate Walkingshaw
 - **Topics:** [[leadership-and-management]], [[product-teams-and-operating-model]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-Ken wrote the foreword. It collects views from many respected product leaders to guide you in leading teams and delivering great products. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ken wrote the foreword. It collects views from many respected product leaders to guide you in leading teams and delivering great products. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

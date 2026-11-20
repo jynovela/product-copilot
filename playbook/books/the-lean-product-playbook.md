@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-A tactical companion to The Lean Startup, with techniques for putting lean methods into practice. (see [[2026-01-07-ken-norton-best-pm-books]])
+- A tactical companion to The Lean Startup, with techniques for putting lean methods into practice. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

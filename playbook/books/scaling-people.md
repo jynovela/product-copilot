@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-From a former senior leader at Google and Stripe: a practical, inspiring leadership guide for any level. (see [[2026-01-07-ken-norton-best-pm-books]])
+- From a former senior leader at Google and Stripe: a practical, inspiring leadership guide for any level. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

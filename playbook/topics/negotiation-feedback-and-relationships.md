@@ -24,10 +24,15 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[difficult-conversations]]: Difficult Conversations
 - [[getting-to-yes]]: Getting to Yes
 - [[how-to-work-with-almost-anyone]]: How to Work with (Almost) Anyone
+- [[influence]]: Influence
 - [[listen-like-you-mean-it]]: Listen Like You Mean It
 - [[team-of-rivals]]: Team of Rivals
 - [[thanks-for-the-feedback]]: Thanks for the Feedback
 - [[the-power-of-a-positive-no]]: The Power of a Positive No
+
+## Essays
+
+- [[leading-cross-functional-teams]]: How PMs lead teams they have no authority over.
 
 ## Concepts
 

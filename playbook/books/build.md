@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Lessons from the creator of the iPod and founder of Nest, including the failures along the way. Ken calls it one of the best books by a product-minded entrepreneur. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Lessons from the creator of the iPod and founder of Nest, including the failures along the way. Ken calls it one of the best books by a product-minded entrepreneur. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

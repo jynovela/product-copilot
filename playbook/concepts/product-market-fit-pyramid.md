@@ -24,7 +24,9 @@ General knowledge: Product-market fit is built from five layers, bottom up: targ
 ## From
 
 - [[the-lean-product-playbook]]
+- [[a-dozen-lessons-on-growth]]
 
 ## Topics
 
 - [[discovery-and-customer-insight]]
+- [[startups-and-business-building]]

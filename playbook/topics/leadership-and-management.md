@@ -30,12 +30,20 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[product-leadership]]: Product Leadership (top pick)
 - [[scaling-people]]: Scaling People
 - [[strong-product-people]]: Strong Product People
+- [[switch]]: Switch
 - [[team-of-rivals]]: Team of Rivals
 - [[the-15-commitments-of-conscious-leadership]]: The 15 Commitments of Conscious Leadership (top pick)
+- [[the-art-of-gathering]]: The Art of Gathering
 - [[the-captain-class]]: The Captain Class
+- [[the-hard-thing-about-hard-things]]: The Hard Thing About Hard Things
+- [[the-infinite-game]]: The Infinite Game
 - [[transformed]]: Transformed
 - [[work-rules]]: Work Rules!
 - [[yes-to-the-mess]]: Yes to the Mess
+
+## Essays
+
+- [[leading-cross-functional-teams]]: How PMs lead teams they have no authority over.
 
 ## Concepts
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-For product leaders coaching PMs and for early-career PMs: the essentials of the job and a plan for growth. (see [[2026-01-07-ken-norton-best-pm-books]])
+- For product leaders coaching PMs and for early-career PMs: the essentials of the job and a plan for growth. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

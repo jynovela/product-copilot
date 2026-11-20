@@ -21,15 +21,25 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[design-as-art]]: Design as Art
 - [[dont-make-me-think]]: Don't Make Me Think
+- [[insight-out]]: Insight Out
+- [[nudge]]: Nudge
 - [[sprint]]: Sprint
 - [[the-design-of-everyday-things]]: The Design of Everyday Things
+- [[the-paradox-of-choice]]: The Paradox of Choice
+
+## Essays
+
+- [[whats-the-atomic-unit-of-your-product]]: Identify the smallest unit of your product, like a tweet or photo, and make it great.
 
 ## Concepts
 
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
+- [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
+- [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
 
 ## Questions to ask about your product
 

@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Listening is a core PM skill. This illustrated, accessible book helps you connect with customers, coworkers and teams. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Listening is a core PM skill. This illustrated, accessible book helps you connect with customers, coworkers and teams. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

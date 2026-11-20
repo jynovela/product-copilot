@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Frederick P. Brooks Jr.
 - **Topics:** [[product-teams-and-operating-model]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-Ken's one computer science pick. Nearly fifty years old and still relevant about mistakes engineering leaders keep making. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Ken's one computer science pick. Nearly fifty years old and still relevant about mistakes engineering leaders keep making. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

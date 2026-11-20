@@ -9,11 +9,11 @@ knowledge_source: model-memory
 
 - **Author:** Andrew S. Grove
 - **Topics:** [[leadership-and-management]], [[decisions-and-data]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], marked as a top pick
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
 
 ## Why it's on the list
 
-It only gets better with age. Grove first introduced OKRs here, and his advice on meetings and 1-on-1s shaped Ken's own writing. (see [[2026-01-07-ken-norton-best-pm-books]])
+- It only gets better with age. Grove first introduced OKRs here, and his advice on meetings and 1-on-1s shaped Ken's own writing. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

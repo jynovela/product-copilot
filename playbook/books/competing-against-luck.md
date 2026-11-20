@@ -13,7 +13,7 @@ knowledge_source: model-memory
 
 ## Why it's on the list
 
-Christensen's answer to the Innovator's Dilemma: Jobs-To-Be-Done. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Christensen's answer to the Innovator's Dilemma: Jobs-To-Be-Done. (see [[2026-01-07-ken-norton-best-pm-books]])
 
 ## Key ideas
 

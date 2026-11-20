@@ -24,6 +24,7 @@ General knowledge: At the start of a working relationship, talk explicitly about
 
 - [[how-to-work-with-almost-anyone]]
 - [[scaling-people]]
+- [[leading-cross-functional-teams]]
 
 ## Topics
 
