@@ -9,12 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Ed Catmull with Amy Wallace
 - **Topics:** [[leadership-and-management]], [[product-teams-and-operating-model]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2025-03-06-ry-sullivan-pm-reading-list]], [[pm-and-ux-books-list]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - Pixar's successes and failures as lessons for leading creative teams, and a practical companion to Ken's 10x Not 10% essay. (see [[2026-01-07-ken-norton-best-pm-books]])
 - Ry Sullivan also lists it, under "Stories about building specific products and businesses". (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The PM and UX books list lists it under "Product discovery and innovation". (see [[pm-and-ux-books-list]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

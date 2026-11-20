@@ -8,7 +8,7 @@ knowledge_source: model-memory
 # Strong Product People: A Complete Guide to Developing Great Product Managers
 
 - **Author:** Petra Wille
-- **Topics:** [[product-teams-and-operating-model]], [[leadership-and-management]]
+- **Topics:** [[product-teams-and-operating-model]], [[leadership-and-management]], [[pm-career-and-skills]]
 - **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
 
 ## Why it's on the list

@@ -27,6 +27,10 @@ General knowledge: An objective says what you want to achieve; two to five key r
 - [[escaping-the-build-trap]]
 - [[high-output-management]]
 - [[scaling-people]]
+- [[measure-what-matters]]
+- [[product-roadmaps-relaunched]]
+- [[the-team-that-managed-itself]]
+- [[radical-focus]]
 
 ## Topics
 

@@ -9,11 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Ben Horowitz
 - **Topics:** [[leadership-and-management]], [[startups-and-business-building]]
-- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]]
+- **On the list:** [[2025-03-06-ry-sullivan-pm-reading-list]], [[2026-11-20-visual-guide-pm-books]], [[pm-and-ux-books-list]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - Ry Sullivan lists it under "Business decisions and finance". His list gives no note for each book. (see [[2025-03-06-ry-sullivan-pm-reading-list]])
+- The visual PM book guide lists it under "Want to become an executive?". (see [[2026-11-20-visual-guide-pm-books]])
+- The PM and UX books list lists it under "Strategy and leadership". (see [[pm-and-ux-books-list]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

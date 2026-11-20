@@ -26,6 +26,8 @@ General knowledge: Incumbents improve products for their best customers (sustain
 - [[competing-against-luck]]
 - [[the-innovators-dilemma]]
 - [[loonshots]]
+- [[competing-in-the-age-of-ai]]
+- [[why-the-heck-cant-we-change-our-product]]
 
 ## Topics
 

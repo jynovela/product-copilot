@@ -25,6 +25,7 @@ General knowledge: System 1 is fast and automatic; System 2 is slow and effortfu
 
 - [[thinking-fast-and-slow]]
 - [[predictably-irrational]]
+- [[100-things-every-designer-needs-to-know-about-people]]
 
 ## Topics
 

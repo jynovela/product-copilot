@@ -26,6 +26,7 @@ General knowledge: Over five days a small team maps the problem and picks a targ
 - [[click]]
 - [[inspired]]
 - [[sprint]]
+- [[pencil-me-in]]
 
 ## Topics
 

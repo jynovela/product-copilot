@@ -29,7 +29,11 @@ General knowledge: Feature teams build what stakeholders ask for and are measure
 - [[transformed]]
 - [[work-rules]]
 - [[yes-to-the-mess]]
+- [[team-of-teams]]
+- [[extreme-ownership]]
+- [[the-team-that-managed-itself]]
 - [[leading-cross-functional-teams]]
+- [[product-management-start-here]]
 
 ## Topics
 

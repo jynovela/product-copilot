@@ -25,6 +25,7 @@ General knowledge: Cialdini's principles describe mental shortcuts that make peo
 
 - [[influence]]
 - [[alchemy]]
+- [[freakonomics]]
 
 ## Topics
 

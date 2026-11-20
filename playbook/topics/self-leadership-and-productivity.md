@@ -23,12 +23,15 @@ General knowledge: a synthesis of the books below, from model memory.
 
 - [[atomic-habits]]: Atomic Habits
 - [[chatter]]: Chatter
+- [[dare-to-lead]]: Dare to Lead
 - [[getting-things-done]]: Getting Things Done
 - [[immunity-to-change]]: Immunity to Change
 - [[mastering-leadership]]: Mastering Leadership
 - [[range]]: Range
 - [[switch]]: Switch
 - [[the-15-commitments-of-conscious-leadership]]: The 15 Commitments of Conscious Leadership (top pick)
+- [[the-art-of-doing-science-and-engineering]]: The Art of Doing Science and Engineering
+- [[the-effective-executive]]: The Effective Executive
 
 ## Concepts
 

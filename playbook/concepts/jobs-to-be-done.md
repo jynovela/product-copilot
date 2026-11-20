@@ -27,6 +27,11 @@ General knowledge: Customers don't buy products; they hire them to get a job don
 - [[build]]
 - [[competing-against-luck]]
 - [[listen-like-you-mean-it]]
+- [[obviously-awesome]]
+- [[badass-making-users-awesome]]
+- [[building-products-for-the-enterprise]]
+- [[value-proposition-design]]
+- [[interviewing-users]]
 - [[we-dont-sell-saddles-here]]
 - [[invisible-asymptotes]]
 

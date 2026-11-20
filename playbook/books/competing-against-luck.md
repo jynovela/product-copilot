@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Clayton Christensen, Taddy Hall, Karen Dillon and David Duncan
 - **Topics:** [[discovery-and-customer-insight]], [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2021-04-26-jens-fabian-goetzmann-aspiring-pm-reading-list]]
 
 ## Why it's on the list
 
 - Christensen's answer to the Innovator's Dilemma: Jobs-To-Be-Done. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Jens-Fabian Goetzmann's list lists it under "Books". Recommended over The Innovator's Dilemma as more actionable. (see [[2021-04-26-jens-fabian-goetzmann-aspiring-pm-reading-list]])
 
 ## Key ideas
 

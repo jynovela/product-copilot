@@ -23,6 +23,9 @@ General knowledge: When a company focuses on output (shipping features) rather t
 ## From
 
 - [[escaping-the-build-trap]]
+- [[product-roadmaps-relaunched]]
+- [[lean-vs-agile-vs-design-thinking]]
+- [[lean-ux]]
 
 ## Topics
 

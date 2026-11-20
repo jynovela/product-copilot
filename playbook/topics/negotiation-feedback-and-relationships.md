@@ -26,9 +26,12 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[how-to-work-with-almost-anyone]]: How to Work with (Almost) Anyone
 - [[influence]]: Influence
 - [[listen-like-you-mean-it]]: Listen Like You Mean It
+- [[never-split-the-difference]]: Never Split the Difference
+- [[radical-candor]]: Radical Candor
 - [[team-of-rivals]]: Team of Rivals
 - [[thanks-for-the-feedback]]: Thanks for the Feedback
 - [[the-power-of-a-positive-no]]: The Power of a Positive No
+- [[the-secrets-of-consulting]]: The Secrets of Consulting
 
 ## Essays
 
@@ -41,6 +44,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
 - [[keystone-conversation]]: A deliberate conversation at the start of a working relationship about how you'll work together.
+- [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
+- [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
 
 ## Questions to ask about your product
 

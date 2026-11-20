@@ -27,6 +27,7 @@ General knowledge: Outcomes mix decision quality and luck. Resulting means calli
 - [[in-the-plex]]
 - [[team-of-rivals]]
 - [[thinking-in-bets]]
+- [[the-psychology-of-money]]
 
 ## Topics
 

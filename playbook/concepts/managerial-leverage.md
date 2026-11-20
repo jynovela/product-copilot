@@ -24,6 +24,8 @@ General knowledge: A manager's output equals the output of their organization pl
 ## From
 
 - [[high-output-management]]
+- [[the-making-of-a-manager]]
+- [[the-effective-executive]]
 
 ## Topics
 

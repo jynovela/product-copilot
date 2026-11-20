@@ -21,20 +21,27 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[amp-it-up]]: Amp It Up
 - [[build]]: Build
 - [[click]]: Click
 - [[competing-against-luck]]: Competing Against Luck
+- [[competing-in-the-age-of-ai]]: Competing in the Age of AI
 - [[crossing-the-chasm]]: Crossing the Chasm
 - [[empowered]]: Empowered (top pick)
 - [[escaping-the-build-trap]]: Escaping the Build Trap
+- [[good-strategy-bad-strategy]]: Good Strategy Bad Strategy
 - [[insight-out]]: Insight Out
 - [[loonshots]]: Loonshots
 - [[obvious-adams]]: Obvious Adams
 - [[on-grand-strategy]]: On Grand Strategy
+- [[product-roadmaps-relaunched]]: Product Roadmaps Relaunched
 - [[range]]: Range
+- [[strategize]]: Strategize
 - [[the-infinite-game]]: The Infinite Game
 - [[the-innovators-dilemma]]: The Innovator's Dilemma (top pick)
 - [[the-lean-product-playbook]]: The Lean Product Playbook
+- [[understanding-michael-porter]]: Understanding Michael Porter
+- [[value-proposition-design]]: Value Proposition Design
 - [[zero-to-one]]: Zero to One
 
 ## Essays
@@ -44,6 +51,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[keep-the-consumer-dissatisfied]]: A 1929 essay arguing that constant product improvement drives progress and demand.
 - [[we-dont-sell-saddles-here]]: Sell the outcome customers want, not the product: Slack sells better teamwork, not chat.
 - [[whats-the-atomic-unit-of-your-product]]: Identify the smallest unit of your product, like a tweet or photo, and make it great.
+- [[why-the-heck-cant-we-change-our-product]]: The tension between changing a product and not disrupting existing users.
 
 ## Concepts
 
@@ -54,6 +62,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
+- [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
+- [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
 
 ## Questions to ask about your product
 

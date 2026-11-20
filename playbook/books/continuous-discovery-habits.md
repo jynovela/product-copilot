@@ -9,11 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Teresa Torres
 - **Topics:** [[discovery-and-customer-insight]], [[product-teams-and-operating-model]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]] (Ken Norton top pick)
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2026-11-20-visual-guide-pm-books]], [[2024-amplitude-22-pm-books]], [[top-pm-books-newsletters-podcasts]] (Ken Norton top pick)
 
 ## Why it's on the list
 
 - Torres is among the best at helping teams build what customers want. The book shows how to turn product work into continuous discovery and learning. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The visual PM book guide lists it under "Start here: fundamentals". (see [[2026-11-20-visual-guide-pm-books]])
+- Amplitude's list lists it under "Practical tools and techniques". (see [[2024-amplitude-22-pm-books]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 

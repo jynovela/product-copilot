@@ -27,6 +27,8 @@ General knowledge: A recurring meeting where the report sets the agenda and the 
 - [[high-output-management]]
 - [[scaling-people]]
 - [[strong-product-people]]
+- [[the-making-of-a-manager]]
+- [[measure-what-matters]]
 
 ## Topics
 

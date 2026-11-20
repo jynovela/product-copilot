@@ -9,11 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Jake Knapp, John Zeratsky and Braden Kowitz
 - **Topics:** [[discovery-and-customer-insight]], [[design-and-usability]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2024-amplitude-22-pm-books]], [[pm-and-ux-books-list]], [[recommended-reading-for-product-owners]]
 
 ## Why it's on the list
 
 - From Ken's former GV partners: how to cut through noise, pick a problem and test a solution in one week. (see [[2026-01-07-ken-norton-best-pm-books]])
+- Amplitude's list lists it under "Practical tools and techniques". (see [[2024-amplitude-22-pm-books]])
+- The PM and UX books list lists it under "Product discovery and innovation". (see [[pm-and-ux-books-list]])
+- The product owner reading list lists it under "Recommended reading". (see [[recommended-reading-for-product-owners]])
 
 ## Key ideas
 

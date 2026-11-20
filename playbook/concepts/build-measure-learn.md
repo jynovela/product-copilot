@@ -25,6 +25,13 @@ General knowledge: The Lean Startup loop: turn ideas into the smallest product t
 ## From
 
 - [[the-lean-startup]]
+- [[game-thinking]]
+- [[value-proposition-design]]
+- [[lean-vs-agile-vs-design-thinking]]
+- [[designing-with-data]]
+- [[lean-ux]]
+- [[the-lean-entrepreneur]]
+- [[do-things-that-dont-scale]]
 
 ## Topics
 

@@ -9,11 +9,12 @@ knowledge_source: model-memory
 
 - **Author:** Daniel Kahneman
 - **Topics:** [[decisions-and-data]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[pm-and-ux-books-list]]
 
 ## Why it's on the list
 
 - When does the fast, instinctive brain decide before the analytical one weighs in? One of the most important psychology books ever written. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The PM and UX books list lists it under "Product discovery and innovation". (see [[pm-and-ux-books-list]])
 
 ## Key ideas
 

@@ -21,10 +21,22 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Books
 
+- [[are-your-lights-on]]: Are Your Lights On? How to Figure Out What the Problem Really Is
+- [[competing-on-analytics]]: Competing on Analytics
+- [[decisive]]: Decisive
+- [[designing-with-data]]: Designing with Data
+- [[envisioning-information]]: Envisioning Information
+- [[freakonomics]]: Freakonomics
 - [[high-output-management]]: High Output Management (top pick)
 - [[how-to-lie-with-statistics]]: How to Lie with Statistics
 - [[intuition-pumps-and-other-tools-for-thinking]]: Intuition Pumps and Other Tools for Thinking
+- [[measure-what-matters]]: Measure What Matters
 - [[predictably-irrational]]: Predictably Irrational
+- [[product-analytics-for-dummies]]: Product Analytics for Dummies
+- [[radical-focus]]: Radical Focus
+- [[the-goal]]: The Goal
+- [[the-insights-driven-product-manager]]: The Insights Driven Product Manager
+- [[the-psychology-of-money]]: The Psychology of Money
 - [[thinking-fast-and-slow]]: Thinking, Fast and Slow
 - [[thinking-in-bets]]: Thinking in Bets
 
@@ -35,6 +47,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
+- [[wrap-decision-process]]: Widen options, Reality-test assumptions, Attain distance, Prepare to be wrong.
+- [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 
 ## Questions to ask about your product
 

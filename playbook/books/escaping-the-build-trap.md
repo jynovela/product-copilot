@@ -9,11 +9,14 @@ knowledge_source: model-memory
 
 - **Author:** Melissa Perri
 - **Topics:** [[product-teams-and-operating-model]], [[strategy-and-innovation]]
-- **On the list:** [[2026-01-07-ken-norton-best-pm-books]]
+- **On the list:** [[2026-01-07-ken-norton-best-pm-books]], [[2026-11-20-visual-guide-pm-books]], [[2024-amplitude-22-pm-books]], [[top-pm-books-newsletters-podcasts]]
 
 ## Why it's on the list
 
 - How solid product management helps companies solve real customer problems and hit business goals, and how to build a product culture that serves both. (see [[2026-01-07-ken-norton-best-pm-books]])
+- The visual PM book guide lists it under "Want to improve your company's culture?". (see [[2026-11-20-visual-guide-pm-books]])
+- Amplitude's list lists it under "Foundations". (see [[2024-amplitude-22-pm-books]])
+- The books, newsletters and podcasts page lists it under "Books". (see [[top-pm-books-newsletters-podcasts]])
 
 ## Key ideas
 
