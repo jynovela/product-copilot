@@ -1,7 +1,7 @@
 ---
 type: topic
 summary: Technical fluency for PMs, from how software works to AI's impact on products and strategy.
-updated: 2026-11-20
+updated: 2026-11-21
 knowledge_source: model-memory
 ---
 
@@ -30,7 +30,8 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Concepts
 
-None yet.
+- [[technical-product-manager]]: A PM on a technically complex product who works closer to engineering on architecture, APIs and trade-offs.
+- [[ai-product-manager]]: A PM for products or features built on machine learning or LLMs, who manages uncertain model behavior, data and ethics.
 
 ## Questions to ask about your product
 

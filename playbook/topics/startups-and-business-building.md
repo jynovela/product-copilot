@@ -1,7 +1,7 @@
 ---
 type: topic
 summary: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
-updated: 2026-11-20
+updated: 2026-11-21
 knowledge_source: model-memory
 ---
 
@@ -44,6 +44,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 - [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
+- [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
 
 ## Questions to ask about your product
 

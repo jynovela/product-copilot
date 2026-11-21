@@ -1,7 +1,7 @@
 ---
 type: topic
 summary: How customers perceive the product, which segment to win first, and how to message it.
-updated: 2026-11-20
+updated: 2026-11-21
 knowledge_source: model-memory
 ---
 
@@ -41,6 +41,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
+- [[enterprise-vs-consumer-pm]]: How the PM job changes when you sell to businesses (buyers differ from users, long sales cycles) or to individuals (scale, engagement).
+- [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 
 ## Questions to ask about your product
 

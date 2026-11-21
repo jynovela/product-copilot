@@ -51,3 +51,26 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Created [[2025-07-04-contentsquare-prioritization-frameworks]].
 - Created [[2026-04-22-hellopm-first-principles]].
 - Added 32 concept pages and the [[product-frameworks]] topic. Updated 12 existing concepts with article claims, contradictions and links. Content is from model memory plus paraphrased article claims; articles are treated as vendor sources.
+
+## [2026-11-21] ingest | Types of PMs summary and 18 articles on PM roles
+
+- Created [[2026-11-21-juan-types-of-pms-summary]].
+- Created [[stanford-online-types-of-pm-roles]].
+- Created [[2024-04-03-product-school-18-types-of-pms]].
+- Created [[aha-different-types-of-product-managers]].
+- Created [[2026-06-25-recruiting-from-scratch-pm-job-titles]].
+- Created [[agilemania-types-of-product-managers]].
+- Created [[product-faculty-types-of-product-managers]].
+- Created [[online-school-types-of-product-manager]].
+- Created [[2024-04-15-hellopm-types-of-product-managers]].
+- Created [[2025-03-25-prodpad-12-types-of-pms]].
+- Created [[2026-02-22-creately-15-types-of-pms]].
+- Created [[2023-01-23-ally-mexicotte-types-of-pms]].
+- Created [[2022-08-31-tiwatayo-kunle-types-of-pms]].
+- Created [[2024-03-16-justanotherpm-5-types-of-pms]].
+- Created [[2024-03-05-adam-fishman-pm-archetypes]].
+- Created [[2021-07-29-lilia-gorbachik-pm-types]].
+- Created [[2024-10-01-logrocket-types-of-pm-roles]].
+- Created [[pragmatic-institute-pm-job-titles]].
+- Created [[2025-03-05-specialist-pm-jobs-overview]].
+- Added 13 concept pages and the [[types-of-product-managers]] topic, and listed the new concepts on 7 existing topic pages. Salary and compensation content was left out at the user's request. Articles are treated as vendor or practitioner sources; conflicts are recorded in Contradictions sections.

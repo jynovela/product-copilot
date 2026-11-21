@@ -23,6 +23,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[startups-and-business-building]]: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
 - [[strategy-and-innovation]]: Deciding where to play and how to win, and how markets and incumbents get disrupted.
 - [[technology-and-ai]]: Technical fluency for PMs, from how software works to AI's impact on products and strategy.
+- [[types-of-product-managers]]: The kinds of PM roles (by level, technical depth, customer, goal and person), the roles next to PM, and where sources disagree.
 - [[user-psychology-and-behavior]]: Why people choose, buy, adopt and keep using things, and how design and framing steer them.
 
 ## Concepts
@@ -30,6 +31,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
 - [[agile-and-scrum]]: Deliver in short iterations with feedback; Scrum is the most common way to run it.
+- [[ai-product-manager]]: A PM for products or features built on machine learning or LLMs, who manages uncertain model behavior, data and ethics.
 - [[ansoff-matrix]]: Four growth options: sell more to current markets, new products, new markets, or both new.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
 - [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
@@ -46,6 +48,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
 - [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
+- [[data-product-manager]]: A PM for data as a product: pipelines, analytics, data platforms, or features built on data. Sources define it very differently.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
 - [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.
 - [[disruptive-innovation]]: Simpler, cheaper products start in overlooked markets and move up to displace incumbents.
@@ -54,6 +57,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
 - [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
+- [[enterprise-vs-consumer-pm]]: How the PM job changes when you sell to businesses (buyers differ from users, long sales cycles) or to individuals (scale, engagement).
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
 - [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
@@ -62,8 +66,10 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
+- [[generalist-vs-specialist-pm]]: Whether a PM should cover the whole job or specialize (growth, technical, data, AI), and when each pays off.
 - [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
 - [[golden-circle]]: Communicate why, then how, then what.
+- [[growth-product-manager]]: A PM who owns a business metric such as activation, retention or revenue and moves it through experiments.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
@@ -89,13 +95,19 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
 - [[ownership-mindset]]: Leaders own every outcome in their world, including failures.
 - [[persuasion-principles]]: Reciprocity, commitment, social proof, liking, authority, scarcity and unity: why people say yes.
+- [[platform-product-manager]]: A PM whose customers are other teams or developers: shared services, internal tools, APIs and infrastructure.
+- [[pm-archetypes]]: Person-based patterns of PM strengths (growth, UX-inclined, technician, white-spacer and others) used to match people to work.
+- [[pm-career-ladder]]: The levels of a PM career, from associate PM to CPO, and the split between the people-manager and individual-contributor tracks.
 - [[positioning-in-the-mind]]: Owning a clear, distinct place in the customer's mind relative to alternatives.
 - [[positive-no]]: Yes! No. Yes?: protect your interests, say no clearly, offer an alternative.
 - [[premortem]]: Imagine the project failed, then explain why, before you start.
 - [[principled-negotiation]]: Negotiate on interests, invent options, use objective criteria, and know your best alternative.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
+- [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
+- [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
+- [[product-owner-vs-product-manager]]: The Scrum product owner manages the team's backlog; a product manager owns the product's outcome. Sometimes one person, sometimes two roles.
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
 - [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
 - [[reactive-vs-creative-leadership]]: Leading from fear and defensiveness versus from purpose, curiosity and responsibility.
@@ -111,9 +123,11 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
+- [[technical-product-manager]]: A PM on a technically complex product who works closer to engineering on architecture, APIs and trade-offs.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
+- [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
 - [[value-vs-effort-matrix]]: A 2x2 of value against effort to spot quick wins and drop low-value, high-effort work.
 - [[weighted-scoring]]: Score each idea against several weighted criteria, such as revenue, strategic fit and effort, and rank by total.

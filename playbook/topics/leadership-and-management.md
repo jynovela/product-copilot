@@ -1,7 +1,7 @@
 ---
 type: topic
 summary: Managing people and teams, building culture, and leading as a product leader.
-updated: 2026-11-20
+updated: 2026-11-21
 knowledge_source: model-memory
 ---
 
@@ -77,6 +77,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[golden-circle]]: Communicate why, then how, then what.
 - [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
 - [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
+- [[pm-career-ladder]]: The levels of a PM career, from associate PM to CPO, and the split between the people-manager and individual-contributor tracks.
+- [[pm-archetypes]]: Person-based patterns of PM strengths (growth, UX-inclined, technician, white-spacer and others) used to match people to work.
 
 ## Questions to ask about your product
 
