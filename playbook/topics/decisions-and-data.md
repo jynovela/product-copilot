@@ -49,6 +49,20 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
 - [[wrap-decision-process]]: Widen options, Reality-test assumptions, Attain distance, Prepare to be wrong.
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
+- [[five-whys]]: Ask why a problem happened, then why that happened, about five times, to reach a root cause.
+- [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
+- [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
+- [[rice-scoring]]: Score ideas by reach x impact x confidence / effort to rank them against one goal.
+- [[ice-scoring]]: A quick score of impact, confidence and ease for ranking growth experiments.
+- [[value-vs-effort-matrix]]: A 2x2 of value against effort to spot quick wins and drop low-value, high-effort work.
+- [[weighted-scoring]]: Score each idea against several weighted criteria, such as revenue, strategic fit and effort, and rank by total.
+- [[kano-model]]: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
+- [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
+- [[cost-of-delay]]: Put a value on what each week of waiting costs, and use it to order work.
+- [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
+- [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
+- [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
+- [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
 
 ## Questions to ask about your product
 

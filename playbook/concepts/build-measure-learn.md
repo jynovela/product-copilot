@@ -22,6 +22,21 @@ General knowledge: The Lean Startup loop: turn ideas into the smallest product t
 - Calling an unfinished product an MVP without a hypothesis.
 - Vanity metrics.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- Core components are the Build-Measure-Learn cycle, the MVP and validated learning; example: Dropbox's explainer video. (see [[2024-09-09-product-school-8-pm-frameworks]])
+- Lean means build an MVP fast, minimize waste and learn quickly; best for startups and rapid validation. (see [[product-development-process-guide]])
+- Uses Build-Measure-Learn and MVPs to test risky assumptions quickly. (see [[2026-11-20-juan-pm-frameworks-list]])
+- Five whys and first principles are ways to find the real problem before building the MVP. (see [[2026-04-22-hellopm-first-principles]])
+
+## Pairs well with
+
+- [[minimum-viable-product]]: what you build in the loop
+- [[aarrr-pirate-metrics]]: what you measure
+- [[five-whys]]: Ries's tool for learning from failures
+
 ## From
 
 - [[the-lean-startup]]
@@ -37,3 +52,4 @@ General knowledge: The Lean Startup loop: turn ideas into the smallest product t
 
 - [[discovery-and-customer-insight]]
 - [[startups-and-business-building]]
+- [[product-frameworks]]

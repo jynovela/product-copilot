@@ -59,6 +59,14 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
+- [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.
+- [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
+- [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
+- [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
+- [[kano-model]]: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
+- [[buy-a-feature]]: A game where customers spend play money on priced features, showing what they value most.
+- [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
+- [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
 
 ## Questions to ask about your product
 

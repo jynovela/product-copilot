@@ -59,6 +59,13 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
+- [[rice-scoring]]: Score ideas by reach x impact x confidence / effort to rank them against one goal.
+- [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
+- [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
+- [[agile-and-scrum]]: Deliver in short iterations with feedback; Scrum is the most common way to run it.
+- [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
+- [[stage-gate]]: Split development into stages with go/kill decision gates between them, to control risk on costly products.
+- [[spotify-model]]: Spotify's 2012 picture of autonomous squads grouped into tribes, with chapters and guilds across them.
 
 ## Questions to ask about your product
 

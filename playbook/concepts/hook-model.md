@@ -20,6 +20,16 @@ General knowledge: Nir Eyal's four-step loop: a trigger (external, then internal
 
 - Engagement that users later regret.
 
+## What the framework articles say
+
+These are vendor and practitioner articles, not neutral sources.
+
+- From Nir Eyal's 2014 book Hooked; four stages: trigger, action, reward, investment. (see [[neal-cabage-21-pm-frameworks]])
+
+## Pairs well with
+
+- [[fogg-behavior-model]]: the basis of the trigger and action steps
+
 ## From
 
 - [[hooked]]
@@ -27,3 +37,4 @@ General knowledge: Nir Eyal's four-step loop: a trigger (external, then internal
 ## Topics
 
 - [[user-psychology-and-behavior]]
+- [[product-frameworks]]

@@ -40,6 +40,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[positioning-in-the-mind]]: Owning a clear, distinct place in the customer's mind relative to alternatives.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
+- [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 
 ## Questions to ask about your product
 

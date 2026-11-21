@@ -64,6 +64,11 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
 - [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
+- [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
+- [[swot-analysis]]: List strengths, weaknesses, opportunities and threats to assess a move.
+- [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
+- [[ansoff-matrix]]: Four growth options: sell more to current markets, new products, new markets, or both new.
+- [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 
 ## Questions to ask about your product
 
