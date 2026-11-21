@@ -20,6 +20,25 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Sources
 
+- [[2026-11-21-juan-types-of-pms-summary]]: The user's two-part summary of PM types, by skill focus and by product or customer type, with links to the articles below.
+- [[stanford-online-types-of-pm-roles]]: Stanford Online's seven ways to slice PM roles (Upadhyay) and Alex Mitchell's five PM archetypes.
+- [[2024-04-03-product-school-18-types-of-pms]]: Product School's list of 18 PM titles from associate PM to CPO, mixing specializations and seniority levels.
+- [[aha-different-types-of-product-managers]]: Aha!'s table of PM roles by area, not level: PM, product owner, product ops, growth, technical, platform, UX, enterprise, internal and startup PMs.
+- [[2026-06-25-recruiting-from-scratch-pm-job-titles]]: A recruiting agency's guide to technical, growth, data and product marketing roles, from its work with seed to Series C startups.
+- [[agilemania-types-of-product-managers]]: Agilemania's seven PM types: technical, growth, platform, consumer, enterprise, data and product marketing.
+- [[product-faculty-types-of-product-managers]]: Product Faculty's PM types in technical, business and design groups, with strengths, weaknesses and seniority levels.
+- [[online-school-types-of-product-manager]]: An online course chapter on how product context changes the PM job: early vs mature, B2C vs B2B, mobile vs desktop, shipped vs live software, technical depth.
+- [[2024-04-15-hellopm-types-of-product-managers]]: HelloPM's tour of product analyst, APM, PM and five specialist types (generalist, technical, data-driven, growth, AI/ML, UX), each with a company example.
+- [[2025-03-25-prodpad-12-types-of-pms]]: ProdPad's 12 PM types, which excludes product owner, product ops, PMM and product strategist as adjacent roles, and argues every good PM is all types at once.
+- [[2026-02-22-creately-15-types-of-pms]]: Creately's 15 PM types with responsibilities, skills and examples, plus emerging roles (AI/ML, sustainability, Web3).
+- [[2023-01-23-ally-mexicotte-types-of-pms]]: A practitioner's eight PM types (0 to 1, growth, platform, enterprise, consumer, technical, PMM, product ops) with key skills and other job titles.
+- [[2022-08-31-tiwatayo-kunle-types-of-pms]]: A bootcamp blog's seven PM types: technical, design, growth, startup, product marketing, data and software/hardware.
+- [[2024-03-16-justanotherpm-5-types-of-pms]]: JustAnotherPM's five PM types (technical, growth, AI, platform, enterprise) with company examples, plus FAQs on levels.
+- [[2024-03-05-adam-fishman-pm-archetypes]]: Adam Fishman's seven PM archetypes (growth, UX-inclined, internal, general manager, optimizer, technician, white-spacer), matched to four types of product work.
+- [[2021-07-29-lilia-gorbachik-pm-types]]: A practitioner's PM types by product (technical, API, UX, hardware, AI) and by company stage (startup, growth, enterprise).
+- [[2024-10-01-logrocket-types-of-pm-roles]]: LogRocket's eight common PM types and three company examples, with advice to start as a generalist and specialize later.
+- [[pragmatic-institute-pm-job-titles]]: Pragmatic Institute's PM titles by career stage: PM, APM, TPM, senior PM, product owner, then lead, principal, group, director, VP and CPO.
+- [[2025-03-05-specialist-pm-jobs-overview]]: A coaching platform's specialist PM jobs in technical, business and design groups, from TPM to visionary PM.
 - [[2026-11-20-juan-pm-frameworks-list]]: The user's list of 16 PM frameworks in four groups, with links to the articles it drew on.
 - [[product-development-process-guide]]: A work-management vendor's guide to a six-stage product development process, plus Agile, Stage-Gate and Lean.
 - [[2024-09-09-product-school-8-pm-frameworks]]: Product School's tour of 8 frameworks with company examples: Lean Startup, Agile, CIRCLES, JTBD, Design Thinking, Double Diamond, Product Life Cycle, Stage-Gate.
