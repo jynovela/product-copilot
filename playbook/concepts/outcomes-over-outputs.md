@@ -24,6 +24,21 @@ An outcome is a change in human behaviour that creates impact; an output is an a
 - Most vendor example OKRs break their own outcome rule ("Hire 5 salespeople", "Launch 12 new features"); don't copy them. (see [[2026-11-24-research-digest-goals]])
 - Use percentiles where slow tails cause churn: an average of 4 days hid a 13-day 80th percentile in the LedgerPulse example. (see [[2026-11-24-research-digest-goals]])
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- Feature launches, specs, backlogs and smooth execution are outputs.
+  They don't create value by themselves (Build Trap ch1).
+- Features shipped and story points are productivity metrics, not product
+  metrics, because they can't tie development back to the business (ch16).
+- A feature is done when it reaches its goal, not when it ships (ch19).
+- Reward people for outcomes, learning about users and finding good
+  opportunities (ch21). Leaders who still count features shipped undo the
+  change (ch20).
+- Goals should be outcome-oriented, actionable and clearly communicated
+  throughout the company (Build Trap appendix). See [[build-trap]].
+
 ## Contradictions
 
 - Strict: key results must be outcomes (Google's rules, Perdoo, airfocus, WorkBoard). Pragmatic: launch or output key results are fine sometimes, such as with no baseline or when starting out (Herbig, Digit's "ship KRs" with counter-metrics, Productboard citing Doerr, Murphy's milestone key results). Google's own re:Work page lists "ship feature Y" as a good endpoint. (see [[2026-11-24-research-digest-goals]])
@@ -38,8 +53,13 @@ An outcome is a change in human behaviour that creates impact; an output is an a
 
 Inference: these books cover the same job; the framework itself may not appear in them.
 
-- [[escaping-the-build-trap]]
 - [[radical-focus]]
+
+Ingested:
+
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 

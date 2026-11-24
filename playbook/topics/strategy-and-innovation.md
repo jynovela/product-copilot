@@ -59,7 +59,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
 - [[integrating-around-the-job]]: Processes, metrics and decisions organized around the customer's job.
 - [[innovation-data-fallacies]]: Active data, surface growth and conforming data pull firms off the job.
-- [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[build-trap]]: spot the build trap, diagnose it with Perri's six questions, and fix goals, rewards and budgets
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
@@ -80,6 +80,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[tam-sam-som]]: Market sizing, built bottom-up.
 - [[balanced-scorecard]]: Four perspectives on strategy execution.
 - [[value-proposition-grid]]: where you will win against competitors, now and later
+- [[strategy-deployment]]: vision to strategic intents to initiatives to options; the three strategic gaps
 
 ## What the research digest adds
 

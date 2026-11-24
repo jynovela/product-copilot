@@ -23,6 +23,17 @@ Leading indicators predict and can be moved now; lagging indicators confirm resu
 - Most metrics are lagging, and lagging ones are the easiest to collect (NetSuite). (see [[2026-11-24-research-digest-metrics]])
 - A leading metric only helps if it really drives the lagging one; check the link and refresh it (12 Characteristics). (see [[2026-11-24-research-digest-metrics]])
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- Retention is lagging: months pass before you know whether people
+  stayed. Track leading indicators such as activation, happiness and
+  engagement to see whether you are on the way (Build Trap ch16).
+- Perri pairs [[aarrr-pirate-metrics]] with [[heart-framework]] for this.
+  HEART's adoption is close to Pirate activation, and retention means the
+  same in both (ch16).
+
 ## Pairs well with
 
 - [[metric-tree]]: shows which leading metrics drive which lagging ones
@@ -34,6 +45,12 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[measure-what-matters]]
 - [[radical-focus]]
+
+Ingested:
+
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 

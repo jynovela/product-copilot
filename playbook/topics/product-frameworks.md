@@ -44,6 +44,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
 - [[circles-method]]: A structure for product design interview answers.
 - [[mvp-test-matrix]]: Choose how to test an MVP from a 2x2 of product versus marketing and qualitative versus quantitative tests, from five-second tests and landing pages to clickable mockups, concierge MVPs and fake doors.
+- [[product-kata]]: Reach an outcome goal with Perri's Product Kata: six questions from goal to learning, then problem exploration, build-to-learn solution experiments with a pass-or-fail ask, and building until the goal is met.
 
 ### Prioritize and scope
 
@@ -73,6 +74,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
 - [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
 - [[value-proposition-grid]]: A table of must-haves, performance benefits and delighters scored for you and each competitor, now and later, that states where you'll win and what you'll leave alone.
+- [[strategy-deployment]]: Turn company strategy into direction teams can act on: close Perri's knowledge, alignment and effects gaps by cascading vision, strategic intents, product initiatives and options, reviewed on a fixed cadence.
 
 ### Measure
 

@@ -1,8 +1,8 @@
 ---
 type: concept
 summary: The levels of a PM career, from associate PM to CPO, and the split between the people-manager and individual-contributor tracks.
-updated: 2026-11-21
-knowledge_source: model-memory
+updated: 2026-11-24
+knowledge_source: ingested
 ---
 
 # PM career ladder
@@ -36,6 +36,37 @@ These are vendor, training-company, recruiter and practitioner articles, not neu
 - Types are not seniority levels; levels include junior PM, senior PM, product lead, group PM and VP Product. (see [[2022-08-31-tiwatayo-kunle-types-of-pms]])
 - A product analyst tracks usage data; an APM assists PMs; a PM owns a product or major feature and leads by influence. (see [[2024-04-15-hellopm-types-of-product-managers]])
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- Perri sorts PM work into three kinds, and each level needs a different
+  mix (Build Trap ch8):
+  - **Tactical:** shipping features, breaking down work, coordinating with
+    design and engineering, crunching data to pick next steps.
+  - **Strategic:** positioning the product, winning the market, meeting
+    goals, charting the future.
+  - **Operational:** a roadmap linking today to the future state, aligning
+    teams, working with developers, measuring results.
+- Her levels (ch8):
+  - **APM:** individual contributor, often new or switching careers. Needs
+    a formal mentor. Hire for willingness to learn.
+  - **PM:** individual contributor close to design and engineering, mostly
+    tactical and operational work on delivery. Being 100% operational is a
+    trap.
+  - **Senior PM:** individual contributor with harder problems and wider
+    scope, balancing strategic and operational work. Suits zero-to-one
+    products.
+  - **Director:** first people-manager level. Owns strategic alignment,
+    operational efficiency and a 12-month strategic roadmap.
+  - **VP:** manages people and owns strategy and operations for a product
+    line; turns company goals into product goals. Mostly strategic.
+  - **CPO:** owns the whole portfolio, aligns products to company goals and
+    works at board level.
+- Staff teams by need: balance senior and junior PMs across tactical,
+  strategic and operational work (ch9). Bring in senior product people to
+  train junior ones (ch25).
+
 ## Contradictions
 
 - Does a senior PM manage people? Product School says a senior PM manages a group of products, can oversee other PMs and recruits (see [[2024-04-03-product-school-18-types-of-pms]]). Pragmatic Institute describes senior PMs by project complexity, and ProdPad puts people management at the group PM level (see [[pragmatic-institute-pm-job-titles]], [[2025-03-25-prodpad-12-types-of-pms]]). General knowledge: at most tech companies, senior PM is an individual-contributor level.
@@ -43,6 +74,9 @@ These are vendor, training-company, recruiter and practitioner articles, not neu
 - Lead vs group PM: Product School says group PM is a step above lead PM (see [[2024-04-03-product-school-18-types-of-pms]]); Pragmatic Institute says lead PMs often oversee multiple PMs, which is what group PMs do elsewhere (see [[pragmatic-institute-pm-job-titles]]). LogRocket puts staff and lead at the same level (see [[2024-10-01-logrocket-types-of-pm-roles]]).
 - Product School describes a product lead as delivering new products on time and within budget (see [[2024-04-03-product-school-18-types-of-pms]]). General knowledge: that is project-management language; most companies use product lead for a senior PM or team lead.
 - Product Faculty gives the same experience range (3 to 5 years) for senior PM, product lead and group PM, and the same (at least 5) for director and VP (see [[product-faculty-types-of-product-managers]]). Treat those numbers as unreliable.
+- Perri treats senior PM as an individual contributor and director as the
+  first people-manager level (Build Trap ch8). Product School says a senior
+  PM may oversee PMs (see [[2024-04-03-product-school-18-types-of-pms]]).
 
 ## Pairs well with
 
@@ -58,6 +92,12 @@ Inference: these books cover related ground; they may not describe this role dir
 - [[the-making-of-a-manager]]
 - [[product-leadership]]
 - [[strong-product-people]]
+
+Ingested:
+
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 

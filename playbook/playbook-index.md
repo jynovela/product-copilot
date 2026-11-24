@@ -43,7 +43,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[braintrust]]: Peers give candid notes on work in progress, without power to mandate changes.
 - [[brooks-law]]: Adding people to a late software project makes it later.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
-- [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[build-trap]]: Spot and escape the build trap, where success is measured by features shipped instead of value created; diagnose it with Perri's six questions and fix goals, rewards, safety and budgets.
 - [[bundling-and-loss-leaders]]: One price for several items, or one item sold at little margin to pull buyers to profitable ones.
 - [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
 - [[buy-a-feature]]: A game where customers spend play money on priced features, showing what they value most.
@@ -166,6 +166,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[problem-awareness-ladder]]: Steve Blank's ladder from latent to urgent problems; how people act on a problem matters more than how much it hurts.
 - [[problem-statement]]: A short, evidence-based description of who has a problem, what it is and why it matters, without naming a solution.
 - [[problem-vs-solution-space]]: Keep customer needs (problem space, the "what") apart from designs and products (solution space, the "how"), and use solution-space feedback to learn about the problem.
+- [[product-kata]]: Reach an outcome goal with Perri's Product Kata: six questions from goal to learning, then problem exploration, build-to-learn solution experiments with a pass-or-fail ask, and building until the goal is met.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 - [[product-market-fit-measures]]: Tell whether you have product-market fit: pick research methods with Rohrer's attitudinal-behavioral grid, then use the Sean Ellis 40 percent test, NPS trends and, above all, the three parameters of the retention curve.
 - [[product-market-fit-pyramid]]: Five layers of product-market fit (target customer, underserved needs, value proposition, feature set, UX), the six-step process that climbs them, and how to iterate or pivot.
@@ -194,6 +195,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
+- [[strategy-deployment]]: Turn company strategy into direction teams can act on: close Perri's knowledge, alignment and effects gaps by cascading vision, strategic intents, product initiatives and options, reviewed on a fixed cadence.
 - [[swot-analysis]]: List strengths, weaknesses, opportunities and threats to assess a move.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
@@ -257,7 +259,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[drive]]: Drive by Daniel H. Pink. Motivation for creative work comes from autonomy, mastery and purpose.
 - [[empowered]]: Empowered by Marty Cagan with Chris Jones (top pick). The sequel to Inspired.
 - [[envisioning-information]]: Envisioning Information by Edward R. Tufte. Displaying complex information clearly.
-- [[escaping-the-build-trap]]: Escaping the Build Trap by Melissa Perri. How solid product management helps companies solve real customer problems and hit business goals, and how to build a product culture that serves both.
+- [[escaping-the-build-trap]]: Escaping the Build Trap by Melissa Perri. Stop measuring success by features shipped: define the PM role, deploy strategy as outcome goals at every level, and run the Product Kata to reach them.
 - [[extreme-ownership]]: Extreme Ownership by Jocko Willink and Leif Babin. Leaders own everything in their world: lessons from Navy SEAL combat.
 - [[freakonomics]]: Freakonomics by Steven D. Levitt and Stephen J. Dubner. Hidden incentives and data that overturn conventional wisdom.
 - [[game-thinking]]: Game Thinking by Amy Jo Kim. Using game design techniques to build engaging products and superfans.

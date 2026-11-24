@@ -21,6 +21,26 @@ Product School's launch sequence: internal alpha (your own team checks basic val
 
 - No source in the batch defines launch tiers or separates deploy, release and launch. (see [[2026-11-24-research-digest-go-to-market]])
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- Perri's roadmap stages (Build Trap ch20):
+  - **Experiment:** problem and solution exploration; no production code.
+  - **Alpha:** production code live for a small set of users who know it
+    may change or be killed. Tests whether customers want it.
+  - **Beta:** wider, but still a subset. Tests technical scalability.
+    Optional. Rarely killed unless it is unstable.
+  - **Generally available:** open to all customers.
+- Splitting users into alpha and beta groups is also how Perri gives teams
+  room to fail safely (ch22).
+
+## Contradictions
+
+- Product School's internal alpha is your own team (see
+  [[2026-11-24-research-digest-go-to-market]]). Perri's alpha is live for a
+  small set of real users (Build Trap ch20).
+
 ## Pairs well with
 
 - [[staged-rollout]]: the engineering version with feature flags
@@ -32,6 +52,12 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[inspired]]
 - [[the-lean-product-playbook]]
+
+Ingested:
+
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 

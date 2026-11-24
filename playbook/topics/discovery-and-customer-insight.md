@@ -91,6 +91,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[mvp-test-matrix]]: pick an MVP test: product or marketing, qualitative or quantitative
 - [[moderated-user-testing]]: run user tests in waves of five to eight
 - [[product-market-fit-measures]]: research grid, Sean Ellis test, retention curves
+- [[product-kata]]: Perri's six questions from goal to learning, then explore, experiment and build until the goal is met
 
 ## What the research digest adds
 

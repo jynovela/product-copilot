@@ -50,7 +50,7 @@ General knowledge: a synthesis of the books below, from model memory.
 
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
-- [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[build-trap]]: spot the build trap, diagnose it with Perri's six questions, and fix goals, rewards and budgets
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
 - [[brooks-law]]: Adding people to a late software project makes it later.
@@ -69,6 +69,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[platform-product-manager]]: A PM whose customers are other teams or developers: shared services, internal tools, APIs and infrastructure.
 - [[product-owner-vs-product-manager]]: The Scrum product owner manages the team's backlog; a product manager owns the product's outcome. Sometimes one person, sometimes two roles.
 - [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
+- [[strategy-deployment]]: vision to strategic intents to initiatives to options; the three strategic gaps
 
 ## Questions to ask about your product
 
