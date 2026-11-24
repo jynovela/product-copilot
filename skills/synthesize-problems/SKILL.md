@@ -26,8 +26,7 @@ guess a number.
 1. **Take stock.** List the current problem pages in scope and the source
    pages, each marked own or public (its `Evidence:` line). For each
    problem, count the sources it cites. List own sources that feed no
-   problem page. Skip sources that feed only playbook pages; they hold no
-   evidence about the product. **Output:** a table of problem, own sources, public
+   problem page. **Output:** a table of problem, own sources, public
    sources; then the list of sources that feed none.
 2. **Read across the sources.** For every own source in scope, read its
    Key points and Quotes, and the raw file when a detail matters. Write

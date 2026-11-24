@@ -45,6 +45,7 @@ LAYERS = {
         "analyses": "analysis",
     },
     PLAYBOOK: {
+        "sources": "source",
         "books": "book",
         "topics": "topic",
         "concepts": "concept",
@@ -53,7 +54,8 @@ LAYERS = {
 }
 # layer -> its index page; pages in a layer must be listed in its index
 INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
-SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "reading-paths",
+SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "playbook-log",
+                 "reading-paths",
                  "newsletters-and-podcasts", "now", "ways-of-working",
                  "review-queue"}
 # page types whose claims must cite at least one source page
@@ -200,8 +202,9 @@ def main():
     for name in ("index", "log", "overview"):
         if name not in pages:
             error("missing-page", WIKI / (name + ".md"), "required page is missing")
-    if PLAYBOOK.is_dir() and "playbook-index" not in pages:
-        error("missing-page", PLAYBOOK / "playbook-index.md", "required page is missing")
+    for name in ("playbook-index", "playbook-log"):
+        if PLAYBOOK.is_dir() and name not in pages:
+            error("missing-page", PLAYBOOK / (name + ".md"), "required page is missing")
 
     # frontmatter and folder checks
     for slug, page in pages.items():
@@ -312,7 +315,8 @@ def main():
             target = target.strip()
             if target not in pages:
                 error("broken-link", page["path"], "[[{}]] has no page".format(target))
-            elif slug not in ("index", "log", "playbook-index") and target != slug:
+            elif slug not in ("index", "log", "playbook-index",
+                              "playbook-log") and target != slug:
                 inbound[target].add(slug)
 
     for slug, page in pages.items():
@@ -334,18 +338,24 @@ def main():
             if not books:
                 error("no-book", page["path"], "link at least one book or essay page")
         if ptype in MUST_CITE:
+            # A source in the other layer doesn't count: playbook sources
+            # are never evidence about the product, and the reverse.
             cited = [t for t in page["links"]
-                     if t in pages and pages[t]["path"].parent.name == "sources"]
+                     if t in pages and pages[t]["path"].parent.name == "sources"
+                     and pages[t]["path"].parent.parent == layer]
             if not cited:
                 error("no-citation", page["path"],
-                      "cite at least one source page, e.g. [[some-source]]")
+                      "cite at least one source page in {}/sources/, "
+                      "e.g. [[some-source]]".format(layer.name))
 
     # log format
-    if "log" in pages:
-        for n, line in enumerate(pages["log"]["path"].read_text(
+    for name in ("log", "playbook-log"):
+        if name not in pages:
+            continue
+        for n, line in enumerate(pages[name]["path"].read_text(
                 encoding="utf-8").split("\n"), 1):
             if line.startswith("## ") and not LOG_RE.match(line):
-                error("log-format", pages["log"]["path"],
+                error("log-format", pages[name]["path"],
                       "line {} must look like '## [YYYY-MM-DD] ingest | Title'".format(n))
 
     # files saved by the research skills say where they came from

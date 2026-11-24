@@ -6,6 +6,9 @@ works best. Put images in `raw/assets/`.
 
 Name files with the date first, for example `2026-11-03-call-acme.md`.
 
+`raw/playbook/` is different: it holds the sources the playbook was built
+from, and it comes with the copilot. Leave it as it is.
+
 Rules:
 
 - The agent reads these files but never changes them.

@@ -6,7 +6,7 @@ Read this before you create or change a wiki page.
 
 | Folder | `type` | One page per | Example file name |
 | ------ | ------ | ------------ | ----------------- |
-| `wiki/sources/` | `source` | file in `raw/` | `2026-11-03-call-acme.md` |
+| `wiki/sources/` | `source` | file in `raw/` about the product | `2026-11-03-call-acme.md` |
 | `wiki/customers/` | `customer` | customer segment or persona | `small-agency-owner.md` |
 | `wiki/accounts/` | `account` | customer company: plan, status, open issues | `acme-corp.md` |
 | `wiki/problems/` | `problem` | customer need, pain or opportunity | `slow-invoice-approval.md` |
@@ -19,6 +19,7 @@ Read this before you create or change a wiki page.
 | `wiki/goals/` | `goal` | business or product goal for one period | `cut-approval-time-2027-q1.md` |
 | `wiki/strategies/` | `strategy` | version of the product strategy | `strategy-2027.md` |
 | `wiki/analyses/` | `analysis` | answer to a question worth keeping | `churn-drivers-q4.md` |
+| `playbook/sources/` | `source` | file in `raw/playbook/` or `raw/books/` | `2026-01-07-ken-norton-best-pm-books.md` |
 | `playbook/books/` | `book` | book | `high-output-management.md` |
 | `playbook/topics/` | `topic` | area of PM craft that groups books | `decisions-and-data.md` |
 | `playbook/concepts/` | `concept` | framework or idea from the books | `jobs-to-be-done.md` |
@@ -54,8 +55,9 @@ Every page starts from its template in `templates/<type>.md`.
    cross layers, e.g. a problem page can link to `[[jobs-to-be-done]]`.
 4. **Citations.** Every claim on a customer, account, problem, feature, competitor or
    decision page ends with the source page it came from, like
-   `(see [[2026-11-03-call-acme]])`. Book and essay pages cite the source
-   that put them on a list. Topic and concept pages link the books or
+   `(see [[2026-11-03-call-acme]])`, a page in `wiki/sources/`. Book and
+   essay pages cite the page in `playbook/sources/` that put them on a
+   list. A source in the other layer never counts. Topic and concept pages link the books or
    essays they draw on.
 5. **Your own reasoning** is marked `Inference:`. Knowledge that comes from
    no source is marked `General knowledge:`. Never present either as

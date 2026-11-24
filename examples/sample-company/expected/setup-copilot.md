@@ -17,11 +17,12 @@ technician limits), say "I don't know".
 - [ ] Saves each round of answers as a note in `raw/notes/` and writes
       them into the overview, goal, person, customer or ways-of-working
       pages, citing the note.
-- [ ] Adds only a `## Set up for` section to `README.md`.
+- [ ] Fills in `## This copy` in `wiki/ways-of-working.md` and leaves
+      `README.md` unchanged.
 - [ ] Says once that sources are committed and the repository must be
       private, without waiting for an answer.
-- [ ] `git diff --stat <first commit> -- AGENTS.md CLAUDE.md rules
-      workflows templates skills tools` prints nothing.
+- [ ] `git diff --stat <first commit> -- AGENTS.md CLAUDE.md README.md
+      rules workflows templates skills tools` prints nothing.
 - [ ] Lists connectors worth adding (CRM, tickets, support, analytics,
       email and calendar) and what each feeds, without installing any.
 - [ ] Ends with the setup report, every heading present, and lint at

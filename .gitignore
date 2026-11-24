@@ -5,6 +5,7 @@
 #   raw/*
 #   !raw/README.md
 #   !raw/public/
+#   !raw/playbook/
 
 # Book files are copyrighted. They stay on your computer.
 raw/books/
