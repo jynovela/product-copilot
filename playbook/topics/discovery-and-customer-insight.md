@@ -47,7 +47,11 @@ General knowledge: a synthesis of the books below, from model memory.
 
 ## Concepts
 
-- [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
+- [[finding-jobs]]: Five places to find unmet jobs, and how to describe one.
+- [[jtbd-switch-interview]]: Rebuild a recent switch as a story, then storyboard it.
+- [[forces-of-progress]]: Push, pull, habit and anxiety decide a switch; Big Hire vs Little Hire.
+- [[job-spec]]: The design brief for a job: dimensions, tradeoffs, competitors, obstacles, experiences.
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.

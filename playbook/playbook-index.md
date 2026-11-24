@@ -82,11 +82,13 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
 - [[fermi-estimation]]: Break an unknowable number into guessable parts and multiply, for an order-of-magnitude answer in minutes.
 - [[finding-customer-conversations]]: Get customer conversations going: casual chats over formal meetings, warm intros over cold outreach, and a five-part ask when a meeting is needed.
+- [[finding-jobs]]: Find unmet jobs in five places (your own life, nonconsumption, workarounds, things people avoid, odd uses) and describe each like a short documentary.
 - [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
 - [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
 - [[five-whys]]: Ask why a problem happened, then why that happened, about five times, to reach a root cause.
 - [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
+- [[forces-of-progress]]: Explain why people switch or don't, with four forces (push, pull, habit, anxiety), and track both buying (Big Hire) and using (Little Hire).
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
 - [[four-disciplines-of-execution]]: One wildly important goal, act on lead measures, keep a scoreboard, and hold a weekly cadence of accountability.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
@@ -108,10 +110,14 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[ideal-customer-profile]]: The company-level description of the high-fit subset of the market to target first, in objective, checkable terms.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
 - [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
+- [[innovation-data-fallacies]]: Three ways growing companies lose sight of the customer's job (active data, surface growth, conforming data) and how to guard against them.
+- [[integrating-around-the-job]]: Organize processes, metrics and decisions around the customer's job, so delivery stays consistent and teams can decide without being told.
 - [[interview-bad-data]]: Spot compliments, fluff and feature requests in customer conversations, and steer back to facts by deflecting, anchoring and digging.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[issue-tree]]: Break a problem into mutually exclusive, collectively exhaustive possible causes, then test each with data.
-- [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[job-spec]]: Turn a job into a design brief listing dimensions, tradeoffs, competitors and obstacles, then design the experiences of buying and using, not just features.
+- [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
+- [[jtbd-switch-interview]]: Interview recent switchers about the whole story from first thought to purchase and use, then storyboard it to find the job.
 - [[kano-model]]: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
 - [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
 - [[keystone-conversation]]: A deliberate conversation at the start of a working relationship about how you'll work together.
@@ -219,7 +225,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[building-products-for-the-enterprise]]: Building Products for the Enterprise by Blair Reeves and Benjamin Gaines. How product management differs for enterprise software.
 - [[chatter]]: Chatter by Ethan Kross. Many product leaders fight a harsh inner critic that feeds imposter feelings.
 - [[click]]: Click by Jake Knapp and John Zeratsky. From the authors of Sprint.
-- [[competing-against-luck]]: Competing Against Luck by Clayton Christensen, Taddy Hall, Karen Dillon and David Duncan. Christensen's answer to the Innovator's Dilemma: Jobs-To-Be-Done.
+- [[competing-against-luck]]: Competing Against Luck by Clayton Christensen, Taddy Hall, Karen Dillon and David Duncan. Jobs to Be Done theory, from finding a job to building the company around it.
 - [[competing-in-the-age-of-ai]]: Competing in the Age of AI by Marco Iansiti and Karim R. Lakhani. How AI-driven operating models change strategy and competition.
 - [[competing-on-analytics]]: Competing on Analytics by Thomas H. Davenport and Jeanne G. Harris. Making analytics a source of competitive advantage.
 - [[continuous-discovery-habits]]: Continuous Discovery Habits by Teresa Torres (top pick). Torres is among the best at helping teams build what customers want.

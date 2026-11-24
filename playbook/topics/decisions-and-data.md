@@ -44,6 +44,7 @@ General knowledge: a synthesis of the books below, from model memory.
 
 - [[resulting]]: Judging a decision by its outcome instead of by the decision process.
 - [[premortem]]: Imagine the project failed, then explain why, before you start.
+- [[innovation-data-fallacies]]: Active data, surface growth and conforming data pull firms off the job.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
