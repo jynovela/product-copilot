@@ -1,6 +1,6 @@
 ---
 name: write-tickets
-description: Turn a feature's approved scope into tickets and user stories with exact, observable acceptance criteria, as Markdown ready to paste into Linear or Jira. Use when the user asks for tickets, stories, a backlog or acceptance criteria for a feature.
+description: Turn a feature's approved scope, or a whole plan or architecture doc, into epics and user stories with exact, observable acceptance criteria, as Markdown ready to paste into Linear or Jira. Use when the user asks for tickets, stories, epics, a backlog or acceptance criteria.
 ---
 
 # write-tickets
@@ -12,6 +12,16 @@ move tickets in a tool.
 Tickets say what a user can do or see when the work is done, never how to
 build it. Engineers choose the build. You don't read the codebase, so you
 never name files, endpoints, tables or functions.
+
+## Which path
+
+- **A feature** with a page in `wiki/features/`: follow the steps below.
+- **A plan**: an architecture doc, an implementation plan, a build order,
+  a big idea, or any ask for epics. Follow `from-a-plan.md`. It writes
+  epics, stops for the user's OK, then writes stories for coding agents,
+  and it may name what the plan defines.
+
+**Output:** the path and why.
 
 ## Steps
 
