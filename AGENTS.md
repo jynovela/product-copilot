@@ -65,6 +65,9 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Asks for tickets, stories or acceptance criteria | `skills/write-tickets/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
+| Asks to set or draft goals for a team or period | `skills/set-outcome/SKILL.md` |
+| Asks how to solve a chosen problem, what to test, or to scope a solution | `skills/explore-solutions/SKILL.md` |
+| Asks whether a launched feature worked | `skills/review-outcome/SKILL.md` |
 
 ## Core rules
 
