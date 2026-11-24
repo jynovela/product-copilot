@@ -18,6 +18,7 @@ key-shaped string. Don't use it as evidence about anything real.
 | `chat-script.md` | Things to say to the copilot in chat, in order, to test the record workflow | You, the tester |
 | `answer-key.md` | The true facts behind the sources, and the trap list | You only |
 | `expected/` | One checklist per workflow or skill, to grade a run | You only |
+| `stand-in/` | Tool exports that stand in for a live connector, for sync tests. Copied by hand, never by `setup.sh` | You, then the copilot |
 | `seed/` | A wiki built from the sources in the current page format, plus its index lines and log entry | The copilot, in seeded test repos |
 | `setup.sh` | Builds a fresh test repo outside this one | You |
 
