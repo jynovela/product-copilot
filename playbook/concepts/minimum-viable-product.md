@@ -2,7 +2,7 @@
 type: concept
 summary: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 updated: 2026-11-24
-knowledge_source: model-memory
+knowledge_source: ingested
 ---
 
 # Minimum viable product (MVP)
@@ -10,6 +10,22 @@ knowledge_source: model-memory
 ## What it is
 
 General knowledge: In Eric Ries's Lean Startup, an MVP is the version of a product that lets a team collect the most validated learning about customers with the least effort. It can be a video, a landing page or a manual service, not only software. It is a learning tool; a small first release is a different thing.
+
+## What Lean Product Playbook adds
+
+- An MVP is the least functionality your target customer considers viable,
+  that is, valuable enough. It applies to a v1, a v2, a redesign, or a
+  single "minimum viable feature" (Lean Product Playbook ch1).
+- Until customers confirm it, call it an MVP candidate: a bundle of
+  hypotheses (ch6). How to choose its features: [[mvp-feature-set]].
+- Keep "MVP" for real products. Landing pages, wireframes and fake doors
+  are MVP tests of the hypotheses behind it (ch7). See [[mvp-test-matrix]].
+- "Minimum" limits scope, not quality. Picture four layers: functional,
+  reliable, usable, delightful. An MVP has limited function but must still
+  be reliable, usable and delightful (ch7).
+- Build the real MVP only once tests of rising fidelity give you enough
+  confidence in product-market fit, then test the live product again (ch7,
+  ch10).
 
 ## How to use it
 
@@ -43,6 +59,15 @@ These are vendor and practitioner articles, not neutral sources.
 
 - The sources use MVP in two different senses. Product School, Neal Cabage and HelloPM use Ries's meaning: a test for validated learning (see [[2024-09-09-product-school-8-pm-frameworks]], [[neal-cabage-21-pm-frameworks]], [[2026-04-22-hellopm-first-principles]]). The process guide and Techreviewer use it to mean the smallest launchable product (see [[product-development-process-guide]], [[techreviewer-popular-pm-frameworks]]). Ask which one people mean.
 - Neal Cabage says MVP is "also called Lean Software Development" (see [[neal-cabage-21-pm-frameworks]]), and ProductPlan says Lean Software Development is "sometimes called the MVP strategy" (see [[productplan-37-pm-frameworks]]). General knowledge: Lean Software Development (Mary and Tom Poppendieck, 2003) is a set of engineering principles taken from lean manufacturing. MVP comes from the Lean Startup. They are different ideas.
+- Lean Product Playbook takes a third line: "MVP" means a real product that
+  customers find viable, and the cheap checks are "MVP tests" (ch7). Under
+  this usage a landing page is a test, not an MVP.
+- HelloPM says a good MVP is ugly and solves the core job badly enough to
+  test demand (see [[2026-04-22-hellopm-first-principles]]). Olsen says an
+  MVP must be reliable, usable and delightful within its limited scope, and
+  calls a shoddy product a misreading of "minimum" (Lean Product Playbook
+  ch7). They differ on what "viable" includes; Olsen would test demand with
+  an MVP test instead of an ugly product.
 
 ## Pairs well with
 
@@ -53,7 +78,7 @@ These are vendor and practitioner articles, not neutral sources.
 ## From
 
 - [[the-lean-startup]]
-- [[the-lean-product-playbook]]
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 - [[lean-ux]]
 
 ## Topics

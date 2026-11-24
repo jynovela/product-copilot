@@ -55,6 +55,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[double-diamond]]: Discover, define, develop, deliver: diverge then converge on the problem, then on the solution.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
+- [[ux-design-iceberg]]: conceptual design, IA, interaction and visual design; Olsen's Law
+- [[moderated-user-testing]]: how to run and synthesize user tests
 
 ## Questions to ask about your product
 

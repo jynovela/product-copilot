@@ -52,6 +52,8 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[rollout-waves]]: Alpha, beta, limited release, general availability, follow-up.
 - [[freemium-and-free-trials]]: Free entry points that feed product-led growth.
 - [[staged-rollout]]: Feature flags and canary releases.
+- [[target-customer-and-personas]]: who the product is for, including buyers
+- [[value-proposition-grid]]: differentiators to message
 
 ## What the research digest adds
 

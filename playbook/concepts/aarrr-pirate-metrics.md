@@ -41,6 +41,13 @@ These are vendor and practitioner articles, not neutral sources.
 - Revenue: LTV and LTV:CAC; "LTV at least 3× CAC" is an unsourced rule of thumb. (see [[2026-11-24-research-digest-metrics]])
 - Variants reorder or rename the stages (acquisition, activation, conversion, engagement, revenue, retention). (see [[2026-11-24-research-digest-metrics]])
 
+## What Lean Product Playbook adds
+
+- Olsen built similar frameworks at two companies before McClure's 2007 talk: acquisition, conversion, retention, revenue, and viral referral (Lean Product Playbook ch13).
+- His "conversion" (prospect becomes customer) is narrower than McClure's "activation", which also counts lighter engagement such as leaving an email (ch13).
+- Track two or three micro-metrics under each macro-metric (ch13).
+- One stage is the [[metric-that-matters-most]] at any time, usually retention first, then conversion, then acquisition; revenue comes before acquisition when acquisition is paid (ch13).
+
 ## Contradictions
 
 - Classic advice is to find the leakiest stage and work on it alone. Built In quotes a growth lead and Reforge saying the stages are interdependent and shouldn't be treated separately (see [[2020-05-07-built-in-aarrr-metrics]]). Both can hold: find the weakest stage, but measure every stage when you change one.
@@ -57,6 +64,10 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[the-lean-startup]]
 - [[the-startup-owners-manual]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 

@@ -58,6 +58,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[concierge-and-wizard-of-oz]]: Deliver the value by hand before automating it; in a concierge test the customer knows, in a Wizard of Oz test they don't.
 - [[cost-of-delay]]: Put a value on what each week of waiting costs, and use it to order work.
 - [[cost-plus-pricing]]: Price = unit cost plus a markup; simple and common, but ignores demand and is a poor fit for software.
+- [[customer-benefits]]: Write customer needs as precise benefits ("reduce my audit risk"), test each in discovery interviews, and organize them with benefit ladders and needs hierarchies.
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
 - [[customer-learning-process]]: Run customer conversations as a team routine: pick the three big questions, prep, take coded notes, review together, update beliefs.
@@ -126,11 +127,15 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
 - [[management-by-objectives]]: Drucker's 1954 method: managers agree annual objectives with each employee, cascading down; OKRs grew out of it.
 - [[managerial-leverage]]: A manager's output is the team's output; spend time where it multiplies.
+- [[metric-that-matters-most]]: After launch, pick the one AARRR metric with the best return right now (usually retention, then conversion, then acquisition) and improve it with Olsen's Lean Product Analytics Process.
 - [[metric-tree]]: Write the goal as a formula of its drivers, then break each driver down again, so you know which lever to pull.
 - [[mimetic-desire]]: People learn what to want by imitating others (models).
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
+- [[moderated-user-testing]]: Test a prototype or product one person at a time, in waves of five to eight target customers: recruit with a screener, run a one-hour discovery-feedback-wrap-up session, and track issues and ratings across waves.
 - [[mom-test-interviews]]: Ask about people's real past behavior, never their opinion of your idea, so the answers can't flatter you.
 - [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
+- [[mvp-feature-set]]: Choose an MVP candidate: brainstorm features per benefit, write them as user stories, break them into small chunks, rank by value over effort, and pick the chunks that make the product viable and different.
+- [[mvp-test-matrix]]: Choose how to test an MVP from a 2x2 of product versus marketing and qualitative versus quantitative tests, from five-second tests and landing pages to clickable mockups, concierge MVPs and fake doors.
 - [[net-promoter-score]]: Ask how likely people are to recommend you on 0 to 10; promoters minus detractors gives a score from −100 to +100.
 - [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
@@ -138,7 +143,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[one-way-and-two-way-doors]]: Type 1 decisions are irreversible and need care; Type 2 are reversible and should be made fast.
 - [[ooda-loop]]: Observe, orient, decide, act, and repeat; for fast-moving situations such as outages or launch backlash.
 - [[opportunity-canvas]]: One page per opportunity: problem, users affected and how many, alternatives, strategic fit, impact, effort, confidence and what would change your mind.
-- [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
+- [[opportunity-scoring]]: Rank customer needs by how important they are and how poorly they are served today, using Olsen's importance versus satisfaction quadrants and value formulas or Ulwick's opportunity score.
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
 - [[outcomes-over-outputs]]: Goals describe a change in user or business behaviour, not the feature you will ship; keep the work separate from the measure.
 - [[ownership-mindset]]: Leaders own every outcome in their world, including failures.
@@ -160,8 +165,10 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[principled-negotiation]]: Negotiate on interests, invent options, use objective criteria, and know your best alternative.
 - [[problem-awareness-ladder]]: Steve Blank's ladder from latent to urgent problems; how people act on a problem matters more than how much it hurts.
 - [[problem-statement]]: A short, evidence-based description of who has a problem, what it is and why it matters, without naming a solution.
+- [[problem-vs-solution-space]]: Keep customer needs (problem space, the "what") apart from designs and products (solution space, the "how"), and use solution-space feedback to learn about the problem.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
-- [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
+- [[product-market-fit-measures]]: Tell whether you have product-market fit: pick research methods with Rohrer's attitudinal-behavioral grid, then use the Sean Ellis 40 percent test, NPS trends and, above all, the three parameters of the retention curve.
+- [[product-market-fit-pyramid]]: Five layers of product-market fit (target customer, underserved needs, value proposition, feature set, UX), the six-step process that climbs them, and how to iterate or pivot.
 - [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
 - [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
@@ -191,6 +198,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
 - [[tam-sam-som]]: Total, serviceable and obtainable market; build the numbers bottom-up and let SOM, not TAM, drive resources.
+- [[target-customer-and-personas]]: Define the target customer by segment (demographic, psychographic, behavioral, needs-based), separate users from buyers, and capture it in a one-page persona you keep revising.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
 - [[technical-product-manager]]: A PM on a technically complex product who works closer to engineering on architecture, APIs and trade-offs.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
@@ -198,9 +206,11 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
 - [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
 - [[unit-economics]]: What it costs to win a customer, what the customer is worth, and how long it takes to earn the cost back.
+- [[ux-design-iceberg]]: Design a UX bottom up through four layers (conceptual design, information architecture, interaction design, visual design), aiming for usability and delight, with Olsen's Law and core layout principles.
 - [[value-based-pricing]]: Price on the value the customer gets, not on your cost; called the default for B2B SaaS by most software sources.
 - [[value-metric]]: The unit you charge by (seats, contacts, usage); a good one grows with the value the customer gets.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
+- [[value-proposition-grid]]: A table of must-haves, performance benefits and delighters scored for you and each competitor, now and later, that states where you'll win and what you'll leave alone.
 - [[value-stick]]: Felix Oberholzer-Gee's model: willingness to pay, price, cost and willingness to sell; create value by stretching the stick, not only by moving price.
 - [[value-vs-effort-matrix]]: A 2x2 of value against effort to spot quick wins and drop low-value, high-effort work.
 - [[vanity-metrics]]: Numbers that look impressive but don't inform decisions or tie to goals, such as page views, likes and total signups.
@@ -326,7 +336,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[the-innovators-dilemma]]: The Innovator's Dilemma by Clayton M. Christensen (top pick). To Ken, the most important business and product book of the past fifty years.
 - [[the-insights-driven-product-manager]]: The Insights Driven Product Manager by Corinna Stukan. Not summarized here; listed as a guide to choosing which data, metrics and qualitative or quantitative inputs to use for product decisions.
 - [[the-lean-entrepreneur]]: The Lean Entrepreneur by Brant Cooper and Patrick Vlaskovits. Lean startup methods for building products and disrupting markets.
-- [[the-lean-product-playbook]]: The Lean Product Playbook by Dan Olsen. A tactical companion to The Lean Startup, with techniques for putting lean methods into practice.
+- [[the-lean-product-playbook]]: The Lean Product Playbook by Dan Olsen. A step-by-step process for reaching product-market fit, from target customer and underserved needs to MVP tests, user testing and analytics.
 - [[the-lean-startup]]: The Lean Startup by Eric Ries. Build, measure, learn: test assumptions with minimum viable products and validated learning.
 - [[the-making-of-a-manager]]: The Making of a Manager by Julie Zhuo. A practical guide for new managers from a former Facebook design leader.
 - [[the-mom-test]]: The Mom Test by Rob Fitzpatrick. How to talk to customers so the answers are facts and commitments, not polite lies.

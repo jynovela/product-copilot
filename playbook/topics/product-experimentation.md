@@ -44,6 +44,8 @@ In this wiki, each test of an assumption is an experiment page; its metrics and 
 - [[primary-secondary-guardrail-metrics]]: what to measure
 - [[statistical-traps]]: ways numbers mislead
 - [[build-measure-learn]]: the loop experiments run inside
+- [[mvp-test-matrix]]: the 2x2 of MVP tests
+- [[metric-that-matters-most]]: improve one metric at a time with A/B tests
 
 ## Framework catalog
 

@@ -23,6 +23,13 @@ One question, "How likely are you to recommend…?" on a 0 to 10 scale. Promoter
 - Benchmarks such as "above 50 excellent, above 70 rare" are vendor claims without sources (Dovetail). (see [[2026-11-24-research-digest-metrics]])
 - A WorkBoard example OKR moves "NPS from 8.0 to 9.5", which can't be an NPS (see [[2026-11-24-research-digest-goals]]).
 
+## What Lean Product Playbook adds
+
+- NPS is an attitudinal measure of satisfaction and a proxy for product-market fit; customers recommend only products they're very satisfied with (Lean Product Playbook ch13).
+- A single wave is only somewhat useful. Track it with periodic surveys, and include an open question asking why they gave the score (ch13).
+- Because it reflects overall sentiment, it can flag problems outside the product, such as support (ch13).
+- Compare against competitors and category benchmarks (ch13).
+
 ## Pairs well with
 
 - [[heart-framework]]: NPS sits under Happiness
@@ -33,6 +40,10 @@ One question, "How likely are you to recommend…?" on a 0 to 10 scale. Promoter
 Inference: these books cover the same job; the framework itself may not appear in them.
 
 - [[product-analytics-for-dummies]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 

@@ -49,6 +49,8 @@ Metrics:
 - [[cohort-retention]]: retention curves by start date
 - [[balanced-scorecard]]: four perspectives
 - [[integrating-around-the-job]]: metrics that track the customer's job, not internal efficiency
+- [[product-market-fit-measures]]: retention curve parameters, Sean Ellis test, NPS trend
+- [[metric-that-matters-most]]: which AARRR metric to improve now, and the improvement loop
 
 Goals:
 

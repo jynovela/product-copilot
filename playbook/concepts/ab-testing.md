@@ -27,6 +27,13 @@ A randomized controlled experiment: split users at random between a control and 
 - Running overlapping tests on the same users contaminates both (Planio). (see [[2026-11-24-research-digest-experiments]])
 - "No evidence of impact" is not "proof of no impact" (Product HQ). (see [[2026-11-24-research-digest-experiments]])
 
+## What Lean Product Playbook adds
+
+- Run variants at the same time, not one after another, so seasonality or promotions don't skew results (Lean Product Playbook ch7).
+- The split doesn't have to be even if the smaller arm has enough data (ch7).
+- Throttling: launch a major change to a small share of users, check that target metrics improve and other key metrics aren't materially worse, then ramp up (ch14).
+- A/B tests can't find product-market fit. Launching an MVP and testing your way forward leads to an inferior local maximum; the lower pyramid layers need qualitative research (ch14). See [[metric-that-matters-most]].
+
 ## Contradictions
 
 - Multivariate tests: Userpilot says they usually give more insight than A/B; Simon Cast, Mind the Product and GrowthBook say they need far more traffic and suit only optimizing near a known peak. (see [[2026-11-24-research-digest-experiments]])
@@ -43,6 +50,10 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[designing-with-data]]
 - [[the-lean-startup]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 

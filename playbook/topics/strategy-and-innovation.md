@@ -79,6 +79,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[value-stick]]: Create value by raising willingness to pay or lowering willingness to sell.
 - [[tam-sam-som]]: Market sizing, built bottom-up.
 - [[balanced-scorecard]]: Four perspectives on strategy execution.
+- [[value-proposition-grid]]: where you will win against competitors, now and later
 
 ## What the research digest adds
 

@@ -1,8 +1,8 @@
 ---
 type: concept
 summary: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
-updated: 2026-11-20
-knowledge_source: model-memory
+updated: 2026-11-24
+knowledge_source: ingested
 ---
 
 # Kano model
@@ -10,6 +10,13 @@ knowledge_source: model-memory
 ## What it is
 
 General knowledge: Noriaki Kano's model. Must-be (basic) features cause dissatisfaction when missing but no delight when present. Performance features raise satisfaction in proportion to how well they're done. Attractive features (delighters) please when present and aren't missed when absent. The original also has indifferent and reverse categories. A paired survey question (how do you feel if it's there, and if it isn't?) assigns each feature. Delighters become basics over time.
+
+## What Lean Product Playbook adds
+
+- Olsen uses three of Kano's categories: performance needs (more is better, like fuel efficiency), must-haves (missing ones cause dissatisfaction, extra ones add nothing, like seat belts), and delighters (unexpected, not missed when absent) (Lean Product Playbook ch4).
+- **Needs migrate.** Yesterday's delighters become today's performance features and tomorrow's must-haves, as rising expectations and competition raise the bar (ch4). This is the same shift as the satisfaction scale moving in [[opportunity-scoring]].
+- **The categories form a hierarchy:** must-haves at the bottom, performance in the middle, delighters on top. A delighter doesn't count if a must-have is missing, and you must be competitive on performance before delighters matter (ch4).
+- Classify your category's benefits using competitor products and product reviews, then use the categories as rows of the [[value-proposition-grid]] (ch4, ch5).
 
 ## How to use it
 
@@ -42,10 +49,11 @@ These are vendor and practitioner articles, not neutral sources.
 
 - [[opportunity-scoring]]: another survey method, scored by importance and satisfaction
 - [[moscow-method]]: basics often become the must-haves
+- [[value-proposition-grid]]: Kano categories scored against competitors
 
 ## From
 
-- [[the-lean-product-playbook]]
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 
