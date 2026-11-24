@@ -119,6 +119,10 @@ Every page starts from its template in `templates/<type>.md`.
 
 ## Page type rules
 
+- **Source.** Each quote is one line, `- "the words"`, word for word from
+  the raw file. Mark a cut inside a quote with `...`. The check script
+  compares every quote with the raw file. On other pages, each line under
+  `## Evidence` names its source.
 - **Experiment.** Results come from an ingested source, never from you.
   The Metrics and decision rule section can't change once status is
   `running`. The Outcome follows the rule, not judgment.

@@ -1,0 +1,33 @@
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: Check the wiki and playbook
+        run: python3 tools/lint_wiki.py
+      - name: Test the check script
+        run: python3 tools/test_lint_wiki.py
+      - name: Test the skill scripts
+        run: |
+          python3 skills/humanize-check/test_check.py
+          python3 skills/morning-brief/test_due.py
+      - name: Build the seeded sample company and check it
+        run: |
+          ./examples/sample-company/setup.sh --seeded "$RUNNER_TEMP/crewline-test"
+          cd "$RUNNER_TEMP/crewline-test"
+          python3 tools/lint_wiki.py
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2@0.24.2 "**/*.md"

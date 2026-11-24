@@ -277,7 +277,9 @@ file that differs.
 
 Every so often, say "check the wiki". It reports broken links, stale
 facts, unconfirmed changes that have waited too long, and sources it
-hasn't read yet.
+hasn't read yet. Once a month, say "audit the wiki". It picks ten claims
+at random, reads the source behind each one, and tells you which ones the
+source doesn't support.
 
 ## Privacy
 
@@ -311,7 +313,7 @@ This part is for people adapting the copilot rather than using it.
 | `skills/` | The 14 skills, linked from `.claude/skills/` for Claude Code |
 | `rules/`, `workflows/`, `templates/` | Page rules, step-by-step workflows and page shapes |
 | `.copilot-version` | The upstream repository and the version your copy last took from it |
-| `tools/lint_wiki.py` | The check script. Python 3.9+, standard library only. Run `python3 tools/lint_wiki.py`. |
+| `tools/lint_wiki.py` | The check script. Python 3.9+, standard library only. Run `python3 tools/lint_wiki.py`. Its tests are in `tools/test_lint_wiki.py`, and `.github/workflows/check.yml` runs both on every pull request. |
 | `examples/sample-company/` | A made-up company with planted traps, used to test the copilot. See its README. |
 
 Any agent that reads `AGENTS.md` and can edit files and run commands
