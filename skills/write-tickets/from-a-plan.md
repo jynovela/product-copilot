@@ -130,6 +130,10 @@ under any that is empty.
 - **Don't decide for the owner.** A value the source marks open or
   undecided (a price, a limit, a policy) becomes an open question, never a
   number in a criterion, not even as an assumption.
+- **Don't derive numbers.** Never add up, estimate or recompute the
+  source's values (time from word counts, totals from parts) to find a
+  problem. Cite the value where it lives. Raise a mismatch only when the
+  source itself states both numbers as final.
 - **Don't change the source.** Never edit the plan or the source repo,
   or touch the tracker except through `to-a-tracker.md`. Suggested
   changes to the plan go under Open questions.
