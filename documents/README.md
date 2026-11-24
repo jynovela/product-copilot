@@ -17,6 +17,7 @@ what it hands to people.
   are, and the check script flags a link whose page no longer exists.
 - Documents are not evidence. Never cite one on a wiki page. To use a
   document as evidence, the user saves it in `raw/` and ingests it.
+- Run `skills/humanize-check` on every document before you hand it over.
 - Set `status: final` only when the user says the document is done.
 
 Git tracks this folder. If your documents are confidential and you push
