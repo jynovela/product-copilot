@@ -67,6 +67,8 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 | Asks to research a problem, a market or the solutions out there | `skills/research-problem-space/SKILL.md` |
 | Asks to research or compare named competitors | `skills/research-competitors/SKILL.md` |
+| Asks what customers' problems are, or to synthesize or size problems | `skills/synthesize-problems/SKILL.md` |
+| Asks what to work on next, or to rank or prioritize opportunities | `skills/rank-opportunities/SKILL.md` |
 | Asks to set up the copilot for their company | `skills/setup-copilot/SKILL.md` |
 | Asks to sync or refresh from a tool (CRM, tickets, analytics) | `skills/sync/SKILL.md` |
 | Asks what to do today, for their brief, or says done, add or drop for a task | `skills/morning-brief/SKILL.md` |
