@@ -1,8 +1,8 @@
 # Expected research-competitors result
 
-Draft: revise when the skill is written. Prompt: "Research FieldPilot and
-JobHarbor on offline mode and routing." Both are invented, so the web has
-nothing on them.
+Skill: `skills/research-competitors/SKILL.md`. Seeded wiki. Prompt:
+"Research FieldPilot and JobHarbor on offline mode and routing. Run
+without stopping." Both are invented, so the web has nothing on them.
 
 ## Must do
 
