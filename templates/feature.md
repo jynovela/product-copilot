@@ -20,6 +20,19 @@ updated: {YYYY-MM-DD}
 
 - [[{problem}]]
 
+## Scope
+
+Locked once a `scope` decision approves it. A later change is a new
+`scope` decision (action `re-scope`), not an edit.
+
+- Approved by: [[{decision}]] | not approved yet
+- First slice: {the smallest version that tests the riskiest assumption} (see [[{source}]])
+- In: {what this version does} (see [[{source}]])
+- Out (non-goals): {what it deliberately won't do, and why} (see [[{source}]])
+- Later: {what may come after the first slice} | none
+- Constraints: {deadlines, platforms, legal, dependencies} (see [[{source}]]) | none known
+- Open questions: {what is still unknown} | none
+
 ## Success metrics
 
 Set before build. Locked at launch: after that, add dated Deviations lines
