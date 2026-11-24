@@ -12,9 +12,7 @@ management books and 10 essays, organized into 19 topics and 178 methods:
 jobs to be done, the opportunity solution tree, the Mom Test, pricing
 models, OKRs, experiment design and more. Ask it how to approach a problem
 and it answers from your own evidence first, then says what the playbook
-suggests, and keeps the two apart. Two books (The Mom Test and Competing
-Against Luck) were extracted from the books themselves. The rest are
-summaries from the model's general knowledge, and each page says so.
+suggests, and keeps the two apart.
 
 ## The work it takes off your plate
 
