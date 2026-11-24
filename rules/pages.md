@@ -8,6 +8,7 @@ Read this before you create or change a wiki page.
 | ------ | ------ | ------------ | ----------------- |
 | `wiki/sources/` | `source` | file in `raw/` | `2026-11-03-call-acme.md` |
 | `wiki/customers/` | `customer` | customer segment or persona | `small-agency-owner.md` |
+| `wiki/accounts/` | `account` | customer company: plan, status, open issues | `acme-corp.md` |
 | `wiki/problems/` | `problem` | customer need, pain or opportunity | `slow-invoice-approval.md` |
 | `wiki/features/` | `feature` | feature or product area | `bulk-export.md` |
 | `wiki/people/` | `person` | person at the company: role and what they own | `ana-ortiz.md` |
@@ -50,7 +51,7 @@ Every page starts from its template in `templates/<type>.md`.
 3. **Links** are `[[file-name]]` without `.md` and without folders. Only
    link to pages that exist. If a page should exist, create it. Links may
    cross layers, e.g. a problem page can link to `[[jobs-to-be-done]]`.
-4. **Citations.** Every claim on a customer, problem, feature, competitor or
+4. **Citations.** Every claim on a customer, account, problem, feature, competitor or
    decision page ends with the source page it came from, like
    `(see [[2026-11-03-call-acme]])`. Book and essay pages cite the source
    that put them on a list. Topic and concept pages link the books or
@@ -101,8 +102,8 @@ Every page starts from its template in `templates/<type>.md`.
       Deviations, and judge results against the original thresholds.
     - Commitments (goal, strategy, decision): write a new page that
       replaces the old one, and link both ways.
-12. **Current and archived.** Customer, problem, feature, competitor,
-    metric, person and analysis pages have `state: current | archived` and
+12. **Current and archived.** Customer, account, problem, feature,
+    competitor, metric, person and analysis pages have `state: current | archived` and
     `as_of` (the last day their facts were checked). Archived means no
     longer true or no longer done: add `- Archived: <YYYY-MM-DD>, <why>
     (see [[page]])`, never delete. Skip archived pages unless asked. Never
@@ -121,6 +122,10 @@ Every page starts from its template in `templates/<type>.md`.
   earlier, once a `scope` decision approves it. The verdict follows the
   thresholds. The Plan line is the only place plans are named.
   No launch task lists: those live in the team's project tool.
+- **Account.** One page per customer company; its segment is a `customer`
+  page. Keep `status` in the frontmatter and the Status line the same.
+  Open issues are dated snapshots from the ticket tool, never edited to
+  look current: add a new line when the status changes.
 - **Metric.** Define each metric once, here. Other pages link it and never
   restate the formula.
 - **Problem.** Count Evidence strength yourself. Each Magnitude line needs

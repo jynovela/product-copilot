@@ -28,7 +28,7 @@ needs them (see **Read before you act**).
 | Path | What it holds | Who writes it |
 | ---- | ------------- | ------------- |
 | `raw/` | Source documents. `raw/public/` is public and committed; `raw/notes/` holds what the user said in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`. |
-| `wiki/<type>/` | One page per thing: sources, customers, problems, features, people, competitors, decisions, experiments, metrics, goals, strategies, analyses | You |
+| `wiki/<type>/` | One page per thing: sources, customers, accounts, problems, features, people, competitors, decisions, experiments, metrics, goals, strategies, analyses | You |
 | `wiki/overview.md`, `wiki/index.md`, `wiki/log.md` | The current picture, a catalog of every page, an append-only log | You |
 | `wiki/ways-of-working.md`, `wiki/now.md` | How the person works and what they focus on now | You, when the person says |
 | `wiki/review-queue.md` | Changes you learned that no person has confirmed | You |

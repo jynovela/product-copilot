@@ -32,6 +32,7 @@ LAYERS = {
     WIKI: {
         "sources": "source",
         "customers": "customer",
+        "accounts": "account",
         "problems": "problem",
         "features": "feature",
         "people": "person",
@@ -56,7 +57,7 @@ SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "reading-paths",
                  "newsletters-and-podcasts", "now", "ways-of-working",
                  "review-queue"}
 # page types whose claims must cite at least one source page
-MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book",
+MUST_CITE = {"customer", "account", "problem", "feature", "competitor", "decision", "book",
              "essay", "experiment", "metric", "goal", "strategy", "person"}
 # page types that must link to at least one book or essay page
 MUST_LINK_BOOK = {"topic", "concept"}
@@ -74,12 +75,13 @@ ENUM_FIELDS = {
              "commitment": {"committed", "aspirational"},
              "status": {"active", "met", "missed", "dropped", "replaced"}},
     "strategy": {"status": {"draft", "active", "replaced"}},
+    "account": {"status": {"prospect", "trial", "active", "at-risk", "churned"}},
     "decision": {"kind": {"opportunity", "scope", "launch", "outcome-review",
                           "pricing", "strategy", "goal", "other"}},
 }
 # page types with state and as_of -> freshness window in days. A current
 # page whose as_of is older than its window is flagged as outdated.
-FRESHNESS_DAYS = {"feature": 30, "problem": 90, "competitor": 90,
+FRESHNESS_DAYS = {"account": 30, "feature": 30, "problem": 90, "competitor": 90,
                   "customer": 180, "person": 180, "analysis": 180, "metric": 365}
 STATES = {"current", "archived"}
 ARCHIVED_RE = re.compile(r"^- Archived: \d{4}-\d{2}-\d{2}, \S", re.M)
