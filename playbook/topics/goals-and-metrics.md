@@ -62,6 +62,8 @@ Goals:
 - [[four-disciplines-of-execution]]: one goal, lead measures, scoreboard, cadence
 - [[management-by-objectives]]: where OKRs came from
 - [[impact-mapping]]: goal to actors to impacts to deliverables
+- [[strategy-deployment]]: vision to strategic intents to initiatives to options; the three strategic gaps
+- [[product-kata]]: Perri's six questions from goal to learning, then explore, experiment and build until the goal is met
 
 ## Metric framework catalog
 

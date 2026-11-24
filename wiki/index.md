@@ -89,6 +89,8 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 - [[2013-08-01-rob-fitzpatrick-the-mom-test]]: Full text of The Mom Test (Rob Fitzpatrick, v1.0, 2013), a how-to for customer conversations that produce facts and commitments.
 - [[2016-10-04-clayton-christensen-competing-against-luck]]: Full text of Competing Against Luck (Christensen, Hall, Dillon and Duncan, 2016), the book that defines Jobs to Be Done theory and how to build a company around it.
 - [[2015-06-01-dan-olsen-the-lean-product-playbook]]: Full text of The Lean Product Playbook (Dan Olsen, 2015), a step-by-step process for reaching product-market fit, from target customer to MVP tests, user testing and analytics.
+- [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]]: Swamy Seetharaman's long chapter-by-chapter summary of Escaping the Build Trap (Melissa Perri), used as a stand-in until the book itself is ingested.
+- [[bookey-escaping-the-build-trap-summary]]: Bookey's commercial chapter-by-chapter summary of Escaping the Build Trap, used for the book's chapter numbering and to fill gaps in the Medium summary.
 
 ## Archived
 

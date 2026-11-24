@@ -114,3 +114,12 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Added "What Lean Product Playbook adds" sections to [[kano-model]], [[minimum-viable-product]], [[fake-door-test]], [[concierge-and-wizard-of-oz]], [[cohort-retention]], [[metric-tree]], [[unit-economics]], [[aarrr-pirate-metrics]], [[net-promoter-score]] and [[ab-testing]].
 - Turned [[the-lean-product-playbook]] into a lean source record (`knowledge_source: ingested`) that links those pages.
 - Added router lines to seven topics and [[product-frameworks]].
+
+## [2026-11-24] ingest | Escaping the Build Trap (secondary summaries, not the book)
+
+- Created sources [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] (Medium summary, main source) and [[bookey-escaping-the-build-trap-summary]] (chapter numbers and gaps). Both raw files are in `raw/books/` (local only).
+- To do: get the book itself, ingest it with `workflows/ingest-book.md`, and re-check every page that cites `Build Trap chN`.
+- Rewrote [[build-trap]] and created [[strategy-deployment]] and [[product-kata]].
+- Added "What Escaping the Build Trap adds" sections to [[pm-archetypes]], [[pm-career-ladder]], [[product-operations]], [[product-strategy-canvas]], [[outcomes-over-outputs]], [[vanity-metrics]], [[leading-and-lagging-indicators]], [[concierge-and-wizard-of-oz]], [[cost-of-delay]] and [[rollout-waves]].
+- Turned [[escaping-the-build-trap]] into a source record flagged as summary-based.
+- Added router lines to five topics and [[product-frameworks]].

@@ -46,6 +46,7 @@ In this wiki, each test of an assumption is an experiment page; its metrics and 
 - [[build-measure-learn]]: the loop experiments run inside
 - [[mvp-test-matrix]]: the 2x2 of MVP tests
 - [[metric-that-matters-most]]: improve one metric at a time with A/B tests
+- [[product-kata]]: Perri's six questions from goal to learning, then explore, experiment and build until the goal is met
 
 ## Framework catalog
 

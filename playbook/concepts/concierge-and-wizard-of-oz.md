@@ -28,6 +28,20 @@ Two minimal products that deliver real value without building the automation. Co
 - The aim of a Wizard of Oz MVP is to validate the manual steps before paying to automate them (ch7).
 - Once the hypothesis holds, replace the manual steps with automated ones (ch7).
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- Concierge is Perri's favorite: no code, quick to start and close to
+  customers, with tight feedback loops. It doesn't scale (Build Trap ch18).
+- Wizard of Oz suits feedback at scale, and can run inside an A/B test
+  (ch18).
+- Plan how each experiment ends ("close the loop"). Tell participating
+  customers why you are testing, when and how it ends, and what comes next
+  (ch18).
+- A third option is the concept test, which needs a pass-or-fail "ask" to
+  be evaluative. See [[product-kata]].
+
 ## Contradictions
 
 - Lean Product Playbook agrees with Huryn: in a concierge MVP the customer can see the manual work, and in a Wizard of Oz MVP it is hidden behind the curtain (ch7).
@@ -48,6 +62,9 @@ Inference: these books cover the same job; the framework itself may not appear i
 Ingested:
 
 - [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 

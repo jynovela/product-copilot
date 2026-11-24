@@ -23,6 +23,16 @@ Melissa Perri's four-part structure for product strategy (2016), built on Toyota
 - Perri's example has inconsistent dates (challenge by 2018, target condition by 2017). (see [[2026-11-24-research-digest-strategy]])
 - "Product Strategy is a system of achievable goals and visions"; Perri expects it to look like business strategy, because products exist to reach business objectives. (see [[2026-11-24-research-digest-strategy]])
 
+## What Escaping the Build Trap adds
+
+Source note: from secondary summaries of the book, not the book text. Chapter numbers are the book's.
+
+- The book summaries describe a later form with four levels: vision,
+  strategic intents, product initiatives and options (Build Trap ch12). See
+  [[strategy-deployment]], which maps the canvas onto them.
+- The kata is six questions, from "what is the goal?" to "what happened and
+  what did we learn?" (ch15). See [[product-kata]].
+
 ## Pairs well with
 
 - [[kernel-of-good-strategy]]: a challenge is close to Rumelt's diagnosis
@@ -30,7 +40,9 @@ Melissa Perri's four-part structure for product strategy (2016), built on Toyota
 
 ## From
 
-- [[escaping-the-build-trap]]
+- [[escaping-the-build-trap]] (from secondary summaries
+  [[2020-11-17-swamy-seetharaman-escaping-the-build-trap-summary]] and
+  [[bookey-escaping-the-build-trap-summary]]; `chN` = book chapter)
 
 ## Topics
 
