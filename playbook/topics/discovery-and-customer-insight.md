@@ -85,6 +85,12 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[pretotyping]]: Cheap demand tests before building.
 - [[fake-door-test]]: Measure interest before building.
 - [[hypothesis-statement]]: Turn an assumption into a testable prediction.
+- [[problem-vs-solution-space]]: keep needs (the what) apart from designs (the how)
+- [[target-customer-and-personas]]: segments, users versus buyers, one-page personas
+- [[customer-benefits]]: write needs as precise benefits, ladder them, test them
+- [[mvp-test-matrix]]: pick an MVP test: product or marketing, qualitative or quantitative
+- [[moderated-user-testing]]: run user tests in waves of five to eight
+- [[product-market-fit-measures]]: research grid, Sean Ellis test, retention curves
 
 ## What the research digest adds
 

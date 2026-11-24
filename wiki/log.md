@@ -106,3 +106,11 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Turned [[competing-against-luck]] into a lean source record (`knowledge_source: ingested`) that links those pages.
 - Added Contradictions lines to [[opportunity-scoring]] (surveys vs depth) and [[customer-slicing]] (slicing vs clustering by job).
 - Added router lines to [[discovery-and-customer-insight]], [[strategy-and-innovation]], [[decisions-and-data]], [[positioning-and-go-to-market]] and [[goals-and-metrics]].
+
+## [2026-11-24] ingest | The Lean Product Playbook (book text)
+
+- Created source [[2015-06-01-dan-olsen-the-lean-product-playbook]] for the full book text in `raw/books/` (local only, copyrighted).
+- Rewrote [[product-market-fit-pyramid]] and [[opportunity-scoring]] from the book and created [[problem-vs-solution-space]], [[target-customer-and-personas]], [[customer-benefits]], [[value-proposition-grid]], [[mvp-feature-set]], [[mvp-test-matrix]], [[ux-design-iceberg]], [[moderated-user-testing]], [[product-market-fit-measures]] and [[metric-that-matters-most]].
+- Added "What Lean Product Playbook adds" sections to [[kano-model]], [[minimum-viable-product]], [[fake-door-test]], [[concierge-and-wizard-of-oz]], [[cohort-retention]], [[metric-tree]], [[unit-economics]], [[aarrr-pirate-metrics]], [[net-promoter-score]] and [[ab-testing]].
+- Turned [[the-lean-product-playbook]] into a lean source record (`knowledge_source: ingested`) that links those pages.
+- Added router lines to seven topics and [[product-frameworks]].

@@ -27,7 +27,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
 - [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
-- [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
+- [[opportunity-scoring]]: Rank customer needs by how important they are and how poorly they are served today, using Olsen's importance versus satisfaction quadrants and value formulas or Ulwick's opportunity score.
 - [[five-whys]]: Ask why a problem happened, then why that happened, about five times, to reach a root cause.
 - [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
@@ -43,6 +43,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
 - [[circles-method]]: A structure for product design interview answers.
+- [[mvp-test-matrix]]: Choose how to test an MVP from a 2x2 of product versus marketing and qualitative versus quantitative tests, from five-second tests and landing pages to clickable mockups, concierge MVPs and fake doors.
 
 ### Prioritize and scope
 
@@ -57,6 +58,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
 - [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
 - [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
+- [[mvp-feature-set]]: Choose an MVP candidate: brainstorm features per benefit, write them as user stories, break them into small chunks, rank by value over effort, and pick the chunks that make the product viable and different.
 
 ### Set strategy and goals
 
@@ -70,6 +72,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
 - [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
 - [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
+- [[value-proposition-grid]]: A table of must-haves, performance benefits and delighters scored for you and each competitor, now and later, that states where you'll win and what you'll leave alone.
 
 ### Measure
 
@@ -77,6 +80,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
 - [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
+- [[metric-that-matters-most]]: After launch, pick the one AARRR metric with the best return right now (usually retention, then conversion, then acquisition) and improve it with Olsen's Lean Product Analytics Process.
 
 ### Decide and organize the team
 

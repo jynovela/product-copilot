@@ -23,6 +23,15 @@ Group users by a shared start, such as signup week, and track the share still ac
 - Avoid "people who do X retain more" claims; that is correlation (Murray; see [[2026-11-24-research-digest-experiments]]).
 - Retention formulas differ between sources: (end − new) ÷ start vs active ÷ total users. Define it once. (see [[2026-11-24-research-digest-metrics]])
 
+## What Lean Product Playbook adds
+
+- Measure by relative days since signup, not calendar dates (Lean Product Playbook ch13).
+- Read three parameters of each curve: initial drop-off (who never returns after day 1), rate of descent, and terminal value (where it flattens). Better fit means lower drop-off, slower descent and a higher terminal value; terminal value matters most (ch13).
+- Initial drop-off varies by category; mobile apps drop steeply because people forget them without a trigger such as a notification (ch13).
+- Store cohorts as a table: one row per signup month, initial users, then active users by months since signup. Divide by initial users to get each cell's retention rate (ch13).
+- Fit is improving when each newer cohort's curve sits higher. Keep five or fewer curves on one chart (ch13).
+- Olsen calls retention rate the single best measure of product-market fit (ch13). See [[product-market-fit-measures]].
+
 ## Pairs well with
 
 - [[unit-economics]]: retention drives LTV
@@ -34,6 +43,10 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[product-analytics-for-dummies]]
 - [[the-lean-startup]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 

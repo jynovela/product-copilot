@@ -88,6 +88,7 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 - [[2026-11-24-research-digest-strategy]]: Research digest on product strategy: Perri's canvas, Pichler's vision board and framework, 7 Powers, Playing to Win, strategy types and review triggers, from about 31 articles.
 - [[2013-08-01-rob-fitzpatrick-the-mom-test]]: Full text of The Mom Test (Rob Fitzpatrick, v1.0, 2013), a how-to for customer conversations that produce facts and commitments.
 - [[2016-10-04-clayton-christensen-competing-against-luck]]: Full text of Competing Against Luck (Christensen, Hall, Dillon and Duncan, 2016), the book that defines Jobs to Be Done theory and how to build a company around it.
+- [[2015-06-01-dan-olsen-the-lean-product-playbook]]: Full text of The Lean Product Playbook (Dan Olsen, 2015), a step-by-step process for reaching product-market fit, from target customer to MVP tests, user testing and analytics.
 
 ## Archived
 

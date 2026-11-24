@@ -24,6 +24,17 @@ Treat the company as a machine with outputs and levers, and write each end goal 
 - Skok's model is written for sales-led SaaS; consumer products need different levers. (see [[2026-11-24-research-digest-metrics]])
 - Every link is a hypothesis; mark the ones you haven't checked. (see [[2026-11-24-research-digest-metrics]])
 
+## What Lean Product Playbook adds
+
+Olsen calls this "the equation of your business" and "peeling the analytics onion" (Lean Product Playbook ch13):
+
+- Start from profit = revenue − cost. High-tech products usually focus on revenue, because marginal cost per extra user is near zero (ch13).
+- Break revenue down per user: revenue = users × average revenue per user (ARPU) (ch13).
+- **Advertising model:** revenue per visitor = impressions per visitor × effective CPM ÷ 1,000; impressions per visitor = visits per visitor × pageviews per visit × impressions per pageview (ch13).
+- **Subscription model:** paying users = new paying users + repeat paying users; repeat paying users = last period's paying users × (1 − cancellation rate); new paying users = free trial users × trial conversion rate + direct paid signups (ch13).
+- Split visitors into new and returning. Returning visitors = last period's visitors × return rate, and the return rate is the lever (ch13).
+- Each equation applies to one time period. Its purpose is to show how much a change in each metric moves the result, so you can prioritize (ch13). Use it to choose the [[metric-that-matters-most]].
+
 ## Pairs well with
 
 - [[north-star-framework]]: the top of a product metric tree
@@ -36,6 +47,10 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[measure-what-matters]]
 - [[the-insights-driven-product-manager]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 

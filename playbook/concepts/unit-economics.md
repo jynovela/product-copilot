@@ -24,6 +24,16 @@ Customer acquisition cost (CAC) is sales and marketing spend ÷ new customers. L
 - LTV is computed on revenue by some sources and on profit by others; say which. (see [[2026-11-24-research-digest-metrics]])
 - HubSpot annualizes 6.4% monthly churn as about 52% with the wrong formula; correct is 1 − 0.936^12, about 55%. (see [[2026-11-24-research-digest-metrics]])
 
+## What Lean Product Playbook adds
+
+- Profit per customer = customer lifetime value (LTV) − customer acquisition cost (CAC). LTV here is profit before acquisition cost (Lean Product Playbook ch13).
+- LTV = ARPU × average customer lifetime × gross margin; average lifetime = 1 ÷ churn rate, so LTV = ARPU × gross margin ÷ churn rate. A 5 percent monthly churn means a 20-month lifetime (ch13).
+- The two levers on LTV are raising ARPU (prices, upsell, higher-priced products) and cutting churn (service, quality, continuing to meet needs) (ch13).
+- CAC = sales and marketing costs ÷ new customers, but the actionable form is CAC = cost per acquisition (per prospect) ÷ prospect conversion rate. Lower CPA with cheaper channels or better ads; raise conversion with better landing pages (ch13).
+- Skip discounted-cash-flow LTV models; the aim is actionable metrics, not precision (ch13).
+- Olsen repeats the SaaS guideline that LTV:CAC should exceed 3, also without a source (ch13).
+- Use this view once you have fit and are working toward profit (ch13).
+
 ## Pairs well with
 
 - [[cohort-retention]]: the input LTV depends on
@@ -35,6 +45,10 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[venture-deals]]
 - [[the-startup-owners-manual]]
+
+Ingested:
+
+- [[the-lean-product-playbook]] (ingested from [[2015-06-01-dan-olsen-the-lean-product-playbook]]; `chN` = chapter)
 
 ## Topics
 
