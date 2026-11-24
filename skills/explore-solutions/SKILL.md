@@ -127,7 +127,8 @@ Read `rules/pages.md`, and `templates/analysis.md`,
    - For each option the person chose (or the one you picked without
      stopping): a feature page with Status `idea`, or update the existing
      feature page. Its Scope gets the draft from step 7 with `Approved
-     by: not approved yet`, unless the scope is approved now.
+     by: not approved yet`, unless the scope is approved now; then its
+     Status is `planned`.
    - For each test the person chose: an experiment page with
      `status: planned`, its rule thresholds as the person gave them or
      `to be set by <owner>`.

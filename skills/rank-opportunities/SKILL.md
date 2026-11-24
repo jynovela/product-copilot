@@ -68,7 +68,9 @@ customer pain.
    `wiki/analyses/rank-opportunities-<YYYY-MM-DD>.md` from
    `templates/analysis.md`. The Answer holds steps 1 to 5, each claim
    cited to a page. Not in the wiki lists what would sharpen the ranking.
-   Add it to `wiki/index.md`. **Output:** the path.
+   Add it to `wiki/index.md`, and link it from the overview's Open
+   questions as `Pick an opportunity: see [[rank-opportunities-<date>]]`
+   so it isn't an orphan while the pick waits. **Output:** the path.
 7. **Pick.** Guided: show the ranking and the proposed pick, and wait for
    the user to choose. Without stopping: use your proposed pick.
    **Output:** the pick and who made it.
@@ -76,7 +78,9 @@ customer pain.
    `templates/decision.md` with `kind: opportunity`. Decided by is the
    person who picked, as they named themselves, or `copilot (unconfirmed)`
    when running without stopping. Never write a person's name for your own
-   pick. Under Known at decision, use the opportunity block: copy the
+   pick. Save a person's pick first as a chat note and source page with
+   `workflows/record.md` steps 1 and 2 only (no Record report; log it
+   under this skill's entry), and cite it. Under Known at decision, use the opportunity block: copy the
    problem's Size section with its As of date, and the goal it serves (or
    "none current"). For a copilot pick, Expected result is `direction
    only`, and Watch names the metric the strategy's challenge uses with
@@ -85,7 +89,8 @@ customer pain.
    nothing". Link the analysis as evidence. Fill Revisit when with the
    "would change if" signal. Link the decision from the problem page, add
    it to the index, and add it to the strategy's Signals only if a person
-   picked. **Output:** the path.
+   picked. Remove the overview's "Pick an opportunity" line from step 6.
+   **Output:** the path.
 9. **Log it.** Append to `wiki/log.md`:
    `## [YYYY-MM-DD] query | Rank opportunities against <basis>`, then one
    line per page created or updated. **Output:** the entry.

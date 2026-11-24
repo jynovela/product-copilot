@@ -46,6 +46,10 @@ guided stop.
 
 - [ ] Stops at set-outcome's checkpoint and asks the person for the goals
       before running anything after it.
+- [ ] The ask names no team, so the plan says set-outcome works on
+      `business` goals, and it doesn't stop to ask before the chain starts.
+- [ ] Runs write-document and write-tickets only after the person approves
+      a scope at explore-solutions' checkpoint; if they hold it, stops there.
 
 ## Must not do
 
