@@ -1,6 +1,8 @@
 # Expected rank-opportunities result
 
-Draft: revise when the skill is written. Starts from the seeded wiki.
+Skill: `skills/rank-opportunities/SKILL.md`. Starts from the seeded
+wiki. Prompt: "What should we work on next? Rank the opportunities. Run
+without stopping." Run it once more in guided mode to check the stop.
 
 ## Must do
 
@@ -13,6 +15,10 @@ Draft: revise when the skill is written. Starts from the seeded wiki.
 - [ ] Notes that offline mode already launched, so "offline" now means
       what's left (offline job creation, the duplicate-sync bug), not the
       shipped feature.
+- [ ] Files the ranking as `wiki/analyses/rank-opportunities-<date>.md`;
+      problem pages get no rank or score.
+- [ ] Copies the problem's Size section into the decision's Known at
+      decision, and lists the other candidates under Options not chosen.
 - [ ] In guided mode, stops at the pick and waits. Without stopping,
       records its pick as `Decided by: copilot (unconfirmed)` on an
       opportunity decision page and lists it first in the report.
