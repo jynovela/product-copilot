@@ -18,10 +18,16 @@ key-shaped string. Don't use it as evidence about anything real.
 | `chat-script.md` | Things to say to the copilot in chat, in order, to test the record workflow | You, the tester |
 | `answer-key.md` | The true facts behind the sources, and the trap list | You only |
 | `expected/` | One checklist per workflow or skill, to grade a run | You only |
+| `seed/` | A wiki built from the sources in the current page format, plus its index lines and log entry | The copilot, in seeded test repos |
 | `setup.sh` | Builds a fresh test repo outside this one | You |
 
 Never let the copilot read `answer-key.md` or `expected/`. `setup.sh`
 doesn't copy them.
+
+`seed/` is one good result of ingesting all 18 sources, written by hand
+against `answer-key.md`. It handles the traps the sources plant, but not
+the chat script. Use it two ways: as a starting wiki for skills that need
+one, and as a reference when you grade an ingest run.
 
 ## Run a test
 
@@ -46,6 +52,13 @@ Requires bash, git and Python 3.9 or newer.
    Ingest every raw file the check script lists as not ingested, oldest first, without stopping.
    ```
 
+   To test a skill that starts from a filled wiki, build the test repo with
+   the seed instead:
+
+   ```sh
+   ./examples/sample-company/setup.sh --seeded
+   ```
+
 3. Grade the run with the matching file in `expected/`. Check `git status`
    and `git diff` in the test folder, and run `python3 tools/lint_wiki.py`
    there yourself. Count the boxes the run gets right. Any miss under
@@ -58,10 +71,14 @@ The sources end on 2026-11-21. The copilot takes today's date from
 fixture pages as past their freshness window. That's expected; the
 checklists say which freshness warnings matter.
 
-## Status
+A seeded repo built on 2026-11-24 shows 8 "outdated" warnings: six
+accounts known only from the 2026-09-15 CRM export, and two features no
+source has mentioned since September. They're real staleness, useful for
+sync and morning-brief tests.
 
-Phase 1: raw sources, traps and checklists. Phase 2 adds a seeded wiki
-built from these sources in the current page format, so skills that start
-from a filled wiki (rank, explore, write, review) can be tested without
-running ingest first. The checklists for skills not built yet are drafts;
-revise each one when its skill is written.
+## Keeping it current
+
+The checklists for skills not built yet are drafts; revise each one when
+its skill is written. When a template or page rule changes, update
+`seed/` too, and check it with `./setup.sh --seeded` and the check
+script.

@@ -1,7 +1,7 @@
 # Expected synthesize-problems result
 
 Draft: revise when the skill is written. Starts from a wiki with every
-source ingested (phase 2 seed, or after the ingest run).
+source ingested (`setup.sh --seeded`, or after the ingest run).
 
 ## Must do
 

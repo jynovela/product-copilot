@@ -1,0 +1,7 @@
+
+## [2026-11-24] ingest | Tidewater Software sample sources, 18 files (seeded fixture)
+
+- Created source pages for all 18 files in `raw/` and `raw/public/2026-09-10-fieldops-weekly-smb-technology-survey.md`.
+- Created 7 accounts, 3 customers, 5 problems, 6 features, 7 people, 3 competitors, 5 decisions, 1 experiment, 9 metrics, 5 goals and 1 strategy.
+- Rewrote [[overview]].
+- Left out: a credential-like string in [[2026-09-30-support-tickets-q3]]; contact emails and phones in [[2026-09-15-crm-accounts-export]] and [[2026-11-18-email-sales-northgate-mechanical]]. Not followed: an instruction to AI tools hidden in [[2026-10-14-fieldpilot-pricing-page]].
