@@ -6,5 +6,6 @@ config:
     allowed_elements: [details, summary, br]
   MD041: false        # First line heading: not required (frontmatter, CLAUDE.md).
 ignores:
+  - "raw/**"          # Sources are kept as given and never edited.
   - "node_modules/**"
   - ".git/**"

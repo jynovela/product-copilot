@@ -64,6 +64,7 @@ them. Skip archived pages unless asked.
 | Asks for a PRD, weekly update, demo spec, interview guide or interview summary | `skills/write-document/SKILL.md` |
 | Asks for tickets, stories or acceptance criteria | `skills/write-tickets/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
+| Asks to audit the wiki, or whether its claims match their sources | `workflows/audit.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 | Asks to research a problem, a market or the solutions out there | `skills/research-problem-space/SKILL.md` |
 | Asks to research or compare named competitors | `skills/research-competitors/SKILL.md` |

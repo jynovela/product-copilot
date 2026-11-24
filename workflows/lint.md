@@ -10,7 +10,9 @@ Use when the user asks to check or clean up the wiki.
    mentioned on two or more pages that have no page, and missing links
    between related pages. **Output:** each finding with the pages involved.
 4. Suggest up to 5 questions to investigate and up to 5 sources to look
-   for. **Output:** the two lists.
+   for. If the newest `audit` entry in `wiki/log.md` is over a month old,
+   or there is none, suggest `workflows/audit.md`. **Output:** the two
+   lists, and the audit suggestion or `Audited on <date>`.
 5. Append `## [YYYY-MM-DD] lint | <one-line summary>` to `wiki/log.md`.
    **Output:** the entry.
 6. Write the report:

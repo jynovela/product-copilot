@@ -4,6 +4,8 @@
 Usage:
     python3 tools/lint_wiki.py               # check the wiki
     python3 tools/lint_wiki.py --hash FILE   # print the sha256 of a raw file
+    python3 tools/lint_wiki.py --sample N    # print N cited claims, picked
+                                             # at random, for an audit
 
 Standard library only. Works on Python 3.9+.
 
@@ -17,6 +19,7 @@ Exit code is 1 if there are errors, else 0.
 
 import datetime
 import hashlib
+import random
 import re
 import sys
 from pathlib import Path
@@ -97,7 +100,7 @@ PERIOD_RE = re.compile(r"^\d{4}-\d{2}-\d{2} to \d{4}-\d{2}-\d{2}$")
 
 LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search|record|sync|[a-z]+(?:-[a-z]+)+) \| \S.*$")
+LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search|record|sync|audit|update|[a-z]+(?:-[a-z]+)+) \| \S.*$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DOC_NAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*\.md$")
 DOC_STATUS = {"draft", "final"}
@@ -108,6 +111,12 @@ UNCONFIRMED_RE = re.compile(r"^- Decided by:\s*copilot \(unconfirmed\)", re.M)
 # distracted by rules that don't apply to the task. Lower this as the
 # always-loaded files shrink.
 CONTEXT_FILES = ["AGENTS.md", "CLAUDE.md"]
+# Raw files whose text can be searched for a quote.
+TEXT_SUFFIXES = {".md", ".txt", ".csv", ".tsv", ".json", ".html", ".htm", ".vtt", ".srt"}
+QUOTE_LINE_RE = re.compile(r'^- "(.+)"', re.M)
+QUOTE_GAP_RE = re.compile(r"\s*(?:\[\.\.\.\]|\[\u2026\]|\.\.\.|\u2026)\s*")
+STATUS_LINE_RE = re.compile(r"^- Status:\s*([a-z-]+)", re.M)
+SKILLS = ROOT / "skills"
 CONTEXT_BUDGET = 8000  # bytes, roughly 2,000 tokens
 
 TODAY = datetime.date.today()
@@ -168,10 +177,63 @@ def strip_code(text):
     return re.sub(r"`[^`\n]*`", "", text)
 
 
+def section(body, heading):
+    """Return the text under '## heading', up to the next '## ' heading."""
+    match = re.search(r"^## {}[ \t]*$".format(re.escape(heading)), body, re.M)
+    if not match:
+        return ""
+    rest = body[match.end():]
+    end = re.search(r"^## ", rest, re.M)
+    return rest[:end.start()] if end else rest
+
+
+def bullets(text):
+    """Return the top-level '- ' bullets of text, each with its indented lines."""
+    items = []
+    for line in text.split("\n"):
+        if line.startswith("- "):
+            items.append(line)
+        elif items and line.startswith((" ", "\t")) and line.strip():
+            items[-1] += "\n" + line
+        elif line.strip():
+            items.append(None)  # prose between bullets ends the last bullet
+    return [item for item in items if item]
+
+
+def squash(text):
+    """Make a quote and a raw file comparable: same quote marks, one space
+    for any run of white space, and no '> ' from Markdown block quotes."""
+    for curly, straight in (("\u201c", '"'), ("\u201d", '"'),
+                            ("\u2018", "'"), ("\u2019", "'")):
+        text = text.replace(curly, straight)
+    text = re.sub(r"^[ \t]*>[ \t]?", "", text, flags=re.M)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def sample_claims(count):
+    """Print cited lines from wiki pages, picked at random, for an audit."""
+    claims = []
+    for path in sorted(WIKI.rglob("*.md")):
+        if path.parent.name == "sources" or path.parent == WIKI:
+            continue
+        fields, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+        if (fields or {}).get("state") == "archived":
+            continue
+        for n, line in enumerate(path.read_text(encoding="utf-8").split("\n"), 1):
+            if "(see [[" in line and "{" not in line:
+                claims.append("{}:{}: {}".format(rel(path), n, line.strip()))
+    for claim in random.sample(claims, min(count, len(claims))):
+        print(claim)
+    print("RESULT: {} of {} cited lines".format(min(count, len(claims)), len(claims)))
+    return 0
+
+
 def main():
     if len(sys.argv) == 3 and sys.argv[1] == "--hash":
         print(sha256(sys.argv[2]))
         return 0
+    if len(sys.argv) == 3 and sys.argv[1] == "--sample" and sys.argv[2].isdigit():
+        return sample_claims(int(sys.argv[2]))
     if len(sys.argv) != 1:
         print(__doc__)
         return 2
@@ -307,6 +369,14 @@ def main():
             error("raw-changed", page["path"],
                   "{} changed since ingest; raw files must never be edited".format(
                       fields["raw"]))
+        elif raw_path.suffix.lower() in TEXT_SUFFIXES:
+            # every quote on the source page must be in the raw file
+            raw_text = squash(raw_path.read_text(encoding="utf-8", errors="replace"))
+            for quote in QUOTE_LINE_RE.findall(section(page["body"], "Quotes")):
+                parts = [part for part in QUOTE_GAP_RE.split(squash(quote)) if part]
+                if not all(part in raw_text for part in parts):
+                    error("quote", page["path"], "not found word for word in {}: "
+                          '"{}"'.format(fields["raw"], quote[:60]))
 
     # links
     inbound = {slug: set() for slug in pages}
@@ -347,6 +417,33 @@ def main():
                 error("no-citation", page["path"],
                       "cite at least one source page in {}/sources/, "
                       "e.g. [[some-source]]".format(layer.name))
+
+    # every Evidence line names its source; an account's two statuses agree
+    for slug, page in pages.items():
+        fields = page["fields"] or {}
+        if slug in SPECIAL_PAGES or page.get("layer") != WIKI:
+            continue
+        for item in bullets(section(page["body"], "Evidence")):
+            if "[[" not in item and "{" not in item:
+                error("uncited", page["path"], "Evidence line has no source: "
+                      "'{}'".format(item.split("\n")[0][:60]))
+        if fields.get("type") == "account":
+            line = STATUS_LINE_RE.search(page["body"])
+            if line and line.group(1) != fields.get("status"):
+                error("account-status", page["path"], "frontmatter status is '{}' "
+                      "but the Status line says '{}'".format(
+                          fields.get("status"), line.group(1)))
+
+    # every skill is routed from AGENTS.md and linked for Claude Code
+    agents = ROOT / "AGENTS.md"
+    if SKILLS.is_dir() and agents.is_file():
+        routes = agents.read_text(encoding="utf-8")
+        for skill in sorted(SKILLS.glob("*/SKILL.md")):
+            name = skill.parent.name
+            if "skills/{}/SKILL.md".format(name) not in routes:
+                error("skill", skill, "AGENTS.md has no row for this skill")
+            if not (ROOT / ".claude" / "skills" / name / "SKILL.md").is_file():
+                error("skill", skill, "missing .claude/skills/{}".format(name))
 
     # log format
     for name in ("log", "playbook-log"):
