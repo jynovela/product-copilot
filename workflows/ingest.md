@@ -29,9 +29,12 @@ decision or a status, follow `workflows/record.md` instead.
    path, or "Already in raw/".
 
 1. **Read.** Read the whole file. **Output:** 3 to 5 key takeaways as bullets.
-2. **Emphasis.** Show the takeaways and ask what to emphasize. Wait for the answer,
-   unless the user said to run without stopping. **Output:** the user's
-   answer, or "Running without stopping".
+2. **Emphasis.** Show the takeaways and ask what to emphasize. Wait for
+   the answer, unless the user said to run without stopping, or the
+   Checkpoints section of `wiki/ways-of-working.md` says ingest runs
+   without asking. If the person tells you to stop asking this, change
+   the Ingest line under Checkpoints to say so, with today's date.
+   **Output:** the user's answer, or "Running without stopping".
 3. **Hash.** Run `python3 tools/lint_wiki.py --hash raw/<file>` and
    `date +%F`. **Output:** the hash and the date.
 4. **Source page.** Create `wiki/sources/<file-name>.md` from

@@ -35,7 +35,7 @@ needs them (see **Read before you act**).
 | `playbook/` | Books, topics, concepts and essays, their own `sources/`, `playbook-index.md` and `playbook-log.md` | You |
 | `documents/` | Documents for people: PRDs, updates, demo specs, interview guides and summaries. Not evidence. | You, when asked |
 | `rules/`, `workflows/`, `templates/`, `skills/` | Detailed rules, workflow steps, page shapes, skills | Nobody, unless the user asks |
-| `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
+| `tools/`, `.claude/settings.json` | The mechanical check, the guard that blocks edits to raw files, Claude Code settings | Nobody, unless the user asks |
 
 ## Read before you act
 
@@ -96,7 +96,9 @@ These hold everywhere. `rules/pages.md` has the full set.
 - Run `python3 tools/lint_wiki.py` after any change to `wiki/` or
   `playbook/`, and fix every `ERROR` line before you report.
 - End each workflow with its report, using every heading listed. Write
-  `None` under a heading that has nothing.
+  `None` under a heading that has nothing. Open the report with two to
+  four plain sentences for the person: what changed and what they need
+  to do. A step's **Output** is a working note, so keep it brief.
 - Get today's date from `date +%F`. Don't guess it.
 - In a Git repository, commit after each workflow or skill run once the
   check passes: `git add -A`, then `git commit` with the run's log line
@@ -107,8 +109,8 @@ These hold everywhere. `rules/pages.md` has the full set.
 ### Ask first
 
 - Deleting, merging or renaming a wiki page.
-- Changing this file, a file in `rules/`, `workflows/` or `templates/`, or
-  `tools/lint_wiki.py`.
+- Changing this file, or a file in `rules/`, `workflows/`, `templates/`,
+  `tools/` or `.claude/`.
 
 ### Never
 
