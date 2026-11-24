@@ -21,12 +21,16 @@ if [ -e "$target" ]; then
 fi
 mkdir -p "$target"
 
-# Copy the repo as git sees it: tracked files plus new files that aren't
-# ignored. That leaves out your own raw/ files and the examples/ folder, so
-# the copilot never sees the answer key or the checklists.
+# Copy the repo as git sees it: tracked files, plus new files that aren't
+# ignored. Untracked files in raw/ and the examples/ folder are left out,
+# so the test copy holds none of your own sources, and the copilot never
+# sees the answer key or the checklists.
 (
   cd "$root"
-  git ls-files -co --exclude-standard | grep -v '^examples/' | tar -cf - -T -
+  {
+    git ls-files -c
+    git ls-files -o --exclude-standard | grep -v '^raw/' || true
+  } | grep -v '^examples/' | tar -cf - -T -
 ) | tar -xf - -C "$target"
 
 # The sample company's sources.

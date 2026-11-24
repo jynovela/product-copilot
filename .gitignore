@@ -1,14 +1,19 @@
-# Raw sources are often confidential (customer calls, internal docs).
-# They stay on your machine by default. To commit them, delete these lines.
-raw/*
-!raw/README.md
-# Public, non-confidential sources can be committed in raw/public/.
-!raw/public/
+# Your sources in raw/ are committed, so every clone and every cloud
+# session has them. Keep this repository private: they hold customer and
+# company facts.
+# To keep sources on one computer instead, add these three lines:
+#   raw/*
+#   !raw/README.md
+#   !raw/public/
+
+# Book files are copyrighted. They stay on your computer.
+raw/books/
 
 .DS_Store
 .obsidian/workspace*.json
 
-# Personal working files: daily briefs and tasks may hold email content.
-daily/
-tasks.md
+# Daily briefs can hold email text, so they are never committed. The
+# brief's settings are kept.
+daily/*
+!daily/settings.md
 __pycache__/

@@ -2,7 +2,8 @@
 
 Use when the user drops a whole book (EPUB, PDF or text) in `raw/books/`
 and asks you to extract it. Book files are copyrighted: they stay in
-`raw/`, which is never committed, and pages are written in your own words.
+`raw/books/`, which is never committed, and pages are written in your own
+words.
 The check script skips a missing `raw/books/` file, and checks its hash
 wherever the file exists.
 

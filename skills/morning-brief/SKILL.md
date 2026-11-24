@@ -22,9 +22,11 @@ and replies when they are connected. The brief is notes, not fact.
   becomes one line in `wiki/review-queue.md`, with no quotes from email
   and no contact details.
 - The brief saves to `daily/<YYYY-MM-DD>.md`, settings to
-  `daily/settings.md`, tasks to `tasks.md`. All three are git-ignored
-  because they can hold email content. Never commit them, and never copy
-  email text anywhere else.
+  `daily/settings.md`, tasks to `tasks.md`. Briefs are git-ignored
+  because they can hold email content: never commit one, and never copy
+  email text anywhere else. Settings and tasks are committed, so keep
+  email text and addresses out of both. Name an account by its label,
+  such as "work email".
 
 ## First run: setup
 
