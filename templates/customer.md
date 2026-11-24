@@ -18,6 +18,10 @@ updated: {YYYY-MM-DD}
 
 - [[{problem}]]
 
+## Willingness to pay
+
+- {amount or range} for {what}: {stated | revealed}, method {A/B test | purchase data | conjoint | Van Westendorp | Gabor-Granger | interview}, n = {count} (see [[{source}]])
+
 ## Contradictions
 
 None.

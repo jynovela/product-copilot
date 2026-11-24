@@ -27,7 +27,7 @@ Hermes and others) and any model you choose.
 
 | Layer | Path | Owner |
 | ----- | ---- | ----- |
-| Raw sources | `raw/` | You. The agent never edits them. |
+| Raw sources | `raw/` | You. The agent never edits them; its research skills may add public pages to `raw/public/`. |
 | Wiki | `wiki/` | The agent. You read it. |
 | Playbook | `playbook/` | The agent. General PM knowledge, not evidence. |
 | Schema | `AGENTS.md` | You and the agent, together, over time |
@@ -53,7 +53,9 @@ python3 tools/lint_wiki.py
 
 It needs Python 3.9 or newer and nothing else. It reports broken links,
 orphan pages, pages missing from the index, missing frontmatter, pages
-that cite no source, playbook pages written from memory without a
+that cite no source, bad values in page frontmatter (goal level,
+strategy status, decision kind and others), more than one active strategy,
+a replacing decision with no reason, playbook pages written from memory without a
 `General knowledge:` label, bad log entries, raw files that changed after
 ingest, and raw files not ingested yet.
 
