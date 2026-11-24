@@ -30,6 +30,9 @@ never starts at step 8.
 ## Inputs
 
 - The ask, in the user's words.
+- The team, if the ask names one. When it doesn't, set-outcome works on
+  `business` goals; say so in the plan so the person can correct it at
+  set-outcome's checkpoint. Don't stop to ask before the chain starts.
 - The mode. **Guided** (the default): every skill keeps its own
   checkpoint, so you stop once for each skill that has one. **Without
   stopping**: only when the user says so. Pass the mode to each skill in
@@ -42,8 +45,10 @@ never starts at step 8.
    `wiki/now.md`, the current goals, the active strategy and the newest
    `opportunity` and `scope` decisions to see which steps are already
    done. Drop a step whose output already exists and is current, and say
-   why. **Output:** the chain, one line per step: the skill and "run" or
-   "skip: {reason}".
+   why. write-document and write-tickets need an approved `scope`
+   decision: if explore-solutions runs, say on their lines that they run
+   only if the person approves a scope there. **Output:** the chain, one
+   line per step: the skill and "run" or "skip: {reason}".
 2. **Say the plan.** Show the chain to the user in one short message and
    start. Don't wait for a yes. The skills' own checkpoints are where the
    person decides. **Output:** "Plan shown".
@@ -56,6 +61,7 @@ never starts at step 8.
 
     | From | To | Pass |
     | ---- | ---- | ---- |
+    | the ask | set-outcome | the period, and the team or `business` |
     | set-outcome | rank-opportunities | the goal pages, or "No goal set: needs a person" and `direction only` |
     | research skills | synthesize-problems | the new source pages |
     | synthesize-problems | rank-opportunities | the problem pages changed |

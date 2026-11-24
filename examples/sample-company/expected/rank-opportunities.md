@@ -16,7 +16,11 @@ without stopping." Run it once more in guided mode to check the stop.
       what's left (offline job creation, the duplicate-sync bug), not the
       shipped feature.
 - [ ] Files the ranking as `wiki/analyses/rank-opportunities-<date>.md`;
-      problem pages get no rank or score.
+      problem pages get no rank or score. It links the analysis from the
+      overview's Open questions until the decision links it, then removes
+      that line.
+- [ ] In guided mode, saves the person's pick as a chat note and source
+      page and cites it on the decision.
 - [ ] Copies the problem's Size section into the decision's Known at
       decision, and lists the other candidates under Options not chosen.
 - [ ] In guided mode, stops at the pick and waits. Without stopping,

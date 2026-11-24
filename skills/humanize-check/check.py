@@ -382,6 +382,9 @@ def main(argv):
     files = []
     k = 0
     while k < len(argv):
+        if argv[k] in ("-h", "--help"):
+            print(__doc__)
+            return 0
         if argv[k] == "--mode" and k + 1 < len(argv):
             mode = argv[k + 1]
             k += 2
