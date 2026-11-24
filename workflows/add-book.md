@@ -12,9 +12,10 @@ it's on the list` section instead of creating a second page.
    the raw note yourself. **Output:** the source page to cite.
 2. Create `playbook/books/<file-name>.md` from `templates/book.md`. If you
    only know the book from memory, set `knowledge_source: model-memory`
-   and keep the `General knowledge:` line. If the key ideas come from the
-   raw file, set `ingested` and cite it on each idea. Say `Confidence:
-   lower` when you are unsure of the book's details. **Output:** the path.
+   and keep the `General knowledge:` line. For a whole book in
+   `raw/books/`, follow `workflows/ingest-book.md` instead. Say
+   `Confidence: lower` when you are unsure of the book's details.
+   **Output:** the path.
 3. Link the book to one or more topic pages, and add it under `## Books` on
    each. Create a concept page for any framework that will be used on its
    own. **Output:** the pages changed.

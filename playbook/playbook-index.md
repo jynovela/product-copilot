@@ -52,6 +52,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
 - [[circles-method]]: A structure for product design interview answers.
 - [[cohort-retention]]: Group users by when they started and track how many are still active over time; a flattening curve signals product-market fit.
+- [[commitment-and-advancement]]: End product and sales conversations with a concrete commitment or a clear no, so polite interest can't pass for validation.
 - [[committed-vs-aspirational-goals]]: Committed goals are expected to be hit in full; aspirational goals are expected to land near 70%. Label which one a goal is.
 - [[competition-based-pricing]]: Set price below, at or above rivals' prices; suits mature, commoditized markets and risks price wars.
 - [[concierge-and-wizard-of-oz]]: Deliver the value by hand before automating it; in a concierge test the customer knows, in a Wizard of Oz test they don't.
@@ -59,6 +60,8 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[cost-plus-pricing]]: Price = unit cost plus a markup; simple and common, but ignores demand and is a poor fit for software.
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
+- [[customer-learning-process]]: Run customer conversations as a team routine: pick the three big questions, prep, take coded notes, review together, update beliefs.
+- [[customer-slicing]]: Split a broad segment into specific who-where pairs you can find and talk to, so customer feedback stops pointing in every direction.
 - [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
 - [[data-product-manager]]: A PM for data as a product: pipelines, analytics, data platforms, or features built on data. Sources define it very differently.
 - [[decision-matrix]]: Score options against shared, weighted criteria, then run a sensitivity check; better at communicating than deciding.
@@ -78,6 +81,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[fake-door-test]]: A button, menu item or page for something that doesn't exist yet, to measure interest before building.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
 - [[fermi-estimation]]: Break an unknowable number into guessable parts and multiply, for an order-of-magnitude answer in minutes.
+- [[finding-customer-conversations]]: Get customer conversations going: casual chats over formal meetings, warm intros over cold outreach, and a five-part ask when a meeting is needed.
 - [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
 - [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
@@ -104,6 +108,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[ideal-customer-profile]]: The company-level description of the high-fit subset of the market to target first, in objective, checkable terms.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
 - [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
+- [[interview-bad-data]]: Spot compliments, fluff and feature requests in customer conversations, and steer back to facts by deflecting, anchoring and digging.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
 - [[issue-tree]]: Break a problem into mutually exclusive, collectively exhaustive possible causes, then test each with data.
 - [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
@@ -118,7 +123,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[metric-tree]]: Write the goal as a formula of its drivers, then break each driver down again, so you know which lever to pull.
 - [[mimetic-desire]]: People learn what to want by imitating others (models).
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
-- [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
+- [[mom-test-interviews]]: Ask about people's real past behavior, never their opinion of your idea, so the answers can't flatter you.
 - [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
 - [[net-promoter-score]]: Ask how likely people are to recommend you on 0 to 10; promoters minus detractors gives a score from −100 to +100.
 - [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
@@ -318,7 +323,7 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[the-lean-product-playbook]]: The Lean Product Playbook by Dan Olsen. A tactical companion to The Lean Startup, with techniques for putting lean methods into practice.
 - [[the-lean-startup]]: The Lean Startup by Eric Ries. Build, measure, learn: test assumptions with minimum viable products and validated learning.
 - [[the-making-of-a-manager]]: The Making of a Manager by Julie Zhuo. A practical guide for new managers from a former Facebook design leader.
-- [[the-mom-test]]: The Mom Test by Rob Fitzpatrick. How to talk to customers so that even your mom can't lie to you.
+- [[the-mom-test]]: The Mom Test by Rob Fitzpatrick. How to talk to customers so the answers are facts and commitments, not polite lies.
 - [[the-mythical-man-month]]: The Mythical Man-Month by Frederick P. Brooks Jr. (top pick). Ken's one computer science pick.
 - [[the-paradox-of-choice]]: The Paradox of Choice by Barry Schwartz. Too many options can paralyze people and leave them less satisfied.
 - [[the-power-of-a-positive-no]]: The Power of a Positive No by William Ury. Saying no gracefully and firmly is one of a PM's most important skills, and this is the classic guide.

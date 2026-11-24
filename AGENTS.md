@@ -59,6 +59,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Says `ingest raw/<file>` | `workflows/ingest.md` |
 | Tells you something to keep: a decision, a new or stopped feature, a changed goal, a status, who owns what | `workflows/record.md` |
 | Names a book or essay to add | `workflows/add-book.md` |
+| Drops a whole book in `raw/books/` to extract | `workflows/ingest-book.md` |
 | Asks a question about the product, customers or market, or how to do product work | `workflows/query.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
