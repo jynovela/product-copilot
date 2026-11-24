@@ -56,7 +56,12 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
-- [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
+- [[mom-test-interviews]]: Ask about people's real past behavior, never their opinion of your idea, so the answers can't flatter you.
+- [[interview-bad-data]]: Spot compliments, fluff and feature requests, and steer back to facts.
+- [[commitment-and-advancement]]: End product and sales conversations with a concrete commitment or a clear no.
+- [[customer-slicing]]: Split a broad segment into who-where pairs you can find and talk to.
+- [[finding-customer-conversations]]: Casual chats, warm intros, and a five-part ask when a meeting is needed.
+- [[customer-learning-process]]: Prep three big questions, take coded notes, review as a team.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.

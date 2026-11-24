@@ -45,6 +45,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[go-to-market-motions]]: Product-led, sales-led, partner-led or hybrid.
 - [[ideal-customer-profile]]: The high-fit subset to target first.
+- [[customer-slicing]]: Split a broad segment into who-where pairs you can find and talk to.
 - [[buying-center]]: Everyone involved in a B2B purchase.
 - [[rollout-waves]]: Alpha, beta, limited release, general availability, follow-up.
 - [[freemium-and-free-trials]]: Free entry points that feed product-led growth.
