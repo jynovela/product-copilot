@@ -2,7 +2,7 @@
 
 Documents the copilot writes for people to read or share outside the
 repo: PRDs, strategy docs, product and adoption reports, weekly updates,
-demo specs and others. Wiki pages are the copilot's records; documents are
+demo specs, interview guides and summaries, and others. Wiki pages are the copilot's records; documents are
 what it hands to people.
 
 ## Rules
@@ -10,7 +10,8 @@ what it hands to people.
 - One file per document, named `<YYYY-MM-DD>-<doc type>-<short-title>.md`,
   for example `2026-11-24-prd-bulk-export.md`. The date is the day it was
   written. A new version is a new file with a new date; old versions stay.
-- Start from `templates/document.md`.
+- Follow `skills/write-document/SKILL.md`. It starts from
+  `templates/document.md` and has one file per document type.
 - Write the body for people: plain prose, no `[[links]]`. Put the wiki
   pages the document was built from under `## Built from`, with the
   `updated` date each page had. A reader can then see how old the facts
