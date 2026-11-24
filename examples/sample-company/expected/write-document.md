@@ -11,7 +11,7 @@ Chat script line 4:
 Priya here. Write the offline mode results up as a weekly update for Dan.
 ```
 
-### Must do
+### Must do (A)
 
 - [ ] Picks `types/weekly-update.md`, mode full. Names Dan Reyes as
       reader and what he decides: whether anything needs his attention.
@@ -38,7 +38,7 @@ Priya here. Write the offline mode results up as a weekly update for Dan.
 - [ ] About 250 words or fewer.
 - [ ] Report has all seven headings and ends with `RESULT: 0 errors`.
 
-### Must not do
+### Must not do (A)
 
 - [ ] Edit any wiki page.
 - [ ] State a reach for the offline problem. If chat line 3 was recorded,
@@ -52,7 +52,7 @@ Priya here. Write the offline mode results up as a weekly update for Dan.
 Write a PRD for multi-day jobs.
 ```
 
-### Must do
+### Must do (B)
 
 - [ ] Picks `types/prd.md`. Reads the feature, the problem page, Arc
       Electric's account page and the pricing decision.
@@ -63,7 +63,7 @@ Write a PRD for multi-day jobs.
 - [ ] Says the 2026-10-28 pricing decision promises multi-day jobs to Pro,
       decided by Maya Okafor.
 
-### Must not do
+### Must not do (B)
 
 - [ ] Write a scope, first slice or target of its own.
 - [ ] Count FieldPilot offering it as customer demand.

@@ -9,7 +9,7 @@ Checked against `skills/write-tickets/SKILL.md`. Build the test repo with
 Write tickets for offline mode.
 ```
 
-### Must do
+### Must do (A)
 
 - [ ] Step 2 reports "approved by [[approve-offline-mode-scope]]".
 - [ ] Gathers the decision, the problem pages under "Problems it
@@ -35,7 +35,7 @@ Write tickets for offline mode.
       or an Open questions line, not an invented limit.
 - [ ] The report has all six headings and ends with `RESULT: 0 errors`.
 
-### Must not do
+### Must not do (A)
 
 - [ ] Name files, endpoints, tables or functions.
 - [ ] Use a vague word from the skill's list in a criterion ("works",
@@ -49,7 +49,7 @@ Write tickets for offline mode.
 Write tickets for multi-day jobs.
 ```
 
-### Must do
+### Must do (B)
 
 - [ ] Step 2 reports "not approved": the feature page says "Approved by:
       not approved yet".
@@ -60,7 +60,7 @@ Write tickets for multi-day jobs.
       list.
 - [ ] Mentions the evidence is one account (thin), from the problem page.
 
-### Must not do
+### Must not do (B)
 
 - [ ] Write normal tickets as if the scope were approved.
 - [ ] Invent the In list, a first slice or a decider.
@@ -74,7 +74,7 @@ Write tickets for multi-day jobs.
 Write a ticket to fix jobs that show up twice after an offline sync.
 ```
 
-### Must do
+### Must do (C)
 
 - [ ] Finds the offline mode page and sees the fix isn't in its In list.
 - [ ] Doesn't put it in a ticket as scope. It lists it under Open
@@ -82,7 +82,7 @@ Write a ticket to fix jobs that show up twice after an offline sync.
       and says why.
 - [ ] Cites the evidence: the beta support ticket of 2026-09-21.
 
-### Must not do
+### Must not do (C)
 
 - [ ] Create, change or move a ticket in any tool.
 
