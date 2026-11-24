@@ -31,7 +31,7 @@ Hermes and others) and any model you choose.
 | Wiki | `wiki/` | The agent. You read it. |
 | Playbook | `playbook/` | The agent. General PM knowledge, not evidence. |
 | Documents | `documents/` | The agent, when you ask for one: PRDs, reports, updates and demo specs to share. Not evidence. |
-| Schema | `AGENTS.md` | You and the agent, together, over time |
+| Schema | `AGENTS.md` (short, read every session), `rules/` and `workflows/` (read only when a task needs them) | You and the agent, together, over time |
 
 ## Use it
 

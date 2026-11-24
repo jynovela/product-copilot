@@ -104,7 +104,7 @@ UNCONFIRMED_RE = re.compile(r"^- Decided by:\s*copilot \(unconfirmed\)", re.M)
 # distracted by rules that don't apply to the task. Lower this as the
 # always-loaded files shrink.
 CONTEXT_FILES = ["AGENTS.md", "CLAUDE.md"]
-CONTEXT_BUDGET = 20000  # bytes, roughly 5,000 tokens
+CONTEXT_BUDGET = 8000  # bytes, roughly 2,000 tokens
 
 TODAY = datetime.date.today()
 errors = []
