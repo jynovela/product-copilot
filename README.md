@@ -259,12 +259,6 @@ You can read the repository, but you can't change it or run its scripts.
   instructions.
 ```
 
-ChatGPT's GitHub connector only reads. Codex can make changes and reads
-`AGENTS.md`, but the copilot hasn't been tested with it. Because ChatGPT finds files by searching, it
-can miss a page, so if an answer looks thin, name the file you mean.
-ChatGPT skills are only on Business, Enterprise and Edu plans, and you
-don't need them for the same reason as in Claude.
-
 ## Keeping your copy up to date
 
 Your company's facts live only in `wiki/` and `raw/`, and everything else
