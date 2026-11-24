@@ -1,6 +1,6 @@
 ---
 type: document
-doc_type: {prd | strategy | feature-request | product-report | adoption-report | weekly-update | demo-spec | interview-guide | interview-summary | other, as lowercase-words-with-dashes}
+doc_type: {prd | strategy | feature-request | product-report | adoption-report | weekly-update | demo-spec | interview-guide | interview-summary | tickets | other, as lowercase-words-with-dashes}
 date: {YYYY-MM-DD}
 status: {draft | final}
 ---

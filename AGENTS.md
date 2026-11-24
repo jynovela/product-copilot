@@ -61,6 +61,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Names a book or essay to add | `workflows/add-book.md` |
 | Asks a question about the product, customers or market, or how to do product work | `workflows/query.md` |
 | Asks for a PRD, weekly update, demo spec, interview guide or interview summary | `skills/write-document/SKILL.md` |
+| Asks for tickets, stories or acceptance criteria | `skills/write-tickets/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 
