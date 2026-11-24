@@ -2,6 +2,8 @@
 type: feature
 summary: {one line: what it does}
 updated: {YYYY-MM-DD}
+state: current
+as_of: {YYYY-MM-DD, the last day its facts were checked}
 ---
 
 # {Feature name}

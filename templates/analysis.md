@@ -2,6 +2,8 @@
 type: analysis
 summary: {one line: the question and the short answer}
 updated: {YYYY-MM-DD}
+state: current
+as_of: {YYYY-MM-DD, the last day its facts were checked}
 ---
 
 # {Question}

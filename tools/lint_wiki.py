@@ -15,6 +15,7 @@ The last line is always:
 Exit code is 1 if there are errors, else 0.
 """
 
+import datetime
 import hashlib
 import re
 import sys
@@ -33,6 +34,7 @@ LAYERS = {
         "customers": "customer",
         "problems": "problem",
         "features": "feature",
+        "people": "person",
         "competitors": "competitor",
         "decisions": "decision",
         "experiments": "experiment",
@@ -51,10 +53,11 @@ LAYERS = {
 # layer -> its index page; pages in a layer must be listed in its index
 INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
 SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "reading-paths",
-                 "newsletters-and-podcasts"}
+                 "newsletters-and-podcasts", "now", "ways-of-working",
+                 "review-queue"}
 # page types whose claims must cite at least one source page
 MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book",
-             "essay", "experiment", "metric", "goal", "strategy"}
+             "essay", "experiment", "metric", "goal", "strategy", "person"}
 # page types that must link to at least one book or essay page
 MUST_LINK_BOOK = {"topic", "concept"}
 # page types that must say where their knowledge came from
@@ -74,13 +77,23 @@ ENUM_FIELDS = {
     "decision": {"kind": {"opportunity", "scope", "launch", "outcome-review",
                           "pricing", "strategy", "goal", "other"}},
 }
+# page types with state and as_of -> freshness window in days. A current
+# page whose as_of is older than its window is flagged as outdated.
+FRESHNESS_DAYS = {"feature": 30, "problem": 90, "competitor": 90,
+                  "customer": 180, "person": 180, "analysis": 180, "metric": 365}
+STATES = {"current", "archived"}
+ARCHIVED_RE = re.compile(r"^- Archived: \d{4}-\d{2}-\d{2}, \S", re.M)
+WAYS_OF_WORKING_MAX_LINES = 100
+REVIEW_QUEUE_MAX_DAYS = 14
+QUEUE_LINE_RE = re.compile(r"^- \[(\d{4}-\d{2}-\d{2})\]", re.M)
+MONTH_RE = re.compile(r"^- Month: (\d{4})-(\d{2})\s*$", re.M)
 # page type -> frontmatter fields that hold "YYYY-MM-DD to YYYY-MM-DD"
 PERIOD_FIELDS = {"goal": "period", "strategy": "horizon"}
 PERIOD_RE = re.compile(r"^\d{4}-\d{2}-\d{2} to \d{4}-\d{2}-\d{2}$")
 
 LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search) \| \S.*$")
+LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search|record) \| \S.*$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DOC_NAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*\.md$")
 DOC_STATUS = {"draft", "final"}
@@ -93,6 +106,7 @@ UNCONFIRMED_RE = re.compile(r"^- Decided by:\s*copilot \(unconfirmed\)", re.M)
 CONTEXT_FILES = ["AGENTS.md", "CLAUDE.md"]
 CONTEXT_BUDGET = 20000  # bytes, roughly 5,000 tokens
 
+TODAY = datetime.date.today()
 errors = []
 warnings = []
 
@@ -134,6 +148,14 @@ def parse_frontmatter(text):
                     fields[key.strip()] = value.strip().strip('"').strip("'")
             return fields, "\n".join(lines[i + 1:])
     return None, text
+
+
+def parse_date(text):
+    """Return a date for YYYY-MM-DD, or None if it is not a real date."""
+    try:
+        return datetime.date.fromisoformat(text)
+    except ValueError:
+        return None
 
 
 def strip_code(text):
@@ -212,6 +234,23 @@ def main():
         if period_key and not PERIOD_RE.match(fields.get(period_key, "")):
             error("frontmatter", path,
                   "{} must look like 'YYYY-MM-DD to YYYY-MM-DD'".format(period_key))
+        window = FRESHNESS_DAYS.get(fields.get("type"))
+        if window:
+            state, as_of = fields.get("state"), fields.get("as_of", "")
+            if state not in STATES:
+                error("frontmatter", path, "state must be one of: archived, current")
+            checked = parse_date(as_of) if DATE_RE.match(as_of) else None
+            if checked is None:
+                error("frontmatter", path, "as_of must be a date, YYYY-MM-DD")
+            elif state == "current":
+                age = (TODAY - checked).days
+                if age > window:
+                    warn("outdated", path, "facts last checked {} days ago; "
+                         "{} pages are checked every {} days".format(
+                             age, fields["type"], window))
+            if state == "archived" and not ARCHIVED_RE.search(page["body"]):
+                error("archived", path, "add '- Archived: YYYY-MM-DD, <why> "
+                      "(see [[page]])'")
         if fields.get("type") == "decision":
             replaces = re.search(r"^- Replaces: \[\[", page["body"], re.M)
             reopened = re.search(r"^- Reopened because[^:\n]*:[ \t]*\S", page["body"], re.M)
@@ -318,6 +357,27 @@ def main():
                     and "assets" not in path.relative_to(RAW).parts \
                     and path.resolve() not in ingested:
                 warn("not-ingested", path, "no source page points at this file")
+
+    # the short pages read every session stay short and current
+    if "ways-of-working" in pages:
+        n = len(pages["ways-of-working"]["path"].read_text(
+            encoding="utf-8").split("\n"))
+        if n > WAYS_OF_WORKING_MAX_LINES:
+            warn("too-long", pages["ways-of-working"]["path"],
+                 "{} lines; keep it under {}".format(n, WAYS_OF_WORKING_MAX_LINES))
+    if "now" in pages:
+        month = MONTH_RE.search(pages["now"]["body"])
+        if month and (int(month.group(1)), int(month.group(2))) < (TODAY.year, TODAY.month):
+            warn("outdated", pages["now"]["path"], "Month is past; replace it "
+                 "with this month's focus")
+    if "review-queue" in pages:
+        for day in QUEUE_LINE_RE.findall(pages["review-queue"]["body"]):
+            queued = parse_date(day)
+            if queued and (TODAY - queued).days > REVIEW_QUEUE_MAX_DAYS:
+                age = (TODAY - queued).days
+                warn("review-queue", pages["review-queue"]["path"],
+                     "a change from {} has waited {} days; ask who should "
+                     "confirm it".format(day, age))
 
     # documents written for people
     if DOCUMENTS.is_dir():

@@ -2,6 +2,8 @@
 type: problem
 summary: {one line: the pain, in the customer's words}
 updated: {YYYY-MM-DD}
+state: current
+as_of: {YYYY-MM-DD, the last day its facts were checked}
 ---
 
 # {Problem name}

@@ -7,3 +7,7 @@ raw/*
 
 .DS_Store
 .obsidian/workspace*.json
+
+# Personal working files: daily briefs and tasks may hold email content.
+daily/
+tasks.md
