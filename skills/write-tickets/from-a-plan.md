@@ -40,8 +40,9 @@ otherwise.
   so in the report. Add its extra headings after Assumptions.
 - **Existing tickets.** If the source says tickets already exist (IDs, a
   tracker project), list them in the epics file and ask whether the new
-  set replaces them, adds to them, or is only a comparison. Never write
-  over or into the tracker.
+  set replaces them, adds to them, or is only a comparison. If a tracker
+  is connected, list its open tickets for that project and compare
+  titles. Never change an existing ticket.
 
 ## Steps
 
@@ -79,7 +80,8 @@ otherwise.
    the user asks; their stories carry the blocker as the first line of
    Context. **Output:** the path and tickets per epic.
 8. **Check, humanize, lint and report** as in `SKILL.md` steps 6 to 9.
-   Add `### Epics` and `### Gaps added` to the report.
+   Add `### Epics` and `### Gaps added` to the report. If the user asks
+   for the tickets in their tracker, follow `to-a-tracker.md` next.
 
 ## Epic format
 
@@ -128,5 +130,6 @@ under any that is empty.
 - **Don't decide for the owner.** A value the source marks open or
   undecided (a price, a limit, a policy) becomes an open question, never a
   number in a criterion, not even as an assumption.
-- **Don't change the source.** Never edit the plan, the source repo or
-  the tracker. Suggested changes to the plan go under Open questions.
+- **Don't change the source.** Never edit the plan or the source repo,
+  or touch the tracker except through `to-a-tracker.md`. Suggested
+  changes to the plan go under Open questions.

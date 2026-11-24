@@ -62,7 +62,7 @@ read `playbook/playbook-index.md`, `wiki/source-index.md`, either log or
 | Drops a whole book in `raw/books/` to extract | `workflows/ingest-book.md` |
 | Asks a question about the product, customers, their problems or the market, or how to do product work | `workflows/query.md` |
 | Asks for a PRD, weekly update, demo spec, interview guide or interview summary | `skills/write-document/SKILL.md` |
-| Asks for tickets, stories or acceptance criteria | `skills/write-tickets/SKILL.md` |
+| Asks for tickets, stories, epics or acceptance criteria, or to break a plan into work | `skills/write-tickets/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
 | Asks to audit the wiki, or whether its claims match their sources | `workflows/audit.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
