@@ -61,8 +61,8 @@ Requires bash, git and Python 3.9 or newer.
    ```
 
 3. Grade the run with the matching file in `expected/`. Check `git status`
-   and `git diff` in the test folder, and run `python3 tools/lint_wiki.py`
-   there yourself. Count the boxes the run gets right. Any miss under
+   and `git log -p` in the test folder (the copilot commits after each
+   run), and run `python3 tools/lint_wiki.py` there yourself. Count the boxes the run gets right. Any miss under
    "Must not do" fails the run, whatever the rest scores.
 
 ## Dates

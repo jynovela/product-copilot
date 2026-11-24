@@ -6,7 +6,8 @@ Testable now. Prompt, in a fresh test repo:
 Ingest every raw file the check script lists as not ingested, oldest first, without stopping.
 ```
 
-Grade with `git status`, `git diff`, the run's reports, and
+Grade with `git status`, `git log -p` (the copilot commits after each
+run), the run's reports, and
 `python3 tools/lint_wiki.py` run yourself. Trap IDs refer to
 `answer-key.md`.
 

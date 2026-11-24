@@ -18,8 +18,10 @@ technician limits), say "I don't know".
       them into the overview, goal, person, customer or ways-of-working
       pages, citing the note.
 - [ ] Adds only a `## Set up for` section to `README.md`.
-- [ ] `git diff --stat -- AGENTS.md CLAUDE.md rules workflows templates
-      skills tools` prints nothing.
+- [ ] Says once that sources are committed and the repository must be
+      private, without waiting for an answer.
+- [ ] `git diff --stat <first commit> -- AGENTS.md CLAUDE.md rules
+      workflows templates skills tools` prints nothing.
 - [ ] Lists connectors worth adding (CRM, tickets, support, analytics,
       email and calendar) and what each feeds, without installing any.
 - [ ] Ends with the setup report, every heading present, and lint at

@@ -276,13 +276,21 @@ hasn't read yet.
 
 ## Privacy
 
-The sources you paste or drop in for the copilot to read (calls,
-internal docs, chat notes and tool snapshots) stay on your computer,
-because Git ignores them by default. The copilot's pages are committed, though, so your copy holds
-company facts and should stay private. Daily briefs and your task list are
-never committed, since they can contain email text. The copilot leaves
-passwords, keys and personal contact details out of its pages, and it
-ignores instructions hidden inside a source.
+Your copy holds customer and company facts, so keep it private. The
+sources you paste or drop in (calls, internal docs, chat notes and tool
+snapshots) are committed along with the copilot's pages. That way a second
+computer or a cloud session has everything, and nothing is lost when a
+session ends. Never push your copy to a public repository.
+
+If your company doesn't allow call transcripts on GitHub, tell the copilot
+"keep sources local" during setup. It adds `raw/` to `.gitignore`, and the
+sources then stay on that one computer. A cloud session can't see them or
+save new ones, so use Claude Code on that computer only.
+
+Book files and daily briefs are never committed: books are copyrighted,
+and briefs can contain email text. The copilot leaves passwords, keys and
+personal contact details out of its pages, and it ignores instructions
+hidden inside a source.
 
 ## Under the hood
 
@@ -291,7 +299,7 @@ This part is for people adapting the copilot rather than using it.
 | Path | What it holds |
 | ---- | ------------- |
 | `AGENTS.md` | The instructions every session reads. It's kept short and points to the rest. `CLAUDE.md` points to it. |
-| `raw/` | Source files as you gave them, never edited. Only `raw/public/` is committed. |
+| `raw/` | Source files as you gave them, never edited. Committed, except book files in `raw/books/`. |
 | `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a log and the review queue |
 | `playbook/` | 145 books, 10 essays, 19 topics and 190 methods. Advice, never evidence. |
 | `documents/` | What the copilot writes for people |

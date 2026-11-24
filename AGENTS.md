@@ -27,7 +27,7 @@ needs them (see **Read before you act**).
 
 | Path | What it holds | Who writes it |
 | ---- | ------------- | ------------- |
-| `raw/` | Source documents. `raw/public/` is public and committed; `raw/notes/` holds what the user said in chat; `raw/pasted/` holds sources the user pasted or attached in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`, the ingest workflow to `raw/pasted/`, the sync skill to `raw/sync/`. |
+| `raw/` | Source documents, committed except `raw/books/`. `raw/public/` holds public pages; `raw/notes/` holds what the user said in chat; `raw/pasted/` holds sources the user pasted or attached in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`, the ingest workflow to `raw/pasted/`, the sync skill to `raw/sync/`. |
 | `wiki/<type>/` | One page per thing: sources, customers, accounts, problems, features, people, competitors, decisions, experiments, metrics, goals, strategies, analyses | You |
 | `wiki/overview.md`, `wiki/index.md`, `wiki/log.md` | The current picture, a catalog of every page, an append-only log | You |
 | `wiki/ways-of-working.md`, `wiki/now.md` | How the person works and what they focus on now | You, when the person says |
@@ -96,6 +96,11 @@ These hold everywhere. `rules/pages.md` has the full set.
 - End each workflow with its report, using every heading listed. Write
   `None` under a heading that has nothing.
 - Get today's date from `date +%F`. Don't guess it.
+- In a Git repository, commit after each workflow or skill run once the
+  check passes: `git add -A`, then `git commit` with the run's log line
+  as the message. Push only when the person asked or your environment
+  tells you to. If work can't be pushed from a cloud session, say that it
+  will be lost when the session ends.
 
 ### Ask first
 

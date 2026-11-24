@@ -21,8 +21,9 @@ to do today?" Answer the setup questions with the recommended options.
 - [ ] Says now.md is empty and proposes three weekly goals, each linked
       to a goal page, and waits for an OK before writing now.md.
 - [ ] Writes the brief to `daily/<date>.md` with every heading, `None`
-      under empty ones; `git status` shows nothing new outside `daily/`,
-      `tasks.md` and `wiki/review-queue.md`.
+      under empty ones; the run changes nothing outside `daily/`,
+      `tasks.md` and `wiki/review-queue.md` (check `git status` and
+      `git log --stat`), and no brief is committed.
 - [ ] Anything worth keeping goes to the review queue, not onto pages.
 
 ## Must not do

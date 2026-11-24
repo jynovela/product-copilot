@@ -12,8 +12,9 @@ Rules:
 - The agent's research skills may add new public pages to `raw/public/`,
   as paraphrased extracts with their URL and fetch date. They never edit
   or overwrite a file.
-- Files here are ignored by git (see `.gitignore`), so they stay on your
-  machine unless you choose to commit them.
+- Files here are committed, so keep the repository private. Book files in
+  `raw/books/` are the exception: they are copyrighted and stay on your
+  machine. To keep all sources on one machine, see `.gitignore`.
 - You can also paste a call, notes or an email into the chat and ask the
   agent to add it. It saves the text unchanged in `raw/pasted/` first,
   then reads it.
