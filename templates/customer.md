@@ -2,6 +2,8 @@
 type: customer
 summary: {one line: who they are and what they need}
 updated: {YYYY-MM-DD}
+state: current
+as_of: {YYYY-MM-DD, the last day its facts were checked}
 ---
 
 # {Segment or persona name}

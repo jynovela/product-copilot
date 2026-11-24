@@ -27,7 +27,7 @@ Hermes and others) and any model you choose.
 
 | Layer | Path | Owner |
 | ----- | ---- | ----- |
-| Raw sources | `raw/` | You. The agent never edits them; its research skills may add public pages to `raw/public/`. |
+| Raw sources | `raw/` | You. The agent never edits them; its research skills may add public pages to `raw/public/`, and it saves what you tell it in chat to `raw/notes/`. |
 | Wiki | `wiki/` | The agent. You read it. |
 | Playbook | `playbook/` | The agent. General PM knowledge, not evidence. |
 | Documents | `documents/` | The agent, when you ask for one: PRDs, reports, updates and demo specs to share. Not evidence. |
@@ -43,8 +43,13 @@ Hermes and others) and any model you choose.
    agent to file good answers back into the wiki.
 5. Ask how-to questions too: `how should I say no to this sales request?`
    The answer separates your evidence from what the playbook suggests.
-6. Add a book or essay: `add the book <title>`.
-7. Now and then, tell the agent: `lint the wiki`.
+6. Tell it what changed, in plain words: `I decided we'll build bulk
+   export` or `we stopped the mobile app`. It saves your words as a note,
+   then updates, creates or archives the pages they affect.
+7. Add a book or essay: `add the book <title>`.
+8. Fill in `wiki/ways-of-working.md` (how you decide and how to write for
+   you) and `wiki/now.md` (this month's focus). The agent reads both first.
+9. Now and then, tell the agent: `lint the wiki`.
 
 Check the wiki yourself at any time:
 
@@ -56,7 +61,9 @@ It needs Python 3.9 or newer and nothing else. It reports broken links,
 orphan pages, pages missing from the index, missing frontmatter, pages
 that cite no source, bad values in page frontmatter (goal level,
 strategy status, decision kind and others), more than one active strategy,
-a replacing decision with no reason, decisions the copilot made that
+a replacing decision with no reason, pages whose facts are past their
+type's freshness window, archived pages with no reason, a past month in
+`wiki/now.md`, changes waiting too long in `wiki/review-queue.md`, decisions the copilot made that
 no person has confirmed yet, documents with a bad name or header or links
 to pages that are gone, `AGENTS.md` growing past its size budget, playbook pages written from memory without a
 `General knowledge:` label, bad log entries, raw files that changed after
@@ -68,7 +75,9 @@ ingest, and raw files not ingested yet.
 confidential. Public sources you want to keep, like a published reading
 list, go in `raw/public/`, which is committed. The wiki is committed, so review it before you push it
 anywhere public. To commit raw sources too, remove the `raw/` lines from
-`.gitignore`.
+`.gitignore`. Chat notes in `raw/notes/` stay ignored the same way.
+`daily/` and `tasks.md` are ignored too, because daily briefs and tasks
+can hold email content.
 
 ## Reading the wiki
 

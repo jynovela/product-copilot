@@ -1,0 +1,23 @@
+# Ways of working
+
+How the person running this copilot works. Every workflow and skill reads
+this first. Keep it under 100 lines: one line per rule, dated, newest
+last. When the person corrects you, add a line under Corrections.
+
+## How I decide
+
+- {what I say yes and no to, e.g. "Research first, then one clear recommendation, not five options."}
+
+## How to write for me
+
+- Tone: {tone}
+- Avoid: {words, phrases and styles to avoid}
+- Voice samples: {paths to 3 to 5 pieces of my own writing, or none yet}
+
+## Formats I prefer
+
+- {document type}: {preferred shape}
+
+## Corrections
+
+- None yet.

@@ -2,6 +2,8 @@
 type: competitor
 summary: {one line: what they are and who picks them}
 updated: {YYYY-MM-DD}
+state: current
+as_of: {YYYY-MM-DD, the last day its facts were checked}
 ---
 
 # {Competitor name}

@@ -12,6 +12,8 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Features
 
+## People
+
 ## Competitors
 
 ## Decisions
@@ -82,3 +84,7 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 - [[2026-11-24-research-digest-pricing]]: Research digest on pricing: strategies, models, value metric, willingness-to-pay methods and price changes, from about 40 articles.
 - [[2026-11-24-research-digest-problem-size]]: Research digest on problem framing and sizing: problem statement formats, root-cause methods, problem classifications, sizing dimensions, market sizing and estimation, from about 25 articles.
 - [[2026-11-24-research-digest-strategy]]: Research digest on product strategy: Perri's canvas, Pichler's vision board and framework, 7 Powers, Playing to Win, strategy types and review triggers, from about 31 articles.
+
+## Archived
+
+Pages with `state: archived`. Skills skip them unless asked.
