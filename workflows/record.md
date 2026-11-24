@@ -10,7 +10,7 @@ owns billing".
    `templates/raw-note.md`: who said it, the date, "in chat", and their
    words as written. Never edit a note after saving it; a correction is a
    new note. If the name exists, add `-2`. **Output:** the path.
-2. Ingest the note (the ingest workflow, steps 3 to 4) so it has a source
+2. Ingest the note (`workflows/ingest.md`, steps 3 to 4) so it has a source
    page with `Evidence: own`. **Output:** the source page.
 3. List the pages to create, update or archive. Mark each change to a
    locked section or a commitment: it needs a new page (a decision, a goal
