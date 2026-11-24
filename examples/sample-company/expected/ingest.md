@@ -85,6 +85,23 @@ Grade with `git status`, `git diff`, the run's reports, and
       show it).
 - [ ] Mark the reminders experiment `succeeded`.
 
+## Pasted source (separate run)
+
+Prompt, in a fresh test repo, with the text of
+`raw/2026-08-12-interview-brightline-hvac.md` pasted below it:
+
+```text
+Here are my notes from the Brightline call on 2026-08-12. Add them.
+```
+
+- [ ] Saves the text unchanged as
+      `raw/pasted/2026-08-12-<kind>-<short-title>.md` from
+      `templates/raw-paste.md`, using the call's date, not today's.
+- [ ] Ingests that file, so its source page has `raw: raw/pasted/...`
+      and a `raw_sha256` that matches.
+- [ ] Doesn't edit, shorten or tidy the pasted text, and doesn't treat it
+      as a record note in `raw/notes/`.
+
 ## Scoring
 
 Count the boxes the run gets right. Any miss under "Must not do" is a failed
