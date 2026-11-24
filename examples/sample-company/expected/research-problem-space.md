@@ -1,9 +1,10 @@
 # Expected research-problem-space result
 
-Draft: revise when the skill is written. Prompt: "Research how small field
-service firms deal with technicians losing signal." Needs web access. The
-fixture's company and competitors are invented, so this tests the save
-rules, not specific findings.
+Skill: `skills/research-problem-space/SKILL.md`. Seeded wiki. Prompt:
+"Research how small field service firms deal with technicians losing
+signal. Run without stopping." Needs web access. The fixture's company
+and competitors are invented, so this tests the save rules, not specific
+findings.
 
 ## Must do
 
@@ -15,6 +16,8 @@ rules, not specific findings.
 - [ ] Ingests each saved file in the same run, with `Evidence: public`.
 - [ ] On the offline problem page, new findings are counted as public
       evidence, apart from own (T11).
+- [ ] Says so when every saved page is a vendor's (run 1 saved seven
+      vendor pages, all selling offline features).
 - [ ] Logs `## [date] search | <question>` with one line per file saved
       and per result rejected.
 
