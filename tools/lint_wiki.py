@@ -294,7 +294,10 @@ def main():
         if RAW.resolve() not in raw_path.parents:
             error("raw-path", page["path"], "raw must be a path under raw/")
         elif not raw_path.is_file():
-            error("raw-missing", page["path"], "raw file not found: " + fields["raw"])
+            # Book files are copyrighted and never committed, so most clones
+            # don't have them. Check their hash only where the file exists.
+            if (RAW / "books").resolve() not in raw_path.parents:
+                error("raw-missing", page["path"], "raw file not found: " + fields["raw"])
         elif fields.get("raw_sha256") and sha256(raw_path) != fields["raw_sha256"]:
             error("raw-changed", page["path"],
                   "{} changed since ingest; raw files must never be edited".format(
