@@ -1,0 +1,9 @@
+# Export from the CRM, accounts view, pulled 2026-09-15 by Sam Ortiz
+# Sample of named accounts the product team has talked to. Not all accounts.
+account,plan,technicians,status,customer_since,mrr_usd,owner_contact_email,owner_contact_phone
+Brightline HVAC,Team,8,active,2026-07-08,149,owner@brightline-hvac.example,555-0141
+Mendez Plumbing,Starter,3,active,2025-03-02,49,office@mendez-plumbing.example,555-0177
+Arc Electric,Pro,22,active,2024-11-18,299,ops@arc-electric.example,555-0102
+Harbor Heating & Air,Team,12,active,2025-09-30,149,info@harborheating.example,555-0189
+Pine Ridge Plumbing,Starter,2,trial,2026-09-04,0,pineridge@mail.example,555-0123
+Summit Electric Co,Pro,19,active,2025-01-14,299,admin@summit-electric.example,555-0166

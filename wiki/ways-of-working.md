@@ -12,7 +12,8 @@ last. When the person corrects you, add a line under Corrections.
 
 - Tone: {tone}
 - Avoid: {words, phrases and styles to avoid}
-- Voice samples: {paths to 3 to 5 pieces of my own writing, or none yet}
+- Learned: {dated one-line rules the copilot adds, with your yes, after you
+  correct its writing}
 
 ## Formats I prefer
 

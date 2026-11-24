@@ -1,0 +1,11 @@
+# Weekly product metrics, exported 2026-11-17 by Raj Patel from the analytics warehouse
+# Same columns and definitions as the 2026-10-06 export
+# Offline mode general availability: 2026-10-01. Invoice reminders: not rolled out yet.
+# app_crash_rate: share of mobile app sessions that crashed (new column, tracked from 2026-10-05)
+week_start,active_teams,paying_teams,weekly_active_techs,seats,offline_sync_errors,median_days_invoice_to_paid,app_crash_rate
+2026-10-05,958,1161,4810,10790,1120,18,0.4%
+2026-10-12,962,1163,4905,10820,940,18,0.6%
+2026-10-19,970,1160,4950,10850,910,18,0.5%
+2026-10-26,966,1156,4932,10861,925,17,0.4%
+2026-11-02,975,1158,5010,10890,880,17,0.4%
+2026-11-09,981,1160,5060,10920,860,17,0.3%

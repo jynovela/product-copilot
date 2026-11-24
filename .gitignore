@@ -11,3 +11,4 @@ raw/*
 # Personal working files: daily briefs and tasks may hold email content.
 daily/
 tasks.md
+__pycache__/

@@ -8,7 +8,7 @@ The goal is knowledge the agent can use at a small context cost. Knowledge
 goes into method pages (concept pages), organized by task. The book page is
 only a source record.
 
-1. Ingest the file (the ingest workflow, steps 3 to 4), so a source page
+1. Ingest the file (steps 3 to 4 of `workflows/ingest.md`), so a source page
    exists. Name it `<YYYY-MM-DD of publication>-<author>-<title>.md`.
    **Output:** the source page.
 2. Read the whole book. List each method, framework or how-to it teaches.
