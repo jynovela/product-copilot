@@ -1,7 +1,7 @@
 ---
 type: topic
 summary: Finding out what customers need and which ideas are worth building, before building them.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -67,9 +67,41 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[buy-a-feature]]: A game where customers spend play money on priced features, showing what they value most.
 - [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
 - [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
+- [[problem-statement]]: Who has the problem, what it is and why it matters, with no solution.
+- [[issue-tree]]: Break a problem into MECE causes.
+- [[problem-awareness-ladder]]: Latent to urgent: how people act on a problem.
+- [[opportunity-canvas]]: One page to size one opportunity.
+- [[tam-sam-som]]: Market sizing, built bottom-up.
+- [[fermi-estimation]]: Order-of-magnitude estimates from guessable parts.
+- [[pretotyping]]: Cheap demand tests before building.
+- [[fake-door-test]]: Measure interest before building.
+- [[hypothesis-statement]]: Turn an assumption into a testable prediction.
+
+## What the research digest adds
+
+From about 25 pieces on problem framing and sizing (see [[2026-11-24-research-digest-problem-size]]). Section numbers point into that page's raw file.
+
+- Problem statement formats: current state, consequence and ideal state; 5W canvas; gap, orientation, impact and significance; the d.school point-of-view formula; persona-problem-situation-impact; five-part anatomy; ProductPlan's five components; noirbook's template; Goetzmann's problem document; WHO/WHEN/WHY/HOW into "How might we"; SCQA; business case; JTBD; SMART as a final check (1.1) (see [[2026-11-24-research-digest-problem-size]]).
+- Quality tests: one obvious solution means too narrow; "users are dissatisfied" is too broad; one to three sentences; keep it living (1.1) (see [[2026-11-24-research-digest-problem-size]]).
+- Root cause and decomposition: 5 Whys, issue trees, symptoms vs root cause, recurring vs situational, affinity mapping, journey and funnel analysis, empathy maps, diverge and converge, mapping your own perspective first, reframing, McKinsey-style 8 steps, Barrows' 4 steps (1.2) (see [[2026-11-24-research-digest-problem-size]]).
+- Classifying problems: Blank's awareness ladder, painkiller vs vitamin vs candy, problems vs needs and wants, reframing questions for feature requests, well- vs ill-structured problems, Smalley's four types, Annie Schugart's evaluation framework (1.3) (see [[2026-11-24-research-digest-problem-size]]).
+- Sizing: reach, frequency, depth, cost to the user, cost to the business, existing workarounds, self-discoverability; where to get the numbers; proxies; the opportunity canvas; Belitsky's North Star idea sizing; the internal friction formula (1.4) (see [[2026-11-24-research-digest-problem-size]]).
+- Market sizing: TAM, SAM, SOM; top-down vs bottom-up; Productboard's three sanity tests; Fermi estimation (1.5) (see [[2026-11-24-research-digest-problem-size]]).
+- When to frame and size formally, and scope hammering (1.7); Mike Cohn's seven estimation practices (1.8); research plans and an interview bias table (1.9) (see [[2026-11-24-research-digest-problem-size]]).
+
+Practices most sources agree on: define the problem before solutions; base it on evidence from several channels; name a specific segment; size by how many, how often and how badly plus cost to user and business; treat root causes as hypotheses; frame it with others; keep it living; prefer bottom-up sizing; aim for order of magnitude; write down assumptions and confidence (see [[2026-11-24-research-digest-problem-size]]).
+
+Contradictions:
+
+- Score or compare: Torres (2016) against formula scoring vs Belitsky's sizing spreadsheet (see [[2026-11-24-research-digest-problem-size]]).
+- Guess or leave blank: Trivedi says write a guess down; Miro and ProdPad want evidence, not assumptions dressed as facts; noirbook estimates with a confidence rating (see [[2026-11-24-research-digest-problem-size]]).
+- Does severity equal value: ProdPad yes; Trivedi says how people act on the problem matters more (see [[2026-11-24-research-digest-problem-size]]).
+- Do Fermi errors cancel out: noirbook says they tend to; Inference: only when independent and unbiased (see [[2026-11-24-research-digest-problem-size]]).
 
 ## Questions to ask about your product
 
 - Who did we last talk to, and when?
 - Which customer problem is this feature for, and what's the evidence?
 - What's the riskiest assumption in our current plan?
+- For each problem page, how many own and how many public sources show it, and what is the highest urgency step a source shows people taking?
+- Which problem pages give a magnitude without a basis?

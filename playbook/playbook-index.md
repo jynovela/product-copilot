@@ -13,10 +13,13 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[decisions-and-data]]: Making good decisions under uncertainty and reading metrics without fooling yourself.
 - [[design-and-usability]]: Making products easy to understand and use, and testing that cheaply.
 - [[discovery-and-customer-insight]]: Finding out what customers need and which ideas are worth building, before building them.
+- [[goals-and-metrics]]: Choosing success metrics and writing goals and OKRs that describe outcomes, with targets, guardrails and honest scoring.
 - [[leadership-and-management]]: Managing people and teams, building culture, and leading as a product leader.
 - [[negotiation-feedback-and-relationships]]: Influencing without authority: negotiating, saying no, hard conversations, and feedback.
 - [[pm-career-and-skills]]: Getting into product management, learning the job, and growing a PM career.
 - [[positioning-and-go-to-market]]: How customers perceive the product, which segment to win first, and how to message it.
+- [[pricing-and-packaging]]: Setting price levels, choosing pricing models and value metrics, researching willingness to pay, and changing prices safely.
+- [[product-experimentation]]: Testing product ideas and changes: hypotheses, test types from fake doors to A/B tests, statistics, biases and what to do with results.
 - [[product-frameworks]]: Which PM framework to use for which job, how they combine, and where the sources about them disagree.
 - [[product-teams-and-operating-model]]: How product teams are set up, what PMs do, and how companies move from feature factories to product teams.
 - [[self-leadership-and-productivity]]: Managing yourself: inner critic, growth as a leader, and personal organization.
@@ -29,108 +32,170 @@ Product management craft: books, essays, the topics they cover, and their core c
 ## Concepts
 
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
+- [[ab-testing]]: Randomly split users between a control and one or more variants and compare a pre-chosen metric; the workhorse of online experiments.
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
 - [[agile-and-scrum]]: Deliver in short iterations with feedback; Scrum is the most common way to run it.
 - [[ai-product-manager]]: A PM for products or features built on machine learning or LLMs, who manages uncertain model behavior, data and ethics.
 - [[ansoff-matrix]]: Four growth options: sell more to current markets, new products, new markets, or both new.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
 - [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
+- [[balanced-scorecard]]: Kaplan and Norton's four perspectives: financial, customer, internal process, and learning and growth.
 - [[braintrust]]: Peers give candid notes on work in progress, without power to mandate changes.
 - [[brooks-law]]: Adding people to a late software project makes it later.
 - [[build-measure-learn]]: Ship a minimum viable product, measure what happens, learn, and repeat fast.
 - [[build-trap]]: Measuring success by features shipped instead of value delivered.
+- [[bundling-and-loss-leaders]]: One price for several items, or one item sold at little margin to pull buyers to profitable ones.
 - [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
 - [[buy-a-feature]]: A game where customers spend play money on priced features, showing what they value most.
+- [[buying-center]]: Everyone involved in a B2B purchase: initiator, user, influencer, decision maker, buyer, approver and gatekeeper.
 - [[care-personally-challenge-directly]]: Care personally and challenge directly when giving feedback.
 - [[choice-architecture]]: How options are presented (defaults, number, order, comparisons) steers decisions.
 - [[circles-method]]: A structure for product design interview answers.
+- [[cohort-retention]]: Group users by when they started and track how many are still active over time; a flattening curve signals product-market fit.
+- [[committed-vs-aspirational-goals]]: Committed goals are expected to be hit in full; aspirational goals are expected to land near 70%. Label which one a goal is.
+- [[competition-based-pricing]]: Set price below, at or above rivals' prices; suits mature, commoditized markets and risks price wars.
+- [[concierge-and-wizard-of-oz]]: Deliver the value by hand before automating it; in a concierge test the customer knows, in a Wizard of Oz test they don't.
 - [[cost-of-delay]]: Put a value on what each week of waiting costs, and use it to order work.
+- [[cost-plus-pricing]]: Price = unit cost plus a markup; simple and common, but ignores demand and is a poor fit for software.
 - [[customer-development]]: Test business-model hypotheses with customers before scaling: discovery, validation, creation, company building.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
 - [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
 - [[data-product-manager]]: A PM for data as a product: pipelines, analytics, data platforms, or features built on data. Sources define it very differently.
+- [[decision-matrix]]: Score options against shared, weighted criteria, then run a sensitivity check; better at communicating than deciding.
+- [[decision-rules]]: Agree before discussing who decides and how you'll know it's decided: one person, consent, majority, consensus, or consensus with a fallback.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
 - [[design-thinking]]: A human-centered way to solve problems: empathize, define, ideate, prototype, test.
+- [[dhm-model]]: How will the product delight customers in hard-to-copy, margin-enhancing ways?
 - [[disruptive-innovation]]: Simpler, cheaper products start in overlooked markets and move up to displace incumbents.
 - [[distanced-self-talk]]: Talk to yourself by name or as "you" to calm the inner critic and think clearly.
 - [[double-diamond]]: Discover, define, develop, deliver: diverge then converge on the problem, then on the solution.
 - [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
+- [[dynamic-pricing]]: Change price in real time with demand, time, stock or buyer; common in travel and ride-hailing, risky for trust.
 - [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
 - [[enterprise-vs-consumer-pm]]: How the PM job changes when you sell to businesses (buyers differ from users, long sales cycles) or to individuals (scale, engagement).
+- [[experiment-design-doc]]: A one-page plan written before the test: hypothesis, audience, variants, metrics, duration, decision rule and owner.
+- [[fake-door-test]]: A button, menu item or page for something that doesn't exist yet, to measure interest before building.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
+- [[fermi-estimation]]: Break an unknowable number into guessable parts and multiply, for an order-of-magnitude answer in minutes.
 - [[first-principles-thinking]]: Break a problem down to what you know is true, then reason up from there instead of by analogy.
 - [[five-dysfunctions]]: Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.
 - [[five-forces]]: Industry profit is shaped by rivalry, buyers, suppliers, substitutes and new entrants; advantage comes from being different.
 - [[five-whys]]: Ask why a problem happened, then why that happened, about five times, to reach a root cause.
 - [[fogg-behavior-model]]: A behavior happens when motivation, ability and a prompt come together at the same moment (B=MAP).
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.
+- [[four-disciplines-of-execution]]: One wildly important goal, act on lead measures, keep a scoreboard, and hold a weekly cadence of accountability.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
+- [[freemium-and-free-trials]]: A free basic tier or a time-limited trial that converts to paid; sources disagree on whether freemium is pricing at all.
 - [[generalist-vs-specialist-pm]]: Whether a PM should cover the whole job or specialize (growth, technical, data, AI), and when each pays off.
 - [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
+- [[go-to-market-motions]]: How a product is sold and reaches customers: product-led, sales-led, partner-led or a hybrid; match it to price and buying process.
+- [[goal-setting-theory]]: Locke and Latham: specific, challenging goals beat "do your best"; goals people think impossible backfire.
 - [[golden-circle]]: Communicate why, then how, then what.
+- [[good-better-best-pricing]]: Several packages at rising prices and feature sets; the outer tiers make the middle look like best value.
+- [[goodharts-law]]: When a measure becomes a target it stops being a good measure; design metrics expecting people to game them.
 - [[growth-product-manager]]: A PM who owns a business metric such as activation, retention or revenue and moves it through experiments.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
 - [[hook-model]]: Trigger, action, variable reward, investment: the loop behind habit-forming products.
+- [[hypothesis-statement]]: A testable prediction written before the test: the change, the audience, the expected effect, the metric and the reason.
 - [[ice-scoring]]: A quick score of impact, confidence and ease for ranking growth experiments.
+- [[ideal-customer-profile]]: The company-level description of the high-fit subset of the market to target first, in objective, checkable terms.
 - [[immunity-map]]: A four-column map that reveals the hidden commitments blocking a change.
 - [[impact-mapping]]: Map a goal to the actors who can affect it, the behavior changes needed, and only then the deliverables.
 - [[invisible-asymptote]]: The hidden ceiling a product's growth will eventually hit.
+- [[issue-tree]]: Break a problem into mutually exclusive, collectively exhaustive possible causes, then test each with data.
 - [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
 - [[kano-model]]: Sort features by how they affect satisfaction: basic expectations, performance features and delighters.
 - [[kernel-of-good-strategy]]: Diagnosis, guiding policy and coherent actions: Rumelt's core of any real strategy.
 - [[keystone-conversation]]: A deliberate conversation at the start of a working relationship about how you'll work together.
+- [[kill-criteria]]: Signals set in advance that a bet isn't working, each tied to an action decided beforehand.
+- [[leading-and-lagging-indicators]]: Leading metrics move early and can be influenced now; lagging metrics confirm results later. Steer by the first, keep the second in view.
 - [[loonshots-and-franchises]]: Wild early ideas and proven businesses need separate homes, with leaders managing the transfer.
+- [[management-by-objectives]]: Drucker's 1954 method: managers agree annual objectives with each employee, cascading down; OKRs grew out of it.
 - [[managerial-leverage]]: A manager's output is the team's output; spend time where it multiplies.
+- [[metric-tree]]: Write the goal as a formula of its drivers, then break each driver down again, so you know which lever to pull.
 - [[mimetic-desire]]: People learn what to want by imitating others (models).
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 - [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
 - [[moscow-method]]: Sort the scope of a release or timebox into must, should, could and won't have this time.
+- [[net-promoter-score]]: Ask how likely people are to recommend you on 0 to 10; promoters minus detractors gives a score from −100 to +100.
 - [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
 - [[okrs]]: A goal (objective) plus a few measurable results that show progress toward it.
 - [[one-on-ones]]: Regular, report-driven meetings between a manager and each team member.
+- [[one-way-and-two-way-doors]]: Type 1 decisions are irreversible and need care; Type 2 are reversible and should be made fast.
+- [[ooda-loop]]: Observe, orient, decide, act, and repeat; for fast-moving situations such as outages or launch backlash.
+- [[opportunity-canvas]]: One page per opportunity: problem, users affected and how many, alternatives, strategic fit, impact, effort, confidence and what would change your mind.
 - [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.
 - [[opportunity-solution-tree]]: A visual map from a desired outcome to customer opportunities, solutions and assumption tests.
+- [[outcomes-over-outputs]]: Goals describe a change in user or business behaviour, not the feature you will ship; keep the work separate from the measure.
 - [[ownership-mindset]]: Leaders own every outcome in their world, including failures.
+- [[peeking-and-sequential-testing]]: Checking results early and stopping on a good number inflates false wins, unless you chose a sequential method upfront.
+- [[penetration-pricing]]: Enter low to win share fast and raise prices later; needs tight cost control and attracts fickle buyers.
 - [[persuasion-principles]]: Reciprocity, commitment, social proof, liking, authority, scarcity and unity: why people say yes.
 - [[platform-product-manager]]: A PM whose customers are other teams or developers: shared services, internal tools, APIs and infrastructure.
+- [[playing-to-win]]: A.G. Lafley and Roger Martin's core strategy choices: which segments, uses, channels and places you serve and exclude, and why you'll win there.
 - [[pm-archetypes]]: Person-based patterns of PM strengths (growth, UX-inclined, technician, white-spacer and others) used to match people to work.
 - [[pm-career-ladder]]: The levels of a PM career, from associate PM to CPO, and the split between the people-manager and individual-contributor tracks.
 - [[positioning-in-the-mind]]: Owning a clear, distinct place in the customer's mind relative to alternatives.
 - [[positive-no]]: Yes! No. Yes?: protect your interests, say no clearly, offer an alternative.
+- [[premium-and-economy-pricing]]: Charge more than rivals on brand and quality, or less by design at scale; Kotler's price-quality matrix maps the four positions.
 - [[premortem]]: Imagine the project failed, then explain why, before you start.
+- [[pretotyping]]: Cheap tests of demand before building: landing pages, fake doors, pre-orders, letters of intent and others.
+- [[price-skimming]]: Launch high for early adopters, then lower in steps to reach price-sensitive buyers.
+- [[pricing-models]]: The format the customer pays in: flat, per seat, usage, tiered, feature-based, freemium, hybrid or outcome-based.
+- [[primary-secondary-guardrail-metrics]]: Judge a feature or test by one value metric, explain it with usage metrics, and protect what must not break with guardrails.
 - [[principled-negotiation]]: Negotiate on interests, invent options, use objective criteria, and know your best alternative.
+- [[problem-awareness-ladder]]: Steve Blank's ladder from latent to urgent problems; how people act on a problem matters more than how much it hurts.
+- [[problem-statement]]: A short, evidence-based description of who has a problem, what it is and why it matters, without naming a solution.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 - [[product-market-fit-pyramid]]: Five layers from target customer to UX that together make product-market fit.
 - [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
 - [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
 - [[product-owner-vs-product-manager]]: The Scrum product owner manages the team's backlog; a product manager owns the product's outcome. Sometimes one person, sometimes two roles.
+- [[product-strategy-canvas]]: Melissa Perri's vision, challenge, target condition and current state, built on Toyota Kata; teams experiment toward the target.
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
+- [[product-vision-board]]: Roman Pichler's one-page strategy: a vision on top, then target group, needs, product (standout features) and business goals.
 - [[prune-the-product-tree]]: A workshop game where customers place feature ideas on a drawn tree to show where to grow the product.
+- [[psychological-pricing]]: Charm prices, anchors, decoys, strikethrough prices and daily framing change how a price feels without changing it.
+- [[rapid-decision-roles]]: Bain's five roles for a major decision: Recommend, Agree, Perform, Input, Decide; one Decider, never a committee.
 - [[reactive-vs-creative-leadership]]: Leading from fear and defensiveness versus from purpose, curiosity and responsibility.
 - [[resulting]]: Judging a decision by its outcome instead of by the decision process.
 - [[rice-scoring]]: Score ideas by reach x impact x confidence / effort to rank them against one goal.
 - [[rider-elephant-path]]: To change behavior, direct the rational rider, motivate the emotional elephant and shape the path.
+- [[rollout-waves]]: Internal alpha, private beta, limited release to one segment, general availability, then follow-up campaigns, each with its own decision point.
+- [[sample-size-and-power]]: Decide before launch how big an effect you need to detect, with what confidence and power, and so how many users and days.
+- [[seven-powers]]: Hamilton Helmer's seven durable advantages: network effects, scale economies, switching costs, counter-positioning, cornered resource, branding, process power.
+- [[smart-goals]]: Specific, Measurable, Achievable, Relevant, Time-bound: a filter for a drafted goal, not a way to find the right one.
+- [[spade-framework]]: Gokul Rajaram's frame for hard, fast decisions: Setting, People, Alternatives, Decide, Explain.
 - [[spotify-model]]: Spotify's 2012 picture of autonomous squads grouped into tribes, with chapters and guilds across them.
 - [[stage-gate]]: Split development into stages with go/kill decision gates between them, to control risk on costly products.
+- [[staged-rollout]]: Release to 1 to 5% first, watch errors and key events, then ramp up or roll back; feature flags separate deploy from release.
 - [[statistical-traps]]: Common ways numbers mislead: biased samples, chosen averages, misleading charts, false causation.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[story-map]]: Lay out the user's journey as a backbone of activities with stories beneath, then slice releases.
 - [[swot-analysis]]: List strengths, weaknesses, opportunities and threats to assess a move.
 - [[system-1-and-system-2]]: Fast, intuitive thinking versus slow, deliberate thinking, and the biases that come from the first.
 - [[tactical-empathy]]: Understand and name the other side's feelings to move a negotiation forward.
+- [[tam-sam-som]]: Total, serviceable and obtainable market; build the numbers bottom-up and let SOM, not TAM, drive resources.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
 - [[technical-product-manager]]: A PM on a technically complex product who works closer to engineering on architecture, APIs and trade-offs.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
 - [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
+- [[unit-economics]]: What it costs to win a customer, what the customer is worth, and how long it takes to earn the cost back.
+- [[value-based-pricing]]: Price on the value the customer gets, not on your cost; called the default for B2B SaaS by most software sources.
+- [[value-metric]]: The unit you charge by (seats, contacts, usage); a good one grows with the value the customer gets.
 - [[value-proposition-canvas]]: Match a customer profile (jobs, pains, gains) to a value map (products, pain relievers, gain creators).
+- [[value-stick]]: Felix Oberholzer-Gee's model: willingness to pay, price, cost and willingness to sell; create value by stretching the stick, not only by moving price.
 - [[value-vs-effort-matrix]]: A 2x2 of value against effort to spot quick wins and drop low-value, high-effort work.
+- [[vanity-metrics]]: Numbers that look impressive but don't inform decisions or tie to goals, such as page views, likes and total signups.
+- [[vroom-yetton-jago]]: Answer seven yes/no questions to choose how to decide for a team: autocratic, consultative or collaborative.
 - [[weighted-scoring]]: Score each idea against several weighted criteria, such as revenue, strategic fit and effort, and rank by total.
+- [[willingness-to-pay-research]]: Van Westendorp, Gabor-Granger, conjoint, A/B tests and elasticity: ways to learn what customers will pay.
 - [[working-backwards-pr-faq]]: Start a product by writing the press release and FAQ from the customer's point of view.
 - [[wrap-decision-process]]: Widen options, Reality-test assumptions, Attain distance, Prepare to be wrong.
 

@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: The smallest thing you can build to test a key assumption and learn, not just a small first release.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -33,6 +33,12 @@ These are vendor and practitioner articles, not neutral sources.
 - Build the smallest version that achieves your goals; you can always add features later. (see [[techreviewer-popular-pm-frameworks]])
 - A good MVP is ugly: it solves the core job badly enough to test demand; build a skateboard, not a quarter of a car. (see [[2026-04-22-hellopm-first-principles]])
 
+## What the research digests say
+
+- The minimum viable experiment or test: the simplest thing that validates one part of an idea (Conversion.com, Ben Smith). (see [[2026-11-24-research-digest-experiments]])
+- Huryn places minimal products (piecemeal, concierge, Wizard of Oz) after cheap demand tests and before prototypes; see [[pretotyping]]. (see [[2026-11-24-research-digest-experiments]])
+- Strategyzer: a smaller version of the product is a poor test artefact because it adds too many variables. (see [[2026-11-24-research-digest-experiments]])
+
 ## Contradictions
 
 - The sources use MVP in two different senses. Product School, Neal Cabage and HelloPM use Ries's meaning: a test for validated learning (see [[2024-09-09-product-school-8-pm-frameworks]], [[neal-cabage-21-pm-frameworks]], [[2026-04-22-hellopm-first-principles]]). The process guide and Techreviewer use it to mean the smallest launchable product (see [[product-development-process-guide]], [[techreviewer-popular-pm-frameworks]]). Ask which one people mean.
@@ -55,3 +61,4 @@ These are vendor and practitioner articles, not neutral sources.
 - [[discovery-and-customer-insight]]
 - [[startups-and-business-building]]
 - [[product-frameworks]]
+- [[product-experimentation]]
