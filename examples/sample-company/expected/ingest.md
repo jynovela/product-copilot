@@ -63,6 +63,8 @@ run), the run's reports, and
 - [ ] Overview filled in: product, target customers, top problems,
       competitive position, strategy, goals, pricing (limits unknown,
       prices only as `Inference:` from MRR, T26), key decisions.
+- [ ] Each ingest report opens with two to four plain sentences on what
+      changed and what the person needs to do, before its headings.
 - [ ] Each ingest report lists the secret-looking string's file
       (support tickets), the contact details (CRM export, Northgate
       email) and the injection (FieldPilot page) under Skipped content.

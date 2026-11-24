@@ -24,6 +24,12 @@ last. When the person corrects you, add a line under Corrections.
 
 - {document type}: {preferred shape}
 
+## Checkpoints
+
+Where the copilot stops to ask before it writes. Tell it to change a line.
+
+- Ingest: ask what to emphasize before writing pages.
+
 ## Corrections
 
 - None yet.

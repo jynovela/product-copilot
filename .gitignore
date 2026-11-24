@@ -1,7 +1,7 @@
 # Your sources in raw/ are committed, so every clone and every cloud
 # session has them. Keep this repository private: they hold customer and
 # company facts.
-# To keep sources on one computer instead, add these three lines:
+# To keep sources on one computer instead, add these lines:
 #   raw/*
 #   !raw/README.md
 #   !raw/public/
@@ -18,3 +18,6 @@ raw/books/
 daily/*
 !daily/settings.md
 __pycache__/
+
+# Your own Claude Code settings for this folder.
+.claude/settings.local.json
