@@ -27,12 +27,12 @@ needs them (see **Read before you act**).
 
 | Path | What it holds | Who writes it |
 | ---- | ------------- | ------------- |
-| `raw/` | Source documents, committed except `raw/books/`. `raw/public/` holds public pages; `raw/notes/` holds what the user said in chat; `raw/pasted/` holds sources the user pasted or attached in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`, the ingest workflow to `raw/pasted/`, the sync skill to `raw/sync/`. |
+| `raw/` | Source documents, committed except `raw/books/`. `raw/public/` holds public pages; `raw/playbook/` the playbook's own sources; `raw/notes/` holds what the user said in chat; `raw/pasted/` holds sources the user pasted or attached in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`, the ingest workflow to `raw/pasted/`, the sync skill to `raw/sync/`. |
 | `wiki/<type>/` | One page per thing: sources, customers, accounts, problems, features, people, competitors, decisions, experiments, metrics, goals, strategies, analyses | You |
 | `wiki/overview.md`, `wiki/index.md`, `wiki/log.md` | The current picture, a catalog of every page, an append-only log | You |
 | `wiki/ways-of-working.md`, `wiki/now.md` | How the person works and what they focus on now | You, when the person says |
 | `wiki/review-queue.md` | Changes you learned that no person has confirmed | You |
-| `playbook/` | Books, topics, concepts and essays, with `playbook-index.md` | You |
+| `playbook/` | Books, topics, concepts and essays, their own `sources/`, `playbook-index.md` and `playbook-log.md` | You |
 | `documents/` | Documents for people: PRDs, updates, demo specs, interview guides and summaries. Not evidence. | You, when asked |
 | `rules/`, `workflows/`, `templates/`, `skills/` | Detailed rules, workflow steps, page shapes, skills | Nobody, unless the user asks |
 | `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
@@ -49,8 +49,8 @@ needs them (see **Read before you act**).
 | Run a workflow | Its file in `workflows/` (below) |
 
 Find pages with `wiki/index.md` or `grep`, then open only those. Never
-read `playbook/playbook-index.md`, `wiki/log.md` or `raw/` whole: search
-them, or read the top of the log. Skip archived pages unless asked.
+read `playbook/playbook-index.md`, either log or `raw/` whole: search
+them. Skip archived pages unless asked.
 
 ## Workflows
 
@@ -74,6 +74,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Asks whether a launched feature worked | `skills/review-outcome/SKILL.md` |
 | Asks for several loop steps at once, like "find the best opportunity and write a PRD" | `skills/run-loop/SKILL.md` |
 | Asks to set up the copilot for their company | `skills/setup-copilot/SKILL.md` |
+| Asks to update the copilot to its latest version | `workflows/update.md` |
 | Asks to sync or refresh from a tool (CRM, tickets, analytics) | `skills/sync/SKILL.md` |
 | Asks what to do today, for their brief, or says done, add or drop for a task | `skills/morning-brief/SKILL.md` |
 

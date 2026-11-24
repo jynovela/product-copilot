@@ -11,9 +11,11 @@ The goal is knowledge the agent can use at a small context cost. Knowledge
 goes into method pages (concept pages), organized by task. The book page is
 only a source record.
 
-1. Ingest the file (steps 3 to 4 of `workflows/ingest.md`), so a source page
-   exists. Name it `<YYYY-MM-DD of publication>-<author>-<title>.md`.
-   **Output:** the source page.
+1. Create the book's source page in `playbook/sources/` from
+   `templates/source.md`, with the hash from `python3 tools/lint_wiki.py
+   --hash raw/books/<file>`. Name it `<YYYY-MM-DD of
+   publication>-<author>-<title>.md`. Playbook sources never go in
+   `wiki/sources/`. **Output:** the source page.
 2. Read the whole book. List each method, framework or how-to it teaches.
    Leave out stories; keep one as a one-line `Example:` only when it is the
    only thing carrying a lesson. **Output:** the list, with chapters.
@@ -33,9 +35,10 @@ only a source record.
 5. Rewrite the book page from `templates/book.md` as a source record:
    core argument, what it adds, where it's weak, and links to the pages
    from step 4. 300 to 500 words. **Output:** the path.
-6. Add one line per new page to `playbook-index.md` and to each topic page
-   it belongs to, using the page's summary. Append
-   `## [YYYY-MM-DD] ingest | <book title>` to `wiki/log.md`. **Output:**
+6. Add one line per new page to `playbook-index.md` (the source page
+   under `## Sources`) and to each topic page it belongs to, using the
+   page's summary. Append `## [YYYY-MM-DD] ingest | <book title>` to
+   `playbook/playbook-log.md`. **Output:**
    the lines added.
 7. Run `python3 tools/lint_wiki.py` until `RESULT: 0 errors`. **Output:**
    the final `RESULT` line.

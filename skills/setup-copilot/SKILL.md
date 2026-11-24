@@ -5,10 +5,10 @@ description: Onboard a new company or a fresh fork of the copilot. Ingests the f
 
 # setup-copilot
 
-Turns an empty fork into a copilot that knows one company. The company's
-facts go into `wiki/` and `raw/` only. `AGENTS.md`, `rules/`,
-`workflows/`, `templates/`, `skills/` and `tools/` stay generic, so the
-fork can pull later copilot updates without merge conflicts.
+Turns an empty copy into a copilot that knows one company. The company's
+facts go into `wiki/` and `raw/` only. `AGENTS.md`, `README.md`, `rules/`,
+`workflows/`, `templates/`, `skills/`, `tools/` and `playbook/` stay
+generic, so an update can replace them (`workflows/update.md`).
 
 ## How to ask
 
@@ -24,15 +24,16 @@ fork can pull later copilot updates without merge conflicts.
 
 1. **Look first.** Run `date +%F` and `python3 tools/lint_wiki.py`. Count
    the files in `raw/` the check script lists as not ingested, the pages
-   in `wiki/`, and whether `README.md` has a `## Set up for` section.
+   in `wiki/`, and whether the `## This copy` section of
+   `wiki/ways-of-working.md` is filled in.
    In a Git repository, also run `git rev-parse HEAD` and keep the commit
-   for step 8. **Output:** one line each. If the README section exists,
-   say setup ran before, and offer to fill only the gaps.
+   for step 8. **Output:** one line each. If This copy is filled in, say
+   setup ran before, and offer to fill only the gaps.
 2. **Where sources live.** Say this once, before reading any file:
    sources in `raw/` are committed with the wiki, so the repository must
    be private, and the person can say "keep sources local" instead. Don't
-   wait for an answer. If they say it, add `raw/*`, `!raw/README.md` and
-   `!raw/public/` to `.gitignore`, and tell them cloud sessions and other
+   wait for an answer. If they say it, add `raw/*`, `!raw/README.md`,
+   `!raw/public/` and `!raw/playbook/` to `.gitignore`, and tell them cloud sessions and other
    computers won't see the sources. **Output:** "Sources committed" or
    "Sources kept local".
 3. **Ingest what's there.** If `raw/` has files not yet ingested, list
@@ -74,22 +75,14 @@ fork can pull later copilot updates without merge conflicts.
    (this month's focus and this week's three goals, each linked to a goal
    page) from the answers. Show both and write them after a yes.
    **Output:** both files, or "Skipped".
-7. **README block.** Add or update one section in `README.md`, right
-   after the first paragraph, and nothing else in the file:
-
-   ```text
-   ## Set up for
-
-   - Company: <name>. Product: <name>.
-   - Set up: <YYYY-MM-DD> by <name or role>.
-   - Company facts live in wiki/ and raw/; AGENTS.md stays generic.
-   ```
-
-   **Output:** the block.
+7. **This copy.** Fill in the `## This copy` section of
+   `wiki/ways-of-working.md` with the company, the product, today's date
+   and who ran setup. Don't change `README.md`: it is a generic file, and
+   an update replaces it. **Output:** the two lines.
 8. **Check.** Run `python3 tools/lint_wiki.py` until `RESULT: 0 errors`.
    In a Git repository, run `git diff --stat <commit from step 1> --
-   AGENTS.md CLAUDE.md rules workflows templates skills tools`; it must
-   print nothing. If it lists a file, undo your change to it. Without
+   AGENTS.md CLAUDE.md README.md rules workflows templates skills tools`;
+   it must print nothing. If it lists a file, undo your change to it. Without
    Git, say the generic files couldn't be compared. **Output:** both
    results.
 9. **Connectors.** List the connectors worth adding for the tools the
@@ -120,14 +113,15 @@ fork can pull later copilot updates without merge conflicts.
     ### Lint result
     ```
 
-    Under Next steps, say how to keep the fork current: add the upstream
-    copilot repo as a remote and pull its updates; only the README's
-    `## Set up for` section should ever conflict.
+    Under Next steps, say how to keep the copy current: ask "update the
+    copilot" now and then (`workflows/update.md`). It replaces the generic
+    files and leaves `wiki/`, `raw/` and `documents/` alone.
 
 ## Never
 
-- Write company facts into `AGENTS.md`, `CLAUDE.md`, `rules/`,
-  `workflows/`, `templates/`, `skills/` or `tools/`.
+- Write company facts into `AGENTS.md`, `CLAUDE.md`, `README.md`,
+  `rules/`, `workflows/`, `templates/`, `skills/`, `tools/` or
+  `playbook/`.
 - Set a goal, target, price or strategy yourself. Record what the person
   says, with their name as the source.
 - Ask for something a raw file or wiki page already answers.

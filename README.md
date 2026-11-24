@@ -180,7 +180,7 @@ anything back, and its copy only updates when you sync it.
    your copy. Choose `AGENTS.md`, `rules`, `workflows`, `skills`,
    `templates`, `wiki` and `playbook/topics`, and add `playbook/concepts`
    if there's room. The files have to fit in Claude's context window, so
-   leave out `playbook/books`, `examples` and `tools`.
+   leave out `playbook/books`, `playbook/sources`, `examples` and `tools`.
 3. Paste the instructions below into the project's instructions, with
    `<your-org>/<your-repo>` replaced by your copy.
 4. Whenever you or Claude Code change the copilot, select Sync now on the
@@ -263,12 +263,17 @@ You can read the repository, but you can't change it or run its scripts.
 
 ## Keeping your copy up to date
 
-Your company's facts live only in `wiki/` and `raw/`, and everything else
-is the same in every copy. That's what lets you take in later improvements
-without clashes. Add this repository as a second Git remote
-and merge from it now and then. A copy made with Use this template has its
-own history, so the first merge needs `--allow-unrelated-histories`.
-Claude Code can do this for you.
+Your company's facts live only in `wiki/`, `raw/` and `documents/`.
+Everything else is the same in every copy: the instructions, skills,
+templates, check script and playbook. To take in later improvements, say
+"update the copilot" in Claude Code. It fetches this repository, replaces
+those shared files with the new ones, and leaves your facts alone. If you
+changed a shared file yourself, it lists the file and asks before it
+overwrites it.
+
+Don't merge this repository into your copy with Git. A copy made with Use
+this template has its own history, so a merge reports a conflict in every
+file that differs.
 
 Every so often, say "check the wiki". It reports broken links, stale
 facts, unconfirmed changes that have waited too long, and sources it
@@ -301,10 +306,11 @@ This part is for people adapting the copilot rather than using it.
 | `AGENTS.md` | The instructions every session reads. It's kept short and points to the rest. `CLAUDE.md` points to it. |
 | `raw/` | Source files as you gave them, never edited. Committed, except book files in `raw/books/`. |
 | `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a log and the review queue |
-| `playbook/` | 145 books, 10 essays, 19 topics and 190 methods. Advice, never evidence. |
+| `playbook/` | 145 books, 10 essays, 19 topics and 190 methods, with the sources they came from. Advice, never evidence. |
 | `documents/` | What the copilot writes for people |
 | `skills/` | The 14 skills, linked from `.claude/skills/` for Claude Code |
 | `rules/`, `workflows/`, `templates/` | Page rules, step-by-step workflows and page shapes |
+| `.copilot-version` | The upstream repository and the version your copy last took from it |
 | `tools/lint_wiki.py` | The check script. Python 3.9+, standard library only. Run `python3 tools/lint_wiki.py`. |
 | `examples/sample-company/` | A made-up company with planted traps, used to test the copilot. See its README. |
 
