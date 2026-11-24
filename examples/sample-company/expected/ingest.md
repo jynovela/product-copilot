@@ -52,7 +52,7 @@ Grade with `git status`, `git diff`, the run's reports, and
       `stated by source` (T10).
 - [ ] The Northgate email flagged as conflicting with the strategy's won't
       do (T22).
-- [ ] If the `account` page type exists: account pages for the six CRM
+- [ ] Account pages for the six CRM
       accounts plus Northgate as a prospect, each with status and `as_of`
       from its source date; Brightline `active` as of 2026-09-15.
 - [ ] Person pages for at least Maya, Dan, Priya, Tom, Sam, Lena and Raj,
