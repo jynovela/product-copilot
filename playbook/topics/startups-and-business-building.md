@@ -44,7 +44,6 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[minimum-viable-product]]: The smallest thing you can build to test a key assumption and learn, not just a small first release.
 - [[business-model-canvas]]: Nine blocks on one page that describe how a business creates, delivers and captures value.
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
-- [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
 - [[mvp-feature-set]]: choose the MVP candidate by benefit and ROI
 - [[product-market-fit-measures]]: how to tell you have fit before growing
 

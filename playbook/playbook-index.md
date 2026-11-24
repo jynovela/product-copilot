@@ -26,7 +26,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[startups-and-business-building]]: Starting and growing a company or new product line: experiments, differentiation, funding and the founder's struggle.
 - [[strategy-and-innovation]]: Deciding where to play and how to win, and how markets and incumbents get disrupted.
 - [[technology-and-ai]]: Technical fluency for PMs, from how software works to AI's impact on products and strategy.
-- [[types-of-product-managers]]: The kinds of PM roles (by level, technical depth, customer, goal and person), the roles next to PM, and where sources disagree.
 - [[user-psychology-and-behavior]]: Why people choose, buy, adopt and keep using things, and how design and framing steer them.
 
 ## Concepts
@@ -35,7 +34,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[ab-testing]]: Randomly split users between a control and one or more variants and compare a pre-chosen metric; the workhorse of online experiments.
 - [[affordances-and-signifiers]]: Design that makes possible actions obvious and gives clear feedback.
 - [[agile-and-scrum]]: Deliver in short iterations with feedback; Scrum is the most common way to run it.
-- [[ai-product-manager]]: A PM for products or features built on machine learning or LLMs, who manages uncertain model behavior, data and ethics.
 - [[ansoff-matrix]]: Four growth options: sell more to current markets, new products, new markets, or both new.
 - [[atomic-unit]]: The smallest unit a product is built around, such as a tweet or a photo.
 - [[autonomy-mastery-purpose]]: The three drivers of intrinsic motivation for creative work.
@@ -64,7 +62,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[customer-learning-process]]: Run customer conversations as a team routine: pick the three big questions, prep, take coded notes, review together, update beliefs.
 - [[customer-slicing]]: Split a broad segment into specific who-where pairs you can find and talk to, so customer feedback stops pointing in every direction.
 - [[daci-and-raci]]: Name who drives, who decides, who contributes and who is informed, so decisions don't stall.
-- [[data-product-manager]]: A PM for data as a product: pipelines, analytics, data platforms, or features built on data. Sources define it very differently.
 - [[decision-matrix]]: Score options against shared, weighted criteria, then run a sensitivity check; better at communicating than deciding.
 - [[decision-rules]]: Agree before discussing who decides and how you'll know it's decided: one person, consent, majority, consensus, or consensus with a fallback.
 - [[design-sprint]]: A five-day process to answer a big question with a prototype and five customer tests.
@@ -77,7 +74,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[dynamic-pricing]]: Change price in real time with demand, time, stock or buyer; common in travel and ride-hailing, risky for trust.
 - [[eisenhower-matrix]]: Sort tasks by urgent and important: do, schedule, delegate or drop.
 - [[empowered-product-teams]]: Teams given problems to solve and held to outcomes, not handed features to build.
-- [[enterprise-vs-consumer-pm]]: How the PM job changes when you sell to businesses (buyers differ from users, long sales cycles) or to individuals (scale, engagement).
 - [[experiment-design-doc]]: A one-page plan written before the test: hypothesis, audience, variants, metrics, duration, decision rule and owner.
 - [[fake-door-test]]: A button, menu item or page for something that doesn't exist yet, to measure interest before building.
 - [[feedback-triggers]]: Truth, relationship and identity triggers block us from hearing feedback.
@@ -94,14 +90,12 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[four-disciplines-of-execution]]: One wildly important goal, act on lead measures, keep a scoreboard, and hold a weekly cadence of accountability.
 - [[four-product-risks]]: Value, usability, feasibility and business viability: the risks to tackle before building.
 - [[freemium-and-free-trials]]: A free basic tier or a time-limited trial that converts to paid; sources disagree on whether freemium is pricing at all.
-- [[generalist-vs-specialist-pm]]: Whether a PM should cover the whole job or specialize (growth, technical, data, AI), and when each pays off.
 - [[gist-planning]]: Goals, ideas, step-projects, tasks: Itamar Gilad's lighter alternative to detailed roadmaps.
 - [[go-to-market-motions]]: How a product is sold and reaches customers: product-led, sales-led, partner-led or a hybrid; match it to price and buying process.
 - [[goal-setting-theory]]: Locke and Latham: specific, challenging goals beat "do your best"; goals people think impossible backfire.
 - [[golden-circle]]: Communicate why, then how, then what.
 - [[good-better-best-pricing]]: Several packages at rising prices and feature sets; the outer tiers make the middle look like best value.
 - [[goodharts-law]]: When a measure becomes a target it stops being a good measure; design metrics expecting people to game them.
-- [[growth-product-manager]]: A PM who owns a business metric such as activation, retention or revenue and moves it through experiments.
 - [[gtd-workflow]]: Capture, clarify, organize, reflect, engage: a trusted system for everything on your plate.
 - [[habit-design]]: Make good behaviors obvious, attractive, easy and satisfying.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
@@ -150,7 +144,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[peeking-and-sequential-testing]]: Checking results early and stopping on a good number inflates false wins, unless you chose a sequential method upfront.
 - [[penetration-pricing]]: Enter low to win share fast and raise prices later; needs tight cost control and attracts fickle buyers.
 - [[persuasion-principles]]: Reciprocity, commitment, social proof, liking, authority, scarcity and unity: why people say yes.
-- [[platform-product-manager]]: A PM whose customers are other teams or developers: shared services, internal tools, APIs and infrastructure.
 - [[playing-to-win]]: A.G. Lafley and Roger Martin's core strategy choices: which segments, uses, channels and places you serve and exclude, and why you'll win there.
 - [[pm-archetypes]]: Person-based patterns of PM strengths (growth, UX-inclined, technician, white-spacer and others) used to match people to work.
 - [[pm-career-ladder]]: The levels of a PM career, from associate PM to CPO, and the split between the people-manager and individual-contributor tracks.
@@ -170,10 +163,8 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
 - [[product-market-fit-measures]]: Tell whether you have product-market fit: pick research methods with Rohrer's attitudinal-behavioral grid, then use the Sean Ellis 40 percent test, NPS trends and, above all, the three parameters of the retention curve.
 - [[product-market-fit-pyramid]]: Five layers of product-market fit (target customer, underserved needs, value proposition, feature set, UX), the six-step process that climbs them, and how to iterate or pivot.
-- [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[product-operating-model]]: The way strong product companies decide, discover and deliver, as opposed to project-based IT.
-- [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
-- [[product-owner-vs-product-manager]]: The Scrum product owner manages the team's backlog; a product manager owns the product's outcome. Sometimes one person, sometimes two roles.
+- [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight.
 - [[product-strategy-canvas]]: Melissa Perri's vision, challenge, target condition and current state, built on Toyota Kata; teams experiment toward the target.
 - [[product-trio]]: PM, designer and tech lead doing discovery together.
 - [[product-vision-board]]: Roman Pichler's one-page strategy: a vision on top, then target group, needs, product (standout features) and business goals.
@@ -202,11 +193,9 @@ Product management craft: books, essays, the topics they cover, and their core c
 - [[tam-sam-som]]: Total, serviceable and obtainable market; build the numbers bottom-up and let SOM, not TAM, drive resources.
 - [[target-customer-and-personas]]: Define the target customer by segment (demographic, psychographic, behavioral, needs-based), separate users from buyers, and capture it in a one-page persona you keep revising.
 - [[team-topologies-model]]: Four team types, three interaction modes, and team design around cognitive load and Conway's law.
-- [[technical-product-manager]]: A PM on a technically complex product who works closer to engineering on architecture, APIs and trade-offs.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[theory-of-constraints]]: A system's output is limited by its bottleneck; improve the bottleneck first.
 - [[three-conversations]]: Every difficult conversation is about what happened, feelings, and identity.
-- [[types-of-product-work]]: Zero-to-one, then feature, growth, scaling and PMF-expansion work: each needs different processes, metrics and PMs.
 - [[unit-economics]]: What it costs to win a customer, what the customer is worth, and how long it takes to earn the cost back.
 - [[ux-design-iceberg]]: Design a UX bottom up through four layers (conceptual design, information architecture, interaction design, visual design), aiming for usability and delight, with Olsen's Law and core layout principles.
 - [[value-based-pricing]]: Price on the value the customer gets, not on your cost; called the default for B2B SaaS by most software sources.
@@ -387,25 +376,6 @@ Product management craft: books, essays, the topics they cover, and their core c
 
 The reading lists, articles and book files the playbook was built from.
 
-- [[2026-11-21-juan-types-of-pms-summary]]: The user's two-part summary of PM types, by skill focus and by product or customer type, with links to the articles below.
-- [[stanford-online-types-of-pm-roles]]: Stanford Online's seven ways to slice PM roles (Upadhyay) and Alex Mitchell's five PM archetypes.
-- [[2024-04-03-product-school-18-types-of-pms]]: Product School's list of 18 PM titles from associate PM to CPO, mixing specializations and seniority levels.
-- [[aha-different-types-of-product-managers]]: Aha!'s table of PM roles by area, not level: PM, product owner, product ops, growth, technical, platform, UX, enterprise, internal and startup PMs.
-- [[2026-06-25-recruiting-from-scratch-pm-job-titles]]: A recruiting agency's guide to technical, growth, data and product marketing roles, from its work with seed to Series C startups.
-- [[agilemania-types-of-product-managers]]: Agilemania's seven PM types: technical, growth, platform, consumer, enterprise, data and product marketing.
-- [[product-faculty-types-of-product-managers]]: Product Faculty's PM types in technical, business and design groups, with strengths, weaknesses and seniority levels.
-- [[online-school-types-of-product-manager]]: An online course chapter on how product context changes the PM job: early vs mature, B2C vs B2B, mobile vs desktop, shipped vs live software, technical depth.
-- [[2024-04-15-hellopm-types-of-product-managers]]: HelloPM's tour of product analyst, APM, PM and five specialist types (generalist, technical, data-driven, growth, AI/ML, UX), each with a company example.
-- [[2025-03-25-prodpad-12-types-of-pms]]: ProdPad's 12 PM types, which excludes product owner, product ops, PMM and product strategist as adjacent roles, and argues every good PM is all types at once.
-- [[2026-02-22-creately-15-types-of-pms]]: Creately's 15 PM types with responsibilities, skills and examples, plus emerging roles (AI/ML, sustainability, Web3).
-- [[2023-01-23-ally-mexicotte-types-of-pms]]: A practitioner's eight PM types (0 to 1, growth, platform, enterprise, consumer, technical, PMM, product ops) with key skills and other job titles.
-- [[2022-08-31-tiwatayo-kunle-types-of-pms]]: A bootcamp blog's seven PM types: technical, design, growth, startup, product marketing, data and software/hardware.
-- [[2024-03-16-justanotherpm-5-types-of-pms]]: JustAnotherPM's five PM types (technical, growth, AI, platform, enterprise) with company examples, plus FAQs on levels.
-- [[2024-03-05-adam-fishman-pm-archetypes]]: Adam Fishman's seven PM archetypes (growth, UX-inclined, internal, general manager, optimizer, technician, white-spacer), matched to four types of product work.
-- [[2021-07-29-lilia-gorbachik-pm-types]]: A practitioner's PM types by product (technical, API, UX, hardware, AI) and by company stage (startup, growth, enterprise).
-- [[2024-10-01-logrocket-types-of-pm-roles]]: LogRocket's eight common PM types and three company examples, with advice to start as a generalist and specialize later.
-- [[pragmatic-institute-pm-job-titles]]: Pragmatic Institute's PM titles by career stage: PM, APM, TPM, senior PM, product owner, then lead, principal, group, director, VP and CPO.
-- [[2025-03-05-specialist-pm-jobs-overview]]: A coaching platform's specialist PM jobs in technical, business and design groups, from TPM to visionary PM.
 - [[2026-11-20-juan-pm-frameworks-list]]: The user's list of 16 PM frameworks in four groups, with links to the articles it drew on.
 - [[product-development-process-guide]]: A work-management vendor's guide to a six-stage product development process, plus Agile, Stage-Gate and Lean.
 - [[2024-09-09-product-school-8-pm-frameworks]]: Product School's tour of 8 frameworks with company examples: Lean Startup, Agile, CIRCLES, JTBD, Design Thinking, Double Diamond, Product Life Cycle, Stage-Gate.
