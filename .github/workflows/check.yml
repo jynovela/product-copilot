@@ -12,12 +12,13 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.9"
+      - uses: actions/checkout@v5
+      # The scripts use only the standard library, so the runner's own
+      # Python is enough. They support Python 3.9 and newer.
       - name: Check the wiki and playbook
-        run: python3 tools/lint_wiki.py
+        run: |
+          python3 --version
+          python3 tools/lint_wiki.py
       - name: Test the check script
         run: python3 tools/test_lint_wiki.py
       - name: Test the skill scripts
