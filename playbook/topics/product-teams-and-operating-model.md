@@ -66,9 +66,7 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[dual-track-agile]]: Run discovery (what to build) and delivery (building it) in parallel, with the same team.
 - [[stage-gate]]: Split development into stages with go/kill decision gates between them, to control risk on costly products.
 - [[spotify-model]]: Spotify's 2012 picture of autonomous squads grouped into tribes, with chapters and guilds across them.
-- [[platform-product-manager]]: A PM whose customers are other teams or developers: shared services, internal tools, APIs and infrastructure.
-- [[product-owner-vs-product-manager]]: The Scrum product owner manages the team's backlog; a product manager owns the product's outcome. Sometimes one person, sometimes two roles.
-- [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight. Sources split on what it is.
+- [[product-operations]]: A function that makes product teams more effective through data, tools, processes and customer insight.
 - [[strategy-deployment]]: vision to strategic intents to initiatives to options; the three strategic gaps
 
 ## Questions to ask about your product

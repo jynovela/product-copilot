@@ -43,8 +43,6 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.
-- [[enterprise-vs-consumer-pm]]: How the PM job changes when you sell to businesses (buyers differ from users, long sales cycles) or to individuals (scale, engagement).
-- [[product-marketing-manager]]: The role that owns positioning, messaging, launch and go-to-market. A close partner of the PM, usually not a PM.
 - [[go-to-market-motions]]: Product-led, sales-led, partner-led or hybrid.
 - [[ideal-customer-profile]]: The high-fit subset to target first.
 - [[customer-slicing]]: Split a broad segment into who-where pairs you can find and talk to.

@@ -64,8 +64,6 @@ General knowledge: a synthesis of the books below, from model memory.
 - [[north-star-framework]]: One metric that best captures the value customers get, plus the input metrics teams can move to drive it.
 - [[aarrr-pirate-metrics]]: Acquisition, activation, retention, referral, revenue: Dave McClure's funnel of startup metrics.
 - [[heart-framework]]: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
-- [[growth-product-manager]]: A PM who owns a business metric such as activation, retention or revenue and moves it through experiments.
-- [[data-product-manager]]: A PM for data as a product: pipelines, analytics, data platforms, or features built on data. Sources define it very differently.
 - [[rapid-decision-roles]]: Recommend, Agree, Perform, Input, Decide; one Decider.
 - [[spade-framework]]: Setting, People, Alternatives, Decide, Explain for hard, fast calls.
 - [[one-way-and-two-way-doors]]: Irreversible decisions need care; reversible ones need speed.

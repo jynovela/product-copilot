@@ -55,26 +55,26 @@ line per page touched. The product wiki has its own log in `wiki/log.md`.
 
 ## [2026-11-21] ingest | Types of PMs summary and 18 articles on PM roles
 
-- Created [[2026-11-21-juan-types-of-pms-summary]].
-- Created [[stanford-online-types-of-pm-roles]].
-- Created [[2024-04-03-product-school-18-types-of-pms]].
-- Created [[aha-different-types-of-product-managers]].
-- Created [[2026-06-25-recruiting-from-scratch-pm-job-titles]].
-- Created [[agilemania-types-of-product-managers]].
-- Created [[product-faculty-types-of-product-managers]].
-- Created [[online-school-types-of-product-manager]].
-- Created [[2024-04-15-hellopm-types-of-product-managers]].
-- Created [[2025-03-25-prodpad-12-types-of-pms]].
-- Created [[2026-02-22-creately-15-types-of-pms]].
-- Created [[2023-01-23-ally-mexicotte-types-of-pms]].
-- Created [[2022-08-31-tiwatayo-kunle-types-of-pms]].
-- Created [[2024-03-16-justanotherpm-5-types-of-pms]].
-- Created [[2024-03-05-adam-fishman-pm-archetypes]].
-- Created [[2021-07-29-lilia-gorbachik-pm-types]].
-- Created [[2024-10-01-logrocket-types-of-pm-roles]].
-- Created [[pragmatic-institute-pm-job-titles]].
-- Created [[2025-03-05-specialist-pm-jobs-overview]].
-- Added 13 concept pages and the [[types-of-product-managers]] topic, and listed the new concepts on 7 existing topic pages. Salary and compensation content was left out at the user's request. Articles are treated as vendor or practitioner sources; conflicts are recorded in Contradictions sections.
+- Created `2026-11-21-juan-types-of-pms-summary`.
+- Created `stanford-online-types-of-pm-roles`.
+- Created `2024-04-03-product-school-18-types-of-pms`.
+- Created `aha-different-types-of-product-managers`.
+- Created `2026-06-25-recruiting-from-scratch-pm-job-titles`.
+- Created `agilemania-types-of-product-managers`.
+- Created `product-faculty-types-of-product-managers`.
+- Created `online-school-types-of-product-manager`.
+- Created `2024-04-15-hellopm-types-of-product-managers`.
+- Created `2025-03-25-prodpad-12-types-of-pms`.
+- Created `2026-02-22-creately-15-types-of-pms`.
+- Created `2023-01-23-ally-mexicotte-types-of-pms`.
+- Created `2022-08-31-tiwatayo-kunle-types-of-pms`.
+- Created `2024-03-16-justanotherpm-5-types-of-pms`.
+- Created `2024-03-05-adam-fishman-pm-archetypes`.
+- Created `2021-07-29-lilia-gorbachik-pm-types`.
+- Created `2024-10-01-logrocket-types-of-pm-roles`.
+- Created `pragmatic-institute-pm-job-titles`.
+- Created `2025-03-05-specialist-pm-jobs-overview`.
+- Added 13 concept pages and the `types-of-product-managers` topic, and listed the new concepts on 7 existing topic pages. Salary and compensation content was left out at the user's request. Articles are treated as vendor or practitioner sources; conflicts are recorded in Contradictions sections.
 
 ## [2026-11-24] ingest | Research digests on pricing, experiments, metrics, goals, strategy, go-to-market, decisions and problem sizing
 
@@ -124,3 +124,18 @@ line per page touched. The product wiki has its own log in `wiki/log.md`.
 - Added "What Escaping the Build Trap adds" sections to [[pm-archetypes]], [[pm-career-ladder]], [[product-operations]], [[product-strategy-canvas]], [[outcomes-over-outputs]], [[vanity-metrics]], [[leading-and-lagging-indicators]], [[concierge-and-wizard-of-oz]], [[cost-of-delay]] and [[rollout-waves]].
 - Turned [[escaping-the-build-trap]] into a source record flagged as summary-based.
 - Added router lines to five topics and [[product-frameworks]].
+
+## [2026-11-24] lint | Removed the PM job-title material at the user's request
+
+- Deleted the `types-of-product-managers` topic, the 19 source pages from
+  the 2026-11-21 ingest with their files in `raw/playbook/`, and 10 concept
+  pages that only described a job title: `technical-product-manager`,
+  `data-product-manager`, `ai-product-manager`, `enterprise-vs-consumer-pm`,
+  `platform-product-manager`, `growth-product-manager`,
+  `types-of-product-work`, `generalist-vs-specialist-pm`,
+  `product-owner-vs-product-manager` and `product-marketing-manager`.
+- Kept [[pm-archetypes]], [[pm-career-ladder]] and [[product-operations]]
+  for their Escaping the Build Trap content, and removed the claims that
+  came from the deleted articles.
+- Removed the deleted pages from six topic pages and [[playbook-index]].
+  Their names in the 2026-11-21 entry above are no longer links.
