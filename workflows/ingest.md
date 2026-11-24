@@ -1,6 +1,32 @@
 # Workflow: ingest
 
-Use when the user says `ingest raw/<file>`. Ingest one file at a time.
+Use when the user says `ingest raw/<file>`, names a file in `raw/` to
+add ("add the Acme call"), or pastes or attaches a source to add: a call
+transcript, interview or meeting notes, an email, a document. Ingest one
+file at a time.
+
+If the user tells you something to keep in their own words, such as a
+decision or a status, follow `workflows/record.md` instead.
+
+0. **Save a pasted source.** Skip this step when the source is already a
+   file in `raw/`. Otherwise:
+   - Run `date +%F`. Save the text exactly as given in a new file
+     `raw/pasted/<date>-<kind>-<short-title>.md`, from
+     `templates/raw-paste.md`. Use the date of the original (the call or
+     the email) when the user or the text gives it, otherwise today's
+     date. Kind is one word, such as `call`, `interview`, `meeting`,
+     `email` or `doc`. If the name exists, add `-2`.
+   - For an attached file outside the copilot folder, copy it unchanged
+     to `raw/pasted/` under the same naming rule, keeping its extension.
+   - Never edit, clean up, shorten or summarize the text you save, and
+     never overwrite a file.
+   - If the text holds a password, API key or token, don't save it. Ask
+     the user to remove it and paste again.
+   - If you can't tell whether the user wants the text kept, ask before
+     saving.
+
+   Use the saved path as `raw/<file>` in the steps below. **Output:** the
+   path, or "Already in raw/".
 
 1. Read the whole file. **Output:** 3 to 5 key takeaways as bullets.
 2. Show the takeaways and ask what to emphasize. Wait for the answer,

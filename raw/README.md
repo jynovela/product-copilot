@@ -14,4 +14,8 @@ Rules:
   or overwrite a file.
 - Files here are ignored by git (see `.gitignore`), so they stay on your
   machine unless you choose to commit them.
-- After you add a file, tell the agent: `ingest raw/<file>`.
+- You can also paste a call, notes or an email into the chat and ask the
+  agent to add it. It saves the text unchanged in `raw/pasted/` first,
+  then reads it.
+- After you add a file, tell the agent what it is, for example "add the
+  Acme call", or `ingest raw/<file>`.

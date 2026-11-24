@@ -47,8 +47,8 @@ You still go to the calls. The copilot does the filing afterwards.
 
 | Source | What you do | What the copilot does |
 | ------ | ----------- | --------------------- |
-| Customer calls and interviews | Drop in the transcript or your notes | Finds the problems, quotes and requests, and adds them to the right customer and feature pages |
-| Meeting notes, strategy docs, PRDs | Drop them in | Updates the goals, decisions and features they mention |
+| Customer calls and interviews | Paste the transcript or your notes into the chat, or drop in the file | Finds the problems, quotes and requests, and adds them to the right customer and feature pages |
+| Meeting notes, strategy docs, PRDs | Paste them in or drop in the files | Updates the goals, decisions and features they mention |
 | Things you know | Tell it, for example "we decided to build bulk export" or "Ana now owns billing" | Saves your words as a dated note, then updates the pages they affect |
 | CRM, Jira or Linear, analytics | Connect the tool or hand it an export, then say "sync accounts" | Saves a dated snapshot and updates status lines. The tool stays the source of truth. |
 | Email and calendar | Connect them | Reads them for your morning brief and never sends anything |
@@ -125,8 +125,10 @@ the copilot is tested on.
 3. Connect the tools you use, like your calendar, email, Jira and CRM.
    Setup ends with a list of which connector feeds which part of the
    copilot.
-4. Start working. Drop new files into the copilot's `raw` folder, or paste
-   short notes into the chat, and tell it what they are.
+4. Start working. Paste a call transcript, notes or an email into the
+   chat and say "add this". The copilot saves an unchanged copy before it
+   reads it. For long files you can drop them into the copilot's `raw`
+   folder instead and tell it what they are.
 
 The checks need Python 3.9 or newer, which most computers already have.
 
@@ -274,9 +276,9 @@ hasn't read yet.
 
 ## Privacy
 
-The files you drop in for the copilot to read (calls, internal docs, chat
-notes and tool snapshots) stay on your computer, because Git ignores them
-by default. The copilot's pages are committed, though, so your copy holds
+The sources you paste or drop in for the copilot to read (calls,
+internal docs, chat notes and tool snapshots) stay on your computer,
+because Git ignores them by default. The copilot's pages are committed, though, so your copy holds
 company facts and should stay private. Daily briefs and your task list are
 never committed, since they can contain email text. The copilot leaves
 passwords, keys and personal contact details out of its pages, and it
