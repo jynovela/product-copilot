@@ -1,7 +1,8 @@
 # Expected explore-solutions result
 
-Draft: revise when the skill is written. Starts from the seeded wiki with
-"owners wait too long to get paid" as the chosen opportunity.
+Skill: `skills/explore-solutions/SKILL.md`. Starts from the seeded wiki
+with "owners wait too long to get paid" as the chosen opportunity. Run it
+once without stopping, and once guided (stops at step 8).
 
 ## Must do
 
@@ -14,8 +15,12 @@ Draft: revise when the skill is written. Starts from the seeded wiki with
 - [ ] Offers more than one option, each with its riskiest assumption and a
       cheap test. Late fees (support ticket 7) can be one.
 - [ ] Proposes a scope with a first slice, In, Out, and constraints.
+- [ ] Flags that no `opportunity` decision page picked this problem.
 - [ ] In guided mode, stops for scope approval. Without stopping, records
-      the scope decision as `copilot (unconfirmed)`.
+      the scope decision as `copilot (unconfirmed)`, listed first in the
+      report.
+- [ ] Writes `solutions-<problem>` analysis with a premortem; any new
+      experiment is `planned` with thresholds `to be set by <owner>`.
 
 ## Must not do
 

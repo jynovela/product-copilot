@@ -1,8 +1,8 @@
 # Expected review-outcome result
 
-Draft: revise when the skill is written. Prompt: "Review the outcome of
-offline mode." Starts from the seeded wiki with both metrics exports
-ingested.
+Skill: `skills/review-outcome/SKILL.md`. Prompt: "Review the outcome of
+offline mode." Starts from the seeded wiki (both metrics exports are
+ingested there). Guided: the run stops at the checkpoint (step 8).
 
 ## Must do
 
@@ -17,9 +17,16 @@ ingested.
       launch on 2026-10-07 as a confounder for any churn reading.
 - [ ] Says the goal it served (Mobile KR2, aspirational 55%) ended Q3 at
       42.66%, about 12% of the way, and isn't the same window.
-- [ ] Ends with an action from the shared list and asks a person to make
-      the outcome decision (iterate/scale/kill reviews need a decision
-      page with a named decider).
+- [ ] Flags the missing launch decision for a tier 1 launch and the
+      unset guardrail check date.
+- [ ] Adoption check date (2026-11-26) not passed on a 2026-11-24 run:
+      reads it as interim, and doesn't fill Verdict at final review.
+- [ ] Gives two verdicts: result, and decision quality given what was
+      known.
+- [ ] Ends with an action from the shared list, not `scale` while the
+      breach is unexplained, and asks a person to make the outcome
+      decision (iterate/scale/kill reviews need a decision page with a
+      named decider).
 
 ## Must not do
 
