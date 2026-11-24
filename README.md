@@ -6,7 +6,7 @@ that you can ask questions of. It also writes the PRDs and weekly updates
 from that record. You talk to it in plain words in Claude Code, a Claude
 project or a ChatGPT project, and you can copy it for your own company.
 
-It comes with a playbook of 180 product management methods and a reading
+It comes with a playbook of 190 product management methods and a reading
 list of 145 books and 10 essays. About half of the method pages come from
 sources the copilot read, mainly three books in full and digests of
 about 310 articles. The rest, and most of the book pages, are the model's
@@ -326,7 +326,7 @@ This part is for people adapting the copilot rather than using it.
 | `AGENTS.md` | The instructions every session reads. It's kept short and points to the rest. `CLAUDE.md` points to it. |
 | `raw/` | Source files as you gave them, never edited. Committed, except book files in `raw/books/`. |
 | `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a list of sources, a log and the review queue |
-| `playbook/` | 180 methods, 18 topics, and a reading list of 145 books and 10 essays, with the sources they came from. Each page's `knowledge_source` says whether it came from a source the copilot read or from the model's memory. Advice, never evidence. |
+| `playbook/` | 190 methods, 19 topics, and a reading list of 145 books and 10 essays, with the sources they came from. Each page's `knowledge_source` says whether it came from a source the copilot read or from the model's memory. Advice, never evidence. |
 | `documents/` | What the copilot writes for people |
 | `skills/` | The 14 skills, linked from `.claude/skills/` for Claude Code |
 | `.claude/settings.json` | Claude Code settings: the check scripts it may run without asking, and a hook that runs `tools/guard_raw.py` before every file edit |
