@@ -16,6 +16,7 @@ Steve Blank's categories, as told by Ujjwal Trivedi: latent (they have the probl
 - Place a problem on the ladder from what people do, not what they say. (see [[2026-11-24-research-digest-problem-size]])
 - Problems move between steps over time; a shock can make a latent problem urgent overnight (Trivedi). (see [[2026-11-24-research-digest-problem-size]])
 - Match positioning to the type: a painkiller sold as a vitamin won't sell (Trivedi). (see [[2026-11-24-research-digest-problem-size]])
+- The Mom Test (ch5) lists Blank's early-customer traits as four of the five steps: has the problem, knows it, has budget, has built a workaround. That supports the five-step version. (see [[2013-08-01-rob-fitzpatrick-the-mom-test]])
 - This wiki's Urgency line on problem pages uses the five-step version because each step can be observed. (see [[2026-11-24-research-digest-problem-size]])
 
 ## Watch out for

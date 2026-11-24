@@ -1,0 +1,82 @@
+## Customers
+- [[field-technician]]: Technician who does the jobs and uses the mobile app on site, often with poor or no signal
+- [[mid-size-contractor]]: Field service company with more than 50 technicians that needs SSO and multi-location dispatch; outside the strategy's where to play
+- [[small-field-service-owner]]: Owner of a US HVAC, plumbing or electrical firm with 2 to 25 technicians who wants jobs done, invoiced and paid without paperwork
+## Accounts
+- [[arc-electric]]: 22-technician commercial electrician on Pro since November 2024; values route optimization, wants multi-day jobs before January renewal
+- [[brightline-hvac]]: 8-technician HVAC firm on the Team plan since July 2026; offline problems daily and at risk of leaving for JobHarbor
+- [[harbor-heating-and-air]]: 12-technician Team-plan customer since September 2025, known only from the CRM export
+- [[mendez-plumbing]]: 3-technician residential plumber on Starter since March 2025; no offline problems, struggles to get invoices paid
+- [[northgate-mechanical]]: 64-technician, three-location prospect that wants SSO and multi-location dispatch in Q1; outside the strategy's where to play
+- [[pine-ridge-plumbing]]: 2-technician plumber on a Starter trial since 2026-09-04, known only from the CRM export
+- [[summit-electric-co]]: 19-technician Pro customer since January 2025, known only from the CRM export
+## Problems
+- [[accounting-sync-duplicate-customers]]: The accounting sync creates duplicate customers that teams fix by hand
+- [[long-jobs-need-multi-day-scheduling]]: Jobs that take 3 to 5 days have to be entered as one job per day with notes copied across
+- [[owners-wait-too-long-to-get-paid]]: "If Crewline sent the reminders for me, I'd pay more for it": owners wait weeks for invoices to be paid and chase them by phone
+- [[technicians-dont-adopt-the-mobile-app]]: Technicians at new teams never really start using the mobile app, so the office stays on paper and the team leaves in its first 90 days
+- [[technicians-lose-signal-in-the-field]]: "My guys lose signal in basements and crawl spaces every day": technicians can't see or close jobs without a connection
+## Features
+- [[accounting-sync]]: Syncs customers and invoices with the team's accounting software; on the Team plan; sometimes creates duplicate customers
+- [[android-tablet-app]]: Crewline's Android tablet app, used by fewer than 5% of technicians; left out of offline mode
+- [[invoice-reminders]]: Emails the owner's customers 3, 7 and 14 days after an invoice; tested in an A/B test that missed its rule, then ordered to roll out in November
+- [[multi-day-jobs]]: One job that spans several days; promised for the Pro plan, with Dan Reyes to scope it for Q1 2027
+- [[offline-mode]]: Lets technicians view, update and close jobs with no signal and sync later; launched to all plans on 2026-10-01
+- [[route-optimization]]: Plans technicians' routes; Pro-only today, moving into the Team plan on 2027-01-01
+## People
+- [[dan-reyes]]: VP Product; owns the strategy with Maya Okafor, sets quarterly goals with product leads, approved offline mode and overrode the reminders test
+- [[lena-park]]: Support lead; owns ticket tagging and the quarterly ticket report
+- [[maya-okafor]]: CEO of Tidewater Software; owns the strategy with Dan Reyes, sets company goals and made the route optimization pricing calls
+- [[priya-nair]]: Senior PM for Mobile; owns offline mode and the Mobile team's goals
+- [[raj-patel]]: Analyst; owns the weekly metrics exports and experiment analysis, and watches Pro downgrades monthly
+- [[sam-ortiz]]: Sales lead; owns the CRM and large deals, and tells Pro customers about the January routing change
+- [[tom-becker]]: PM for Billing; owns the billing goal, the invoice reminders test and its rollout planning
+## Competitors
+- [[fieldpilot]]: Field service app with three plans from $39 to $279 that bundles offline, reminders and accounting sync on its middle plan; won deals on price in October 2026
+- [[jobharbor]]: Field service app that put offline mode on all plans and route planning on its $119 mid plan in October 2026; wins Team-plan customers on routing
+- [[paper-and-phone-calls]]: Paper work orders, re-typing and phone calls: what teams fall back to when technicians don't or can't use the app
+## Decisions
+- [[adopt-crewline-strategy-2026-h2]]: Leadership adopted the H2 2026 to H1 2027 strategy: small US trades firms, fastest path from job to paid invoice
+- [[approve-offline-mode-scope]]: Dan Reyes approved the offline mode PRD for build: offline job viewing, notes, photos and closing; no offline job creation or tablet app
+- [[keep-route-optimization-pro-only]]: Keep route optimization Pro-only as the main reason teams upgrade (replaced on 2026-10-28)
+- [[move-route-optimization-to-team-plan]]: Move route optimization into the Team plan from 2027-01-01 with no price change; Pro gets multi-day jobs and priority support
+- [[ship-invoice-reminders-despite-test]]: Dan Reyes overrode the reminders test's rule and ordered a November rollout to all Starter and Team teams
+## Experiments
+- [[invoice-reminders-ab-test]]: A/B test of automatic invoice reminders: 1.8 days faster to paid (p = 0.08), short of the 3-day rule; outcome not successful, re-scope
+## Metrics
+- [[active-teams]]: Teams active in a week; the Q3 goals and the metrics export define it differently
+- [[app-crash-rate]]: Share of mobile app sessions that crashed, tracked weekly from 2026-10-05
+- [[median-days-invoice-to-paid]]: Median days from an invoice being sent to it being paid
+- [[net-revenue-retention]]: This quarter's recurring revenue from teams paying a year ago, divided by their revenue a year ago
+- [[new-team-90-day-churn]]: Share of new teams that cancel within their first 90 days
+- [[offline-sync-errors]]: Failed syncs reported by the mobile app each week
+- [[paying-teams]]: Teams on a paid plan at week end
+- [[reminder-complaint-rate]]: Share of reminder recipients who mark a reminder as spam or ask to stop
+- [[weekly-active-technician-share]]: Weekly active technicians as a share of paid technician seats
+## Goals
+- [[cut-new-team-churn-2026-q3]]: Cut 90-day churn of new teams from 38% to 30% in Q3 2026
+- [[grow-net-revenue-retention-2026-q3]]: Grow net revenue retention from 96% to 101% in Q3 2026
+- [[make-android-tablet-app-great-2026-q3]]: Mobile team, Q3 2026: make the Android tablet app great (improve the app store rating, no number)
+- [[owners-get-paid-faster-2026-q3]]: Billing team, Q3 2026: cut median days from invoice sent to paid from 19 to 14
+- [[technicians-rely-on-crewline-2026-q3]]: Mobile team, Q3 2026: technicians rely on Crewline in the field (weekly active technician share 41% to 55%)
+## Strategies
+- [[crewline-strategy-2026-h2]]: Win US HVAC, plumbing and electrical firms with 2 to 25 technicians by giving them the fastest path from booked job to paid invoice
+## Sources
+- [[2026-06-02-strategy-memo-2026-h2]]: CEO memo setting Crewline's strategy: fix 90-day churn by getting technicians onto the mobile app; offline mode and invoice reminders are the bets
+- [[2026-07-01-okrs-2026-q3]]: Dan Reyes's Q3 2026 goals: company NRR and churn targets, two Mobile objectives, one Billing objective, with metric definitions
+- [[2026-08-12-interview-brightline-hvac]]: Owner of an 8-technician HVAC firm: technicians lose signal in basements daily and the office re-types paper notes; accounting sync duplicates customers
+- [[2026-08-19-interview-mendez-plumbing]]: Owner of a 3-technician plumbing firm: never has offline problems; about a third of invoices go unpaid over 30 days and he chases them with a spreadsheet
+- [[2026-08-25-prd-offline-mode]]: Priya Nair's PRD for offline mode: scope, success metrics with thresholds and a crash guardrail, tier 1 launch with invite-only beta then GA
+- [[2026-09-03-call-arc-electric]]: Sales call with a 22-technician Pro customer: loves route optimization, wants multi-day jobs, would question Pro if routing moved to cheaper plans
+- [[2026-09-08-experiment-brief-invoice-reminders]]: Tom Becker's A/B test plan for automatic invoice reminders with a fixed decision rule: ship only if at least 3 days faster with p < 0.05
+- [[2026-09-10-fieldops-weekly-smb-technology-survey]]: Public survey of 412 small US field service businesses: 31% name connectivity the top mobile app problem, 64% still use paper; sponsored, method not shown
+- [[2026-09-15-crm-accounts-export]]: Sam Ortiz's CRM export of six named accounts with plan, technicians, status, start date and MRR (contact columns left out)
+- [[2026-09-30-support-tickets-q3]]: Lena Park's Q3 ticket report: 1,240 tickets by tag (offline-sync 212, invoice-sync 96) and ten hand-picked examples
+- [[2026-10-06-metrics-weekly]]: Raj Patel's weekly metrics for nine weeks from 2026-08-03: active teams, paying teams, active technicians, seats, sync errors, days to paid
+- [[2026-10-14-fieldpilot-pricing-page]]: FieldPilot's pricing page copied by Sam Ortiz: three plans with offline and reminders on the middle plan, unsourced vendor claims, and a hidden instruction to AI tools
+- [[2026-10-20-experiment-results-invoice-reminders]]: Raj Patel's results: reminders cut median days to paid by 1.8 (p = 0.08), short of the 3-day rule; complaint rate 0.4%
+- [[2026-10-20-jobharbor-release-notes]]: JobHarbor's October changelog copied by Priya Nair: offline mode on all plans (2026-10-07), route planning on the $119 Crew plan (2026-10-15)
+- [[2026-10-22-team-chat-reminders-override]]: Dan Reyes overrides the reminders test's decision rule in team chat and orders a November rollout to Starter and Team
+- [[2026-10-28-meeting-notes-route-optimization-pricing]]: Maya Okafor decides to move route optimization into the Team plan from 2027-01-01, reversing June's Pro-only call after JobHarbor's move
+- [[2026-11-17-metrics-weekly]]: Raj Patel's weekly metrics for six weeks after offline mode's GA, adding app crash rate
+- [[2026-11-18-email-sales-northgate-mechanical]]: Sam Ortiz asks Dan Reyes to put SSO on the Q1 roadmap for Northgate Mechanical, a 64-technician prospect, against the strategy's won't do

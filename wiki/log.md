@@ -90,3 +90,11 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Added 62 concept pages from the digests (15 pricing, 9 experiments, 9 metrics, 6 goals, 5 strategy, 4 go-to-market, 8 decisions, 6 problem framing and sizing).
 - Added research sections to 11 existing concepts: [[okrs]], [[north-star-framework]], [[heart-framework]], [[aarrr-pirate-metrics]], [[daci-and-raci]], [[premortem]], [[five-whys]], [[ansoff-matrix]], [[swot-analysis]], [[minimum-viable-product]], [[positioning-in-the-mind]].
 - The digests were written by Claude from about 310 public articles the user pasted into the project, at the user's request, so the knowledge is kept without the original pages. Vendor claims, unsourced numbers and source errors are flagged in each digest and on the concept pages.
+
+## [2026-11-24] ingest | The Mom Test (book text)
+
+- Created source [[2013-08-01-rob-fitzpatrick-the-mom-test]] for the full book text in `raw/books/` (local only, copyrighted).
+- Rewrote [[mom-test-interviews]] from the book and created [[interview-bad-data]], [[commitment-and-advancement]], [[customer-slicing]], [[finding-customer-conversations]] and [[customer-learning-process]].
+- Turned [[the-mom-test]] into a lean source record (`knowledge_source: ingested`) that links those pages.
+- Added a supporting line to [[problem-awareness-ladder]] and a Contradictions line to [[willingness-to-pay-research]].
+- Added router lines to [[discovery-and-customer-insight]] and [[positioning-and-go-to-market]].

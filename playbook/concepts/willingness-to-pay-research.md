@@ -26,6 +26,7 @@ Methods for finding what customers will pay. Van Westendorp's price sensitivity 
 ## Contradictions
 
 - Gupta calls pricing-page A/B tests the "gold standard"; Qualtrics and Sawtooth say conjoint is, call Van Westendorp and Gabor-Granger dated, and Sawtooth sees no good reason to use Gabor-Granger. (see [[2026-11-24-research-digest-pricing]])
+- The Mom Test says never ask people what they would pay, since the number feels rigorous but is a guess; infer it from current spend and budget, or ask for a pre-order. That rejects stated-price surveys such as Van Westendorp and Gabor-Granger for early discovery. (see [[2013-08-01-rob-fitzpatrick-the-mom-test]])
 
 ## Pairs well with
 
