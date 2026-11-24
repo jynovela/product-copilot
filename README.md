@@ -6,10 +6,14 @@ that you can ask questions of. It also writes the PRDs and weekly updates
 from that record. You talk to it in plain words in Claude Code, a Claude
 project or a ChatGPT project, and you can copy it for your own company.
 
-It comes with a playbook built from 145 product management books and 10
-essays. Ask how to handle a sales request you want to turn down, and it
-answers from your own evidence first, then says what the playbook
-suggests. The two answers stay separate.
+It comes with a playbook of 190 product management methods and a reading
+list of 145 books and 10 essays. About half of the method pages come from
+sources the copilot read, mainly three books in full and digests of
+about 310 articles. The other half, and most of the book pages, are the model's
+general knowledge of those books, and every page says which kind it is.
+Ask how to handle a sales request you want to turn down, and it answers
+from your own evidence first, then says what the playbook suggests. The
+two answers stay separate.
 
 ## Daily work it handles
 
@@ -131,6 +135,17 @@ the copilot is tested on.
    folder instead and tell it what they are.
 
 The checks need Python 3.9 or newer, which most computers already have.
+
+Your copy comes with Claude Code settings in `.claude/settings.json`.
+They let the copilot run its own check scripts without asking you each
+time, and they block it from editing or overwriting a source file you
+already gave it. It can still add new files to `raw`.
+
+On Windows, turn on Developer Mode and run
+`git config --global core.symlinks true` before you clone. The skills in
+`.claude/skills/` are links, and without that setting Git writes them as
+plain text files. The copilot still finds each skill through `AGENTS.md`,
+but they won't show up as skills in Claude Code.
 
 ### Local folder or Obsidian vault (no GitHub)
 
@@ -310,12 +325,14 @@ This part is for people adapting the copilot rather than using it.
 | `AGENTS.md` | The instructions every session reads. It's kept short and points to the rest. `CLAUDE.md` points to it. |
 | `raw/` | Source files as you gave them, never edited. Committed, except book files in `raw/books/`. |
 | `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a list of sources, a log and the review queue |
-| `playbook/` | 145 books, 10 essays, 19 topics and 190 methods, with the sources they came from. Advice, never evidence. |
+| `playbook/` | 190 methods, 19 topics, and a reading list of 145 books and 10 essays, with the sources they came from. Each page's `knowledge_source` says whether it came from a source the copilot read or from the model's memory. Advice, never evidence. |
 | `documents/` | What the copilot writes for people |
 | `skills/` | The 14 skills, linked from `.claude/skills/` for Claude Code |
+| `.claude/settings.json` | Claude Code settings: the check scripts it may run without asking, and a hook that runs `tools/guard_raw.py` before every file edit |
+| `tools/guard_raw.py` | Blocks an edit to a file that already exists in `raw/`. It covers Claude Code's file tools only. A shell command can still change a source, and the check script catches that by its hash. |
 | `rules/`, `workflows/`, `templates/` | Page rules, step-by-step workflows and page shapes |
 | `.copilot-version` | The upstream repository and the version your copy last took from it |
-| `tools/lint_wiki.py` | The check script. Python 3.9+, standard library only. Run `python3 tools/lint_wiki.py`. Its tests are in `tools/test_lint_wiki.py`, and `.github/workflows/check.yml` runs both on every pull request. |
+| `tools/lint_wiki.py` | The check script. Python 3.9+, standard library only. Run `python3 tools/lint_wiki.py`. Its tests are in `tools/test_lint_wiki.py`, and `.github/workflows/check.yml` runs them on every pull request. |
 | `examples/sample-company/` | A made-up company with planted traps, used to test the copilot. See its README. |
 
 Any agent that reads `AGENTS.md` and can edit files and run commands
