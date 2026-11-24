@@ -72,6 +72,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Asks to set or draft goals for a team or period | `skills/set-outcome/SKILL.md` |
 | Asks how to solve a chosen problem, what to test, or to scope a solution | `skills/explore-solutions/SKILL.md` |
 | Asks whether a launched feature worked | `skills/review-outcome/SKILL.md` |
+| Asks for several loop steps at once, like "find the best opportunity and write a PRD" | `skills/run-loop/SKILL.md` |
 | Asks to set up the copilot for their company | `skills/setup-copilot/SKILL.md` |
 | Asks to sync or refresh from a tool (CRM, tickets, analytics) | `skills/sync/SKILL.md` |
 | Asks what to do today, for their brief, or says done, add or drop for a task | `skills/morning-brief/SKILL.md` |
