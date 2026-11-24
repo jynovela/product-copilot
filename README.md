@@ -27,7 +27,7 @@ Hermes and others) and any model you choose.
 
 | Layer | Path | Owner |
 | ----- | ---- | ----- |
-| Raw sources | `raw/` | You. The agent never edits them; its research skills may add public pages to `raw/public/`, and it saves what you tell it in chat to `raw/notes/`. |
+| Raw sources | `raw/` | You. The agent never edits them; its research skills may add public pages to `raw/public/`, it saves what you tell it in chat to `raw/notes/`, and sync saves tool snapshots to `raw/sync/`. |
 | Wiki | `wiki/` | The agent. You read it. |
 | Playbook | `playbook/` | The agent. General PM knowledge, not evidence. |
 | Documents | `documents/` | The agent, when you ask for one: PRDs, reports, updates and demo specs to share. Not evidence. |
@@ -53,6 +53,15 @@ Hermes and others) and any model you choose.
    `humanize this`. The humanize check flags chatbot habits with a script
    and fixes them, and it learns your voice from your corrections.
 10. Now and then, tell the agent: `lint the wiki`.
+11. New fork? Say `set up the copilot for my company`. It ingests what's in
+    `raw/`, asks a few short rounds of questions, and writes the answers
+    into the wiki, leaving `AGENTS.md` generic so you can pull updates.
+12. Say `sync accounts from the CRM` (or tickets from Jira) to save a dated
+    snapshot to `raw/sync/` and move status lines forward. With no
+    connector, hand it an export file.
+13. Ask `what do I need to do today?` for a brief: what the wiki says is
+    due, plus meetings, replies and tasks when email, calendar or a task
+    app is connected. Briefs go to `daily/`, which git ignores.
 
 Check the wiki yourself at any time:
 
