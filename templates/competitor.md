@@ -8,7 +8,11 @@ updated: {YYYY-MM-DD}
 
 ## What they offer
 
-{Description.} (see [[{source}]])
+- {YYYY-MM-DD}: {feature or capability}, they say | users report (see [[{source}]])
+
+## Pricing
+
+- {YYYY-MM-DD}: {plan} list {price}, value metric {unit}, free offer {type} (see [[{source}]])
 
 ## Strengths
 

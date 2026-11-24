@@ -16,6 +16,14 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Decisions
 
+## Experiments
+
+## Metrics
+
+## Goals
+
+## Strategies
+
 ## Analyses
 
 ## Sources

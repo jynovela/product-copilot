@@ -34,6 +34,10 @@ LAYERS = {
         "features": "feature",
         "competitors": "competitor",
         "decisions": "decision",
+        "experiments": "experiment",
+        "metrics": "metric",
+        "goals": "goal",
+        "strategies": "strategy",
         "analyses": "analysis",
     },
     PLAYBOOK: {
@@ -49,7 +53,7 @@ SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "reading-paths",
                  "newsletters-and-podcasts"}
 # page types whose claims must cite at least one source page
 MUST_CITE = {"customer", "problem", "feature", "competitor", "decision", "book",
-             "essay"}
+             "essay", "experiment", "metric", "goal", "strategy"}
 # page types that must link to at least one book or essay page
 MUST_LINK_BOOK = {"topic", "concept"}
 # page types that must say where their knowledge came from
@@ -59,10 +63,23 @@ MEMORY_MARKER = "General knowledge:"
 REQUIRED_FIELDS = ["type", "summary", "updated"]
 SOURCE_FIELDS = ["raw", "raw_sha256"]
 RAW_IGNORED = {"README.md", ".gitkeep", ".DS_Store"}
+# page type -> {frontmatter field -> allowed values}; these fields are required
+ENUM_FIELDS = {
+    "experiment": {"status": {"planned", "running", "done", "stopped"}},
+    "goal": {"level": {"business", "product"},
+             "commitment": {"committed", "aspirational"},
+             "status": {"active", "met", "missed", "dropped", "replaced"}},
+    "strategy": {"status": {"draft", "active", "replaced"}},
+    "decision": {"kind": {"opportunity", "scope", "launch", "outcome-review",
+                          "pricing", "strategy", "goal", "other"}},
+}
+# page type -> frontmatter fields that hold "YYYY-MM-DD to YYYY-MM-DD"
+PERIOD_FIELDS = {"goal": "period", "strategy": "horizon"}
+PERIOD_RE = re.compile(r"^\d{4}-\d{2}-\d{2} to \d{4}-\d{2}-\d{2}$")
 
 LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint) \| \S.*$")
+LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search) \| \S.*$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 errors = []
@@ -176,6 +193,20 @@ def main():
                 fields["type"], folder, FOLDER_TYPES[folder]))
         if fields.get("updated") and not DATE_RE.match(fields["updated"]):
             error("frontmatter", path, "updated must be YYYY-MM-DD")
+        for key, allowed in ENUM_FIELDS.get(fields.get("type"), {}).items():
+            if fields.get(key) not in allowed:
+                error("frontmatter", path, "{} must be one of: {}".format(
+                    key, ", ".join(sorted(allowed))))
+        period_key = PERIOD_FIELDS.get(fields.get("type"))
+        if period_key and not PERIOD_RE.match(fields.get(period_key, "")):
+            error("frontmatter", path,
+                  "{} must look like 'YYYY-MM-DD to YYYY-MM-DD'".format(period_key))
+        if fields.get("type") == "decision":
+            replaces = re.search(r"^- Replaces: \[\[", page["body"], re.M)
+            reopened = re.search(r"^- Reopened because[^:\n]*:[ \t]*\S", page["body"], re.M)
+            if replaces and not reopened:
+                error("decision", path, "it replaces a decision, so fill in "
+                      "'Reopened because' with the new information")
         if fields.get("type") in KNOWLEDGE_TYPES:
             ks = fields.get("knowledge_source")
             if ks not in KNOWLEDGE_SOURCES:
@@ -184,6 +215,14 @@ def main():
             elif ks == "model-memory" and MEMORY_MARKER not in page["body"]:
                 error("provenance", path, "knowledge_source is model-memory, so mark "
                       "those claims with '{}'".format(MEMORY_MARKER))
+
+    # at most one active strategy
+    active = [p["path"] for p in pages.values()
+              if (p["fields"] or {}).get("type") == "strategy"
+              and (p["fields"] or {}).get("status") == "active"]
+    if len(active) > 1:
+        for path in active:
+            error("strategy", path, "only one strategy page may be active")
 
     # source pages point at real, unchanged raw files
     ingested = set()
@@ -244,6 +283,15 @@ def main():
             if line.startswith("## ") and not LOG_RE.match(line):
                 error("log-format", pages["log"]["path"],
                       "line {} must look like '## [YYYY-MM-DD] ingest | Title'".format(n))
+
+    # files saved by the research skills say where they came from
+    public = RAW / "public"
+    if public.is_dir():
+        for path in sorted(public.glob("*.md")):
+            text = path.read_text(encoding="utf-8")
+            if re.search(r"^- Fetched:", text, re.M) and not re.search(
+                    r"^- URL: \S", text, re.M):
+                warn("raw-url", path, "fetched by a research skill but has no URL line")
 
     # raw files nobody has ingested yet
     if RAW.is_dir():
