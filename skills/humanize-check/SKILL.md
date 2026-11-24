@@ -104,7 +104,13 @@ The script catches word- and phrase-level tells. These need judgment:
   topic sentence and closing with a recap, or the same point restated in
   each section.
 - **Formatting tics.** Bold sprinkled on phrases, bullets where sentences
-  belong, mixed quote styles.
+  belong, mixed quote styles. The script flags lists of bold-led items,
+  short colon lead-ins before a list, and "a X, not a Y" lines. It can't
+  see a list that would read better as two sentences, so read for that.
+- **Teaser headings.** A heading that sells instead of labels, like "The
+  work it takes off your plate". Name the section's subject.
+- **Passing the script.** Text can pass every check and still read
+  machine-made because of its shape. That's why steps 4 and 5 exist.
 
 ## Never
 
