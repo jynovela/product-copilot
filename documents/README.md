@@ -1,8 +1,8 @@
 # Documents
 
 Documents the copilot writes for people to read or share outside the
-repo: PRDs, strategy docs, product and adoption reports, weekly updates,
-demo specs, interview guides and summaries, and others. Wiki pages are the copilot's records; documents are
+repo: PRDs, weekly updates, demo specs, interview guides and summaries,
+tickets, and others. Wiki pages are the copilot's records; documents are
 what it hands to people.
 
 ## Rules

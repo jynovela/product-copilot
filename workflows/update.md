@@ -47,7 +47,9 @@ documents/README.md examples
    removed, or "Skipped: first update".
 6. **Check.** Run `python3 tools/lint_wiki.py`. A playbook page this copy
    added is now missing from `playbook/playbook-index.md` and its topic
-   page: add its lines back. A wiki page may fail a rule that changed:
+   page: add its lines back. If `wiki/source-index.md` doesn't exist,
+   create it from upstream's and move the lines under `## Sources` in
+   `wiki/index.md` into it. A wiki page may fail a rule that changed:
    fix it by `rules/pages.md`, and ask when the fix isn't mechanical. Run
    the check until `RESULT: 0 errors`. **Output:** each fix and the final
    `RESULT` line.

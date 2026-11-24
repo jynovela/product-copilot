@@ -25,7 +25,7 @@ Only these lines, each with its as-of date and the snapshot's source page:
 
 | Page | Lines |
 | ---- | ----- |
-| account | `status` in frontmatter and the Status line; the Plan line; a new dated line under Open issues |
+| account | `status` in frontmatter and the Status line; the Plan line; the ID in the CRM line; a new dated line under Open issues |
 | feature | a new dated line under Results at check dates, when the tool is the data source of the metric being checked |
 | metric | a new dated line under Baseline history, when the tool is the metric's data source |
 | goal | a new dated line under Check-ins with the measure's value only; confidence stays the owner's call, so write `confidence: not given` |
@@ -59,13 +59,18 @@ Everything else the snapshot suggests goes to `wiki/review-queue.md`:
    credential, and name each dropped column in the header. If the name
    exists, add `-2`. Never edit a snapshot after saving it.
    **Output:** the path and the columns left out.
-4. **Ingest it.** Follow `workflows/ingest.md` steps 3 and 4: a source
+4. **Ingest it.** Follow the Hash and Source page steps of
+   `workflows/ingest.md`: a source
    page with `Evidence: own`, `Date of source:` the snapshot date, and no
    contact details. Skip the takeaways question. **Output:** the source
    page.
-5. **Match rows to pages.** Use `wiki/index.md` and `grep`. Match accounts
-   by company name, tickets by ID or account, metrics by name. Skip
-   archived pages. **Output:** a table of row, page, or "no page".
+5. **Match rows to pages.** Use `wiki/index.md` and `grep`. Match an
+   account by its `ID in the CRM` line when the page has one, otherwise
+   by company name; tickets by ID or account; metrics by name. When a
+   name matches and the row has an ID the page lacks, add the ID line in
+   step 8. Two pages or two rows with the same name are not a match:
+   list them for the person. Skip archived pages. **Output:** a table of
+   row, page, how it matched, or "no page".
 6. **Compare each matched line** with the page and sort it:
    - **Same:** the tool shows what the page says. Move `as_of` to the
      snapshot date if that is later.

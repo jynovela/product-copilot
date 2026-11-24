@@ -40,7 +40,7 @@ HISTORY = {
     "requests and feedback", "feedback",
 }
 SKIP_DIRS = {"sources"}
-SKIP_FILES = {"index.md", "log.md", "ways-of-working.md"}
+SKIP_FILES = {"index.md", "source-index.md", "log.md", "ways-of-working.md"}
 GOAL_CHECKIN_DAYS = 14
 STRATEGY_REVIEW_DAYS = 90
 

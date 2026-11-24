@@ -32,6 +32,8 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Sources
 
+Source pages are listed in [[source-index]].
+
 ## Archived
 
 Pages with `state: archived`. Skills skip them unless asked.

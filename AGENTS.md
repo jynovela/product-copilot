@@ -29,7 +29,7 @@ needs them (see **Read before you act**).
 | ---- | ------------- | ------------- |
 | `raw/` | Source documents, committed except `raw/books/`. `raw/public/` holds public pages; `raw/playbook/` the playbook's own sources; `raw/notes/` holds what the user said in chat; `raw/pasted/` holds sources the user pasted or attached in chat. | The user. Research skills may add files to `raw/public/`, the record workflow to `raw/notes/`, the ingest workflow to `raw/pasted/`, the sync skill to `raw/sync/`. |
 | `wiki/<type>/` | One page per thing: sources, customers, accounts, problems, features, people, competitors, decisions, experiments, metrics, goals, strategies, analyses | You |
-| `wiki/overview.md`, `wiki/index.md`, `wiki/log.md` | The current picture, a catalog of every page, an append-only log | You |
+| `wiki/overview.md`, `wiki/index.md`, `wiki/source-index.md`, `wiki/log.md` | The current picture, a catalog of every page, the list of source pages, an append-only log | You |
 | `wiki/ways-of-working.md`, `wiki/now.md` | How the person works and what they focus on now | You, when the person says |
 | `wiki/review-queue.md` | Changes you learned that no person has confirmed | You |
 | `playbook/` | Books, topics, concepts and essays, their own `sources/`, `playbook-index.md` and `playbook-log.md` | You |
@@ -49,8 +49,8 @@ needs them (see **Read before you act**).
 | Run a workflow | Its file in `workflows/` (below) |
 
 Find pages with `wiki/index.md` or `grep`, then open only those. Never
-read `playbook/playbook-index.md`, either log or `raw/` whole: search
-them. Skip archived pages unless asked.
+read `playbook/playbook-index.md`, `wiki/source-index.md`, either log or
+`raw/` whole: search them. Skip archived pages unless asked.
 
 ## Workflows
 
@@ -60,7 +60,7 @@ them. Skip archived pages unless asked.
 | Tells you something to keep: a decision, a new or stopped feature, a changed goal, a status, who owns what | `workflows/record.md` |
 | Names a book or essay to add | `workflows/add-book.md` |
 | Drops a whole book in `raw/books/` to extract | `workflows/ingest-book.md` |
-| Asks a question about the product, customers or market, or how to do product work | `workflows/query.md` |
+| Asks a question about the product, customers, their problems or the market, or how to do product work | `workflows/query.md` |
 | Asks for a PRD, weekly update, demo spec, interview guide or interview summary | `skills/write-document/SKILL.md` |
 | Asks for tickets, stories or acceptance criteria | `skills/write-tickets/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
@@ -68,7 +68,7 @@ them. Skip archived pages unless asked.
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 | Asks to research a problem, a market or the solutions out there | `skills/research-problem-space/SKILL.md` |
 | Asks to research or compare named competitors | `skills/research-competitors/SKILL.md` |
-| Asks what customers' problems are, or to synthesize or size problems | `skills/synthesize-problems/SKILL.md` |
+| Asks to synthesize, recount, size or update the problem pages | `skills/synthesize-problems/SKILL.md` |
 | Asks what to work on next, or to rank or prioritize opportunities | `skills/rank-opportunities/SKILL.md` |
 | Asks to set or draft goals for a team or period | `skills/set-outcome/SKILL.md` |
 | Asks how to solve a chosen problem, what to test, or to scope a solution | `skills/explore-solutions/SKILL.md` |

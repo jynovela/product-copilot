@@ -57,8 +57,8 @@ LAYERS = {
 }
 # layer -> its index page; pages in a layer must be listed in its index
 INDEXES = {WIKI: "index", PLAYBOOK: "playbook-index"}
-SPECIAL_PAGES = {"index", "log", "overview", "playbook-index", "playbook-log",
-                 "reading-paths",
+SPECIAL_PAGES = {"index", "source-index", "log", "overview", "playbook-index",
+                 "playbook-log", "reading-paths",
                  "newsletters-and-podcasts", "now", "ways-of-working",
                  "review-queue"}
 # page types whose claims must cite at least one source page
@@ -385,7 +385,7 @@ def main():
             target = target.strip()
             if target not in pages:
                 error("broken-link", page["path"], "[[{}]] has no page".format(target))
-            elif slug not in ("index", "log", "playbook-index",
+            elif slug not in ("index", "source-index", "log", "playbook-index",
                               "playbook-log") and target != slug:
                 inbound[target].add(slug)
 
@@ -398,7 +398,15 @@ def main():
         layer = page.get("layer")
         if layer in INDEXES:
             index = INDEXES[layer]
-            if slug not in pages.get(index, {}).get("links", set()):
+            listed = set(pages.get(index, {}).get("links", set()))
+            # Wiki source pages have their own list, so index.md stays
+            # short. A copy from before the split may still list them in
+            # index.md, which is accepted.
+            if layer == WIKI and page["path"].parent.name == "sources":
+                if "source-index" in pages:
+                    index = "source-index"
+                    listed |= pages[index]["links"]
+            if slug not in listed:
                 error("not-in-index", page["path"], "add [[{}]] to {}/{}.md".format(
                     slug, layer.name, index))
         ptype = (page["fields"] or {}).get("type")

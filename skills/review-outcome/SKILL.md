@@ -134,7 +134,7 @@ and `templates/analysis.md`.
    - The problem page: one dated Evidence line if the result changes what
      we know about the problem, citing the source.
    - After the person decides: save their answer as a chat note and
-     source page with `workflows/record.md` steps 1 and 2 only (no
+     source page with `workflows/record.md`, its Save the note and Source page steps only (no
      Record report; log it under this skill's entry). Write an
      `outcome-review` decision page (kind block: Reviews and Verdict)
      with Decided by the person, Options not chosen ("Do nothing" first),
