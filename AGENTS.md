@@ -34,6 +34,7 @@ Stack: Markdown, plus one Python 3.9+ check script (standard library only).
 | `playbook/reading-paths.md` | Which books to read for a given question | You |
 | `playbook/newsletters-and-podcasts.md` | A plain list of newsletters and podcasts | You |
 | `playbook/<type>/` | Books, topics, concepts and essays (below) | You |
+| `documents/` | Documents written for people to read or share: PRDs, reports, updates, demo specs. See `documents/README.md`. Not evidence: to use one as evidence, the user puts it in `raw/` and ingests it. | You, when the user asks for a document |
 | `templates/` | The starting shape of each page type, the overview (`overview.md`) and a fetched-page extract (`raw-extract.md`) | Nobody, unless the user asks |
 | `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
 
@@ -109,6 +110,12 @@ Every page starts from its template in `templates/<type>.md`.
    name who. You may count what the wiki holds, and do arithmetic on
    sourced numbers, marked `Inference:`. You may prepare options on an
    analysis page. You never guess a number.
+   One exception: in a run the user asked to do without stopping, you may
+   record your own pick of an opportunity or a scope with `Decided by:
+   copilot (unconfirmed)`, and list each one first in the run's report. A
+   person confirms it by putting their name in Decided by and adding a
+   dated Reviews line. Never use it for a goal, price, strategy, launch or
+   outcome review.
 10. **Shared lists.** Use these words exactly, wherever the field appears:
     - Target from: `baseline + expected lift`, `funnel sizing [[analysis]]`,
       `past launch or period [[page]]`, `benchmark [[source]] (external)`,
@@ -137,8 +144,9 @@ Every page starts from its template in `templates/<type>.md`.
   `running`. The Outcome follows the rule, not judgment.
 - **Feature.** "Launched" is the first day the target segment can use it
   without an invitation; invite-only betas are rollout steps before it.
-  Success metrics, Tier, Audience and Launched lock that day. The verdict
-  follows the thresholds. The Plan line is the only place plans are named.
+  Success metrics, Tier, Audience and Launched lock that day. Scope locks
+  earlier, once a `scope` decision approves it. The verdict follows the
+  thresholds. The Plan line is the only place plans are named.
   No launch task lists: those live in the team's project tool.
 - **Metric.** Define each metric once, here. Other pages link it and never
   restate the formula.

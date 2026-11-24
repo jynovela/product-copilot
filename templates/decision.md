@@ -8,7 +8,7 @@ kind: {opportunity | scope | launch | outcome-review | pricing | strategy | goal
 # {Decision}
 
 - Date decided: {YYYY-MM-DD}
-- Decided by: {name or role}
+- Decided by: {name or role | copilot (unconfirmed)}
 - How decided (optional): {decider after discussion | consent | majority | unanimity | decider alone | delegated to {who}}
 - Input from (optional): {names or roles}
 - Reversible: {easily | at a cost | no}

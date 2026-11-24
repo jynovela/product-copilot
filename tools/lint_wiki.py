@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 PLAYBOOK = ROOT / "playbook"
 RAW = ROOT / "raw"
+DOCUMENTS = ROOT / "documents"
 
 # layer -> {folder name -> required value of the "type" field}
 LAYERS = {
@@ -81,6 +82,16 @@ LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 LOG_RE = re.compile(r"^## \[\d{4}-\d{2}-\d{2}\] (ingest|query|lint|search) \| \S.*$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+DOC_NAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*\.md$")
+DOC_STATUS = {"draft", "final"}
+# decision kinds the copilot may pick itself in a run without stopping
+UNCONFIRMED_KINDS = {"opportunity", "scope"}
+UNCONFIRMED_RE = re.compile(r"^- Decided by:\s*copilot \(unconfirmed\)", re.M)
+# Files every session loads. Keep their total small so the model isn't
+# distracted by rules that don't apply to the task. Lower this as the
+# always-loaded files shrink.
+CONTEXT_FILES = ["AGENTS.md", "CLAUDE.md"]
+CONTEXT_BUDGET = 20000  # bytes, roughly 5,000 tokens
 
 errors = []
 warnings = []
@@ -207,6 +218,13 @@ def main():
             if replaces and not reopened:
                 error("decision", path, "it replaces a decision, so fill in "
                       "'Reopened because' with the new information")
+            if UNCONFIRMED_RE.search(page["body"]):
+                if fields.get("kind") not in UNCONFIRMED_KINDS:
+                    error("decision", path, "the copilot may only pick an "
+                          "opportunity or a scope; a person must decide this one")
+                else:
+                    warn("unconfirmed", path, "decided by the copilot; ask a "
+                         "person to confirm it")
         if fields.get("type") in KNOWLEDGE_TYPES:
             ks = fields.get("knowledge_source")
             if ks not in KNOWLEDGE_SOURCES:
@@ -300,6 +318,43 @@ def main():
                     and "assets" not in path.relative_to(RAW).parts \
                     and path.resolve() not in ingested:
                 warn("not-ingested", path, "no source page points at this file")
+
+    # documents written for people
+    if DOCUMENTS.is_dir():
+        for path in sorted(DOCUMENTS.rglob("*.md")):
+            if path.name == "README.md":
+                continue
+            if not DOC_NAME_RE.match(path.name):
+                error("document", path, "name must be "
+                      "YYYY-MM-DD-<doc type>-<short-title>.md")
+            text = path.read_text(encoding="utf-8")
+            fields, body = parse_frontmatter(text)
+            if fields is None:
+                error("document", path, "missing --- frontmatter block at top of file")
+                continue
+            if fields.get("type") != "document":
+                error("document", path, "type must be 'document'")
+            if not SLUG_RE.match(fields.get("doc_type", "")):
+                error("document", path, "doc_type must be lowercase-words-with-dashes")
+            if not DATE_RE.match(fields.get("date", "")):
+                error("document", path, "date must be YYYY-MM-DD")
+            if fields.get("status") not in DOC_STATUS:
+                error("document", path, "status must be one of: draft, final")
+            if not re.search(r"^## Built from\s*$", body, re.M):
+                error("document", path, "add a '## Built from' section")
+            for target in LINK_RE.findall(strip_code(body)):
+                if target.strip() not in pages:
+                    warn("document-link", path,
+                         "[[{}]] no longer has a page".format(target.strip()))
+
+    # size of the files every session loads
+    loaded = [ROOT / name for name in CONTEXT_FILES if (ROOT / name).is_file()]
+    size = sum(p.stat().st_size for p in loaded)
+    if size > CONTEXT_BUDGET:
+        warn("context-budget", ROOT / CONTEXT_FILES[0],
+             "{} and {} together are {} bytes; keep them under {}. Move "
+             "detail into files read only when needed".format(
+                 CONTEXT_FILES[0], CONTEXT_FILES[1], size, CONTEXT_BUDGET))
 
     for line in errors + warnings:
         print(line)
