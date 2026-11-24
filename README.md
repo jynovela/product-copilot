@@ -171,8 +171,10 @@ nothing, but it can be confusing.
 ### Claude project
 
 A Claude project reads a copy of your copilot from GitHub. It can answer
-questions, run the morning brief and write documents, but it can't save
-anything back, and its copy only updates when you sync it.
+questions, write documents and give you a morning brief from your
+calendar and email, without the due dates a script reads from your
+copilot. It can't save anything back, and its copy only updates when you
+sync it.
 
 1. In Claude, open Customize, then Connectors, and connect GitHub. When
    GitHub asks, give the Claude app access to your copy of the copilot.
@@ -307,7 +309,7 @@ This part is for people adapting the copilot rather than using it.
 | ---- | ------------- |
 | `AGENTS.md` | The instructions every session reads. It's kept short and points to the rest. `CLAUDE.md` points to it. |
 | `raw/` | Source files as you gave them, never edited. Committed, except book files in `raw/books/`. |
-| `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a log and the review queue |
+| `wiki/` | One page per customer, account, problem, feature, person, competitor, decision, experiment, metric, goal, strategy or analysis, plus an overview, an index, a list of sources, a log and the review queue |
 | `playbook/` | 145 books, 10 essays, 19 topics and 190 methods, with the sources they came from. Advice, never evidence. |
 | `documents/` | What the copilot writes for people |
 | `skills/` | The 14 skills, linked from `.claude/skills/` for Claude Code |

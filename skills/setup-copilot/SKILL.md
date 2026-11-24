@@ -39,7 +39,9 @@ generic, so an update can replace them (`workflows/update.md`).
 3. **Ingest what's there.** If `raw/` has files not yet ingested, list
    them and offer to ingest them all, oldest first, before any interview,
    because they answer questions you would otherwise ask. On a yes,
-   follow `workflows/ingest.md` for each, without stopping. If `raw/` is
+   follow `workflows/ingest.md` for each, without stopping. Don't write
+   an ingest report per file: keep one line per file (pages created,
+   pages updated, anything skipped) for the setup report. If `raw/` is
    empty, ask for the first files: strategy or planning docs, interview
    notes, a metrics export, a CRM or ticket export. **Output:** the files
    ingested, or the person's answer.

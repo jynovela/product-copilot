@@ -41,8 +41,9 @@ never starts at step 8.
 
 ## Steps
 
-1. **Plan the chain.** Find the first and last step the ask needs. Read
-   `wiki/now.md`, the current goals, the active strategy and the newest
+1. **Plan the chain.** Find the first and last step the ask needs. Check
+   the overview's Open questions for a `Loop stopped at` line for this
+   ask, and start from that skill if there is one. Read `wiki/now.md`, the current goals, the active strategy and the newest
    `opportunity` and `scope` decisions to see which steps are already
    done. Drop a step whose output already exists and is current, and say
    why. write-document and write-tickets need an approved `scope`
@@ -72,7 +73,10 @@ never starts at step 8.
    skill's entry check fails, when it ends without the output the next
    skill needs, or when the user rejects a pick at a checkpoint.
    Never fill the gap yourself. Say what's missing and which skill or
-   person would supply it. **Output:** "Ran to the end" or "Stopped at
+   person would supply it. So a later session can pick the chain up, add
+   one line to the overview's Open questions: `Loop stopped at <skill>:
+   <what's missing>, for "<the ask>"`. Remove that line when the chain
+   runs on or the person drops it. **Output:** "Ran to the end" or "Stopped at
    {skill}: {what's missing}".
 5. **Check.** Run `python3 tools/lint_wiki.py` once more and fix every
    `ERROR` on a file this run wrote. **Output:** the final `RESULT` line.

@@ -1,6 +1,6 @@
 ---
 name: synthesize-problems
-description: Read across every ingested source and bring the problem pages up to date - find missed problems, propose merges and splits, recount evidence and size each problem with own and public evidence kept apart. Use when the user asks what customers' problems are, to synthesize or size problems, or before ranking opportunities.
+description: Read across every ingested source and bring the problem pages up to date - find missed problems, propose merges and splits, recount evidence and size each problem with own and public evidence kept apart. Use when the user asks to synthesize, recount, size or update the problems, or before ranking opportunities. A plain question about what the problems are is a query, answered from the pages as they stand.
 ---
 
 # synthesize-problems

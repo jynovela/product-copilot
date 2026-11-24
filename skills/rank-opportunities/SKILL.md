@@ -79,7 +79,7 @@ customer pain.
    person who picked, as they named themselves, or `copilot (unconfirmed)`
    when running without stopping. Never write a person's name for your own
    pick. Save a person's pick first as a chat note and source page with
-   `workflows/record.md` steps 1 and 2 only (no Record report; log it
+   `workflows/record.md`, its Save the note and Source page steps only (no Record report; log it
    under this skill's entry), and cite it. Under Known at decision, use the opportunity block: copy the
    problem's Size section with its As of date, and the goal it serves (or
    "none current"). For a copilot pick, Expected result is `direction

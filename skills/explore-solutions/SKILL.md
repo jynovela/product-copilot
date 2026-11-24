@@ -138,7 +138,7 @@ Read `rules/pages.md`, and `templates/analysis.md`,
      first), Revisit when (a signal, by a date the owner sets if no
      source gives one), and Watch. Then set `Approved by` on the
      feature's Scope. Save the person's answer first as a chat note and
-     source page with `workflows/record.md` steps 1 and 2 only (no
+     source page with `workflows/record.md`, its Save the note and Source page steps only (no
      Record report; log it under this skill's entry), and cite it.
    Never edit a locked section: an experiment's rule once running, a
    launched feature's Success metrics, an approved Scope, a decision above

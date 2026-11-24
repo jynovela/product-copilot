@@ -17,6 +17,7 @@ page. No contact details.
 - Segment: [[{customer}]]
 - Size and context: {size, industry, region} (see [[{source}]])
 - Owner on our side: [[{person}]] | unknown
+- ID in the CRM: {the record's ID, as the tool shows it} | unknown
 
 ## Plan and status
 

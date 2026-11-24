@@ -49,6 +49,10 @@ for line in open(entries, encoding="utf-8").read().splitlines():
         head = line
     elif line.strip():
         add.setdefault(head, []).append(line)
+# Source pages have their own list, wiki/source-index.md.
+sources = add.pop("## Sources", [])
+with open(index_path.replace("index.md", "source-index.md"), "a", encoding="utf-8") as f:
+    f.write("\n" + "\n".join(sources) + "\n")
 out = []
 for line in open(index_path, encoding="utf-8").read().splitlines():
     out.append(line)

@@ -108,7 +108,7 @@ too if a goal may need a new metric.
    person", and let any skill that follows use `direction only`.
    **Output:** the person's answer, or "Running without stopping".
 6. **Write.** Save the person's answer as a chat note and source page
-   with `workflows/record.md` steps 1 and 2 only (no
+   with `workflows/record.md`, its Save the note and Source page steps only (no
    Record report; log it under this skill's entry), so the goal can cite it.
    Then:
    - One goal page per goal set, from `templates/goal.md`, named

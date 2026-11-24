@@ -1,7 +1,10 @@
 # Saving fetched pages
 
-The research skills may create new files in `raw/public/`, and the record
-workflow in `raw/notes/`. Nothing else may write to `raw/`, and no one edits, renames or deletes a raw file.
+The research skills may create new files in `raw/public/`. Three other
+things may add files to `raw/`, each by its own rules: the record
+workflow in `raw/notes/`, the ingest workflow in `raw/pasted/`, and the
+sync skill in `raw/sync/`. Nothing else may write to `raw/`, and no one
+edits, renames or deletes a raw file.
 
 1. Save only public pages that open without signing in, and only the ones
    the user picked (or all, if they said to run without stopping).

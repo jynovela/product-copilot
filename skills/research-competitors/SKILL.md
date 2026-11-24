@@ -52,7 +52,7 @@ didn't read in this run or in a saved source.
    the flow for the problem, and the changelog or release notes. Then look
    for reviews on public review sites and app stores. Skip anything behind
    a sign-up. **Output:** a table with one row per page: number, title,
-   kind (`competitor page`, `official docs` or `forum` for reviews),
+   kind (`competitor page`, `official docs` or `review`),
    published date or "not shown", URL, one line on what it shows, and
    "keep" or `reject: <reason>`.
 4. **Pick.** Guided: show the table and wait for the user's picks. Without

@@ -5,13 +5,14 @@ stopped feature, a changed goal, a status, who owns what. For example:
 "I decided we'll build bulk export", "we stopped the mobile app", "Ana now
 owns billing".
 
-1. Run `date +%F`. Save the user's words in a new file
+1. **Save the note.** Run `date +%F`. Save the user's words in a new file
    `raw/notes/<YYYY-MM-DD>-chat-<short-title>.md`, from
    `templates/raw-note.md`: who said it, the date, "in chat", and their
    words as written. Never edit a note after saving it; a correction is a
    new note. If the name exists, add `-2`. **Output:** the path.
-2. Ingest the note (`workflows/ingest.md`, steps 3 to 4) so it has a source
-   page with `Evidence: own`. **Output:** the source page.
+2. **Source page.** Give the note a source page with `Evidence: own`,
+   following the Hash and Source page steps of `workflows/ingest.md`.
+   **Output:** the source page.
 3. List the pages to create, update or archive. Mark each change to a
    locked section or a commitment: it needs a new page (a decision, a goal
    or a strategy version), not an edit. **Output:** three lists, "Create",

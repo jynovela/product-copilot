@@ -42,9 +42,10 @@ def base():
         "raw/2026-11-03-call-acme.md": RAW_CALL,
         "raw/playbook/reading-list.md": RAW_LIST,
         "wiki/index.md": "# Index\n\n- [[overview]]: picture\n"
-                         "- [[2026-11-03-call-acme]]: call\n"
                          "- [[slow-export]]: problem\n- [[acme]]: account\n"
                          "- [[ops-lead]]: customer\n",
+        "wiki/source-index.md": "# Source index\n\n"
+                                "- [[2026-11-03-call-acme]]: call\n",
         "wiki/log.md": "# Log\n\n## [2026-11-03] ingest | Call with Acme\n",
         "wiki/overview.md": "# Overview\n\n- [[slow-export]]\n- [[acme]]\n"
                             "- [[ops-lead]]\n",
@@ -165,6 +166,14 @@ CASES = [
     ("a page missing from the index",
      edit("wiki/index.md", "- [[slow-export]]: problem\n", ""), (),
      "ERROR not-in-index " + PROBLEM),
+    ("a source page missing from the source index",
+     edit("wiki/source-index.md", "- [[2026-11-03-call-acme]]: call\n", ""), (),
+     "ERROR not-in-index " + CALL),
+    ("a source page listed in index.md, as older copies have it",
+     dict(edit("wiki/source-index.md", "- [[2026-11-03-call-acme]]: call\n", ""),
+          **{"wiki/index.md": base()["wiki/index.md"]
+             + "- [[2026-11-03-call-acme]]: call\n"}), (),
+     "RESULT: 0 errors"),
     ("a page nothing links to",
      with_file("wiki/customers/lonely.md",
                "---\ntype: customer\nsummary: s\nupdated: {0}\nstate: current\n"
