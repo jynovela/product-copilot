@@ -9,7 +9,7 @@ raw_sha256: 109a4bf3edddcb8babd7b5a6f2f2ab408a36f7af86b7d2793815237a690a7032
 # JobHarbor release notes, October 2026 (copied)
 
 - **Kind:** competitor
-- **Evidence:** own (from the team or its customers)
+- **Evidence:** public (from the web); Priya Nair's note on timing is own
 - **URL:** none
 - **Date of source:** 2026-10-20
 - **From:** JobHarbor public changelog, copied by Priya Nair

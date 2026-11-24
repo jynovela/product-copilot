@@ -4,7 +4,7 @@ summary: {one line: the outcome}
 updated: {YYYY-MM-DD}
 level: {business | product}
 commitment: {committed | aspirational}
-status: {active | met | missed | dropped | replaced}
+status: {active | met | missed | dropped | replaced | ended}
 period: {YYYY-MM-DD} to {YYYY-MM-DD}
 ---
 
@@ -46,7 +46,7 @@ goal as replaced and open a new one.
 
 ## Result
 
-- Verdict: {met | missed | dropped (why) | replaced by [[{goal}]]}
+- Verdict: {met | missed | dropped (why) | replaced by [[{goal}]] | ended: no result on record}
 - What we learned: {summary}
 - Next: [[{decision}]]
 

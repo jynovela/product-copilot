@@ -73,7 +73,7 @@ ENUM_FIELDS = {
     "experiment": {"status": {"planned", "running", "done", "stopped"}},
     "goal": {"level": {"business", "product"},
              "commitment": {"committed", "aspirational"},
-             "status": {"active", "met", "missed", "dropped", "replaced"}},
+             "status": {"active", "met", "missed", "dropped", "replaced", "ended"}},
     "strategy": {"status": {"draft", "active", "replaced"}},
     "account": {"status": {"prospect", "trial", "active", "at-risk", "churned"}},
     "decision": {"kind": {"opportunity", "scope", "launch", "outcome-review",
