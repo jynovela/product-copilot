@@ -49,7 +49,10 @@ Hermes and others) and any model you choose.
 7. Add a book or essay: `add the book <title>`.
 8. Fill in `wiki/ways-of-working.md` (how you decide and how to write for
    you) and `wiki/now.md` (this month's focus). The agent reads both first.
-9. Now and then, tell the agent: `lint the wiki`.
+9. Ask for a document (`write a weekly update`) or paste a draft and say
+   `humanize this`. The humanize check flags chatbot habits with a script
+   and fixes them, and it learns your voice from your corrections.
+10. Now and then, tell the agent: `lint the wiki`.
 
 Check the wiki yourself at any time:
 

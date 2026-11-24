@@ -34,7 +34,7 @@ needs them (see **Read before you act**).
 | `wiki/review-queue.md` | Changes you learned that no person has confirmed | You |
 | `playbook/` | Books, topics, concepts and essays, with `playbook-index.md` | You |
 | `documents/` | Documents for people: PRDs, reports, updates, demo specs. Not evidence. | You, when asked |
-| `rules/`, `workflows/`, `templates/` | Detailed rules, workflow steps, page shapes | Nobody, unless the user asks |
+| `rules/`, `workflows/`, `templates/`, `skills/` | Detailed rules, workflow steps, page shapes, skills | Nobody, unless the user asks |
 | `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
 
 ## Read before you act
@@ -45,6 +45,7 @@ needs them (see **Read before you act**).
 | Create or change a wiki page | `rules/pages.md` and the page's template in `templates/` |
 | Save a page fetched from the web | `rules/saving-fetched-pages.md` |
 | Write a document | `documents/README.md` and `templates/document.md` |
+| Hand over any text written for people | `skills/humanize-check/SKILL.md` |
 | Run a workflow | Its file in `workflows/` (below) |
 
 Find pages with `wiki/index.md` or `grep`, then open only those. Never
@@ -60,6 +61,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Names a book or essay to add | `workflows/add-book.md` |
 | Asks a question about the product, customers or market, or how to do product work | `workflows/query.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
+| Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 
 ## Core rules
 
