@@ -33,7 +33,7 @@ needs them (see **Read before you act**).
 | `wiki/ways-of-working.md`, `wiki/now.md` | How the person works and what they focus on now | You, when the person says |
 | `wiki/review-queue.md` | Changes you learned that no person has confirmed | You |
 | `playbook/` | Books, topics, concepts and essays, with `playbook-index.md` | You |
-| `documents/` | Documents for people: PRDs, reports, updates, demo specs. Not evidence. | You, when asked |
+| `documents/` | Documents for people: PRDs, updates, demo specs, interview guides and summaries. Not evidence. | You, when asked |
 | `rules/`, `workflows/`, `templates/`, `skills/` | Detailed rules, workflow steps, page shapes, skills | Nobody, unless the user asks |
 | `tools/lint_wiki.py` | The mechanical check | Nobody, unless the user asks |
 
@@ -44,7 +44,7 @@ needs them (see **Read before you act**).
 | Start any session | `wiki/ways-of-working.md` and `wiki/now.md` |
 | Create or change a wiki page | `rules/pages.md` and the page's template in `templates/` |
 | Save a page fetched from the web | `rules/saving-fetched-pages.md` |
-| Write a document | `documents/README.md` and `templates/document.md` |
+| Write a document | `skills/write-document/SKILL.md` |
 | Hand over any text written for people | `skills/humanize-check/SKILL.md` |
 | Run a workflow | Its file in `workflows/` (below) |
 
@@ -60,6 +60,7 @@ them, or read the top of the log. Skip archived pages unless asked.
 | Tells you something to keep: a decision, a new or stopped feature, a changed goal, a status, who owns what | `workflows/record.md` |
 | Names a book or essay to add | `workflows/add-book.md` |
 | Asks a question about the product, customers or market, or how to do product work | `workflows/query.md` |
+| Asks for a PRD, weekly update, demo spec, interview guide or interview summary | `skills/write-document/SKILL.md` |
 | Asks to check or clean up the wiki | `workflows/lint.md` |
 | Asks to humanize, de-AI or edit a draft | `skills/humanize-check/SKILL.md` |
 
