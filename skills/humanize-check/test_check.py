@@ -26,7 +26,7 @@ def pairs():
                 name = m.group(1)
             m = re.match(r"^- (Before|After): (.*)$", line)
             if m and name:
-                yield name, m.group(1), m.group(2)
+                yield name, m.group(1), m.group(2).replace("\\n", "\n")
 
 
 def findings_for(text):

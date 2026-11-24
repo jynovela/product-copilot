@@ -133,3 +133,20 @@ check, and every "After" must come back clean.
 
 - Before: ## Next Steps For The Launch Team
 - After: ## Next steps for the launch team
+
+## Structure
+
+### bold-lead-list
+
+- Before: - **A morning brief.** It lists what's due today.\n- **A memory.** Every claim links to its source.
+- After: Each morning it lists what's due today. Every claim it makes links to its source.
+
+### colon-lead-in
+
+- Before: Three habits keep the picture trustworthy:\n\n- It never guesses a number.
+- After: It never guesses a number, so every figure on a page comes from a source.
+
+### x-not-y
+
+- Before: Both files hold the same facts, so it's an annoyance, not an error.
+- After: Both files hold the same facts, so you lose nothing if the link opens the wrong one.

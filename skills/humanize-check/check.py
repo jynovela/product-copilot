@@ -9,6 +9,11 @@ Modes:
     light  text another AI or a builder reads (demo specs, tickets): only
            word- and phrase-level checks; rhythm and structure are skipped.
 
+Structural checks (full mode): two or more list items in a row that open
+with a bold phrase (bold-lead-list), a short line of its own ending in a colon
+right before a bullet list (colon-lead-in), and "a X, not a Y" contrasts
+(x-not-y).
+
 Each finding is printed on its own line:
     <file>:<line>: <check>: "<excerpt>"
 The last line is always:
@@ -144,6 +149,10 @@ QUOTE_HEADER = re.compile(r"^#{1,6}\s+.*[\"“].+[\"”]")
 TAILS = re.compile(r",\s+(highlighting|reflecting|ensuring|contributing to|"
                    r"underscoring|showcasing|emphasizing|demonstrating|"
                    r"signaling|cementing|paving the way)\b", re.I)
+BOLD_LEAD = re.compile(r"^\s*([-*+]|\d+\.)\s+\*\*[^*]+\*\*")
+COLON_LEAD = re.compile(r":\s*$")
+X_NOT_Y = re.compile(
+    r"\b(an?|the) [\w-]+(?: [\w-]+)?, not (an?|the) [\w-]+(?: [\w-]+)?[.!]", re.I)
 EMOJI_BULLET = re.compile(r"^\s*([-*]\s*)?[☀-➿\U0001F300-\U0001FAFF]")
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"“(])")
 WORD = re.compile(r"[A-Za-z0-9'’%$-]+")
@@ -313,6 +322,8 @@ def check_file(path, mode):
                 add(start, "aphoristic-line", m.group(0))
         if mode != "full":
             continue
+        for m in X_NOT_Y.finditer(para):
+            add(start, "x-not-y", m.group(0))
         for m in DEFERRED.finditer(para):
             add(start, "deferred-noun", m.group(1))
         for s in sentences:
@@ -336,6 +347,32 @@ def check_file(path, mode):
                 add(start, "flat-rhythm",
                     "{} sentences of {} words".format(3, "/".join(map(str, trio))))
                 break
+    if mode == "full":
+        for k, (n, line, kind) in enumerate(items):
+            if kind != "prose" or not COLON_LEAD.search(line):
+                continue
+            if re.match(r"^\s*([-*+]|\d+\.)\s", line) or line.startswith((" ", "\t")):
+                continue
+            if k > 0 and items[k - 1][1].strip() and items[k - 1][2] == "prose":
+                continue
+            if len(words(line)) > 10:
+                continue
+            nxt = next((x for x in items[k + 1:] if x[1].strip()), None)
+            if nxt and re.match(r"^[-*+]\s", nxt[1]):
+                add(n, "colon-lead-in", line)
+        run_start, run = None, 0
+        for n, line, kind in items:
+            if kind == "prose" and BOLD_LEAD.match(line):
+                if run == 0:
+                    run_start = n
+                run += 1
+                if run == 2:
+                    add(run_start, "bold-lead-list", line)
+            elif kind == "prose" and (not line.strip()
+                                      or line.startswith((" ", "\t"))):
+                continue
+            else:
+                run = 0
     findings.sort()
     return findings
 
