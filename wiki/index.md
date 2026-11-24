@@ -8,6 +8,8 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 
 ## Customers
 
+## Accounts
+
 ## Problems
 
 ## Features
