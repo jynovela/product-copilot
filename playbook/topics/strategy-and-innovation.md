@@ -56,7 +56,9 @@ General knowledge: a synthesis of the books below, from model memory.
 ## Concepts
 
 - [[disruptive-innovation]]: Simpler, cheaper products start in overlooked markets and move up to displace incumbents.
-- [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
+- [[integrating-around-the-job]]: Processes, metrics and decisions organized around the customer's job.
+- [[innovation-data-fallacies]]: Active data, surface growth and conforming data pull firms off the job.
 - [[build-trap]]: Measuring success by features shipped instead of value delivered.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[foundation-sprint]]: A short sprint to agree on target customer, problem, differentiation and approach before building.

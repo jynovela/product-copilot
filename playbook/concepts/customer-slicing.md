@@ -68,6 +68,10 @@ impressive ones.
 - You can widen the segment later; starting wide waters down the message
   and invites feature creep (ch7).
 
+## Contradictions
+
+- The Mom Test slices segments down to who-where pairs. Competing Against Luck warns against slicing customers into ever finer segments and says to cluster insights around the job instead (Competing Against Luck ch2; see [[2016-10-04-clayton-christensen-competing-against-luck]]). They fit together when you slice by circumstance and job, not demographics: a job-based segment can cut across income, politics and geography (ch9).
+
 ## Pairs well with
 
 - [[ideal-customer-profile]]: the company-level target this narrows down

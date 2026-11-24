@@ -98,3 +98,11 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Turned [[the-mom-test]] into a lean source record (`knowledge_source: ingested`) that links those pages.
 - Added a supporting line to [[problem-awareness-ladder]] and a Contradictions line to [[willingness-to-pay-research]].
 - Added router lines to [[discovery-and-customer-insight]] and [[positioning-and-go-to-market]].
+
+## [2026-11-24] ingest | Competing Against Luck (book text)
+
+- Created source [[2016-10-04-clayton-christensen-competing-against-luck]] for the full book text in `raw/books/` (local only, copyrighted).
+- Rewrote [[jobs-to-be-done]] from the book and created [[finding-jobs]], [[forces-of-progress]], [[jtbd-switch-interview]], [[job-spec]], [[integrating-around-the-job]] and [[innovation-data-fallacies]].
+- Turned [[competing-against-luck]] into a lean source record (`knowledge_source: ingested`) that links those pages.
+- Added Contradictions lines to [[opportunity-scoring]] (surveys vs depth) and [[customer-slicing]] (slicing vs clustering by job).
+- Added router lines to [[discovery-and-customer-insight]], [[strategy-and-innovation]], [[decisions-and-data]], [[positioning-and-go-to-market]] and [[goals-and-metrics]].

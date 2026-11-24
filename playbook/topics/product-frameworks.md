@@ -24,7 +24,7 @@ General knowledge: a synthesis from model memory, checked against the framework 
 
 ### Understand customers and problems
 
-- [[jobs-to-be-done]]: Customers hire products to make progress in a specific situation.
+- [[jobs-to-be-done]]: Define what customers hire a product for as progress in a specific circumstance, so you see the real competition and what to build.
 - [[mom-test-interviews]]: Ask about people's real past behavior, not their opinion of your idea.
 - [[customer-journey-map]]: A visual of every step a customer takes with your product, with what they do, think and feel at each.
 - [[opportunity-scoring]]: Rank customer outcomes by how important they are and how poorly they are served today.

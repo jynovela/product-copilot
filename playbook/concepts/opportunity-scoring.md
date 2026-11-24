@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: Rank customer outcomes by how important they are and how poorly they are served today.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -33,6 +33,8 @@ These are vendor and practitioner articles, not neutral sources.
 ## Contradictions
 
 - Atlassian gives two different formulas in the same article: one floors the gap at zero, one doesn't (see [[atlassian-6-prioritization-frameworks]]). General knowledge: Ulwick's version floors it at zero, so an over-served outcome doesn't get a negative score.
+
+- Opportunity scoring surveys many customers to rate outcomes. Competing Against Luck says jobs insights come from many data points about a few people, not a few data points about many, and that stories lose meaning when broken into variables (Competing Against Luck ch2, ch5; see [[2016-10-04-clayton-christensen-competing-against-luck]]). Find the job with interviews ([[jtbd-switch-interview]]) before scoring its outcomes.
 
 ## Pairs well with
 

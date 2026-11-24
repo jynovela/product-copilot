@@ -38,6 +38,8 @@ General knowledge: a synthesis of the books below, from model memory.
 ## Concepts
 
 - [[positioning-in-the-mind]]: Owning a clear, distinct place in the customer's mind relative to alternatives.
+- [[job-spec]]: purpose brands and telling the wrong customers not to hire you.
+- [[forces-of-progress]]: Push, pull, habit and anxiety decide a switch; Big Hire vs Little Hire.
 - [[technology-adoption-lifecycle]]: Adoption moves from innovators to laggards, with a chasm between early adopters and the early majority.
 - [[sticky-ideas-success]]: Ideas stick when Simple, Unexpected, Concrete, Credible, Emotional, and told as Stories.
 - [[product-life-cycle]]: Products move through introduction, growth, maturity and decline, and each stage needs a different strategy.

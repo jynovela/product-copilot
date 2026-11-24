@@ -48,6 +48,7 @@ Metrics:
 - [[unit-economics]]: CAC, LTV, payback
 - [[cohort-retention]]: retention curves by start date
 - [[balanced-scorecard]]: four perspectives
+- [[integrating-around-the-job]]: metrics that track the customer's job, not internal efficiency
 
 Goals:
 
