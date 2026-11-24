@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: Four growth options: sell more to current markets, new products, new markets, or both new.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -25,6 +25,11 @@ General knowledge: Igor Ansoff's 1957 product-market grid. Market penetration (e
 These are vendor and practitioner articles, not neutral sources.
 
 - Also called the product-market matrix; Igor Ansoff, 1957; four growth strategies. (see [[neal-cabage-21-pm-frameworks]])
+
+## What the research digests say
+
+- Hanover Research and Atlassian list market penetration, market development, product development and diversification as product strategy types; Atlassian adds cost competition and quality differentiation. (see [[2026-11-24-research-digest-strategy]])
+- Inference from the digest: these are growth directions, not strategies; a strategy still needs choices about where to play and how to win.
 
 ## Pairs well with
 

@@ -74,3 +74,19 @@ Append-only. Newest entry at the bottom. Each entry starts with
 - Created [[pragmatic-institute-pm-job-titles]].
 - Created [[2025-03-05-specialist-pm-jobs-overview]].
 - Added 13 concept pages and the [[types-of-product-managers]] topic, and listed the new concepts on 7 existing topic pages. Salary and compensation content was left out at the user's request. Articles are treated as vendor or practitioner sources; conflicts are recorded in Contradictions sections.
+
+## [2026-11-24] ingest | Research digests on pricing, experiments, metrics, goals, strategy, go-to-market, decisions and problem sizing
+
+- Created [[2026-11-24-research-digest-pricing]].
+- Created [[2026-11-24-research-digest-experiments]].
+- Created [[2026-11-24-research-digest-metrics]].
+- Created [[2026-11-24-research-digest-goals]].
+- Created [[2026-11-24-research-digest-strategy]].
+- Created [[2026-11-24-research-digest-go-to-market]].
+- Created [[2026-11-24-research-digest-decisions]].
+- Created [[2026-11-24-research-digest-problem-size]].
+- Created topics [[pricing-and-packaging]], [[product-experimentation]] and [[goals-and-metrics]], each with a full framework catalog, agreed practices and contradictions.
+- Extended topics [[strategy-and-innovation]], [[decisions-and-data]], [[positioning-and-go-to-market]] and [[discovery-and-customer-insight]] with a research section.
+- Added 62 concept pages from the digests (15 pricing, 9 experiments, 9 metrics, 6 goals, 5 strategy, 4 go-to-market, 8 decisions, 6 problem framing and sizing).
+- Added research sections to 11 existing concepts: [[okrs]], [[north-star-framework]], [[heart-framework]], [[aarrr-pirate-metrics]], [[daci-and-raci]], [[premortem]], [[five-whys]], [[ansoff-matrix]], [[swot-analysis]], [[minimum-viable-product]], [[positioning-in-the-mind]].
+- The digests were written by Claude from about 310 public articles the user pasted into the project, at the user's request, so the knowledge is kept without the original pages. Vendor claims, unsourced numbers and source errors are flagged in each digest and on the concept pages.

@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: Google's user-experience metrics: happiness, engagement, adoption, retention, task success.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -31,6 +31,11 @@ These are vendor and practitioner articles, not neutral sources.
 - Groups user-centered metrics into five categories. (see [[2026-11-20-juan-pm-frameworks-list]])
 - Designed by Kerry Rodden, Hilary Hutchinson and Xin Fu for large-scale measurement; pick only the metrics you need. Engagement (voluntary interaction) means little for tools people must use at work; adoption owes a lot to sales and marketing. (see [[google-heart-framework-explainer]])
 
+## What the research digests say
+
+- Happiness (NPS, CSAT, store ratings), Engagement (depth of use; long sessions can mean confusion), Adoption (first use of a feature), Retention, Task success (completion, time on task, error rate) (Gupta). (see [[2026-11-24-research-digest-metrics]])
+- "AARRR is your telescope, HEART is your microscope": AARRR finds the funnel leak, HEART shows why users drop off (Gupta). (see [[2026-11-24-research-digest-metrics]])
+
 ## Contradictions
 
 - Techreviewer says four questions but lists five, and defines engagement as ease of access and retention as user counts against competitors (see [[techreviewer-popular-pm-frameworks]]). General knowledge: in Google's paper, engagement is the level of involvement and retention is the rate at which users return. ProductPlan's description matches the original (see [[productplan-37-pm-frameworks]]).
@@ -52,3 +57,4 @@ Inference: these books cover the same job; the framework itself may not appear i
 - [[decisions-and-data]]
 - [[design-and-usability]]
 - [[product-frameworks]]
+- [[goals-and-metrics]]

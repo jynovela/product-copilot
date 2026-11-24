@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: List strengths, weaknesses, opportunities and threats to assess a move.
-updated: 2026-11-20
+updated: 2026-11-24
 knowledge_source: model-memory
 ---
 
@@ -27,6 +27,11 @@ These are vendor and practitioner articles, not neutral sources.
 - A planning framework for deciding whether to start an initiative, using a 2x2 grid. (see [[productplan-37-pm-frameworks]])
 - Suggested at the idea stage to judge a new product concept. (see [[product-development-process-guide]])
 
+## What the research digests say
+
+- Listed as a tool for weighing options; watch for it being too subjective (Business News Daily, Naik, Atlassian). (see [[2026-11-24-research-digest-decisions]])
+- Info-Tech calls a guessed competitive SWOT a cause of poor go-to-market outcomes (see [[2026-11-24-research-digest-go-to-market]]).
+
 ## Pairs well with
 
 - [[kernel-of-good-strategy]]: turns SWOT inputs into a diagnosis and policy
@@ -43,3 +48,4 @@ Inference: these books cover the same job; the framework itself may not appear i
 
 - [[strategy-and-innovation]]
 - [[product-frameworks]]
+- [[decisions-and-data]]

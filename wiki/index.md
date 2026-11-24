@@ -74,3 +74,11 @@ Every wiki page, by type. Format: `- [[file-name]]: one-line summary`.
 - [[2026-11-20-visual-guide-pm-books]]: A flowchart image of 38 PM books arranged by question, from fundamentals to becoming an executive. The user also sent a text transcription.
 - [[2025-03-06-ry-sullivan-pm-reading-list]]: Ry Sullivan's PM reading list (March 2025), 27 books in 9 sections plus 6 essays, aimed at product thinking over process.
 - [[2026-01-07-ken-norton-best-pm-books]]: Ken Norton's list of 44 essential product management books (January 2026), with 9 top picks.
+- [[2026-11-24-research-digest-decisions]]: Research digest on decision making: decision processes, decision roles (RAPID, DACI, SPADE), decision rules, Type 1 and 2 decisions, evaluation tools and biases, from about 37 articles.
+- [[2026-11-24-research-digest-experiments]]: Research digest on product experiments: definitions, processes, hypothesis templates, test types, statistics, biases and decisions, from about 47 articles.
+- [[2026-11-24-research-digest-go-to-market]]: Research digest on go-to-market and launches: definitions, components, process sequences, motions, channels, buying center, rollout waves, positioning and GTM metrics, from about 16 articles.
+- [[2026-11-24-research-digest-goals]]: Research digest on goals and OKRs: goal checklists, goal theory, goal types and hierarchies, OKR writing, scoring and traps, from about 75 articles.
+- [[2026-11-24-research-digest-metrics]]: Research digest on success metrics: how to choose them, metric types, formulas, North Star, AARRR, HEART, gaming risks, from about 39 articles.
+- [[2026-11-24-research-digest-pricing]]: Research digest on pricing: strategies, models, value metric, willingness-to-pay methods and price changes, from about 40 articles.
+- [[2026-11-24-research-digest-problem-size]]: Research digest on problem framing and sizing: problem statement formats, root-cause methods, problem classifications, sizing dimensions, market sizing and estimation, from about 25 articles.
+- [[2026-11-24-research-digest-strategy]]: Research digest on product strategy: Perri's canvas, Pichler's vision board and framework, 7 Powers, Playing to Win, strategy types and review triggers, from about 31 articles.
