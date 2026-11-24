@@ -44,7 +44,8 @@ Every page starts from its template in `templates/<type>.md`.
    Experiment pages also have `status`; goal pages `level`, `commitment`,
    `status` and `period`; strategy pages `status` and `horizon`; decision
    pages `kind`. Their allowed values are in the templates, and the check
-   script enforces them.
+   script enforces them. A goal is `ended` when its period is over and no
+   source gives its result.
    Book, essay, topic and concept pages also have `knowledge_source:`, either
    `model-memory` (you wrote it from what you already know) or `ingested`
    (it comes from a source in `raw/`).
@@ -68,7 +69,10 @@ Every page starts from its template in `templates/<type>.md`.
    page that names both sources. Don't silently replace old claims.
 
 8. **Own and public evidence.** A source is `own` (from the team or its
-   customers) or `public` (from the web). Public sources can show what a
+   customers) or `public` (from the web). Web content is `public` even when
+   a teammate copied or forwarded it, such as a competitor's pricing page
+   or release notes. Notes the teammate added to it, such as deals lost,
+   are `own`: say so on the source page. Public sources can show what a
    market says, never how many of the user's customers have a problem, so
    problem pages count the two apart.
 9. **You record; people decide.** Never set a goal, a target, a price, a

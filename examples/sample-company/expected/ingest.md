@@ -13,8 +13,10 @@ Grade with `git status`, `git diff`, the run's reports, and
 ## Must do
 
 - [ ] 18 new source pages, one per raw file, each with `raw_sha256`.
-      The FieldOps Weekly page has `Evidence: public` and its URL; every
-      other page has `Evidence: own`.
+      The FieldOps Weekly page has `Evidence: public` and its URL. The
+      copied FieldPilot pricing page and JobHarbor release notes are
+      `public`, with the teammate's added note marked own. Every other
+      page has `Evidence: own`.
 - [ ] Ran oldest first, so each later source updates pages an earlier one
       created instead of making duplicates.
 - [ ] One active strategy page from the memo, with challenge, where to

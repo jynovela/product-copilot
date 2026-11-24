@@ -9,7 +9,7 @@ raw_sha256: 17b49f5645be3432f088f9f29ca736c7a190750bed41a98b64abcec94bd483e4
 # FieldPilot pricing page (copied)
 
 - **Kind:** competitor
-- **Evidence:** own (from the team or its customers)
+- **Evidence:** public (from the web); the note Sam Ortiz added (two deals lost on price) is own
 - **URL:** none
 - **Date of source:** 2026-10-14
 - **From:** FieldPilot website, copied by Sam Ortiz

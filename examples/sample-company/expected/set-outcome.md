@@ -15,8 +15,8 @@ answer it to grade the pages.
       launch line has no `goal` decision page (T17 is the same gap on the
       Billing goal; it counts only if the run covers business goals).
 - [ ] Flags the business goals still `active` past their period with no
-      result, and that no business goal exists for Q1 2027 to be the
-      parent.
+      result, proposes status `ended` for them, and flags that no business
+      goal exists for Q1 2027 to be the parent.
 - [ ] Proposes outcome-shaped goals tied to the active strategy, one
       active product goal for the team (T14).
 - [ ] Every target is `direction only`, or traced to a baseline in the

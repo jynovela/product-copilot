@@ -54,7 +54,9 @@ too if a goal may need a new metric.
      business goals;
    - a goal with no number, or a target with no Target from;
    - a goal past its period still marked `active`, or with no check-in
-     in its last month;
+     in its last month. When no source gives its result, propose status
+     `ended` (Verdict "ended: no result on record") in step 5; once a
+     person agrees, it stops being flagged;
    - no goals recorded for this team in the period just before the new
      one;
    - a committed line inside an aspirational goal that was missed (it
