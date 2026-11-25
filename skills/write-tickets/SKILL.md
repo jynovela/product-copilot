@@ -1,13 +1,13 @@
 ---
 name: write-tickets
-description: Turn a feature's approved scope, or a whole plan or architecture doc, into epics and user stories with exact, observable acceptance criteria, as Markdown ready to paste into Linear or Jira. Use when the user asks for tickets, stories, epics, a backlog or acceptance criteria.
+description: Turn a feature's approved scope, or a whole plan or architecture doc, into epics and user stories with exact, observable acceptance criteria, as Markdown, and create them in Linear, Jira or GitHub when asked. Use when the user asks for tickets, stories, epics, a backlog or acceptance criteria.
 ---
 
 # write-tickets
 
 You turn one feature into tickets an engineering team can pick up, as
-Markdown the user pastes into their tracker. You never create, change or
-move tickets in a tool.
+Markdown. When the user asks, you also create them in their tracker by
+`to-a-tracker.md`. You never change or move tickets that already exist.
 
 Tickets say what a user can do or see when the work is done, never how to
 build it. Engineers choose the build. You don't read the codebase, so you
@@ -20,6 +20,8 @@ never name files, endpoints, tables or functions.
   a big idea, or any ask for epics. Follow `from-a-plan.md`. It writes
   epics, stops for the user's OK, then writes stories for coding agents,
   and it may name what the plan defines.
+- **Into the tracker**, once a file is written and the user asks: follow
+  `to-a-tracker.md`.
 
 **Output:** the path and why.
 
