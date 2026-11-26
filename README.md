@@ -341,3 +341,17 @@ should work, with whichever model you like, though Claude Code is the only
 one it's been tested with. The design follows Andrej Karpathy's LLM Wiki pattern, in
 which the agent keeps a set of linked pages that grows with every source
 and question.
+
+## License
+
+The copilot itself (its rules, workflows, templates, skills, tools, the
+sample company and its playbook pages) is under the MIT license. See
+[LICENSE](LICENSE).
+
+The playbook summarizes books, articles and posts by other people. Short
+quotes from them, and the source extracts in `raw/playbook/`, stay under
+their owners' copyright; the license covers only the summaries and notes
+written for this project. Book files are never committed.
+
+What you add to your own copy, such as your company's sources and pages,
+is yours.
