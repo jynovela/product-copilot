@@ -18,33 +18,18 @@ two answers stay separate.
 
 ## Daily work it handles
 
-Ask "what do I need to do today?" in the morning. You get the goal
-check-ins and decisions due for a second look, and once your calendar and
-email are connected, today's meetings and the emails waiting on you.
+It files what you give it, answers questions from that record, and takes
+you from customer problems to a ranked opportunity, a tested solution and
+a PRD. [Things to ask it](#things-to-ask-it) lists what you can ask for.
 
 Every claim it makes about your product links to the call, note or export
 it came from. If two sources disagree, it tells you and leaves the choice
-to you.
+to you. Evidence from your own customers is counted apart from anything
+it found on the web, and competitor claims are marked as something the
+company says or something users report.
 
-It reads across all your calls and notes, groups what customers struggle
-with, and counts how many raised each problem. Evidence from your own
-customers is counted apart from anything it found on the web. From there
-it can rank the problems against your strategy and goals and recommend
-one to work on. For a problem you pick, it lays out at least three
-different solutions, names the assumption most likely to sink each one,
-and plans the cheapest test that would prove it wrong.
-
-It drafts next quarter's goals from how last quarter's ended. After a
-launch, it checks the feature against the thresholds you set before
-launch and says how confident it can be that the feature caused the
-change.
-
-When it researches competitors, it marks each claim as something the
-company says or something users report. It writes PRDs, weekly updates,
-demo specs for AI builders, interview guides and summaries, and Jira or
-Linear tickets with exact acceptance criteria. A check script strips
-chatbot habits from everything it writes, and when you correct its
-wording it asks to save the rule so it gets it right next time.
+A check script strips chatbot habits from everything it writes. When you
+correct it, it saves the correction so it gets it right next time.
 
 ## Sources it reads
 
@@ -102,6 +87,16 @@ only an agent working in the folder, like Claude Code, can do that. Claude
 and ChatGPT projects can read your copilot and answer from it. When a
 request would change it, they give you the text to save.
 
+### Requirements
+
+| You need | For | Notes |
+| -------- | --- | ----- |
+| A GitHub account | Your own private copy | Optional. A folder on your computer works too. |
+| [Claude Code](https://claude.com/claude-code) | Adding sources, updating pages and running the checks | The desktop app, the web or a terminal. Another agent that reads `AGENTS.md` and can edit files should work, but isn't tested. |
+| Python 3.9 or newer | The check scripts | Most computers already have it. |
+| Your first files | Setup | Strategy docs, call notes or a CRM export. You can start with none. |
+| Calendar, email, Jira or Linear, CRM connectors | The morning brief and sync | Optional. An export file works in place of a connector. |
+
 ### Make your own copy
 
 On GitHub, open this repository and select Use this template, then Create
@@ -122,11 +117,16 @@ the copilot is tested on.
 1. Open your copy in Claude Code. In the desktop app or on the web, pick
    your repository. In a terminal, clone it and run `claude` inside the
    folder.
-2. Say "Set up the copilot for my company." It asks for your first files,
-   such as strategy docs, call notes or a CRM export, and reads them. Then
-   it asks a few short rounds of questions about your product, customers,
-   goals, team and tools. If you don't know an answer, it writes
-   "unknown" instead of guessing.
+2. Paste:
+
+   ```text
+   Set up the copilot for my company.
+   ```
+
+   It asks for your first files, such as strategy docs, call notes or a
+   CRM export, and reads them. Then it asks a few short rounds of
+   questions about your product, customers, goals, team and tools. If you
+   don't know an answer, it writes "unknown" instead of guessing.
 3. Connect the tools you use, like your calendar, email, Jira and CRM.
    Setup ends with a list of which connector feeds which part of the
    copilot.
@@ -135,8 +135,6 @@ the copilot is tested on.
    reads it. For long files you can drop them into the copilot's `raw`
    folder instead and tell it what they are.
 
-The checks need Python 3.9 or newer, which most computers already have.
-
 Your copy comes with Claude Code settings in `.claude/settings.json`.
 They let the copilot write pages, run its own check scripts and commit
 its work to your copy without asking you each time. It never pushes
@@ -144,13 +142,21 @@ unless you ask. They also block it from editing or overwriting a source
 file you already gave it. It can still add new files to `raw`. If you'd
 rather approve each change, delete the `defaultMode` line.
 
+<details>
+<summary>On Windows</summary>
+
 On Windows, turn on Developer Mode and run
 `git config --global core.symlinks true` before you clone. The skills in
 `.claude/skills/` are links, and without that setting Git writes them as
 plain text files. The copilot still finds each skill through `AGENTS.md`,
 but they won't show up as skills in Claude Code.
 
+</details>
+
 ### Local folder or Obsidian vault (no GitHub)
+
+<details>
+<summary>Steps for a local folder or Obsidian vault</summary>
 
 You can keep the whole copilot in a folder on your computer and read it
 in [Obsidian](https://obsidian.md).
@@ -186,7 +192,12 @@ Clicking a link to that name in Obsidian may open the original file
 instead of the source page. Both hold the same facts, so you lose
 nothing, but it can be confusing.
 
+</details>
+
 ### Claude project
+
+<details>
+<summary>Steps and instructions to paste for a Claude project</summary>
 
 A Claude project reads a copy of your copilot from GitHub. It can answer
 questions, write documents and give you a morning brief from your
@@ -239,7 +250,12 @@ already point Claude at the skills in your copilot. Uploaded skills also
 belong to your account rather than the project, and they'd fall behind as
 the copilot changes.
 
+</details>
+
 ### ChatGPT project
+
+<details>
+<summary>Steps and instructions to paste for a ChatGPT project</summary>
 
 A ChatGPT project searches your copy of the copilot on GitHub each time it
 answers, so it always reads the latest version. It can't save anything
@@ -281,6 +297,8 @@ You can read the repository, but you can't change it or run its scripts.
   instructions.
 ```
 
+</details>
+
 ## Keeping your copy up to date
 
 Your company's facts live only in `wiki/`, `raw/` and `documents/`.
@@ -321,7 +339,8 @@ hidden inside a source.
 
 ## Under the hood
 
-This part is for people adapting the copilot rather than using it.
+<details>
+<summary>What each folder holds, for people adapting the copilot</summary>
 
 | Path | What it holds |
 | ---- | ------------- |
@@ -343,6 +362,8 @@ should work, with whichever model you like, though Claude Code is the only
 one it's been tested with. The design follows Andrej Karpathy's LLM Wiki pattern, in
 which the agent keeps a set of linked pages that grows with every source
 and question.
+
+</details>
 
 ## License
 
