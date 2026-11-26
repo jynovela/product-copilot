@@ -23,6 +23,15 @@ state: current
 ## Results at check dates
 - Week of 2026-11-09: review shows 40% (see [[2026-11-10-metrics]])
 """,
+    "wiki/features/checked.md": """---
+type: feature
+state: current
+---
+## Success metrics
+- Check dates: value 2026-11-10; final 2026-11-29
+## Results at check dates
+- 2026-11-12: 38%, below the 40% target (see [[2026-11-10-metrics]])
+""",
     "wiki/decisions/old.md": """---
 type: decision
 ---
@@ -77,6 +86,7 @@ type: source
 EXPECTED = {
     ("OVERDUE", "2026-11-20", "wiki/features/export.md"),
     ("SOON", "2026-11-28", "wiki/features/export.md"),
+    ("SOON", "2026-11-29", "wiki/features/checked.md"),
     ("OVERDUE", "2026-11-01", "wiki/decisions/old.md"),
     ("GOAL", "2026-09-30", "wiki/goals/q3.md"),
     ("GOAL", "2026-10-20", "wiki/goals/q4.md"),

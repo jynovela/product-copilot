@@ -6,4 +6,5 @@
 
 ## Their words
 
-{The user's words as written. No paraphrase, no additions.}
+{Only the user's words, as written. No paraphrase. Add nothing of your
+own: no context line, no summary, no heading.}

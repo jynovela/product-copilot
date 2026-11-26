@@ -197,6 +197,12 @@ CASES = [
     ("an account status outside the list",
      edit(ACCOUNT, "status: active\n---", "status: happy\n---"), (),
      "ERROR frontmatter " + ACCOUNT),
+    ("a feature status outside the list",
+     with_file("wiki/features/export.md",
+               "---\ntype: feature\nsummary: s\nupdated: {0}\nstate: current\n"
+               "as_of: {0}\n---\n\n## Status\n\nstopped "
+               "(see [[2026-11-03-call-acme]])\n".format(TODAY)),
+     (), "ERROR feature-status wiki/features/export.md"),
     ("a memory-only book without the General knowledge marker",
      edit(BOOK, "General knowledge: ", ""), (),
      "ERROR provenance " + BOOK),

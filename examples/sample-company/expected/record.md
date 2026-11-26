@@ -35,6 +35,10 @@ Testable now, after the ingest run. Paste lines 1 to 3 of
 ## Restraint
 
 - [ ] No page deleted.
+- [ ] Asks at most three questions per statement; the other missing
+      fields are written `unknown` and listed in the report.
+- [ ] Each note holds only the header lines and the person's words: no
+      added context line or summary.
 - [ ] No decider, reason or date invented for line 2.
 
 ## Must not do
