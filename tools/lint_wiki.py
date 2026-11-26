@@ -116,6 +116,9 @@ TEXT_SUFFIXES = {".md", ".txt", ".csv", ".tsv", ".json", ".html", ".htm", ".vtt"
 QUOTE_LINE_RE = re.compile(r'^- "(.+)"', re.M)
 QUOTE_GAP_RE = re.compile(r"\s*(?:\[\.\.\.\]|\[\u2026\]|\.\.\.|\u2026)\s*")
 STATUS_LINE_RE = re.compile(r"^- Status:\s*([a-z-]+)", re.M)
+# the first words of a feature's Status section, from templates/feature.md
+FEATURE_STATUSES = ("idea", "planned", "building", "in beta", "launched",
+                    "removed")
 SKILLS = ROOT / "skills"
 CONTEXT_BUDGET = 8000  # bytes, roughly 2,000 tokens
 
@@ -441,6 +444,14 @@ def main():
                 error("account-status", page["path"], "frontmatter status is '{}' "
                       "but the Status line says '{}'".format(
                           fields.get("status"), line.group(1)))
+
+        if fields.get("type") == "feature":
+            status = section(page["body"], "Status").strip()
+            if status and not status.startswith("{") and not re.match(
+                    r"(?:{})\b".format("|".join(FEATURE_STATUSES)), status):
+                error("feature-status", page["path"], "Status must start with "
+                      "one of: {}; found '{}'".format(
+                          ", ".join(FEATURE_STATUSES), status.split("\n")[0][:40]))
 
     # every skill is routed from AGENTS.md and linked for Claude Code
     agents = ROOT / "AGENTS.md"

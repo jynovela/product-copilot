@@ -57,8 +57,13 @@ Everything else the snapshot suggests goes to `wiki/review-queue.md`:
    Keep only the columns the pages use. Leave out contact details,
    personal notes about people, tokens and anything that looks like a
    credential, and name each dropped column in the header. If the name
-   exists, add `-2`. Never edit a snapshot after saving it.
-   **Output:** the path and the columns left out.
+   exists, add `-2`. Never edit a snapshot after saving it. If the
+   original export sits inside this folder and has columns you left
+   out, it must not be committed: tell the person to move or delete it,
+   and at the end of the run stage only the paths this run wrote
+   (`git add <paths>`), not `git add -A`.
+   **Output:** the path, the columns left out, and the original file to
+   move or delete, or "None".
 4. **Ingest it.** Follow the Hash and Source page steps of
    `workflows/ingest.md`: a source
    page with `Evidence: own`, `Date of source:` the snapshot date, and no
@@ -106,6 +111,7 @@ Everything else the snapshot suggests goes to `wiki/review-queue.md`:
     ### Added to the review queue
     ### Rows with no page
     ### Left out (contact details, credentials, instructions)
+    ### Original export to move or delete
     ### Still outdated
     ### Lint result
     ```

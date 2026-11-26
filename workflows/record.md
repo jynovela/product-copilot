@@ -8,8 +8,13 @@ owns billing".
 1. **Save the note.** Run `date +%F`. Save the user's words in a new file
    `raw/notes/<YYYY-MM-DD>-chat-<short-title>.md`, from
    `templates/raw-note.md`: who said it, the date, "in chat", and their
-   words as written. Never edit a note after saving it; a correction is a
-   new note. If the name exists, add `-2`. **Output:** the path.
+   words as written. Add nothing of your own to the note, not even a
+   line of context. Never edit a note after saving it. When the user
+   says a saved note or any other raw source is wrong, save the
+   correction as a new note that names the wrong file, and add a
+   `- Corrected by: [[<new source page>]]` line to the wrong source's
+   page in `wiki/sources/`. If the name exists, add `-2`.
+   **Output:** the path.
 2. **Source page.** Give the note a source page with `Evidence: own`,
    following the Hash and Source page steps of `workflows/ingest.md`.
    **Output:** the source page.
@@ -18,10 +23,12 @@ owns billing".
    or a strategy version), not an edit. **Output:** three lists, "Create",
    "Update" and "Archive".
 4. List the required fields the note doesn't give, such as Decided by,
-   Why, or Options not chosen for a decision. Ask for them in one message,
-   unless the user said to run without stopping; then write `unknown` and
-   list them in the report. Never fill them in yourself. **Output:** the
-   answers, or "Running without stopping".
+   Why, or Options not chosen for a decision. Ask for at most three of
+   them, in one message: the ones that most change what the page says,
+   such as who decided and why. Write `unknown` for the rest and list
+   them in the report. If the user said to run without stopping, ask nothing and
+   write `unknown` for all of them. Never fill them in yourself.
+   **Output:** the answers, or "Running without stopping".
 5. Show the lists from steps 3 and 4 and wait for a yes, unless the user
    said to run without stopping. **Output:** the user's answer.
 6. Make the changes, following the page rules. Archive a page by setting

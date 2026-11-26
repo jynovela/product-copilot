@@ -9,6 +9,7 @@ that are already done. Standard library only, Python 3.9+.
 
 Kinds:
   OVERDUE   a dated check, revisit, review or end date that has passed
+            (a check date with a result on or after it is left out)
   SOON      the same, within the next N days (default 7)
   GOAL      an active goal whose period ended, or with no recent check-in
   STRATEGY  the active strategy has had no review for over 90 days
@@ -32,6 +33,8 @@ DUE_WORDS = re.compile(
     r"deadline|due\b|ends? on|end date|watch|rollout|launch on",
     re.I,
 )
+# Lines whose dates are check dates; a recorded result closes them.
+CHECK_WORDS = re.compile(r"check dates?|check on", re.I)
 # Sections that record the past, so their dates are history, not due dates.
 HISTORY = {
     "check-ins", "results at check dates", "result", "results", "reviews",
@@ -113,13 +116,19 @@ def scan_page(rel, lines, today, horizon, out):
                 out.append(("QUEUE", m.group(1), rel, number,
                             "waiting {} days: {}".format(age, short(line))))
         return
+    results = result_dates(lines)
+    last_result = max(results) if results else None
     for number, line, _ in dated_lines(lines):
         bare = LINK.sub("", line)
         if not DUE_WORDS.search(bare):
             continue
+        is_check = CHECK_WORDS.search(bare)
         for text in DATE.findall(bare):
             day = parse_date(text)
             if day is None:
+                continue
+            # A check date is done once a result dated on or after it exists.
+            if is_check and last_result and last_result >= day:
                 continue
             if day < today:
                 out.append(("OVERDUE", text, rel, number, short(line)))
@@ -129,6 +138,20 @@ def scan_page(rel, lines, today, horizon, out):
         scan_goal(rel, lines, fields, today, out)
     if kind == "strategy" and fields.get("status") == "active":
         scan_strategy(rel, lines, today, out)
+
+
+def result_dates(lines):
+    """Dates of the lines under Results at check dates, links left out."""
+    dates, section = [], ""
+    for line in lines:
+        if line.startswith("## "):
+            section = line[3:].strip().lower()
+        elif section == "results at check dates" and line.startswith("- "):
+            found = DATE.findall(LINK.sub("", line))
+            day = parse_date(found[0]) if found else None
+            if day:
+                dates.append(day)
+    return dates
 
 
 def section_dates(lines, name):

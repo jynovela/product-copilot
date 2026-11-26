@@ -63,3 +63,6 @@ warnings.
 - [ ] Set `as_of` later than 2026-11-23, or to today's date.
 - [ ] Change a decision, goal, strategy or feature Status.
 - [ ] Write to the CRM.
+- [ ] Commit the original export with its contact columns. The run
+      names it as a file to move or delete and stages only the paths it
+      wrote.
