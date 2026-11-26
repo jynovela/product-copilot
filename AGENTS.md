@@ -100,6 +100,9 @@ These hold everywhere. `rules/pages.md` has the full set.
   four plain sentences for the person: what changed and what they need
   to do. A step's **Output** is a working note, so keep it brief.
 - Get today's date from `date +%F`. Don't guess it.
+- When the person corrects an answer or a text, even without saying
+  "remember", add a dated line under Corrections in
+  `wiki/ways-of-working.md` in the same turn, and say so.
 - In a Git repository, commit after each workflow or skill run once the
   check passes: `git add -A`, then `git commit` with the run's log line
   as the message. Push only when the person asked or your environment
