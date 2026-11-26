@@ -7,10 +7,7 @@ from that record. You talk to it in plain words in Claude Code, a Claude
 project or a ChatGPT project, and you can copy it for your own company.
 
 It comes with a playbook of 180 product management methods and a reading
-list of 145 books and 10 essays. About half of the method pages come from
-sources the copilot read, mainly three books in full and digests of
-about 310 articles. The rest, and most of the book pages, are the model's
-general knowledge. Every page says which kind it is.
+list of 145 books and 10 essays.
 
 Ask how to handle a sales request you want to turn down, and it answers
 from your own evidence first, then says what the playbook suggests. The
